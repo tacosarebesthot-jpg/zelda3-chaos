@@ -1,0 +1,7 @@
+# replayable route (6 steps) - rig SendInput pattern
+hold down 74
+hold left 392
+hold up 393
+hold right 253
+hold up 178
+hold x 200

@@ -1,0 +1,74 @@
+{
+ "version": 1,
+ "profile": {
+  "difficulty": "normal",
+  "progressive": "on",
+  "bow_mode": "progressive"
+ },
+ "limits": {
+  "sword": 4,
+  "shield": 3,
+  "armor": 2,
+  "bow": 2,
+  "bottle": 4,
+  "boss_heart_container": 255,
+  "heart_piece": 255
+ },
+ "progressive": {
+  "Progressive Sword": {
+   "tiers": [
+    "Fighter Sword",
+    "Master Sword",
+    "Tempered Sword",
+    "Golden Sword"
+   ]
+  },
+  "Progressive Shield": {
+   "tiers": [
+    "Blue Shield",
+    "Red Shield",
+    "Mirror Shield"
+   ],
+   "counter": "Shield Level"
+  },
+  "Progressive Glove": {
+   "tiers": [
+    "Power Glove",
+    "Titans Mitts"
+   ]
+  },
+  "Progressive Bow": {
+   "tiers": [
+    "Bow",
+    "Silver Arrows"
+   ]
+  },
+  "Progressive Armor": {
+   "tiers": [
+    "Blue Mail",
+    "Red Mail"
+   ]
+  }
+ },
+ "bottle_family": {
+  "prefix": "Bottle",
+  "members": [
+   "Bottle",
+   "Bottle (Red Potion)",
+   "Bottle (Green Potion)",
+   "Bottle (Blue Potion)",
+   "Bottle (Fairy)",
+   "Bottle (Bee)",
+   "Bottle (Good Bee)"
+  ],
+  "hard_members": [
+   "Bottle",
+   "Bottle (Red Potion)",
+   "Bottle (Green Potion)",
+   "Bottle (Blue Potion)",
+   "Bottle (Bee)",
+   "Bottle (Good Bee)"
+  ]
+ },
+ "collect_semantics": "CollectionState.collect(item): items named 'Progressive X' fold into the next missing tier of the chain (guarded by the profile limit: e.g. a 4th Progressive Sword with sword limit 3 is dropped); 'Bottle*' items count as DISTINCT names and are capped at limits.bottle; every other item with item.advancement (or an event location) bumps its own name counter. has() is a plain counter lookup; bottle_count() counts distinct 'Bottle*' names."
+}

@@ -1,0 +1,443 @@
+meta:
+  algorithm: balanced
+  players: 1
+settings:
+  1:
+    mode:
+      open: 1
+      standard: 1
+    mapshuffle: True
+    compassshuffle: True
+    boots_hint:
+      True: 1
+      False: 1
+advanced_placements:
+  1:
+    - item: Green Pendant
+      locations:
+        - Eastern Palace - Prize
+        - Random
+      type: LocationGroup
+    - item: Crystal 5
+      locations:
+        - Ice Palace - Prize
+        - Random
+      type: LocationGroup
+    - item: Crystal 6
+      locations:
+        - Misery Mire - Prize
+        - Random
+      type: LocationGroup
+    - item: Progressive Bow
+      locations:
+        - Eastern Palace - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Progressive Bow
+      locations:
+        - Pyramid Fairy - Right
+        - Random
+      type: LocationGroup
+    - item: Book of Mudora
+      locations:
+        - Library
+        - Random
+      type: LocationGroup
+    - item: Hammer
+      locations:
+        - Palace of Darkness - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Hookshot
+      locations:
+        - Swamp Palace - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Magic Mirror
+      locations:
+        - Old Man
+        - Random
+      type: LocationGroup
+    - item: Ocarina
+      locations:
+        - Flute Spot
+        - Random
+      type: LocationGroup
+    - item: Pegasus Boots
+      locations:
+        - Sahasrahla
+        - Random
+      type: LocationGroup
+    - item: Cape
+      locations:
+        - King's Tomb
+        - Random
+      type: LocationGroup
+    - item: Mushroom
+      locations:
+        - Mushroom
+        - Random
+      type: LocationGroup
+    - item: Shovel
+      locations:
+        - Stumpy
+        - Random
+      type: LocationGroup
+    - item: Lamp
+      locations:
+        Link's House: 1
+        Secret Passage: 1
+        Hyrule Castle - Zelda's Chest: 1
+        Random: 3
+      type: LocationGroup
+    - item: Magic Powder
+      locations:
+        - Potion Shop
+        - Random
+      type: LocationGroup
+    - item: Moon Pearl
+      locations:
+        - Tower of Hera - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Cane of Somaria
+      locations:
+        - Misery Mire - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Fire Rod
+      locations:
+        - Skull Woods - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Flippers
+      locations:
+        - King Zora
+        - Random
+      type: LocationGroup
+    - item: Ice Rod
+      locations:
+        - Ice Rod Cave
+        - Random
+      type: LocationGroup
+    - item: Bombos
+      locations:
+        - Bombos Tablet
+        - Random
+      type: LocationGroup
+    - item: Ether
+      locations:
+        - Ether Tablet
+        - Random
+      type: LocationGroup
+    - item: Quake
+      locations:
+        - Catfish
+        - Random
+      type: LocationGroup
+    - item: Bottle
+      locations:
+        - Bottle Merchant
+        - Random
+      type: LocationGroup
+    - item: Bottle
+      locations:
+        - Kakariko Tavern
+        - Random
+      type: LocationGroup
+    - item: Bottle
+      locations:
+        - Purple Chest
+        - Random
+      type: LocationGroup
+    - item: Bottle
+      locations:
+        - Hobo
+        - Random
+      type: LocationGroup
+    - item: Progressive Sword
+      locations:
+        - Link's Uncle
+        - Random
+      type: LocationGroup
+    - item: Progressive Sword
+      locations:
+        - Blacksmith
+        - Random
+      type: LocationGroup
+    - item: Progressive Sword
+      locations:
+        - Master Sword Pedestal
+        - Random
+      type: LocationGroup
+    - item: Progressive Sword
+      locations:
+        - Pyramid Fairy - Left
+        - Random
+      type: LocationGroup
+    - item: Progressive Glove
+      locations:
+        - Desert Palace - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Progressive Glove
+      locations:
+        - Thieves' Town - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Progressive Armor
+      locations:
+        - Ice Palace - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Progressive Armor
+      locations:
+        - Ganons Tower - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Blue Boomerang
+      locations:
+        - Hyrule Castle - Boomerang Chest
+        - Random
+      type: LocationGroup
+    - item: Red Boomerang
+      locations:
+        - Waterfall Fairy - Left
+        - Random
+      type: LocationGroup
+    - item: Progressive Shield
+      locations:
+        - Secret Passage
+        - Random
+      type: LocationGroup
+    - item: Progressive Shield
+      locations:
+        - Waterfall Fairy - Right
+        - Random
+      type: LocationGroup
+    - item: Progressive Shield
+      locations:
+        - Turtle Rock - Big Chest
+        - Random
+      type: LocationGroup
+    - item: Bug Catching Net
+      locations:
+        - Sick Kid
+        - Random
+      type: LocationGroup
+    - item: Cane of Byrna
+      locations:
+        - Spike Cave
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Desert Palace - Boss
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Eastern Palace - Boss
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Tower of Hera - Boss
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Swamp Palace - Boss
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Thieves' Town - Boss
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Skull Woods - Boss
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Ice Palace - Boss
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Misery Mire - Boss
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Turtle Rock - Boss
+        - Random
+      type: LocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Palace of Darkness - Boss
+        - Random
+      type: LocationGroup
+    - item: Sanctuary Heart Container
+      locations:
+        - Sanctuary
+        - Random
+      type: LocationGroup
+    - item: Rupees (300)
+      locations:
+        - Mini Moldorm Cave - Generous Guy
+        - Random
+      type: LocationGroup
+    - item: Rupees (300)
+      locations:
+        - Sewers - Secret Room - Middle
+        - Random
+      type: LocationGroup
+    - item: Rupees (300)
+      locations:
+        - Hype Cave - Generous Guy
+        - Random
+      type: LocationGroup
+    - item: Rupees (300)
+      locations:
+        - Brewery
+        - Random
+      type: LocationGroup
+    - item: Rupees (300)
+      locations:
+        - C-Shaped House
+        - Random
+      type: LocationGroup
+    - item: Magic Upgrade (1/2)
+      locations:
+        - Magic Bat
+        - Random
+      type: LocationGroup
+    - item: Compass (Eastern Palace)
+      locations:
+        - Eastern Palace - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Eastern Palace)
+      locations:
+        - Eastern Palace - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Compass (Desert Palace)
+      locations:
+        - Desert Palace - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Desert Palace)
+      locations:
+        - Desert Palace - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Compass (Tower of Hera)
+      locations:
+        - Tower of Hera - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Tower of Hera)
+      locations:
+        - Tower of Hera - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Escape)
+      locations:
+        - Hyrule Castle - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Compass (Palace of Darkness)
+      locations:
+        - Palace of Darkness - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Palace of Darkness)
+      locations:
+        - Palace of Darkness - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Compass (Thieves Town)
+      locations:
+        - Thieves' Town - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Thieves Town)
+      locations:
+        - Thieves' Town - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Compass (Skull Woods)
+      locations:
+        - Skull Woods - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Skull Woods)
+      locations:
+        - Skull Woods - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Compass (Swamp Palace)
+      locations:
+        - Swamp Palace - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Swamp Palace)
+      locations:
+        - Swamp Palace - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Compass (Ice Palace)
+      locations:
+        - Ice Palace - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Ice Palace)
+      locations:
+        - Ice Palace - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Compass (Misery Mire)
+      locations:
+        - Misery Mire - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Misery Mire)
+      locations:
+        - Misery Mire - Map Chest
+        - Random
+      type: LocationGroup
+    - item: Compass (Turtle Rock)
+      locations:
+        - Turtle Rock - Compass Chest
+        - Random
+      type: LocationGroup
+    - item: Map (Turtle Rock)
+      locations:
+        - Turtle Rock - Roller Room - Left
+        - Random
+      type: LocationGroup
+    - item: Compass (Ganons Tower)
+      locations:
+        - Ganons Tower - Compass Room - Top Left
+        - Random
+      type: LocationGroup
+    - item: Map (Ganons Tower)
+      locations:
+        - Ganons Tower - Map Chest
+        - Random
+      type: LocationGroup
+medallions:
+  1:
+    Misery Mire:
+      Ether: 1
+      Random: 1
+    Turtle Rock:
+      Quake: 1
+      Random: 1
+
+
+

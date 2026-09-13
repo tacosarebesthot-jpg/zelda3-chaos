@@ -1,0 +1,48 @@
+; ============================================================================
+; cp_config.ini.example - credentials/settings for tools/channel_points
+; ----------------------------------------------------------------------------
+; Copy to cp_config.ini (same folder) and fill in client_id + token before
+; running cp_listen.py in real mode.  cp_config.ini is NOT required for
+; --mock (offline test) and NOT required for --check.
+;
+; Why a separate file instead of twitch_config.txt: the game's file is owned
+; by src/twitch.c (its IRC token needs no scopes and was minted without our
+; client id); Helix API calls require a token minted under the SAME
+; application as the Client-Id header.  Two concerns, two files, and the
+; game's config stays untouched.
+; ============================================================================
+
+[eventsub]
+; REQUIRED: Client ID of YOUR app (dev.twitch.tv console -> Applications ->
+; Register Your Application; 2-minute flow, see README.md).
+client_id =
+
+; Which subscriptions to create: "auto", "custom" or "auto,custom" (default).
+;   custom = lane's own reward catalog (Arise Chicken!! etc.) - the main one
+;   auto   = Twitch's fixed rewards (highlight my message, ...), keyed by type
+types = auto,custom
+
+; Leave these defaults alone unless testing against a mock:
+wss_url = wss://eventsub.wss.twitch.tv/ws
+helix_base = https://api.twitch.tv/helix
+
+[auth]
+; REQUIRED for real mode: a USER access token for the broadcaster
+; with scope channel:read:redemptions.  Mint it under the client_id above
+; (README.md has the exact 2-minute steps).  ~60-day lifetime; refresh or
+; re-mint when EventSub answers 401.
+token =
+; Overrides the channel from twitch_config.txt (leave empty = the channel in twitch_config.txt).
+channel =
+
+[drop]
+; Where "verb|arg|who|dur" files go.  Empty = <project root>/twitch_drop/
+; (exactly what the game polls with drop=1).  Only change for experiments.
+dir =
+
+; Reward-name -> verb table (default: cp_map.ini next to cp_listen.py).
+map =
+
+[run]
+; Log-and-ignore rewards missing from the map (recommended: true).
+log_unknown = true

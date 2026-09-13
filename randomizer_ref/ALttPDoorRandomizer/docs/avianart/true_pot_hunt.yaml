@@ -1,0 +1,21 @@
+meta:
+  algorithm: balanced
+  players: 1
+settings:
+  1:
+    goal: triforcehunt
+    shuffle: crossed
+    keysanity: True
+    shopsanity: True
+    keydropshuffle: True
+    pottery: lottery
+    dungeon_counters: 'on'
+    triforce_goal: 420
+    triforce_pool: 420
+start_inventory:
+  1:
+    - Pegasus Boots
+    - Lamp
+    - Rupees (300)
+    - Rupees (100)
+    - Rupees (20)

@@ -1,0 +1,84 @@
+# Fixed "Crosskeys" profile for TestSuiteAutomate (Customizer settings, not mystery weights).
+# Keys must match CustomSettings.adjust_args / CLI names — mystery-style keys are ignored here.
+meta:
+  players: 1
+  suite: crosskeys
+  algorithm: balanced
+settings:
+  1:
+    # Core
+    mode: open
+    logic: noglitches
+    goal: crystals
+    crystals_gt: "7"
+    crystals_ganon: "7"
+    swords: random
+    accessibility: locations
+    difficulty: normal
+    item_functionality: normal
+    beemizer: "0"
+    hints: false
+    bombbag: false
+    shopsanity: false
+    take_any: none
+    flute_mode: normal
+    bow_mode: progressive
+    restrict_boss_items: none
+    experimental: false
+    pseudoboots: false
+    mirrorscroll: false
+
+    # Entrance / ER
+    shuffle: crossed
+    shufflelinks: false
+    shuffleganon: true
+    shuffletavern: false
+    openpyramid: auto
+    skullwoods: original
+    overworld_map: default
+
+    # Doors
+    door_shuffle: vanilla
+    intensity: 1
+    door_type_mode: original
+    trap_door_mode: optional
+    key_logic_algorithm: partial
+    decoupledoors: false
+    door_self_loops: false
+    dungeon_counters: pickup
+
+    # Keys / dungeon items (1 -> wild via CustomSettings)
+    mapshuffle: wild
+    compassshuffle: wild
+    keyshuffle: wild
+    bigkeyshuffle: wild
+    prizeshuffle: none
+    dropshuffle: none
+    pottery: none
+    keydropshuffle: false
+    linked_drops: unset
+    colorizepots: false
+    shufflepots: false
+
+    # Bosses / enemies
+    boss_shuffle: none
+    enemy_shuffle: none
+    enemy_health: default
+    enemy_damage: default
+    any_enemy_logic: allow_all
+
+    # Overworld
+    ow_layout: vanilla
+    ow_parallel: true
+    ow_terrain: true
+    ow_crossed: none
+    ow_keepsimilar: true
+    ow_mixed: false
+    ow_whirlpool: false
+    ow_fluteshuffle: vanilla
+    ow_fog: false
+    shuffle_followers: false
+    bonk_drops: false
+
+    mixed_travel: prevent
+    standardize_palettes: standardize

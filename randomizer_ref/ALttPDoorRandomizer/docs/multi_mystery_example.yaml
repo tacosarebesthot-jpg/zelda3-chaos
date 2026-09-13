@@ -1,0 +1,17 @@
+meta:
+  algorithm: balanced
+  players: 3
+  seed: 722495389
+  names: Link,Zelda,Ganon
+settings:
+  1: player1.yml
+  2: player2.yml
+  3: player3.yml
+start_inventory:
+  1:
+    - Progressive Sword
+    - Pegasus Boots
+  2:
+    - Lamp
+  3:
+    - Flippers

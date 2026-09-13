@@ -1,0 +1,34 @@
+; ============================================================================
+; cp_map.ini.example - STARTING POINT for a fresh Channel Points deployment
+; ----------------------------------------------------------------------------
+; Copy to cp_map.ini (same folder) and edit freely.  This example ships
+; EMPTY-BY-DEFAULT (all rows commented): rewards with no entry are logged and
+; ignored by cp_listen.py - the safe default.  (The repo's cp_map.ini holds
+; lane's own reward catalog; that is content, not a hardcode.)
+;
+; Matching is CASE-INSENSITIVE and whitespace-collapsed.  The game
+; re-validates every verb and its own gates, so a wrong mapping can never
+; crash anything - it just gets dropped with a RESULT line.
+;
+; ROW GRAMMAR (uncomment and adapt):
+;   my reward name = flip            -> verb (game default duration)
+;   spawn a bird = spawn raven 2     -> verb + arg words
+;   long effect = confuse @600       -> explicit duration, FRAMES (60 = 1 s)
+;   say it = hurt {input}            -> {input} = redeemer's typed message
+;                                       (sanitized: '|' and control chars
+;                                       stripped, capped at 40 chars)
+;   broken reward = -                -> explicitly disabled, stays visible
+;
+; Valid verbs mirror src/twitch.c kVerbs[] (heal hurt mp drain refill rupees
+; tax bombs arrows smite clearscreen spawn swarm confuse flip party freeze
+; stun curse root steal rob thief pickpocket speed fast slow ice icefloor
+; illusion bunny fairy deny arise chicken cucco).  "World" verbs (smite,
+; spawn, arise, ...) only fire while Link is in actual gameplay; vs_mode=1
+; blocks the "helpful" ones (heal, mp, refill, ...).
+; ============================================================================
+[map]
+
+; --- sample rows: uncomment to try -------------------------------------------
+;arise chicken!! (athf) = arise
+;flashbang the stream = flip
+;duck vanishes = spawn raven 2

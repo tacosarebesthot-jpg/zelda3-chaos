@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TestSuite Explorer</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <div class="mark" aria-hidden="true"></div>
+      <div>
+        <h1>TestSuite Explorer</h1>
+        <p class="dbpath" id="dbPath">loading…</p>
+      </div>
+    </div>
+    <div class="filters">
+      <label class="suite-filter">Suite
+        <select id="suiteSel" aria-label="Suite"></select>
+      </label>
+      <div class="presets" role="group" aria-label="Time range">
+        <button type="button" data-preset="all" class="on">All Time</button>
+        <button type="button" data-preset="8h">8h</button>
+        <button type="button" data-preset="24h">24h</button>
+        <button type="button" data-preset="7d">7d</button>
+        <button type="button" data-preset="30d">30d</button>
+        <button type="button" data-preset="custom">Custom</button>
+      </div>
+      <div class="custom-range" id="customRange" hidden>
+        <label>From <input type="date" id="fromDate"></label>
+        <label>To <input type="date" id="toDate"></label>
+        <button type="button" id="applyCustom" class="ghost">Apply</button>
+      </div>
+      <button type="button" id="reloadBtn" class="ghost" title="Re-query the database">Reload</button>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpis"></section>
+
+  <nav class="tabs" role="tablist">
+    <button type="button" role="tab" data-tab="overview" class="on">Overview</button>
+    <button type="button" role="tab" data-tab="setting">By setting</button>
+    <button type="button" role="tab" data-tab="lift">Error cause</button>
+    <button type="button" role="tab" data-tab="crosstab">Crosstab</button>
+  </nav>
+
+  <main id="main">
+    <p class="muted">Loading…</p>
+  </main>
+
+  <footer class="foot">Leave this Python process running while you use the dashboard. Esc closes the run drawer.</footer>
+
+  <aside class="drawer" id="drawer" hidden>
+    <div class="drawer-head">
+      <div>
+        <h2 id="drawerTitle">Runs</h2>
+        <p class="muted" id="drawerSub"></p>
+      </div>
+      <button type="button" class="ghost" id="drawerClose">Close</button>
+    </div>
+    <div class="drawer-body" id="drawerBody"></div>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

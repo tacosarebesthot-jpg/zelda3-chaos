@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>zelda3 pickup tracker</title>
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; overflow: hidden; }
+  #box {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-width: 340px; padding: 10px 14px;
+    background: rgba(8, 10, 16, 0.72);
+    border: 1px solid rgba(140, 160, 255, 0.35);
+    border-radius: 10px;
+  }
+  h1 { margin: 0 0 6px 0; font-size: 15px; letter-spacing: 2px;
+       color: #8fa8ff; text-transform: uppercase; font-weight: 600; }
+  .item { font-size: 22px; font-weight: 600; color: #f2f4ff;
+          text-shadow: 0 1px 3px #000; line-height: 1.45; }
+  .item:first-child { color: #ffd75e; font-size: 26px; }
+  .time { font-size: 12px; color: #7d87a8; margin-left: 8px; font-weight: 400; }
+  .fade { animation: pop .25s ease-out; }
+  @keyframes pop { from { opacity: 0; transform: translateX(-6px); } }
+  .empty { font-size: 15px; color: #6b7391; font-style: italic; }
+</style>
+</head>
+<body>
+<div id="box">
+  <h1>Pickups</h1>
+  <div id="list"><div class="empty">waiting for pickups...</div></div>
+</div>
+<script>
+// OBS browser source: point at this file. It polls tracker_items.txt
+// (written by zelda3.exe next to the game) once a second; newest item first.
+const SRC = 'tracker_items.txt';
+let last = '';
+async function tick() {
+  try {
+    const r = await fetch(SRC + '?t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) return;
+    const text = (await r.text()).trim();
+    if (text === last) return;
+    last = text;
+    const lines = text ? text.split('\n').filter(s => s.trim()).slice(0, 5) : [];
+    const el = document.getElementById('list');
+    if (!lines.length) {
+      el.innerHTML = '<div class="empty">waiting for pickups...</div>';
+      return;
+    }
+    el.innerHTML = lines.map((l, i) => {
+      const m = l.match(/^(.*?)\s*\|(.*)$/);
+      const name = m ? m[1] : l;
+      const when = m ? m[2] : '';
+      return '<div class="fade item">' + name +
+             '<span class="time">' + when.trim() + '</span></div>';
+    }).join('');
+  } catch (e) { /* file not there yet */ }
+}
+setInterval(tick, 1000);
+tick();
+</script>
+</body>
+</html>

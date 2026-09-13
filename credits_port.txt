@@ -1,0 +1,16 @@
+# PORT INFO section of the ending credits (OPTIONS > GAME FEATURES >
+# CREDITS = CHAT). Lines starting with "=" are section headings (up to
+# 32 letters and spaces); other lines are content, shown in the same
+# two-row name font as patron/chatter names (up to 16 letters and spaces).
+# Only A-Z and space reach the screen - no digits, no punctuation, no '/'.
+# Edit freely; a saved change takes effect next launch, no rebuild needed.
+# Delete this file to fall back to the built-in default in credits_names.c.
+=ZELDA III PC PORT
+BY SNESREV
+ORIGINAL GAME
+NINTENDO
+=CHAOS STREAM BUILD
+BY GAINEY
+TWITCH GAINEY
+=PATREON SUPPORTERS
+SUPPORT ON PATREON

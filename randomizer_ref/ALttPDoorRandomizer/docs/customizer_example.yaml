@@ -1,0 +1,186 @@
+meta:
+  algorithm: balanced
+  players: 1
+  seed: 41  # note to self: seed 42 had an interesting Swamp Palace problem
+  names: Lonk
+  notes: "Some notes specified by the user"
+settings:
+  1:
+    door_shuffle: basic
+    dropshuffle: keys
+    experimental: true
+    goal: ganon
+    prizeshuffle: dungeon
+    hints: true
+    intensity: 3
+    overworld_map: compass
+    pseudoboots: true
+    pottery: keys
+    shopsanity: true
+    shuffle_followers: true
+    shuffle: crossed
+    shufflelinks: true
+    ow_layout: wild
+    ow_parallel: true
+    ow_terrain: true
+    ow_crossed: grouped
+    ow_keepsimilar: true
+    ow_mixed: true
+    ow_whirlpool: true
+    ow_fluteshuffle: balanced
+    shufflebosses: unique
+item_pool:
+  1:
+    Blue Boomerang: 3
+    Bombos: 3
+    Book of Mudora: 3
+    Boss Heart Container: 30
+    Bottle (Random): 12
+    Bug Catching Net: 3
+    Cane of Byrna: 3
+    Cane of Somaria: 3
+    Cape: 3
+    Ether: 3
+    Fire Rod: 3
+    Flippers: 3
+    Hammer: 3
+    Hookshot: 3
+    Ice Rod: 3
+    Lamp: 3
+    Magic Mirror: 3
+    Magic Powder: 3
+    Magic Upgrade (1/2): 3
+    Moon Pearl: 3
+    Mushroom: 3
+    Ocarina: 3
+    Pegasus Boots: 3
+    Piece of Heart: 24
+    Progressive Armor: 6
+    Progressive Bow: 6
+    Progressive Glove: 6
+    Progressive Shield: 9
+    Progressive Sword: 12
+    Quake: 3
+    Red Boomerang: 3
+    Rupees (300): 10
+    Bombs (3): 20
+    Sanctuary Heart Container: 3
+    Shovel: 3
+    Single Arrow: 1
+    Green Potion: 1
+    Blue Potion: 1
+    Red Potion: 1
+item_pool_adjust:
+  1:
+    Bottle (Random): 2        # add 2 extra random bottles on top of the base pool
+    Magic Upgrade (1/2): 1    # add 1 extra half-magic
+    Boss Heart Container: -3  # remove 3 heart containers from the base pool
+placements:
+  1:
+    Palace of Darkness - Big Chest: Hammer
+    Capacity Upgrade - Left: Moon Pearl
+    Turtle Rock - Pokey 2 Key Drop: Ice Rod
+ow-edges:
+  1:
+    two-way:
+      Kakariko Fortune ES*: Sanctuary WN*
+      Central Bonk Rocks EC: Potion Shop WN
+      Central Bonk Rocks ES: Potion Shop WC
+    groups:
+      someDescription:
+        - Tree Line SC*
+        - Lake Hylia NC*
+        - Dark Tree Line SC*
+        - Ice Lake NC*
+      1234:
+        - Lake Hylia EC*
+        - Octoballoon WC*
+        - Ice Lake EC*
+        - Bomber Corner WC*
+ow-crossed:
+  1:
+    force_crossed:
+      - Links House ES*
+      - Kakariko Fortune ES*
+    force_noncrossed:
+      - Links House NE
+    limit_crossed: 9 # emulates Limited Crossed
+    undefined_chance: 25
+ow-whirlpools:
+  1:
+    two-way:
+      River Bend Whirlpool: Lake Hylia Whirlpool
+ow-tileflips:
+  1:
+    force_flip:
+      - 0x1b
+    force_no_flip:
+      - 0x2c
+      - 0x18
+    force_together:
+      someDescription:
+        - 0x16
+        - 0x2b
+    undefined_chance: 50
+ow-flutespots:
+  1:
+    force:
+      - 0x00
+      - 0x12
+      - 0x18
+      - 0x1a
+      - 0x2f
+      - 0x30
+      - 0x35
+    forbid:
+      - 0x03
+      - 0x05
+entrances:
+  1:
+    entrances:
+      Bat Cave Drop: Pyramid
+      Dam: Chicken House
+      Snitch Lady (West): Cave 45
+    exits:
+      Misery Mire: Chris Houlihan Room Exit
+    two-way:
+      Bat Cave Cave: Pyramid Exit
+      Bumper Cave (Bottom): Bumper Cave Exit (Bottom)
+      Bumper Cave (Top): Bumper Cave Exit (Top)
+      Skull Woods Final Section: Ganons Tower Exit
+      Misery Mire: Links House Exit
+doors:
+  1:
+    lobbies:
+      Sanctuary: Sewers Pull Switch S
+      Skull 2 East: Skull 1 Lobby S
+      Skull 3: Skull 2 West Lobby S
+      Turtle Rock Lazy Eyes: TR Roller Room SW
+    doors:
+      Hyrule Dungeon Guardroom Abyss Edge: Hyrule Castle Lobby W
+      Sewers Rat Path WS:
+        dest: Sewers Secret Room ES
+        type: Key Door
+      Sewers Rat Path WN:
+        dest: Sewers Secret Room EN
+        type: Key Door
+      Tower Pacifist Run WS:
+        dest: Tower Circle of Pots ES
+        type: Key Door
+      Hera Lobby Up Stairs: Hera 4F Down Stairs
+medallions:
+  1:
+    Misery Mire: Bombos
+bosses:
+  1:
+    Palace of Darkness: Arrghus
+    Thieves Town: Blind
+    Ganons Tower (top): Vitreous
+prices:
+  1:
+    Capacity Upgrade - Left: 5
+    Capacity Upgrade - Right: 216
+start_inventory:
+  1:
+    - Pegasus Boots
+

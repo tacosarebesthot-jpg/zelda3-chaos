@@ -1,0 +1,70 @@
+meta:
+  algorithm: balanced
+  players: 1
+  race: true
+  user_notes: ''
+placements:
+  1:
+    Desert Palace - Boss: Triforce Piece
+    Eastern Palace - Boss: Triforce Piece
+    Ice Palace - Boss: Triforce Piece
+    Misery Mire - Boss: Triforce Piece
+    Palace of Darkness - Boss: Triforce Piece
+    Skull Woods - Boss: Triforce Piece
+    Swamp Palace - Boss: Triforce Piece
+    Thieves' Town - Boss: Triforce Piece
+    Tower of Hera - Boss: Triforce Piece
+    Turtle Rock - Boss: Triforce Piece
+settings:
+  1:
+    accessibility: locations
+    aga_randomness: true
+    any_enemy_logic: allow_all
+    beemizer: 0
+    bigkeyshuffle: true
+    bombbag: false
+    boss_shuffle: none
+    bow_mode: progressive
+    collection_rate: true
+    compassshuffle: true
+    crystals_ganon: '7'
+    crystals_gt: random
+    decoupledoors: false
+    difficulty: normal
+    door_self_loops: false
+    door_shuffle: crossed
+    door_type_mode: big
+    dropshuffle: keys
+    dungeon_counters: 'on'
+    enemy_damage: default
+    enemy_health: default
+    enemy_shuffle: none
+    experimental: true
+    flute_mode: normal
+    goal: ganonhunt
+    hints: true
+    intensity: 3
+    item_functionality: normal
+    key_logic_algorithm: partial
+    keyshuffle: wild
+    logic: noglitches
+    mapshuffle: true
+    mixed_travel: prevent
+    mode: open
+    openpyramid: auto
+    overworld_map: default
+    pottery: keys
+    pseudoboots: true
+    shopsanity: true
+    shuffle: crossed
+    shufflelinks: true
+    shufflepots: false
+    shuffletavern: true
+    standardize_palettes: standardize
+    swords: random
+    take_any: none
+    trap_door_mode: boss
+    triforce_goal: 8
+    triforce_pool: 10
+start_inventory:
+  1: []

@@ -1,0 +1,259 @@
+meta:
+  algorithm: balanced
+  players: 1
+settings:
+  1:
+    bigkeyshuffle: True
+placements:
+  1:
+    Potion Shop: Shovel
+    Flute Spot: Magic Powder
+advanced_placements:
+  1:
+    - item: Progressive Bow
+      locations:
+        - Palace of Darkness - Boss
+        - Palace of Darkness - Map Chest
+        - Palace of Darkness - The Arena - Ledge
+        - Eastern Palace - Boss
+        - Ganons Tower - Pre-Moldorm Chest
+        - Ganons Tower - Mini Helmasaur Room - Left
+        - Ganons Tower - Mini Helmasaur Room - Right
+        - Ganons Tower - Validation Chest
+      type: LocationGroup
+    - item: Fire Rod
+      locations:
+        - Ice Palace - Big Chest
+        - Ice Palace - Boss
+        - Ice Palace - Big Key Chest
+        - Ice Palace - Compass Chest
+        - Ice Palace - Map Chest
+        - Ice Palace - Spike Room
+        - Ice Palace - Iced T Room
+        - Ice Palace - Freezor Chest
+        - Desert Palace - Boss
+        - Tower of Hera - Big Key Chest
+        - Misery Mire - Big Key Chest
+        - Misery Mire - Compass Chest
+      type: LocationGroup
+    - item: Pegasus Boots
+      locations:
+        - Hookshot Cave - Top Right
+        - Hookshot Cave - Top Left
+        - Hookshot Cave - Bottom Right
+        - Hookshot Cave - Bottom Left
+        - Mushroom Spot
+        - Zora Ledge
+        - Bombos Tablet
+        - Ether Tablet
+        - Floating Island
+        - Lake Hylia Island
+        - Maze Race
+        - Spectacle Rock
+        - Spectacle Rock Cave
+        - Pyramid
+        - Desert Ledge
+        - Bumper Cave Ledge
+      type: LocationGroup
+    - item: Progressive Sword
+      locations:
+        - Swamp Palace - Big Chest
+        - Swamp Palace - Boss
+        - Swamp Palace - Big Key Chest
+        - Swamp Palace - Compass Chest
+        - Swamp Palace - Map Chest
+        - Swamp Palace - Entrance
+        - Swamp Palace - Flooded Room - Left
+        - Swamp Palace - Flooded Room - Right
+        - Swamp Palace - Waterfall Room
+        - Swamp Palace - West Chest
+      type: LocationGroup
+    - item: Titans Mitts
+      locations:
+        - Swamp Palace - Big Chest
+        - Swamp Palace - Boss
+        - Swamp Palace - Big Key Chest
+        - Swamp Palace - Compass Chest
+        - Swamp Palace - Map Chest
+        - Swamp Palace - Entrance
+        - Swamp Palace - Flooded Room - Left
+        - Swamp Palace - Flooded Room - Right
+        - Swamp Palace - Waterfall Room
+        - Swamp Palace - West Chest
+      type: LocationGroup
+    - item: Ice Rod
+      type: LocationGroup
+      locations:
+        - Turtle Rock - Big Chest
+        - Turtle Rock - Boss
+        - Turtle Rock - Big Key Chest
+        - Turtle Rock - Compass Chest
+        - Turtle Rock - Roller Room - Left
+        - Turtle Rock - Chain Chomps
+        - Turtle Rock - Crystaroller Room
+        - Turtle Rock - Roller Room - Right
+        - Turtle Rock - Eye Bridge - Bottom Left
+        - Turtle Rock - Eye Bridge - Bottom Right
+        - Turtle Rock - Eye Bridge - Top Left
+        - Turtle Rock - Eye Bridge - Top Right
+        - Mimic Cave
+        - Link's House
+        - Link's Uncle
+        - Secret Passage
+        - Hyrule Castle - Map Chest
+        - Sanctuary
+        - Mushroom Spot
+        - Lost Woods Hideout
+        - Blind's Hideout - Left
+        - Blind's Hideout - Right
+        - Blind's Hideout - Far Left
+        - Blind's Hideout - Far Right
+        - Blind's Hideout - Top
+        - Kakariko Well - Right
+        - Kakariko Well - Left
+        - Kakariko Well - Middle
+        - Kakariko Well - Top
+        - Kakariko Well - Bottom
+        - Chicken House
+        - Bottle Merchant
+        - Kakariko Tavern
+        - Maze Race
+        - Floodgate Chest
+        - Sunken Treasure
+        - Mini Moldorm Cave - Left
+        - Mini Moldorm Cave - Right
+        - Mini Moldorm Cave - Generous Guy
+        - Mini Moldorm Cave - Far Left
+        - Mini Moldorm Cave - Far Right
+        - Sahasrahla's Hut - Middle
+        - Sahasrahla's Hut - Right
+        - Sahasrahla's Hut - Left
+        - Ice Rod Cave
+        - Eastern Palace - Compass Chest
+        - Eastern Palace - Map Chest
+        - Eastern Palace - Cannonball Chest
+        - Aginah's Cave
+    - item: Big Key (Eastern Palace)
+      locations:
+        - Eastern Palace - Cannonball Chest
+        - Eastern Palace - Big Key Chest
+        - Eastern Palace - Compass Chest
+        - Eastern Palace - Map Chest
+      type: LocationGroup
+    - item: Big Key (Desert Palace)
+      locations:
+        - Desert Palace - Big Key Chest
+        - Desert Palace - Compass Chest
+        - Desert Palace - Map Chest
+        - Desert Palace - Torch
+      type: LocationGroup
+    - item: Big Key (Palace of Darkness)
+      locations:
+        - Palace of Darkness - Big Key Chest
+        - Palace of Darkness - Compass Chest
+        - Palace of Darkness - Map Chest
+        - Palace of Darkness - Stalfos Basement
+        - Palace of Darkness - Dark Basement - Right
+        - Palace of Darkness - Harmless Hellway
+        - Palace of Darkness - Shooter Room
+        - Palace of Darkness - The Arena - Bridge
+        - Palace of Darkness - The Arena - Ledge
+        - Palace of Darkness - Dark Basement - Left
+        - Palace of Darkness - Dark Maze - Bottom
+        - Palace of Darkness - Dark Maze - Top
+      type: LocationGroup
+    - item: Big Key (Thieves Town)
+      locations:
+        - Thieves' Town - Big Key Chest
+        - Thieves' Town - Compass Chest
+        - Thieves' Town - Map Chest
+        - Thieves' Town - Ambush Chest
+      type: LocationGroup
+    - item: Big Key (Misery Mire)
+      locations:
+        - Misery Mire - Big Key Chest
+        - Misery Mire - Compass Chest
+        - Misery Mire - Map Chest
+        - Misery Mire - Spike Chest
+        - Misery Mire - Main Lobby
+        - Misery Mire - Bridge Chest
+      type: LocationGroup
+    - item: Big Key (Turtle Rock)
+      locations:
+        - Turtle Rock - Big Key Chest
+        - Turtle Rock - Compass Chest
+        - Turtle Rock - Roller Room - Left
+        - Turtle Rock - Chain Chomps
+        - Turtle Rock - Roller Room - Right
+      type: LocationGroup
+    - item: Big Key (Ganons Tower)
+      locations:
+        - Ganons Tower - Big Key Chest
+        - Ganons Tower - Compass Room - Top Left
+        - Ganons Tower - Map Chest
+        - Ganons Tower - Bob's Torch
+        - Ganons Tower - Tile Room
+        - Ganons Tower - Firesnake Room
+        - Ganons Tower - DMs Room - Top Right
+        - Ganons Tower - DMs Room - Top Left
+        - Ganons Tower - DMs Room - Bottom Left
+        - Ganons Tower - DMs Room - Bottom Right
+        - Ganons Tower - Compass Room - Top Right
+        - Ganons Tower - Compass Room - Bottom Right
+        - Ganons Tower - Compass Room - Bottom Left
+        - Ganons Tower - Hope Room - Left
+        - Ganons Tower - Hope Room - Right
+        - Ganons Tower - Randomizer Room - Top Left
+        - Ganons Tower - Randomizer Room - Top Right
+        - Ganons Tower - Randomizer Room - Bottom Right
+        - Ganons Tower - Randomizer Room - Bottom Left
+        - Ganons Tower - Bob's Chest
+        - Ganons Tower - Big Key Room - Left
+        - Ganons Tower - Big Key Room - Right
+      type: LocationGroup
+item_pool:
+  1:
+    Arrows (10): 12
+    Blue Boomerang: 1
+    Bombos: 1
+    Bombs (10): 1
+    Bombs (3): 16
+    Book of Mudora: 1
+    Boss Heart Container: 10
+    Bottle (Random): 4
+    Bug Catching Net: 1
+    Cane of Byrna: 1
+    Cane of Somaria: 1
+    Cape: 1
+    Ether: 1
+    Fire Rod: 1
+    Flippers: 1
+    Hammer: 1
+    Hookshot: 1
+    Ice Rod: 1
+    Lamp: 1
+    Magic Mirror: 1
+    Magic Powder: 1
+    Magic Upgrade (1/2): 1
+    Moon Pearl: 1
+    Mushroom: 1
+    Ocarina: 1
+    Pegasus Boots: 1
+    Piece of Heart: 24
+    Progressive Armor: 2
+    Progressive Bow: 2
+    Progressive Glove: 2
+    Progressive Shield: 3
+    Progressive Sword: 4
+    Titans Mitts: 1
+    Quake: 1
+    Red Boomerang: 1
+    Rupee (1): 2
+    Rupees (100): 1
+    Rupees (20): 27
+    Rupees (300): 5
+    Rupees (5): 4
+    Rupees (50): 7
+    Sanctuary Heart Container: 1
+    Shovel: 1
+    Single Arrow: 1

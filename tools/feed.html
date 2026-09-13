@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>zelda3 stream feed</title>
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; overflow: hidden;
+               font-family: 'Segoe UI', Arial, sans-serif; }
+  .box { width: 360px; padding: 10px 14px; margin-bottom: 10px;
+         background: rgba(8, 10, 16, 0.72);
+         border: 1px solid rgba(140, 160, 255, 0.35);
+         border-radius: 10px; }
+  h1 { margin: 0 0 6px 0; font-size: 15px; letter-spacing: 2px;
+       color: #8fa8ff; text-transform: uppercase; font-weight: 600; }
+  .item { font-size: 22px; font-weight: 600; color: #f2f4ff;
+          text-shadow: 0 1px 3px #000; line-height: 1.4; }
+  .item:first-child { color: #ffd75e; font-size: 25px; }
+  .time { font-size: 12px; color: #7d87a8; margin-left: 8px; font-weight: 400; }
+  .chat { font-size: 16px; font-weight: 600; color: #d8dcf0;
+          text-shadow: 0 1px 3px #000; line-height: 1.5; }
+  .chat:first-child { color: #7dff8e; font-size: 19px; }
+  .who { color: #9fb4ff; }
+  .fade { animation: pop .25s ease-out; }
+  @keyframes pop { from { opacity: 0; transform: translateX(-6px); } }
+  .empty { font-size: 14px; color: #6b7391; font-style: italic; }
+
+  /* ---- border flash (pickups gold pulse, deaths red, commands by category).
+         JS sets --flash on the box and re-adds the class to restart it. ---- */
+  .box.flash  { animation: borderflash 1s ease-out 2; }  /* 2s */
+  .box.flash3 { animation: borderflash 1s ease-out 3; }  /* 3s */
+  @keyframes borderflash {
+    0%   { border-color: var(--flash, #fff);
+           box-shadow: 0 0 22px var(--flash, #fff); }
+    70%  { border-color: var(--flash, #fff);
+           box-shadow: 0 0 10px var(--flash, #fff); }
+    100% { border-color: rgba(140, 160, 255, 0.35); box-shadow: none; }
+  }
+
+  /* ---- transient toast stack for fresh chat commands ---- */
+  #toasts { position: fixed; top: 8px; left: 8px; width: 384px;
+            z-index: 20; pointer-events: none; }
+  .toast { background: rgba(8, 10, 16, 0.88);
+           border: 2px solid var(--flash, #4da6ff); border-radius: 12px;
+           padding: 9px 16px; margin-bottom: 10px;
+           box-shadow: 0 0 24px var(--flashGlow, rgba(77,166,255,.5));
+           animation: toastIn .28s ease-out; }
+  .toast.out { animation: toastOut .4s ease-in forwards; }
+  @keyframes toastIn  { from { opacity: 0; transform: translateY(-26px) scale(.97); } }
+  @keyframes toastOut { to   { opacity: 0; transform: translateY(-18px); } }
+  .toast .cat { font-size: 11px; letter-spacing: 3px; text-transform: uppercase;
+                font-weight: 700; color: var(--flash, #4da6ff); }
+  .toast .verbline { font-size: 26px; font-weight: 700; color: #f2f4ff;
+                     text-shadow: 0 1px 4px #000; line-height: 1.3; }
+  .toast .when { font-size: 12px; color: #7d87a8; font-weight: 400; margin-left: 8px; }
+
+  /* ---- death alert big line ---- */
+  .deathline { font-size: 25px; font-weight: 800; color: #ff5d5d;
+               text-shadow: 0 1px 4px #000; animation: pop .25s ease-out;
+               line-height: 1.3; }
+
+  /* ---- chat boss box (boss_feed.txt, one line written by the game) ---- */
+  .bossname { font-size: 22px; font-weight: 800; color: #ff5d5d;
+              text-shadow: 0 1px 3px #000; line-height: 1.25; }
+  .hpbar { height: 20px; margin: 8px 0 6px 0; background: #1b2030;
+           border-radius: 6px; overflow: hidden; }
+  .hpfill { height: 100%; width: 0; background: #4da6ff; transition: width .5s; }
+  .bmeta { font-size: 13px; color: #7d87a8; }
+  .bticker { font-size: 15px; color: #d8dcf0; margin-top: 6px; }
+  .bticker b { color: #ffd75e; }
+</style>
+</head>
+<body>
+<div id="toasts"></div>
+<div class="box" id="box-boss" style="display:none"><h1>Chat Boss</h1>
+  <div class="bossname" id="boss-name"></div>
+  <div class="hpbar"><div class="hpfill" id="boss-hp"></div></div>
+  <div class="bmeta" id="boss-meta"></div>
+  <div class="bticker" id="boss-ticker"></div>
+</div>
+<div class="box" id="box-score"><h1>Scoreboard</h1><div id="score"><div class="empty">waiting...</div></div></div>
+<div class="box" id="box-pickups"><h1>Pickups</h1><div id="pickups"><div class="empty">waiting...</div></div></div>
+<div class="box" id="box-chat"><h1>Chat commands</h1><div id="chat"><div class="empty">waiting...</div></div></div>
+<script>
+// OBS browser source: point at this file (sits next to the game exe).
+// Reads scoreboard.txt, tracker_items.txt, activity_feed.txt and
+// boss_feed.txt, all written by zelda3.exe. Test override: append
+// ?dir=feed_test/&poll=250 to the URL to read the fixtures in feed_test/
+// at a faster poll rate.
+
+// ==== PURE (unit-tested by tools/feed_test/run_test.mjs - no DOM below) ====
+
+// ---------------- CONFIG - one obvious place to tweak ----------------
+const CONFIG = {
+  pollMs: 1000,          // how often the txt files are re-read
+  toastMs: 2500,         // how long a command toast stays on screen
+  maxToasts: 3,          // toast stack cap (oldest is dropped)
+  pickupFlashMs: 2000,   // gold pulse on the pickups box (2 x 1s animation)
+  deathFlashMs: 3000,    // red flash + big "chat killed you" line
+  fadeOutMs: 400,        // toast fade-out animation length
+  depth: { pickups: 5, chat: 8 },  // lines shown, mirrors TRACKER_DEPTH
+};
+
+const COLORS = {
+  hostile: '#ff4d4d',   // smite / spawn / swarm / freeze / curse / steal / ...
+  help:    '#4dff6a',   // heal / mp / refill / rupees / bombs / arrows / fairy
+  chaos:   '#c46bff',   // confuse / flip / party / ice / speed / slow / bunny / arise
+  neutral: '#4da6ff',   // unknown verbs + the connect tagline
+  gold:    '#ffd75e',   // new pickup pulse
+  death:   '#ff4d4d',   // deaths-increment flash
+};
+
+// verb -> category. Aliases match src/twitch.c exactly (stun=freeze,
+// fast=speed, icefloor=ice, illusion=bunny, chicken/cucco=arise,
+// rob/thief/pickpocket=steal, clearscreen=smite). Edit lines here to
+// recategorize; anything not listed falls back to neutral/blue.
+const CATEGORIES = {
+  hostile: ['smite', 'clearscreen', 'spawn', 'swarm', 'freeze', 'stun',
+            'curse', 'steal', 'rob', 'thief', 'pickpocket', 'tax',
+            'deny', 'denyboots', 'root', 'hurt', 'drain'],
+  help:    ['heal', 'mp', 'refill', 'rupees', 'bombs', 'arrows', 'fairy'],
+  chaos:   ['confuse', 'flip', 'party', 'ice', 'icefloor', 'speed', 'fast',
+            'slow', 'bunny', 'illusion', 'arise', 'chicken', 'cucco'],
+};
+
+function categorize(verb) {
+  const v = String(verb || '').toLowerCase().trim();
+  for (const cat in CATEGORIES)
+    if (CATEGORIES[cat].indexOf(v) >= 0) return cat;
+  return 'neutral';
+}
+
+// activity_feed.txt lines are "who | !verb -> HH:MM:SS" (tracker.c); the
+// '!' belongs to the verb. Display note: toastCommand()/renderChat() render
+// '&#8594; !' + verb literally, so the captured verb must NOT carry the '!'.
+function parseActivityLine(line) {
+  const m = line.match(/^(.*?)\s*\|\s*!(.*?)\s*->\s*(.*)$/);
+  return m ? { who: m[1], verb: m[2], time: m[3] } : null;
+}
+
+// scoreboard.txt is "deaths=N\ncommands=M\nbosses_won=W\nlosses=L\n"
+function parseScore(text) {
+  const get = k => {
+    const m = text.match(new RegExp('^' + k + '=(\\d+)[ \\t]*$', 'm'));
+    return m ? +m[1] : null;
+  };
+  return { deaths: get('deaths'), commands: get('commands') };
+}
+
+// boss_feed.txt is ONE human-readable line (src/twitch.c BossWriteFeed):
+//   THE SWARMFATHER | HP: 212/390 | phase: 2 | attackers: 7 | top: HungSo1o (135) | 64s | last: ice
+//   VICTORY | CHAT SLAYS THE SWARMFATHER! | MVP: HungSo1o (135 dmg) | HP: 0/390
+//   DEFEAT | SIR SPAMALOT survives. chat, you had ONE job | HP: 88/150
+// Missing/empty file -> null (the BOSS box hides).
+function parseBoss(text) {
+  const line = newestLine(text);
+  if (!line) return null;
+  const segs = line.split('|').map(s => s.trim());
+  const named = ['ACTIVE', 'VICTORY', 'DEFEAT'].indexOf(segs[0]) >= 0;
+  const state = named ? segs[0] : 'ACTIVE';
+  let name = '';
+  if (!named) name = segs[0];
+  else if (state === 'VICTORY') name = (line.match(/CHAT SLAYS (.+?)!/) || ['', ''])[1];
+  else if (state === 'DEFEAT') name = (line.match(/\| (.+?) survives/) || ['', ''])[1];
+  const hm = line.match(/HP:\s*(\d+)\s*\/\s*(\d+)/);
+  const tm = line.match(/(?:top|MVP):\s*(.+?)\s*\((\d+)/);
+  const sm = line.match(/\|\s*(\d+)s\s*\|/);
+  return {
+    state: state,
+    name: name,
+    hp: hm ? { cur: +hm[1], max: +hm[2] } : null,
+    phase: (line.match(/phase:\s*(\d+)/) || [0, 0])[1] * 1,
+    attackers: (line.match(/attackers:\s*(\d+)/) || [0, 0])[1] * 1,
+    top: tm ? { who: tm[1], dmg: +tm[2] } : null,
+    secs: sm ? +sm[1] : null,
+    raw: line,
+  };
+}
+
+function newestLine(text) {
+  const lines = String(text || '').split('\n').map(s => s.trim()).filter(Boolean);
+  return lines.length ? lines[0] : '';
+}
+
+function esc(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// ==== END PURE ====
+
+// ------------------------- DOM layer -------------------------
+const qs = new URLSearchParams(location.search);
+const DIR = (qs.get('dir') || '').replace(/[^A-Za-z0-9_\-\/.]/g, '');
+const POLL_MS = Math.max(100, parseInt(qs.get('poll'), 10) || CONFIG.pollMs);
+const TOAST_MS = Math.max(CONFIG.fadeOutMs + 100, CONFIG.toastMs);
+
+const stack = document.getElementById('toasts');
+const boxes = {
+  score:   document.getElementById('box-score'),
+  pickups: document.getElementById('box-pickups'),
+  chat:    document.getElementById('box-chat'),
+};
+
+function flashBox(el, color, iters) {
+  el.classList.remove('flash', 'flash3');
+  void el.offsetWidth;                       // restart the animation
+  el.style.setProperty('--flash', color);
+  el.classList.add(iters === 3 ? 'flash3' : 'flash');
+}
+
+// Big transient toast for a fresh command; also flashes the history box.
+function toastCommand(who, verb, time) {
+  const cat = categorize(verb);
+  const color = COLORS[cat];
+  const t = document.createElement('div');
+  t.className = 'toast';
+  t.style.setProperty('--flash', color);
+  t.style.setProperty('--flashGlow', color + '80');
+  t.innerHTML = '<div class="cat">' + cat + '</div>' +
+                '<div class="verbline"><span class="who">' + esc(who) +
+                '</span> &#8594; !' + esc(verb) +
+                '<span class="when">' + esc(time) + '</span></div>';
+  stack.prepend(t);
+  while (stack.children.length > CONFIG.maxToasts)
+    stack.lastElementChild.remove();
+  setTimeout(() => t.classList.add('out'), TOAST_MS - CONFIG.fadeOutMs);
+  setTimeout(() => { if (t.parentNode) t.parentNode.removeChild(t); }, TOAST_MS);
+  flashBox(boxes.chat, color, 2);
+}
+
+function renderList(elId, text, perLine, css, emptyText) {
+  const el = document.getElementById(elId);
+  const lines = text ? text.split('\n').map(s => s.trim()).filter(Boolean).slice(0, perLine) : [];
+  if (!lines.length) { el.innerHTML = '<div class="empty">' + emptyText + '</div>'; return; }
+  el.innerHTML = lines.map(l => {
+    const m = l.match(/^(.*?)\s*\|\s*(.*)$/);
+    const main = m ? m[1] : l, rest = m ? m[2] : '';
+    return '<div class="fade ' + css + '"><span class="who">' + esc(main) + '</span>' +
+           '<span class="time">' + esc(rest) + '</span></div>';
+  }).join('');
+}
+
+function renderScore(sc) {
+  const el = document.getElementById('score');
+  if (sc.deaths === null && sc.commands === null) {
+    el.innerHTML = '<div class="empty">no deaths yet</div>';
+    return;
+  }
+  el.innerHTML =
+    '<div class="fade item">' + (sc.deaths === null ? 0 : sc.deaths) + '<span class="time">deaths</span></div>' +
+    '<div class="fade item">' + (sc.commands === null ? 0 : sc.commands) + '<span class="time">commands</span></div>';
+}
+
+function renderChat(text) {
+  const el = document.getElementById('chat');
+  const lines = text ? text.split('\n').map(s => s.trim()).filter(Boolean).slice(0, CONFIG.depth.chat) : [];
+  if (!lines.length) { el.innerHTML = '<div class="empty">no commands yet</div>'; return; }
+  el.innerHTML = lines.map(l => {
+    const m = parseActivityLine(l);
+    if (!m) return '<div class="fade chat">' + esc(l) + '</div>';
+    return '<div class="fade chat"><span class="who">' + esc(m.who) + '</span> &#8594; !' + esc(m.verb) +
+           '<span class="time">' + esc(m.time) + '</span></div>';
+  }).join('');
+}
+
+// BOSS box: HP bar (pure CSS width), phase color, top attacker. Hides when
+// boss_feed.txt is absent (boss disabled or no fight yet this session).
+const PHASE_COLOR = { 1: '#4da6ff', 2: '#ffb84d', 3: '#ff5d5d' };
+let lastBossState = '';
+function renderBoss(b) {
+  const box = document.getElementById('box-boss');
+  if (!b) { box.style.display = 'none'; lastBossState = ''; return; }
+  box.style.display = '';
+  document.getElementById('boss-name').textContent = b.name || b.state;
+  const fill = document.getElementById('boss-hp');
+  const meta = document.getElementById('boss-meta');
+  const ticker = document.getElementById('boss-ticker');
+  if (b.state === 'ACTIVE' && b.hp) {
+    const pct = Math.max(0, Math.min(100, 100 * b.hp.cur / b.hp.max));
+    fill.style.width = pct + '%';
+    fill.style.background = PHASE_COLOR[b.phase] || PHASE_COLOR[1];
+    meta.textContent = b.hp.cur + ' / ' + b.hp.max + ' HP \u00b7 phase ' + b.phase +
+                       ' \u00b7 attackers: ' + b.attackers +
+                       (b.secs !== null ? ' \u00b7 ' + b.secs + 's left' : '');
+    ticker.innerHTML = 'top attacker: <b>' + esc(b.top ? b.top.who : '-') + '</b>' +
+                       (b.top ? ' (' + b.top.dmg + ' dmg)' : '');
+  } else if (b.state === 'VICTORY') {
+    fill.style.width = '100%';
+    fill.style.background = COLORS.gold;
+    meta.textContent = b.raw.split('|').slice(1).join('-').trim();
+    ticker.textContent = '';
+  } else {
+    const pct = b.hp && b.hp.max ? 100 * b.hp.cur / b.hp.max : 100;
+    fill.style.width = Math.max(0, Math.min(100, pct)) + '%';
+    fill.style.background = COLORS.death;
+    meta.textContent = b.raw.split('|').slice(1).join('-').trim();
+    ticker.textContent = '';
+  }
+  if (b.state !== lastBossState) {           // fight transitions flash the box
+    flashBox(box, b.state === 'VICTORY' ? COLORS.gold : COLORS.death, 2);
+    lastBossState = b.state;
+  }
+}
+
+let deathHoldUntil = 0, deathTimer = 0;
+function deathAlert(n) {
+  flashBox(boxes.score, COLORS.death, 3);
+  document.getElementById('score').innerHTML =
+    '<div class="deathline">chat killed you &#8212; ' + n + ' times</div>';
+  deathHoldUntil = Date.now() + CONFIG.deathFlashMs;
+  clearTimeout(deathTimer);
+  deathTimer = setTimeout(() => { if (lastS !== null) renderScore(parseScore(lastS)); },
+                          CONFIG.deathFlashMs);
+}
+
+async function fetchText(src) {
+  try {
+    const r = await fetch(DIR + src + '?t=' + Date.now(), { cache: 'no-store' });
+    return r.ok ? (await r.text()) : '';
+  } catch (e) { return ''; }
+}
+
+let lastP = '', lastC = '', lastB = '', lastS = null, lastDeaths = null;
+async function tick() {
+  const s = await fetchText('scoreboard.txt');
+  if (s !== lastS) {
+    const firstRead = lastS === null;
+    lastS = s;
+    const sc = parseScore(s);
+    if (sc.deaths !== null && sc.deaths > 0) {
+      if (!firstRead && lastDeaths !== null && sc.deaths > lastDeaths)
+        deathAlert(sc.deaths);                 // chat killed you
+      lastDeaths = sc.deaths;
+    }
+    if (Date.now() >= deathHoldUntil) renderScore(sc);
+  }
+  const p = await fetchText('tracker_items.txt');
+  if (p !== lastP) {
+    const firstRead = lastP === '';
+    lastP = p;
+    renderList('pickups', p, CONFIG.depth.pickups, 'item', 'waiting for pickups...');
+    if (!firstRead && newestLine(p)) flashBox(boxes.pickups, COLORS.gold, 2);
+  }
+  const b = await fetchText('boss_feed.txt');
+  if (b !== lastB) {
+    lastB = b;
+    renderBoss(parseBoss(b));
+  }
+  const c = await fetchText('activity_feed.txt');
+  if (c !== lastC) {
+    const firstRead = lastC === '';
+    const prevTop = newestLine(lastC);
+    lastC = c;
+    renderChat(c);
+    const top = newestLine(c);
+    if (!firstRead && top && top !== prevTop) {
+      const m = parseActivityLine(top);
+      toastCommand(m ? m.who : '?', m ? m.verb : top, m ? m.time : '');
+    }
+  }
+}
+setInterval(tick, POLL_MS);
+tick();
+</script>
+</body>
+</html>

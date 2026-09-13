@@ -1,0 +1,16 @@
+description: Some sort of er with unknown goals
+door_shuffle: basic
+entrance_shuffle:
+  dungeonssimple: 3
+  dungeonsfull: 2
+  simple: 2
+  restricted: 2
+  full: 2
+  crossed: 3
+  insanity: 1
+goals:
+  ganon: 2
+  fast_ganon: 2
+  dungeons: 1
+  pedestal: 2
+  triforce-hunt: 1

@@ -1,0 +1,98 @@
+{
+ "dump_version": 1,
+ "shuffle": "none",
+ "seed": 1234,
+ "spots": [
+  {
+   "dungeon": "Eastern Palace",
+   "spot": null,
+   "room": 200,
+   "default": "Armos Knights",
+   "boss": "Armos Knights"
+  },
+  {
+   "dungeon": "Desert Palace",
+   "spot": null,
+   "room": 51,
+   "default": "Lanmolas",
+   "boss": "Lanmolas"
+  },
+  {
+   "dungeon": "Tower of Hera",
+   "spot": null,
+   "room": 7,
+   "default": "Moldorm",
+   "boss": "Moldorm"
+  },
+  {
+   "dungeon": "Palace of Darkness",
+   "spot": null,
+   "room": 90,
+   "default": "Helmasaur King",
+   "boss": "Helmasaur King"
+  },
+  {
+   "dungeon": "Swamp Palace",
+   "spot": null,
+   "room": 6,
+   "default": "Arrghus",
+   "boss": "Arrghus"
+  },
+  {
+   "dungeon": "Skull Woods",
+   "spot": null,
+   "room": 41,
+   "default": "Mothula",
+   "boss": "Mothula"
+  },
+  {
+   "dungeon": "Thieves Town",
+   "spot": null,
+   "room": 172,
+   "default": "Blind",
+   "boss": "Blind"
+  },
+  {
+   "dungeon": "Ice Palace",
+   "spot": null,
+   "room": 222,
+   "default": "Kholdstare",
+   "boss": "Kholdstare"
+  },
+  {
+   "dungeon": "Misery Mire",
+   "spot": null,
+   "room": 144,
+   "default": "Vitreous",
+   "boss": "Vitreous"
+  },
+  {
+   "dungeon": "Turtle Rock",
+   "spot": null,
+   "room": 164,
+   "default": "Trinexx",
+   "boss": "Trinexx"
+  },
+  {
+   "dungeon": "Ganons Tower",
+   "spot": "bottom",
+   "room": 28,
+   "default": "Armos Knights",
+   "boss": "Armos Knights"
+  },
+  {
+   "dungeon": "Ganons Tower",
+   "spot": "middle",
+   "room": 108,
+   "default": "Lanmolas",
+   "boss": "Lanmolas"
+  },
+  {
+   "dungeon": "Ganons Tower",
+   "spot": "top",
+   "room": 77,
+   "default": "Moldorm",
+   "boss": "Moldorm"
+  }
+ ]
+}

@@ -1,0 +1,462 @@
+{
+ "version": 1,
+ "profile": {
+  "logic": "nologic",
+  "mode": "standard",
+  "door_shuffle": "vanilla",
+  "shuffle": "vanilla",
+  "keyshuffle": "none",
+  "goal": "ganon"
+ },
+ "nodes": {
+  "r032c465bd6": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Beat Agahnim 1",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r1062f11137": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Beat Agahnim 1",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Zelda Delivered",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r16f16c6272": {
+   "op": "item",
+   "item": "Moon Pearl",
+   "count": 1
+  },
+  "r2f624834d9": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r3ef498bec3": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Byrna",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    }
+   ]
+  },
+  "r8b521c2492": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Power Glove",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Titans Mitts",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r916a220c18": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Pegasus Boots",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Fighter Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Master Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Tempered Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Golden Sword",
+           "count": 1
+          }
+         ]
+        },
+        {
+         "op": "item",
+         "item": "Quake",
+         "count": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "rb5019dd3d8": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Power Glove",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Titans Mitts",
+     "count": 1
+    }
+   ]
+  },
+  "rb59b2228ee": {
+   "op": "static",
+   "value": true
+  },
+  "rb682dcf856": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Fighter Sword",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Master Sword",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Tempered Sword",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Golden Sword",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Quake",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rc2e35c6968": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Magic Mirror",
+     "count": 1
+    }
+   ]
+  },
+  "rc713ad15e7": {
+   "op": "item",
+   "item": "Magic Mirror",
+   "count": 1
+  }
+ },
+ "sources": {
+  "r032c465bd6": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1062f11137": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r16f16c6272": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r2f624834d9": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r3ef498bec3": "set_rule(loc, lambda state: state.can_kill_most_things(player))",
+  "r8b521c2492": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r916a220c18": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rb5019dd3d8": "set_rule(loc, lambda state: state.can_lift_rocks(player))",
+  "rb59b2228ee": "self.access_rule = lambda state: True",
+  "rb682dcf856": "set_rule(loc, lambda state: state.can_collect_bonkdrops(player))",
+  "rc2e35c6968": "exit.access_rule = lambda state: state.has('Flippers', player) and state.has_Pearl(player) and state.has_Mirror(player)",
+  "rc713ad15e7": "exit.access_rule = lambda state: state.has_Mirror(player)"
+ },
+ "stats": {
+  "rule_spots": 2740,
+  "trivial_always_true": 2615,
+  "nontrivial_rules": 125,
+  "flattened": 125,
+  "fallback_markers": 0,
+  "flatten_pct": 100.0,
+  "opaque_node_instances": 0,
+  "spots_with_typed_ir": 0
+ },
+ "untranslated": []
+}

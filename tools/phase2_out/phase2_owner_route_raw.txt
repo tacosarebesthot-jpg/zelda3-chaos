@@ -1,0 +1,12 @@
+# route recording 2026-09-11 10:43:25 seed=1234 chapter=1 armed=False
+t=     0ms down      down
+t=    38ms left      down
+t=    74ms down      up
+t=   430ms left      up
+t=   430ms up        down
+t=   787ms right     down
+t=   823ms up        up
+t=  1040ms up        down
+t=  1040ms right     up
+t=  1218ms up        up
+t=  1361ms x         down

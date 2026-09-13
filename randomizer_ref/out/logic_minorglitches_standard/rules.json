@@ -1,0 +1,8468 @@
+{
+ "version": 1,
+ "profile": {
+  "logic": "minorglitches",
+  "mode": "standard",
+  "door_shuffle": "vanilla",
+  "shuffle": "vanilla",
+  "keyshuffle": "none",
+  "goal": "ganon"
+ },
+ "nodes": {
+  "r011202d61f": {
+   "op": "barrier",
+   "region": "TR Chain Chomps Bottom",
+   "barrier": "orange"
+  },
+  "r02479a265c": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "hearts",
+       "count": 4
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cape",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r032c465bd6": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Beat Agahnim 1",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r037444f829": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "barrier",
+       "region": "TR Pokey 2 Bottom",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r03b1887097": {
+   "op": "small_key_door",
+   "door": "Skull Pot Prison ES",
+   "dungeon": "Skull Woods"
+  },
+  "r041552d644": {
+   "op": "barrier",
+   "region": "TR Crystaroller Middle",
+   "barrier": "orange"
+  },
+  "r05273c4a2a": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Hub Switch Blue Barrier N",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Hub Switch",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r05a748ad7c": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hookshot",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Byrna",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Ice Refill",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r0731c4fddc": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    }
+   ]
+  },
+  "r084b6052f1": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Lamp",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r09eaee2253": {
+   "op": "item",
+   "item": "Zelda Delivered",
+   "count": 1
+  },
+  "r0b28b66a23": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Hub Switch Blue Barrier S",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Hub Switch",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r0c5ef8e79c": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Magic Mirror",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Open Floodgate",
+     "count": 1
+    }
+   ]
+  },
+  "r0d5fd60ce0": {
+   "op": "barrier",
+   "region": "Ice Crystal Left",
+   "barrier": "orange"
+  },
+  "r0d7514ba29": {
+   "op": "barrier",
+   "region": "TR Crystaroller Top",
+   "barrier": "orange"
+  },
+  "r0ea256ea62": {
+   "op": "small_key_door",
+   "door": "Skull 1 Lobby WS",
+   "dungeon": "Skull Woods"
+  },
+  "r0eb8dbdf4e": {
+   "op": "item",
+   "item": "Cane of Somaria",
+   "count": 1
+  },
+  "r0f04419b56": {
+   "op": "item",
+   "item": "Deliver Purple Chest",
+   "count": 1
+  },
+  "r0f05646245": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Ice Crystal Right",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r0ffec7e2fd": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Power Glove",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Titans Mitts",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Cape",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 16,
+         "fullrefill": true
+        }
+       ]
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Cane of Byrna",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "extend_magic",
+           "magic": 12,
+           "fullrefill": true
+          },
+          {
+           "op": "item",
+           "item": "Pegasus Boots",
+           "count": 1
+          },
+          {
+           "op": "hearts",
+           "count": 4
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "r102a1f49d2": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    }
+   ]
+  },
+  "r1062f11137": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Beat Agahnim 1",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Zelda Delivered",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r108c339de5": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 16,
+       "fullrefill": false
+      }
+     ]
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Fighter Sword",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Master Sword",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Tempered Sword",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Golden Sword",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "extend_magic",
+       "magic": 32,
+       "fullrefill": false
+      }
+     ]
+    }
+   ]
+  },
+  "r113862d056": {
+   "op": "item",
+   "item": "Big Key (Escape)",
+   "count": 1
+  },
+  "r11c028c879": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "small_key_door",
+     "door": "Mire Dark Shooters SE",
+     "dungeon": "Misery Mire"
+    }
+   ]
+  },
+  "r122355785f": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Thieves Town)",
+     "count": 1
+    }
+   ]
+  },
+  "r129efba164": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Open Floodgate",
+     "count": 1
+    }
+   ]
+  },
+  "r1372ce7aa2": {
+   "op": "barrier",
+   "region": "PoD Bow Statue Right",
+   "barrier": "orange"
+  },
+  "r1397437252": {
+   "op": "barrier",
+   "region": "GT Crystal Conveyor",
+   "barrier": "blue"
+  },
+  "r16415404ce": {
+   "op": "barrier",
+   "region": "PoD Bow Statue Left",
+   "barrier": "orange"
+  },
+  "r16bad2bdef": {
+   "op": "opaque",
+   "reason": "no source available",
+   "python": "lambda state: state.has('Zelda Herself', player) and check_rule_list(state, rule_list))"
+  },
+  "r16f16c6272": {
+   "op": "item",
+   "item": "Moon Pearl",
+   "count": 1
+  },
+  "r1716a23740": {
+   "op": "item",
+   "item": "Lamp",
+   "count": 1
+  },
+  "r175913037b": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "barrier",
+       "region": "Hera Down Stairs Landing",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r1772ad508e": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "PoD Arena Landing",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r17bf5ce32f": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "not",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Farmable Bombs",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Farmable Rupees",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "unlimited",
+           "item": "Bombs (10)"
+          },
+          {
+           "op": "reachable",
+           "spot": "Big Bomb Shop",
+           "spot_type": "Region"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Blue Boomerang",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Red Boomerang",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Ice Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r1869b31808": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Map Spot Blue Barrier",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Map Spot",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r189c245355": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "GT Double Switch Exit",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r192b2ef910": {
+   "op": "item",
+   "item": "Blue Boomerang",
+   "count": 1
+  },
+  "r1b799b26b4": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Magic Powder",
+     "count": 1
+    }
+   ]
+  },
+  "r1c96c3d670": {
+   "op": "barrier",
+   "region": "Thieves Attic",
+   "barrier": "orange"
+  },
+  "r1d0a09bfb1": {
+   "op": "barrier",
+   "region": "Hera Lobby",
+   "barrier": "blue"
+  },
+  "r1d0bd89bba": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Skull Woods)",
+     "count": 1
+    }
+   ]
+  },
+  "r1d1511c08d": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Drained Swamp",
+     "count": 1
+    }
+   ]
+  },
+  "r1df5a51f7e": {
+   "op": "small_key_door",
+   "door": "TR Dash Bridge WS",
+   "dungeon": "Turtle Rock"
+  },
+  "r1dfb31cdce": {
+   "op": "small_key_door",
+   "door": "Swamp Pot Row WS",
+   "dungeon": "Swamp Palace"
+  },
+  "r1e6b84fa5d": {
+   "op": "small_key_door",
+   "door": "GT Firesnake Room SW",
+   "dungeon": "Ganons Tower"
+  },
+  "r1eb3191a34": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r1f950a5f70": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "r20abd4d6e3": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Map Spike Side Blue Barrier",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Map Spike Side",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r21be681e1d": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    }
+   ]
+  },
+  "r21d1093891": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    }
+   ]
+  },
+  "r221318f859": {
+   "op": "item",
+   "item": "Green Pendant",
+   "count": 1
+  },
+  "r227f954420": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    }
+   ]
+  },
+  "r22f5b3180a": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r232d3bab10": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "r24914e302d": {
+   "op": "item",
+   "item": "Big Key (Desert Palace)",
+   "count": 1
+  },
+  "r24d650fee2": {
+   "op": "barrier",
+   "region": "Hera Basement Cage",
+   "barrier": "orange"
+  },
+  "r26848d5dd9": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "TR Crystal Maze Start",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r27557a2f8d": {
+   "op": "barrier",
+   "region": "PoD Dark Pegs Right",
+   "barrier": "orange"
+  },
+  "r281dc3d2ea": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "small_key_door",
+     "door": "Tower Dark Maze ES",
+     "dungeon": "Agahnims Tower"
+    }
+   ]
+  },
+  "r2aef1b8e88": {
+   "op": "small_key_door",
+   "door": "TR Crystaroller Down Stairs",
+   "dungeon": "Turtle Rock"
+  },
+  "r2d66538b5f": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cape",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r2d93636248": {
+   "op": "barrier",
+   "region": "GT Crystal Conveyor Corner",
+   "barrier": "orange"
+  },
+  "r2f45fa9d87": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "small_key_door",
+     "door": "Tower Dark Archers Up Stairs",
+     "dungeon": "Agahnims Tower"
+    }
+   ]
+  },
+  "r2f624834d9": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r2f6bbf244e": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    }
+   ]
+  },
+  "r30ca1657c9": {
+   "op": "barrier",
+   "region": "PoD Dark Pegs Middle",
+   "barrier": "orange"
+  },
+  "r31fdb72073": {
+   "op": "barrier",
+   "region": "Ice Crystal Right",
+   "barrier": "orange"
+  },
+  "r32e665f779": {
+   "op": "small_key_door",
+   "door": "Desert Beamos Hall NE",
+   "dungeon": "Desert Palace"
+  },
+  "r35061f8d8c": {
+   "op": "barrier",
+   "region": "Mire Firesnake Skip",
+   "barrier": "orange"
+  },
+  "r35349687df": {
+   "op": "barrier",
+   "region": "GT Spike Crystal Left",
+   "barrier": "orange"
+  },
+  "r368d008233": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hookshot",
+     "count": 1
+    }
+   ]
+  },
+  "r37dc2721a4": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Crystal Dead End Left Barrier",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Crystal Dead End",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r37fd4974ae": {
+   "op": "item",
+   "item": "Big Key (Turtle Rock)",
+   "count": 1
+  },
+  "r389cf0282f": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Magic Powder",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bow",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Silver Arrows",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Magic Powder",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Fighter Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Master Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Tempered Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Golden Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Hammer",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Hookshot",
+           "count": 1
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Cane of Byrna",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 24,
+         "fullrefill": false
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r3990294ec3": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "not",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Zelda Delivered",
+           "count": 1
+          }
+         ]
+        },
+        {
+         "op": "item",
+         "item": "Farmable Bombs",
+         "count": 1
+        },
+        {
+         "op": "and",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Farmable Rupees",
+           "count": 1
+          },
+          {
+           "op": "or",
+           "nodes": [
+            {
+             "op": "unlimited",
+             "item": "Bombs (10)"
+            },
+            {
+             "op": "reachable",
+             "spot": "Big Bomb Shop",
+             "spot_type": "Region"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    }
+   ]
+  },
+  "r3cc8dc0351": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "not",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Farmable Bombs",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Farmable Rupees",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "unlimited",
+           "item": "Bombs (10)"
+          },
+          {
+           "op": "reachable",
+           "spot": "Big Bomb Shop",
+           "spot_type": "Region"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    }
+   ]
+  },
+  "r3d5c1ea151": {
+   "op": "item",
+   "item": "Ocarina (Activated)",
+   "count": 1
+  },
+  "r3d85000863": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    }
+   ]
+  },
+  "r3e0f0ba7b1": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Beat Agahnim 1",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Zelda Delivered",
+     "count": 1
+    }
+   ]
+  },
+  "r3e3633e475": {
+   "op": "barrier",
+   "region": "GT Spike Crystal Right",
+   "barrier": "orange"
+  },
+  "r3ea130c6be": {
+   "op": "small_key_door",
+   "door": "Ice Spike Cross ES",
+   "dungeon": "Ice Palace"
+  },
+  "r3ef498bec3": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Byrna",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    }
+   ]
+  },
+  "r3faf27eb91": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "not",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Farmable Bombs",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Farmable Rupees",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "unlimited",
+           "item": "Bombs (10)"
+          },
+          {
+           "op": "reachable",
+           "spot": "Big Bomb Shop",
+           "spot_type": "Region"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    }
+   ]
+  },
+  "r40e01cf991": {
+   "op": "small_key_door",
+   "door": "Ice Lonely Freezor NE",
+   "dungeon": "Ice Palace"
+  },
+  "r41ed838c91": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Hub Lower Blue Barrier",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Hub",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r434c216e5b": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    }
+   ]
+  },
+  "r448d90ef0e": {
+   "op": "barrier",
+   "region": "PoD Arena Landing",
+   "barrier": "orange"
+  },
+  "r458f46a2a8": {
+   "op": "barrier",
+   "region": "Hera Tridorm",
+   "barrier": "blue"
+  },
+  "r45a7496a4a": {
+   "op": "small_key_door",
+   "door": "Mire Map Spot WN",
+   "dungeon": "Misery Mire"
+  },
+  "r46226bea3c": {
+   "op": "small_key_door",
+   "door": "TR Pokey 1 NW",
+   "dungeon": "Turtle Rock"
+  },
+  "r478eb981b6": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bow",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Silver Arrows",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Cane of Byrna",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 40,
+         "fullrefill": false
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Ice Rod",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r4b201d6686": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Shining Light",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Maiden Rescued",
+     "count": 1
+    }
+   ]
+  },
+  "r4bba01b127": {
+   "op": "barrier",
+   "region": "Ice Bomb Jump Ledge",
+   "barrier": "orange"
+  },
+  "r4ce8db5223": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Crystal Dead End Right Barrier",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Crystal Dead End",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r4d11b182b1": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "PoD Arena Main",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r4de4ca21d1": {
+   "op": "small_key_door",
+   "door": "GT Torch EN",
+   "dungeon": "Ganons Tower"
+  },
+  "r4ed951ab1c": {
+   "op": "crystals",
+   "count": 7
+  },
+  "r4edbdd8ff3": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    }
+   ]
+  },
+  "r4f52e6e81a": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Mire Crystal Left",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r503fd3f3c9": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "not",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Zelda Delivered",
+           "count": 1
+          }
+         ]
+        },
+        {
+         "op": "item",
+         "item": "Farmable Bombs",
+         "count": 1
+        },
+        {
+         "op": "and",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Farmable Rupees",
+           "count": 1
+          },
+          {
+           "op": "or",
+           "nodes": [
+            {
+             "op": "unlimited",
+             "item": "Bombs (10)"
+            },
+            {
+             "op": "reachable",
+             "spot": "Big Bomb Shop",
+             "spot_type": "Region"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    }
+   ]
+  },
+  "r513c09e107": {
+   "op": "small_key_door",
+   "door": "PoD Middle Cage N",
+   "dungeon": "Palace of Darkness"
+  },
+  "r519e117b47": {
+   "op": "small_key_door",
+   "door": "Hyrule Dungeon Map Room Key Door S",
+   "dungeon": "Hyrule Castle"
+  },
+  "r51ed05ce6b": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Palace of Darkness)",
+     "count": 1
+    }
+   ]
+  },
+  "r51f4540f0c": {
+   "op": "small_key_door",
+   "door": "GT Conveyor Star Pits EN",
+   "dungeon": "Ganons Tower"
+  },
+  "r5246a215c4": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Power Glove",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Titans Mitts",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    }
+   ]
+  },
+  "r5304385bec": {
+   "op": "small_key_door",
+   "door": "Desert East Wing Key Door EN",
+   "dungeon": "Desert Palace"
+  },
+  "r5397ca49b8": {
+   "op": "barrier",
+   "region": "Hera Tridorm",
+   "barrier": "orange"
+  },
+  "r5442e68c24": {
+   "op": "small_key_door",
+   "door": "Swamp Hub North Ledge N",
+   "dungeon": "Swamp Palace"
+  },
+  "r5479baec54": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "GT Double Switch Pot Corners",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r54a1f16a5e": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hookshot",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r54d9302be8": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Hub Upper Blue Barrier",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Hub",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r569dfd6ff6": {
+   "op": "small_key_door",
+   "door": "PoD Arena Main NW",
+   "dungeon": "Palace of Darkness"
+  },
+  "r56fdba10ac": {
+   "op": "item",
+   "item": "Big Key (Misery Mire)",
+   "count": 1
+  },
+  "r579dd675ed": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Pegasus Boots",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r58ea8e888a": {
+   "op": "small_key_door",
+   "door": "PoD Pit Room S",
+   "dungeon": "Palace of Darkness"
+  },
+  "r59003b45ac": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Mushroom",
+     "count": 1
+    },
+    {
+     "op": "reachable",
+     "spot": "Potion Shop Area",
+     "spot_type": "Region"
+    }
+   ]
+  },
+  "r5944718ac4": {
+   "op": "small_key_door",
+   "door": "Ice Tall Hint SE",
+   "dungeon": "Ice Palace"
+  },
+  "r59fb338c33": {
+   "op": "small_key_door",
+   "door": "Ice Switch Room ES",
+   "dungeon": "Ice Palace"
+  },
+  "r5c80c18a95": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Crystal 5",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Crystal 6",
+     "count": 1
+    }
+   ]
+  },
+  "r5d1e817916": {
+   "op": "barrier",
+   "region": "PoD Arena North",
+   "barrier": "orange"
+  },
+  "r5dc42e27d2": {
+   "op": "item",
+   "item": "Return Smith",
+   "count": 1
+  },
+  "r5e0627a332": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Big Key (Desert Palace)",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Lamp",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r5e27d0e27e": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Beat Agahnim 1",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Cape",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    }
+   ]
+  },
+  "r5e36f35eaa": {
+   "op": "item",
+   "item": "Dark Palace Opened",
+   "count": 1
+  },
+  "r5e7d6e1994": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "not",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Farmable Bombs",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Farmable Rupees",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "unlimited",
+           "item": "Bombs (10)"
+          },
+          {
+           "op": "reachable",
+           "spot": "Big Bomb Shop",
+           "spot_type": "Region"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r5e9ce3b007": {
+   "op": "item",
+   "item": "Beat Agahnim 2",
+   "count": 1
+  },
+  "r5e9e52ffe3": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Red Boomerang",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Ice Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r5f1dcc73ed": {
+   "op": "item",
+   "item": "Big Key (Ice Palace)",
+   "count": 1
+  },
+  "r6043aa5f1d": {
+   "op": "small_key_door",
+   "door": "PoD Compass Room SE",
+   "dungeon": "Palace of Darkness"
+  },
+  "r604fb5340b": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Pegasus Boots",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r60b71340ea": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "not",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Farmable Bombs",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Farmable Rupees",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "unlimited",
+           "item": "Bombs (10)"
+          },
+          {
+           "op": "reachable",
+           "spot": "Big Bomb Shop",
+           "spot_type": "Region"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    }
+   ]
+  },
+  "r61f1bdf805": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Trench 1 Filled",
+     "count": 1
+    }
+   ]
+  },
+  "r64984c95b4": {
+   "op": "item",
+   "item": "Detonate Big Bomb",
+   "count": 1
+  },
+  "r651e06203a": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "r663163e59b": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Hub Right Blue Barrier",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Hub Right",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r67f3a930a3": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Mire Compass Room",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r6868ec084e": {
+   "op": "small_key_door",
+   "door": "Skull Map Room SE",
+   "dungeon": "Skull Woods"
+  },
+  "r68a494a5ea": {
+   "op": "small_key_door",
+   "door": "Ice Jelly Key Down Stairs",
+   "dungeon": "Ice Palace"
+  },
+  "r692e87d2f0": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "small_key_door",
+       "door": "Mire Hub Top Blue Barrier",
+       "dungeon": "Misery Mire"
+      },
+      {
+       "op": "barrier",
+       "region": "Mire Hub Top",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r6a59462dbd": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Thieves Town)",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    }
+   ]
+  },
+  "r6a9a7680d3": {
+   "op": "barrier",
+   "region": "GT Crystal Circles",
+   "barrier": "orange"
+  },
+  "r6c61a24a3b": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Silver Arrows",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bow",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 12,
+         "fullrefill": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Ice Rod",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "not",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Zelda Delivered",
+           "count": 1
+          }
+         ]
+        },
+        {
+         "op": "item",
+         "item": "Farmable Bombs",
+         "count": 1
+        },
+        {
+         "op": "and",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Farmable Rupees",
+           "count": 1
+          },
+          {
+           "op": "or",
+           "nodes": [
+            {
+             "op": "unlimited",
+             "item": "Bombs (10)"
+            },
+            {
+             "op": "reachable",
+             "spot": "Big Bomb Shop",
+             "spot_type": "Region"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bow",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 16,
+         "fullrefill": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "r6c80f318f4": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Byrna",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "opaque",
+     "reason": "unresolved call to standard_rules.<locals>.bomb_escape_rule",
+     "python": "bomb_escape_rule()"
+    }
+   ]
+  },
+  "r6d2d820a4c": {
+   "op": "small_key_door",
+   "door": "Skull 3 Lobby NW",
+   "dungeon": "Skull Woods"
+  },
+  "r6d58f7883b": {
+   "op": "item",
+   "item": "Big Key (Ganons Tower)",
+   "count": 1
+  },
+  "r6e81ee80f9": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    }
+   ]
+  },
+  "r6ebd8a9b31": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    }
+   ]
+  },
+  "r6f4e7dc265": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Mire South Fish",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r71c9ef9540": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "barrier",
+       "region": "TR Chain Chomps Bottom",
+       "barrier": "orange"
+      }
+     ]
+    }
+   ]
+  },
+  "r73c7cc5446": {
+   "op": "item",
+   "item": "Drained Swamp",
+   "count": 1
+  },
+  "r7402e19206": {
+   "op": "item",
+   "item": "Flippers",
+   "count": 1
+  },
+  "r7497781cda": {
+   "op": "small_key_door",
+   "door": "Skull Pinball NE",
+   "dungeon": "Skull Woods"
+  },
+  "r74e22bd2d9": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "barrier",
+       "region": "PoD Dark Pegs Middle",
+       "barrier": "orange"
+      }
+     ]
+    }
+   ]
+  },
+  "r75962864a1": {
+   "op": "item",
+   "item": "Titans Mitts",
+   "count": 1
+  },
+  "r772765a629": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "r77409c3aee": {
+   "op": "barrier",
+   "region": "Hera Front",
+   "barrier": "orange"
+  },
+  "r7826c8511d": {
+   "op": "small_key_door",
+   "door": "Desert Tiles 1 Up Stairs",
+   "dungeon": "Desert Palace"
+  },
+  "r79f247fae3": {
+   "op": "barrier",
+   "region": "Hera Back",
+   "barrier": "orange"
+  },
+  "r7a6839e38a": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "barrier",
+       "region": "Swamp Crystal Switch Outer",
+       "barrier": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  "r7a9a534692": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    }
+   ]
+  },
+  "r7aa5612587": {
+   "op": "barrier",
+   "region": "Mire Antechamber",
+   "barrier": "orange"
+  },
+  "r7bd9d54200": {
+   "op": "small_key_door",
+   "door": "Ice Backwards Room Down Stairs",
+   "dungeon": "Ice Palace"
+  },
+  "r7c66759284": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Maiden Unmasked",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r7d9d56543d": {
+   "op": "small_key_door",
+   "door": "TR Pokey 2 ES",
+   "dungeon": "Turtle Rock"
+  },
+  "r7dbd1af50c": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Swamp Trench 2 Pots",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r7e20e972c8": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Ice Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Cane of Byrna",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "not",
+           "nodes": [
+            {
+             "op": "item",
+             "item": "Zelda Delivered",
+             "count": 1
+            }
+           ]
+          },
+          {
+           "op": "item",
+           "item": "Farmable Bombs",
+           "count": 1
+          },
+          {
+           "op": "and",
+           "nodes": [
+            {
+             "op": "item",
+             "item": "Farmable Rupees",
+             "count": 1
+            },
+            {
+             "op": "or",
+             "nodes": [
+              {
+               "op": "unlimited",
+               "item": "Bombs (10)"
+              },
+              {
+               "op": "reachable",
+               "spot": "Big Bomb Shop",
+               "spot_type": "Region"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r7e360cc76a": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "reachable",
+     "spot": "TR Chain Chomps Top",
+     "spot_type": "Region"
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "not",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Farmable Bombs",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Farmable Rupees",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "unlimited",
+           "item": "Bombs (10)"
+          },
+          {
+           "op": "reachable",
+           "spot": "Big Bomb Shop",
+           "spot_type": "Region"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Blue Boomerang",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Red Boomerang",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Ice Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r7e8d9a354d": {
+   "op": "barrier",
+   "region": "GT Double Switch Pot Corners",
+   "barrier": "orange"
+  },
+  "r7ea883a8a3": {
+   "op": "small_key_door",
+   "door": "Thieves Spike Switch Up Stairs",
+   "dungeon": "Thieves Town"
+  },
+  "r7f9d38ec59": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Titans Mitts",
+     "count": 1
+    }
+   ]
+  },
+  "r7fdbd86ef1": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bug Catching Net",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r802ddfdd6c": {
+   "op": "barrier",
+   "region": "TR Crystaroller Bottom",
+   "barrier": "orange"
+  },
+  "r805abb86fd": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 10,
+       "fullrefill": false
+      }
+     ]
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 16,
+       "fullrefill": false
+      }
+     ]
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Ice Rod",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 32,
+       "fullrefill": false
+      }
+     ]
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 32,
+       "fullrefill": false
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    }
+   ]
+  },
+  "r84258c69df": {
+   "op": "barrier",
+   "region": "Hera 5F",
+   "barrier": "orange"
+  },
+  "r84744a87ef": {
+   "op": "barrier",
+   "region": "TR Crystaroller Middle",
+   "barrier": "blue"
+  },
+  "r849560b6c9": {
+   "op": "barrier",
+   "region": "GT Double Switch Left",
+   "barrier": "orange"
+  },
+  "r859902ec39": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Convenient Block",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r86c282b4d0": {
+   "op": "barrier",
+   "region": "PoD Arena Landing",
+   "barrier": "blue"
+  },
+  "r89771408c7": {
+   "op": "barrier",
+   "region": "Hera Up Stairs Landing",
+   "barrier": "orange"
+  },
+  "r89d55bb668": {
+   "op": "item",
+   "item": "Escort Old Man",
+   "count": 1
+  },
+  "r8a076cb953": {
+   "op": "item",
+   "item": "Hidden Pits",
+   "count": 1
+  },
+  "r8a85a5066e": {
+   "op": "barrier",
+   "region": "Hera Tile Room",
+   "barrier": "blue"
+  },
+  "r8b521c2492": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Power Glove",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Titans Mitts",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r8c3b818ea5": {
+   "op": "item",
+   "item": "Pick Up Big Bomb",
+   "count": 1
+  },
+  "r8d2fcaf73b": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    }
+   ]
+  },
+  "r8eb588d5df": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "TR Crystal Maze End",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r8efe57ea23": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    }
+   ]
+  },
+  "r9078853e90": {
+   "op": "small_key_door",
+   "door": "Ice Conveyor SW",
+   "dungeon": "Ice Palace"
+  },
+  "r916a220c18": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Pegasus Boots",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Fighter Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Master Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Tempered Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Golden Sword",
+           "count": 1
+          }
+         ]
+        },
+        {
+         "op": "item",
+         "item": "Quake",
+         "count": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "r923cb10f87": {
+   "op": "static",
+   "value": false
+  },
+  "r94228ac2fe": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Ice Backwards Room",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "r9444a61828": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Beat Agahnim 2",
+     "count": 1
+    },
+    {
+     "op": "crystals",
+     "count": 7
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Lamp",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Silver Arrows",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Bow",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Lamp",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 12,
+       "fullrefill": false
+      }
+     ]
+    }
+   ]
+  },
+  "r945cbb5e92": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bombos",
+     "count": 1
+    }
+   ]
+  },
+  "r95748d0bfb": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "opaque",
+       "reason": "unresolved call to standard_rules.<locals>.bomb_escape_rule",
+       "python": "bomb_escape_rule()"
+      }
+     ]
+    },
+    {
+     "op": "opaque",
+     "reason": "no source available",
+     "python": "lambda state: state.has('Zelda Herself', player) and check_rule_list(state, rule_list))"
+    }
+   ]
+  },
+  "r9621cca838": {
+   "op": "barrier",
+   "region": "Mire Crystal Right",
+   "barrier": "orange"
+  },
+  "r96da22aad3": {
+   "op": "barrier",
+   "region": "Swamp Barrier Ledge",
+   "barrier": "orange"
+  },
+  "r97cc97e8c9": {
+   "op": "item",
+   "item": "Hookshot",
+   "count": 1
+  },
+  "r97ef959646": {
+   "op": "small_key_door",
+   "door": "GT Crystal Circles SW",
+   "dungeon": "Ganons Tower"
+  },
+  "r9861fb8630": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Book of Mudora",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r9898697a03": {
+   "op": "barrier",
+   "region": "Ice Bomb Jump Catwalk",
+   "barrier": "orange"
+  },
+  "r9b0eac5165": {
+   "op": "small_key_door",
+   "door": "GT Hope Room WN",
+   "dungeon": "Ganons Tower"
+  },
+  "r9e04bc371b": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Zelda Delivered",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bug Catching Net",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "r9f73d5ba7c": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Zelda Delivered",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Magic Mirror",
+     "count": 1
+    }
+   ]
+  },
+  "ra14922c7ee": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "ra1c9416ca0": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Mirror Shield",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cape",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "ra22d4f435e": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bow",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Silver Arrows",
+         "count": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "ra301aa588b": {
+   "op": "small_key_door",
+   "door": "Sewers Dark Cross Key Door N",
+   "dungeon": "Hyrule Castle"
+  },
+  "ra3443bc0b8": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Swamp Palace)",
+     "count": 1
+    }
+   ]
+  },
+  "ra3da10a4c7": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Mire Crystal Mid",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "ra658806f80": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "barrier",
+       "region": "TR Crystaroller Middle",
+       "barrier": "orange"
+      }
+     ]
+    }
+   ]
+  },
+  "ra70458c14a": {
+   "op": "barrier",
+   "region": "Thieves Hellway S Crystal",
+   "barrier": "orange"
+  },
+  "ra766600de6": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Cane of Somaria",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 10,
+         "fullrefill": false
+        }
+       ]
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Cane of Byrna",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 16,
+         "fullrefill": false
+        }
+       ]
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Ice Rod",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 32,
+         "fullrefill": false
+        }
+       ]
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Fire Rod",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 32,
+         "fullrefill": false
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Blue Boomerang",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Red Boomerang",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "ra798bd7cde": {
+   "op": "item",
+   "item": "Pick Up Purple Chest",
+   "count": 1
+  },
+  "ra7d6988fe6": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "small_key_door",
+     "door": "Swamp Waterway NW",
+     "dungeon": "Swamp Palace"
+    },
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    }
+   ]
+  },
+  "ra94a3d0dfd": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Ice Crystal Left",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "raa03f7a535": {
+   "op": "item",
+   "item": "Book of Mudora",
+   "count": 1
+  },
+  "raa2a9232ef": {
+   "op": "small_key_door",
+   "door": "GT Mini Helmasaur Room WN",
+   "dungeon": "Ganons Tower"
+  },
+  "raa95771a9b": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hookshot",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Byrna",
+     "count": 1
+    }
+   ]
+  },
+  "rab13d0339e": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "PoD Dark Pegs Left",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rabf995ef66": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bombos",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Fighter Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Master Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Tempered Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Golden Sword",
+           "count": 1
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "radceb6a089": {
+   "op": "bottles",
+   "count": 1
+  },
+  "raddcfedd20": {
+   "op": "item",
+   "item": "Big Key (Tower of Hera)",
+   "count": 1
+  },
+  "rb034625707": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    }
+   ]
+  },
+  "rb04fa28d1d": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Magic Mirror",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Beat Agahnim 1",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Zelda Delivered",
+     "count": 1
+    }
+   ]
+  },
+  "rb07f40f39d": {
+   "op": "small_key_door",
+   "door": "Mire Fishbone SE",
+   "dungeon": "Misery Mire"
+  },
+  "rb0c08b7e4a": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "rb11766ab01": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Red Pendant",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Pendant",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Green Pendant",
+     "count": 1
+    }
+   ]
+  },
+  "rb24b0c843b": {
+   "op": "barrier",
+   "region": "GT Crystal Conveyor Left",
+   "barrier": "orange"
+  },
+  "rb26087a879": {
+   "op": "small_key_door",
+   "door": "Swamp Hub WN",
+   "dungeon": "Swamp Palace"
+  },
+  "rb2bcf2e903": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Hookshot",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    }
+   ]
+  },
+  "rb310b03d08": {
+   "op": "small_key_door",
+   "door": "Swamp Trench 1 Key Ledge NW",
+   "dungeon": "Swamp Palace"
+  },
+  "rb3248d4bd3": {
+   "op": "item",
+   "item": "Zelda Herself",
+   "count": 1
+  },
+  "rb5019dd3d8": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Power Glove",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Titans Mitts",
+     "count": 1
+    }
+   ]
+  },
+  "rb59b2228ee": {
+   "op": "static",
+   "value": true
+  },
+  "rb5e4ae06a2": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Silver Arrows",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rb682dcf856": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Fighter Sword",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Master Sword",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Tempered Sword",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Golden Sword",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Quake",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rb68fe6b85c": {
+   "op": "small_key_door",
+   "door": "Mire Ledgehop SW",
+   "dungeon": "Misery Mire"
+  },
+  "rb6cdddbb97": {
+   "op": "item",
+   "item": "Turtle Opened",
+   "count": 1
+  },
+  "rb74a9dbb91": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "rb967cb87ae": {
+   "op": "barrier",
+   "region": "PoD Dark Pegs Middle",
+   "barrier": "blue"
+  },
+  "rbac39ff5c8": {
+   "op": "small_key_door",
+   "door": "TR Chain Chomps Down Stairs",
+   "dungeon": "Turtle Rock"
+  },
+  "rbb3a7c3718": {
+   "op": "small_key_door",
+   "door": "Mire Hub WS",
+   "dungeon": "Misery Mire"
+  },
+  "rbb905de0a5": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bow",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Silver Arrows",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Cane of Byrna",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 16,
+         "fullrefill": false
+        }
+       ]
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Fire Rod",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 9,
+         "fullrefill": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "rbba4102902": {
+   "op": "item",
+   "item": "Shovel",
+   "count": 1
+  },
+  "rbc9721bd49": {
+   "op": "small_key_door",
+   "door": "Swamp Entrance Down Stairs",
+   "dungeon": "Swamp Palace"
+  },
+  "rbcfc9e6a4d": {
+   "op": "small_key_door",
+   "door": "Desert Tiles 2 NE",
+   "dungeon": "Desert Palace"
+  },
+  "rbde2a40d55": {
+   "op": "small_key_door",
+   "door": "Hera Lobby Key Stairs",
+   "dungeon": "Tower of Hera"
+  },
+  "rbdfb73154a": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Titans Mitts",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Pegasus Boots",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rbed6a06ce8": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Pegasus Boots",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rbf632a99d1": {
+   "op": "small_key_door",
+   "door": "Thieves Hallway WS",
+   "dungeon": "Thieves Town"
+  },
+  "rbfd631cbf6": {
+   "op": "barrier",
+   "region": "Hera Down Stairs Landing",
+   "barrier": "blue"
+  },
+  "rbff50618d3": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Thieves Attic",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rc0402d414f": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "small_key_door",
+     "door": "Eastern Darkness Up Stairs",
+     "dungeon": "Eastern Palace"
+    }
+   ]
+  },
+  "rc1c5901098": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bow",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Silver Arrows",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Ice Rod",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rc2c810c79e": {
+   "op": "item",
+   "item": "Big Key (Thieves Town)",
+   "count": 1
+  },
+  "rc2e35c6968": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Magic Mirror",
+     "count": 1
+    }
+   ]
+  },
+  "rc340cc814d": {
+   "op": "small_key_door",
+   "door": "GT Tile Room EN",
+   "dungeon": "Ganons Tower"
+  },
+  "rc3a6eaa736": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "small_key_door",
+     "door": "TR Hub NW",
+     "dungeon": "Turtle Rock"
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "rc3f19e039c": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Palace of Darkness)",
+     "count": 1
+    }
+   ]
+  },
+  "rc4cb626105": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bombos",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Fighter Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Master Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Tempered Sword",
+           "count": 1
+          },
+          {
+           "op": "item",
+           "item": "Golden Sword",
+           "count": 1
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Fire Rod",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 20,
+         "fullrefill": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "rc5dc7eee98": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "TR Pokey 2 Bottom",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rc675689f6a": {
+   "op": "barrier",
+   "region": "GT Double Switch Entry",
+   "barrier": "orange"
+  },
+  "rc689cad60c": {
+   "op": "not",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Trench 2 Filled",
+     "count": 1
+    }
+   ]
+  },
+  "rc694f23f71": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    }
+   ]
+  },
+  "rc713ad15e7": {
+   "op": "item",
+   "item": "Magic Mirror",
+   "count": 1
+  },
+  "rc71ec16a84": {
+   "op": "barrier",
+   "region": "Swamp Trench 2 Pots",
+   "barrier": "blue"
+  },
+  "rc7fe34a624": {
+   "op": "item",
+   "item": "Big Key (Eastern Palace)",
+   "count": 1
+  },
+  "rc8404a5214": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "small_key_door",
+     "door": "Eastern Dark Square Key Door WN",
+     "dungeon": "Eastern Palace"
+    }
+   ]
+  },
+  "rc84dde6198": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "small_key_door",
+     "door": "Skull 2 West Lobby NW",
+     "dungeon": "Skull Woods"
+    }
+   ]
+  },
+  "rc87b23a0e8": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "GT Hookshot South Entry",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rc96c1aa29f": {
+   "op": "small_key_door",
+   "door": "Mire Hub Right EN",
+   "dungeon": "Misery Mire"
+  },
+  "rc9737deb6c": {
+   "op": "small_key_door",
+   "door": "Thieves Conveyor Bridge WS",
+   "dungeon": "Thieves Town"
+  },
+  "rcad4df7c58": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "barrier",
+       "region": "Hera Up Stairs Landing",
+       "barrier": "orange"
+      }
+     ]
+    }
+   ]
+  },
+  "rcb6c4b67e5": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Beat Agahnim 1",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Zelda Delivered",
+     "count": 1
+    }
+   ]
+  },
+  "rcc29a3682c": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Zelda Delivered",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    }
+   ]
+  },
+  "rce998984ed": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "not",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Farmable Bombs",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Farmable Rupees",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "unlimited",
+           "item": "Bombs (10)"
+          },
+          {
+           "op": "reachable",
+           "spot": "Big Bomb Shop",
+           "spot_type": "Region"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Pegasus Boots",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rd066ab976d": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Drained Swamp",
+     "count": 1
+    }
+   ]
+  },
+  "rd178ae4caf": {
+   "op": "barrier",
+   "region": "TR Chain Chomps Top",
+   "barrier": "orange"
+  },
+  "rd22f57ab32": {
+   "op": "small_key_door",
+   "door": "Sewers Key Rat NE",
+   "dungeon": "Hyrule Castle"
+  },
+  "rd28eca12cf": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Ice Palace)",
+     "count": 1
+    }
+   ]
+  },
+  "rd35d2a55ad": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 10,
+       "fullrefill": false
+      }
+     ]
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 16,
+       "fullrefill": false
+      }
+     ]
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 16,
+       "fullrefill": false
+      }
+     ]
+    }
+   ]
+  },
+  "rd3b7efdaa1": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    }
+   ]
+  },
+  "rd42687d3d7": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Thieves Hellway",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rd48a623230": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "not",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Zelda Delivered",
+           "count": 1
+          }
+         ]
+        },
+        {
+         "op": "item",
+         "item": "Farmable Bombs",
+         "count": 1
+        },
+        {
+         "op": "and",
+         "nodes": [
+          {
+           "op": "item",
+           "item": "Farmable Rupees",
+           "count": 1
+          },
+          {
+           "op": "or",
+           "nodes": [
+            {
+             "op": "unlimited",
+             "item": "Bombs (10)"
+            },
+            {
+             "op": "reachable",
+             "spot": "Big Bomb Shop",
+             "spot_type": "Region"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    }
+   ]
+  },
+  "rd4918275e1": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Bow",
+         "count": 1
+        },
+        {
+         "op": "item",
+         "item": "Silver Arrows",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Cane of Byrna",
+         "count": 1
+        },
+        {
+         "op": "extend_magic",
+         "magic": 40,
+         "fullrefill": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    }
+   ]
+  },
+  "rd545cbf4ca": {
+   "op": "small_key_door",
+   "door": "Tower Room 03 Up Stairs",
+   "dungeon": "Agahnims Tower"
+  },
+  "rd59db0c17f": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Flippers",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Trench 2 Filled",
+     "count": 1
+    }
+   ]
+  },
+  "rd5f5da5615": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Byrna",
+     "count": 1
+    }
+   ]
+  },
+  "rd68d6bd62e": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rd6d70625e8": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "not",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Zelda Delivered",
+         "count": 1
+        }
+       ]
+      },
+      {
+       "op": "item",
+       "item": "Farmable Bombs",
+       "count": 1
+      },
+      {
+       "op": "and",
+       "nodes": [
+        {
+         "op": "item",
+         "item": "Farmable Rupees",
+         "count": 1
+        },
+        {
+         "op": "or",
+         "nodes": [
+          {
+           "op": "unlimited",
+           "item": "Bombs (10)"
+          },
+          {
+           "op": "reachable",
+           "spot": "Big Bomb Shop",
+           "spot_type": "Region"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "rd6d86be635": {
+   "op": "small_key_door",
+   "door": "PoD Basement Ledge Up Stairs",
+   "dungeon": "Palace of Darkness"
+  },
+  "rd71e22df1a": {
+   "op": "item",
+   "item": "Open Floodgate",
+   "count": 1
+  },
+  "rd8f19da0be": {
+   "op": "item",
+   "item": "Get Frog",
+   "count": 1
+  },
+  "rd99694826a": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Hookshot",
+       "count": 1
+      },
+      {
+       "op": "barrier",
+       "region": "TR Crystaroller Bottom",
+       "barrier": "orange"
+      }
+     ]
+    }
+   ]
+  },
+  "rdbcb827291": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "rdbe995da3e": {
+   "op": "barrier",
+   "region": "TR Crystal Maze Interior",
+   "barrier": "blue"
+  },
+  "rdc6695bbe2": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Ice Rod",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Fire Rod",
+     "count": 1
+    }
+   ]
+  },
+  "rdd2031fe3c": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Silver Arrows",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 56,
+       "fullrefill": false
+      }
+     ]
+    }
+   ]
+  },
+  "rde5b2c3c46": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Fighter Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Master Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Tempered Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Golden Sword",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Somaria",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Fire Rod",
+       "count": 1
+      },
+      {
+       "op": "opaque",
+       "reason": "unresolved call to standard_rules.<locals>.bomb_escape_rule",
+       "python": "bomb_escape_rule()"
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Escape)",
+     "count": 1
+    }
+   ]
+  },
+  "rde8ea30588": {
+   "op": "small_key_door",
+   "door": "GT Hookshot ES",
+   "dungeon": "Ganons Tower"
+  },
+  "rdf5c713576": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Thieves Triple Bypass",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rdfa32a1b4f": {
+   "op": "small_key_door",
+   "door": "Mire Spike Barrier NE",
+   "dungeon": "Misery Mire"
+  },
+  "re03e5e8288": {
+   "op": "item",
+   "item": "Magic Powder",
+   "count": 1
+  },
+  "re06c41557d": {
+   "op": "small_key_door",
+   "door": "Hyrule Dungeon Armory Interior Key Door N",
+   "dungeon": "Hyrule Castle"
+  },
+  "re131d752c4": {
+   "op": "small_key_door",
+   "door": "Skull Spike Corner ES",
+   "dungeon": "Skull Woods"
+  },
+  "re19ce5c971": {
+   "op": "item",
+   "item": "Pegasus Boots",
+   "count": 1
+  },
+  "re19ece1cbd": {
+   "op": "barrier",
+   "region": "Mire Crystal Mid",
+   "barrier": "orange"
+  },
+  "re1e3456bc2": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Misery Mire)",
+     "count": 1
+    }
+   ]
+  },
+  "re223f007c5": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Blue Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Red Boomerang",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    }
+   ]
+  },
+  "re3782c47c0": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Power Glove",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Titans Mitts",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    }
+   ]
+  },
+  "re4f75c93b6": {
+   "op": "barrier",
+   "region": "Thieves Hellway",
+   "barrier": "orange"
+  },
+  "re6c28aa077": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hidden Pits",
+     "count": 1
+    }
+   ]
+  },
+  "re86c6546de": {
+   "op": "small_key_door",
+   "door": "Mire Conveyor Crystal WS",
+   "dungeon": "Misery Mire"
+  },
+  "re8ce38131b": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "not",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Zelda Delivered",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Farmable Bombs",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Farmable Rupees",
+       "count": 1
+      },
+      {
+       "op": "or",
+       "nodes": [
+        {
+         "op": "unlimited",
+         "item": "Bombs (10)"
+        },
+        {
+         "op": "reachable",
+         "spot": "Big Bomb Shop",
+         "spot_type": "Region"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "re900b38485": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Lamp",
+     "count": 1
+    },
+    {
+     "op": "small_key_door",
+     "door": "PoD Dark Pegs WN",
+     "dungeon": "Palace of Darkness"
+    }
+   ]
+  },
+  "re91746ed75": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Turtle Rock)",
+     "count": 1
+    }
+   ]
+  },
+  "rea701179e6": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Thieves Hellway N Crystal",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rebd02bc030": {
+   "op": "barrier",
+   "region": "Hera Front",
+   "barrier": "blue"
+  },
+  "red1498d23b": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "Swamp Shortcut",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "ree41658e8f": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Big Key (Ganons Tower)",
+     "count": 1
+    }
+   ]
+  },
+  "ref90521e9c": {
+   "op": "small_key_door",
+   "door": "Tower Circle of Pots ES",
+   "dungeon": "Agahnims Tower"
+  },
+  "rf075167d38": {
+   "op": "barrier",
+   "region": "Thieves Attic",
+   "barrier": "blue"
+  },
+  "rf16ac1df5a": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "TR Pokey 2 Top",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rf298638541": {
+   "op": "not",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Trench 1 Filled",
+     "count": 1
+    }
+   ]
+  },
+  "rf3340ac27a": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Titans Mitts",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Pegasus Boots",
+     "count": 1
+    }
+   ]
+  },
+  "rf3549332c0": {
+   "op": "small_key_door",
+   "door": "PoD Falling Bridge WN",
+   "dungeon": "Palace of Darkness"
+  },
+  "rf36fda34dd": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Silver Arrows",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 24,
+       "fullrefill": false
+      }
+     ]
+    }
+   ]
+  },
+  "rf4c4f857db": {
+   "op": "small_key_door",
+   "door": "Ice Spike Room WS",
+   "dungeon": "Ice Palace"
+  },
+  "rf514e46d4c": {
+   "op": "item",
+   "item": "Return Old Man",
+   "count": 1
+  },
+  "rf5154c54ed": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "or",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Power Glove",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Titans Mitts",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Hammer",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rf54ec1324f": {
+   "op": "item",
+   "item": "Ocarina",
+   "count": 1
+  },
+  "rf8800c516c": {
+   "op": "item",
+   "item": "Pick Up Kiki",
+   "count": 1
+  },
+  "rf88dd16c2f": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Zelda Delivered",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Return Old Man",
+     "count": 1
+    }
+   ]
+  },
+  "rf8aba500b7": {
+   "op": "or",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Fighter Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Master Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Tempered Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Golden Sword",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Hammer",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Bow",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Bow",
+       "count": 1
+      },
+      {
+       "op": "item",
+       "item": "Silver Arrows",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "op": "item",
+     "item": "Cane of Somaria",
+     "count": 1
+    },
+    {
+     "op": "and",
+     "nodes": [
+      {
+       "op": "item",
+       "item": "Cane of Byrna",
+       "count": 1
+      },
+      {
+       "op": "extend_magic",
+       "magic": 40,
+       "fullrefill": false,
+       "shop_regions": [
+        "Potion Shop"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "rf9d568c89d": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "GT Hookshot South Platform",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rf9f6ce4dc6": {
+   "op": "barrier",
+   "region": "GT Crystal Conveyor Corner",
+   "barrier": "blue"
+  },
+  "rfa0de53b60": {
+   "op": "barrier",
+   "region": "TR Crystaroller Chest",
+   "barrier": "blue"
+  },
+  "rfa2222de09": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "item",
+     "item": "Cape",
+     "count": 1
+    }
+   ]
+  },
+  "rfa54b5c2ef": {
+   "op": "small_key_door",
+   "door": "Mire Spikes NW",
+   "dungeon": "Misery Mire"
+  },
+  "rfd39eebc30": {
+   "op": "and",
+   "nodes": [
+    {
+     "op": "item",
+     "item": "Moon Pearl",
+     "count": 1
+    },
+    {
+     "op": "barrier",
+     "region": "PoD Arena Right",
+     "barrier": "blue"
+    }
+   ]
+  },
+  "rfdd0f5a50a": {
+   "op": "item",
+   "item": "Hammer",
+   "count": 1
+  },
+  "rff0b0b09cf": {
+   "op": "small_key_door",
+   "door": "GT Double Switch EN",
+   "dungeon": "Ganons Tower"
+  },
+  "rffbd826864": {
+   "op": "barrier",
+   "region": "Swamp Barrier",
+   "barrier": "orange"
+  }
+ },
+ "sources": {
+  "r011202d61f": "set_rule(world.get_entrance('TR Chain Chomps Bottom to Top Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('TR Chain Chomps Bottom', player), player))",
+  "r02479a265c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r032c465bd6": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r037444f829": "set_rule(world.get_entrance('TR Pokey 2 Bottom to Ranged Crystal', player), lambda state: state.can_hit_crystal_through_barrier(player) or (state.has('Hookshot', player) and state.can_reach_blue(world.get_region('TR Pokey 2 Bottom', player), player))) # or state.has_beam_sword(player)",
+  "r03b1887097": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r041552d644": "set_rule(world.get_entrance('TR Crystaroller Middle to Bottom Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('TR Crystaroller Middle', player), player))",
+  "r05273c4a2a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r05a748ad7c": "set_rule(world.get_entrance('Ice Refill to Crystal', player), lambda state: state.can_hit_crystal(player) or state.can_reach_blue(world.get_region('Ice Refill', player), player))",
+  "r0731c4fddc": "set_rule(world.get_entrance('GT Spike Crystal Left to Right Bypass', player), lambda state: state.can_use_bombs(player) or state.has('Cane of Somaria', player) or state.has('Red Boomerang', player) or state.has('Blue Boomerang', player) or state.has('Fire Rod', player) or state.has('Ice Rod', player)) # or state.can_use_beam_sword(player)",
+  "r084b6052f1": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r09eaee2253": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r0b28b66a23": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r0c5ef8e79c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r0d5fd60ce0": "set_rule(world.get_entrance('Ice Crystal Left Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Ice Crystal Left', player), player))",
+  "r0d7514ba29": "set_rule(world.get_entrance('TR Crystaroller Top to Middle Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('TR Crystaroller Top', player), player))",
+  "r0ea256ea62": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r0eb8dbdf4e": "set_rule(world.get_entrance('PoD Bow Statue Right to Ranged Crystal', player), lambda state: state.has('Cane of Somaria', player))",
+  "r0f04419b56": "set_rule(world.get_location('Purple Chest', player), lambda state: state.has('Deliver Purple Chest', player)) # Can S&Q with chest",
+  "r0f05646245": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r0ffec7e2fd": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r102a1f49d2": "set_rule(world.get_entrance('GT Double Switch Left to Pot Corners Bypass', player), lambda state: state.can_use_bombs(player) or state.has('Cane of Somaria', player) or state.has('Red Boomerang', player)) # or (state.has('Blue Boomerang', player) and state.has('Hookshot', player)) or (state.has('Ice Rod', player) and state.has('Hookshot', player)) or state.has('Hookshot', player) /// You can [...]",
+  "r1062f11137": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r108c339de5": "set_rule(entrance, lambda state: entrance.parent_region.dungeon.boss.can_defeat(state))",
+  "r113862d056": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r11c028c879": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r122355785f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r129efba164": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1372ce7aa2": "set_rule(world.get_entrance('PoD Bow Statue Right to Left Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('PoD Bow Statue Right', player), player))",
+  "r1397437252": "set_rule(world.get_entrance('GT Crystal Conveyor to Corner Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('GT Crystal Conveyor', player), player))",
+  "r16415404ce": "set_rule(world.get_entrance('PoD Bow Statue Left to Right Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('PoD Bow Statue Left', player), player))",
+  "r16bad2bdef": "lambda state: state.has('Zelda Herself', player) and check_rule_list(state, rule_list))",
+  "r16f16c6272": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1716a23740": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r175913037b": "set_rule(world.get_entrance('Hera Down Stairs Landing to Ranged Crystal', player), lambda state: state.can_hit_crystal_through_barrier(player) or (state.has('Hookshot', player) and state.can_reach_blue(world.get_region('Hera Down Stairs Landing', player), player))) # or state.has_beam_sword(player)",
+  "r1772ad508e": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r17bf5ce32f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1869b31808": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r189c245355": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r192b2ef910": "set_rule(world.get_entrance('PoD Dark Pegs Right to Middle Bypass', player), lambda state: state.has('Blue Boomerang', player))",
+  "r1b799b26b4": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1c96c3d670": "set_rule(world.get_entrance('Thieves Attic Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Thieves Attic', player), player))",
+  "r1d0a09bfb1": "set_rule(world.get_entrance('Hera Lobby to Front Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('Hera Lobby', player), player))",
+  "r1d0bd89bba": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1d1511c08d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1df5a51f7e": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1dfb31cdce": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1e6b84fa5d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1eb3191a34": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r1f950a5f70": "set_rule(world.get_entrance('GT Crystal Conveyor to Ranged Crystal', player), lambda state: state.can_use_bombs(player) or state.has('Cane of Somaria', player))",
+  "r20abd4d6e3": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r21be681e1d": "set_rule(world.get_entrance('Tower Altar NW', player), lambda state: state.has_sword(player))",
+  "r21d1093891": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r221318f859": "set_rule(world.get_location('Sahasrahla', player), lambda state: state.has('Green Pendant', player))",
+  "r227f954420": "set_rule(entrance, lambda state: entrance.parent_region.dungeon.boss.can_defeat(state))",
+  "r22f5b3180a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r232d3bab10": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r24914e302d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r24d650fee2": "set_rule(world.get_location('Tower of Hera - Basement Cage', player), lambda state: state.can_reach_orange(world.get_region('Hera Basement Cage', player), player))",
+  "r26848d5dd9": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r27557a2f8d": "set_rule(world.get_entrance('PoD Dark Pegs Right to Middle Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('PoD Dark Pegs Right', player), player))",
+  "r281dc3d2ea": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r2aef1b8e88": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r2d66538b5f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r2d93636248": "set_rule(world.get_entrance('GT Crystal Conveyor Corner to Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('GT Crystal Conveyor Corner', player), player))",
+  "r2f45fa9d87": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r2f624834d9": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r2f6bbf244e": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r30ca1657c9": "set_rule(world.get_entrance('PoD Dark Pegs Middle to Right Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('PoD Dark Pegs Middle', player), player))",
+  "r31fdb72073": "set_rule(world.get_entrance('Ice Crystal Right Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Ice Crystal Right', player), player))",
+  "r32e665f779": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r35061f8d8c": "set_rule(world.get_entrance('Mire Firesnake Skip Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Mire Firesnake Skip', player), player))",
+  "r35349687df": "set_rule(world.get_entrance('GT Spike Crystal Left to Right Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('GT Spike Crystal Left', player), player))",
+  "r368d008233": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r37dc2721a4": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r37fd4974ae": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r389cf0282f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r3990294ec3": "set_rule(entrance, lambda state: entrance.parent_region.dungeon.boss.can_defeat(state))",
+  "r3cc8dc0351": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r3d5c1ea151": "set_rule(world.get_entrance('Flute Spot 1', player), lambda state: state.can_flute(player))",
+  "r3d85000863": "set_rule(world.get_entrance('Hera Front to Back Bypass', player), lambda state: state.can_use_bombs(player) or state.can_shoot_arrows(player) or state.has('Red Boomerang', player) or state.has('Blue Boomerang', player) or state.has('Cane of Somaria', player) or state.has('Fire Rod', player) or state.has('Ice Rod', player)) # or state.has_beam_sword(player)",
+  "r3e0f0ba7b1": "set_rule(world.get_entrance('Castle Gate Teleporter', player), lambda state: state.has_beaten_aga(player))",
+  "r3e3633e475": "set_rule(world.get_entrance('GT Spike Crystal Right to Left Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('GT Spike Crystal Right', player), player))",
+  "r3ea130c6be": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r3ef498bec3": "set_rule(loc, lambda state: state.can_kill_most_things(player))",
+  "r3faf27eb91": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r40e01cf991": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r41ed838c91": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r434c216e5b": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r448d90ef0e": "set_rule(world.get_entrance('PoD Arena Landing to North Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('PoD Arena Landing', player), player))",
+  "r458f46a2a8": "set_rule(world.get_entrance('Hera Tridorm WN', player), lambda state: state.can_reach_blue(world.get_region('Hera Tridorm', player), player))",
+  "r45a7496a4a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r46226bea3c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r478eb981b6": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r4b201d6686": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r4bba01b127": "set_rule(world.get_entrance('Ice Bomb Jump Ledge Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Ice Bomb Jump Ledge', player), player))",
+  "r4ce8db5223": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r4d11b182b1": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r4de4ca21d1": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r4ed951ab1c": "set_rule(world.get_entrance('GT Leave', player), lambda state: state.has_crystals(world.crystals_needed_for_gt[player], player) or state.world.shuffle[player] in ('restricted', 'full', 'lite', 'lean', 'district', 'swapped', 'crossed', 'insanity'))",
+  "r4edbdd8ff3": "set_rule(world.get_entrance('TR Crystaroller Middle to Bottom Bypass', player), lambda state: state.can_use_bombs(player) or state.has('Blue Boomerang', player))",
+  "r4f52e6e81a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r503fd3f3c9": "set_rule(entrance, lambda state: entrance.parent_region.dungeon.boss.can_defeat(state))",
+  "r513c09e107": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r519e117b47": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r51ed05ce6b": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r51f4540f0c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r5246a215c4": "set_rule(world.get_entrance('East Hyrule Teleporter', player), lambda state: state.has('Hammer', player) and state.can_lift_rocks(player) and state.has_Pearl(player)) # bunny cannot use hammer",
+  "r5304385bec": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r5397ca49b8": "set_rule(world.get_entrance('Hera Tridorm SE', player), lambda state: state.can_reach_orange(world.get_region('Hera Tridorm', player), player))",
+  "r5442e68c24": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r5479baec54": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r54a1f16a5e": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r54d9302be8": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r569dfd6ff6": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r56fdba10ac": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r579dd675ed": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r58ea8e888a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r59003b45ac": "set_rule(world.get_location('Potion Shop', player), lambda state: state.has('Mushroom', player) and state.can_reach('Potion Shop Area', 'Region', player))",
+  "r5944718ac4": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r59fb338c33": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r5c80c18a95": "set_rule(world.get_location('Big Bomb', player), lambda state: state.has('Crystal 5', player) and state.has('Crystal 6', player))",
+  "r5d1e817916": "set_rule(world.get_entrance('PoD Arena North to Landing Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('PoD Arena North', player), player))",
+  "r5dc42e27d2": "set_rule(world.get_location('Blacksmith', player), lambda state: state.has('Return Smith', player))",
+  "r5e0627a332": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r5e27d0e27e": "spot.access_rule = lambda state: rule(state) or old_rule(state)",
+  "r5e36f35eaa": "set_rule(world.get_entrance('Palace of Darkness', player), lambda state: state.has('Dark Palace Opened', player))",
+  "r5e7d6e1994": "set_rule(entrance, lambda state: entrance.parent_region.dungeon.boss.can_defeat(state))",
+  "r5e9ce3b007": "set_rule(world.get_entrance('Pyramid Hole', player), lambda state: world.is_pyramid_open(player) or state.has('Beat Agahnim 2', player))",
+  "r5e9e52ffe3": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r5f1dcc73ed": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r6043aa5f1d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r604fb5340b": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r60b71340ea": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r61f1bdf805": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r64984c95b4": "set_rule(world.get_entrance('Pyramid Crack', player), lambda state: state.has('Detonate Big Bomb', player))",
+  "r651e06203a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r663163e59b": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r67f3a930a3": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r6868ec084e": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r68a494a5ea": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r692e87d2f0": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r6a59462dbd": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r6a9a7680d3": "set_rule(world.get_entrance('GT Crystal Circles Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('GT Crystal Circles', player), player))",
+  "r6c61a24a3b": "set_rule(entrance, lambda state: entrance.parent_region.dungeon.boss.can_defeat(state))",
+  "r6c80f318f4": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r6d2d820a4c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r6d58f7883b": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r6e81ee80f9": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r6ebd8a9b31": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r6f4e7dc265": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r71c9ef9540": "set_rule(world.get_entrance('TR Chain Chomps Bottom to Ranged Crystal', player), lambda state: state.can_hit_crystal_through_barrier(player) or (state.has('Hookshot', player) and state.can_reach_orange(world.get_region('TR Chain Chomps Bottom', player), player))) # or state.has_beam_sword(player)",
+  "r73c7cc5446": "set_rule(world.get_entrance('Swamp Drain WN', player), lambda state: state.has('Drained Swamp', player))",
+  "r7402e19206": "set_rule(world.get_entrance('Ice Cave Water Drop', player), lambda state: state.has('Flippers', player))",
+  "r7497781cda": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r74e22bd2d9": "set_rule(world.get_entrance('PoD Dark Pegs Middle to Ranged Crystal', player), lambda state: state.can_shoot_arrows(player) or state.can_use_bombs(player) or state.has('Red Boomerang', player) or state.has('Fire Rod', player) or state.has('Ice Rod', player) or state.has('Cane of Somaria', player) or (state.has('Hookshot', player) and state.can_reach_orange(world.get_region('PoD Dark Pegs [...]",
+  "r75962864a1": "set_rule(world.get_entrance('TR Pegs Ledge Entry', player), lambda state: state.can_lift_heavy_rocks(player))",
+  "r772765a629": "set_rule(world.get_entrance('Hera Back to Ranged Crystal', player), lambda state: state.can_shoot_arrows(player) or state.has('Fire Rod', player) or state.has('Ice Rod', player) or state.has('Cane of Somaria', player)) # or state.has_beam_sword(player) or (state.has('Hookshot', player) and state.has('Red Boomerang', player))",
+  "r77409c3aee": "set_rule(world.get_entrance('Hera Front to Back Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('Hera Front', player), player))",
+  "r7826c8511d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r79f247fae3": "set_rule(world.get_entrance('Hera Back to Front Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('Hera Back', player), player))",
+  "r7a6839e38a": "set_rule(world.get_entrance('Swamp Crystal Switch Outer to Ranged Crystal', player), lambda state: state.can_hit_crystal_through_barrier(player) or state.has_beam_sword(player) or (state.has('Hookshot', player) and state.can_reach_blue(world.get_region('Swamp Crystal Switch Outer', player), player))) # It is the length of the sword, not the beam itself that allows this",
+  "r7a9a534692": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r7aa5612587": "set_rule(world.get_entrance('Mire Antechamber Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Mire Antechamber', player), player))",
+  "r7bd9d54200": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r7c66759284": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r7d9d56543d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r7dbd1af50c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r7e20e972c8": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r7e360cc76a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r7e8d9a354d": "set_rule(world.get_entrance('GT Double Switch Pot Corners to Entry Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('GT Double Switch Pot Corners', player), player))",
+  "r7ea883a8a3": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r7f9d38ec59": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r7fdbd86ef1": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r802ddfdd6c": "set_rule(world.get_entrance('TR Crystaroller Bottom to Middle Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('TR Crystaroller Bottom', player), player))",
+  "r805abb86fd": "set_rule(entrance, lambda state: entrance.parent_region.dungeon.boss.can_defeat(state))",
+  "r84258c69df": "set_rule(world.get_entrance('Hera 5F Orange Path', player), lambda state: state.can_reach_orange(world.get_region('Hera 5F', player), player))",
+  "r84744a87ef": "set_rule(world.get_entrance('TR Crystaroller Middle to Chest Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('TR Crystaroller Middle', player), player))",
+  "r849560b6c9": "set_rule(world.get_entrance('GT Double Switch Left to Entry Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('GT Double Switch Left', player), player))",
+  "r859902ec39": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r86c282b4d0": "set_rule(world.get_entrance('PoD Arena Landing to Main Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('PoD Arena Landing', player), player))",
+  "r89771408c7": "set_rule(world.get_entrance('Hera Up Stairs to Front Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('Hera Up Stairs Landing', player), player))",
+  "r89d55bb668": "set_rule(world.get_location('Old Man Drop Off', player), lambda state: state.has('Escort Old Man', player))",
+  "r8a076cb953": "def hidden_pits_rule(state): return state.has('Hidden Pits', player)",
+  "r8a85a5066e": "set_rule(world.get_entrance('Hera Tile Room EN', player), lambda state: state.can_reach_blue(world.get_region('Hera Tile Room', player), player))",
+  "r8b521c2492": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r8c3b818ea5": "set_rule(world.get_location('Pyramid Crack', player), lambda state: state.has('Pick Up Big Bomb', player))",
+  "r8d2fcaf73b": "set_rule(world.get_location('Tower of Hera - Big Key Chest', player), lambda state: state.has_fire_source(player))",
+  "r8eb588d5df": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r8efe57ea23": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r9078853e90": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r916a220c18": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r923cb10f87": "set_rule(world.get_entrance('GT Double Switch Entry to Ranged Switches', player), lambda state: False) # state.has('Cane of Somaria', player)",
+  "r94228ac2fe": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r9444a61828": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r945cbb5e92": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r95748d0bfb": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r9621cca838": "set_rule(world.get_entrance('Mire Crystal Right Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Mire Crystal Right', player), player))",
+  "r96da22aad3": "set_rule(world.get_entrance('Swamp Barrier Ledge - Orange', player), lambda state: state.can_reach_orange(world.get_region('Swamp Barrier Ledge', player), player))",
+  "r97cc97e8c9": "set_rule(world.get_entrance('DM Broken Bridge (West)', player), lambda state: state.has('Hookshot', player))",
+  "r97ef959646": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r9861fb8630": "set_rule(world.get_location('Bombos Tablet', player), lambda state: state.has('Book of Mudora', player) and state.has_beam_sword(player))",
+  "r9898697a03": "set_rule(world.get_entrance('Ice Bomb Jump Catwalk Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Ice Bomb Jump Catwalk', player), player))",
+  "r9b0eac5165": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r9e04bc371b": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "r9f73d5ba7c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ra14922c7ee": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ra1c9416ca0": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ra22d4f435e": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ra301aa588b": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ra3443bc0b8": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ra3da10a4c7": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ra658806f80": "set_rule(world.get_entrance('TR Crystaroller Middle to Ranged Crystal', player), lambda state: state.can_hit_crystal_through_barrier(player) or (state.has('Hookshot', player) and state.can_reach_orange(world.get_region('TR Crystaroller Middle', player), player))) # or state.has_beam_sword(player)",
+  "ra70458c14a": "set_rule(world.get_entrance('Thieves Hellway Crystal Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Thieves Hellway S Crystal', player), player))",
+  "ra766600de6": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ra798bd7cde": "set_rule(world.get_location('Middle Aged Man', player), lambda state: state.has('Pick Up Purple Chest', player)) # Can S&Q with chest",
+  "ra7d6988fe6": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ra94a3d0dfd": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "raa03f7a535": "set_rule(world.get_entrance('Desert Statue Move', player), lambda state: state.has('Book of Mudora', player))",
+  "raa2a9232ef": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "raa95771a9b": "set_rule(world.get_entrance('GT Double Switch Left to Crystal', player), lambda state: state.can_hit_crystal(player))",
+  "rab13d0339e": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rabf995ef66": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "radceb6a089": "set_rule(world.get_location('Sick Kid', player), lambda state: state.has_bottle(player))",
+  "raddcfedd20": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rb034625707": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rb04fa28d1d": "set_rule(world.get_entrance('Other World S&Q', player), lambda state: state.has_Mirror(player) and state.has_beaten_aga(player))",
+  "rb07f40f39d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rb0c08b7e4a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rb11766ab01": "set_rule(world.get_location('Master Sword Pedestal', player), lambda state: state.has('Red Pendant', player) and state.has('Blue Pendant', player) and state.has('Green Pendant', player))",
+  "rb24b0c843b": "set_rule(world.get_entrance('GT Crystal Conveyor Left to Corner Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('GT Crystal Conveyor Left', player), player))",
+  "rb26087a879": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rb2bcf2e903": "set_rule(world.get_entrance('Hookshot Cave Bonk Path', player), lambda state: state.has('Hookshot', player) or state.has('Pegasus Boots', player))",
+  "rb310b03d08": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rb3248d4bd3": "set_rule(world.get_entrance('Hyrule Castle Tapestry Backwards', player), lambda state: state.has('Zelda Herself', player))",
+  "rb5019dd3d8": "set_rule(world.get_entrance('C Whirlpool Rock (Bottom)', player), lambda state: state.can_lift_rocks(player))",
+  "rb59b2228ee": "self.access_rule = lambda state: True",
+  "rb5e4ae06a2": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rb682dcf856": "set_rule(loc, lambda state: state.can_collect_bonkdrops(player))",
+  "rb68fe6b85c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rb6cdddbb97": "set_rule(world.get_entrance('Turtle Rock', player), lambda state: state.has('Turtle Opened', player))",
+  "rb74a9dbb91": "set_rule(world.get_entrance('PoD Arena Bridge to Ranged Crystal', player), lambda state: state.can_shoot_arrows(player) or state.has('Red Boomerang', player) or state.has('Fire Rod', player) or state.has('Ice Rod', player) or state.has('Cane of Somaria', player)) # or state.has_beam_sword(player)",
+  "rb967cb87ae": "set_rule(world.get_entrance('PoD Dark Pegs Middle to Left Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('PoD Dark Pegs Middle', player), player))",
+  "rbac39ff5c8": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rbb3a7c3718": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rbb905de0a5": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rbba4102902": "set_rule(world.get_location('Flute Spot', player), lambda state: state.has('Shovel', player))",
+  "rbc9721bd49": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rbcfc9e6a4d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rbde2a40d55": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rbdfb73154a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rbed6a06ce8": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rbf632a99d1": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rbfd631cbf6": "set_rule(world.get_entrance('Hera Down Stairs to Front Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('Hera Down Stairs Landing', player), player))",
+  "rbff50618d3": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc0402d414f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc1c5901098": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc2c810c79e": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc2e35c6968": "exit.access_rule = lambda state: state.has('Flippers', player) and state.has_Pearl(player) and state.has_Mirror(player)",
+  "rc340cc814d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc3a6eaa736": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc3f19e039c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc4cb626105": "set_rule(entrance, lambda state: entrance.parent_region.dungeon.boss.can_defeat(state))",
+  "rc5dc7eee98": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc675689f6a": "set_rule(world.get_entrance('GT Double Switch Entry to Left Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('GT Double Switch Entry', player), player))",
+  "rc689cad60c": "set_rule(world.get_entrance('Swamp Trench 2 Pots Dry', player), lambda state: not state.has('Trench 2 Filled', player))",
+  "rc694f23f71": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc713ad15e7": "exit.access_rule = lambda state: state.has_Mirror(player)",
+  "rc71ec16a84": "set_rule(world.get_entrance('Swamp Crystal Switch Inner to Outer Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('Swamp Trench 2 Pots', player), player))",
+  "rc7fe34a624": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc8404a5214": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc84dde6198": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc87b23a0e8": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc96c1aa29f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rc9737deb6c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rcad4df7c58": "set_rule(world.get_entrance('Hera Up Stairs Landing to Ranged Crystal', player), lambda state: state.can_hit_crystal_through_barrier(player) or (state.has('Hookshot', player) and state.can_reach_orange(world.get_region('Hera Up Stairs Landing', player), player))) # or state.has_beam_sword(player)",
+  "rcb6c4b67e5": "set_rule(world.get_entrance('Lumberjack Tree Tree', player), lambda state: state.has_Boots(player) and state.has_beaten_aga(player))",
+  "rcc29a3682c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rce998984ed": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd066ab976d": "set_rule(world.get_entrance('Swamp Drain Left Up Stairs', player), lambda state: state.has('Flippers', player) or state.has('Drained Swamp', player))",
+  "rd178ae4caf": "set_rule(world.get_entrance('TR Chain Chomps Top to Bottom Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('TR Chain Chomps Top', player), player))",
+  "rd22f57ab32": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd28eca12cf": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd35d2a55ad": "set_rule(entrance, lambda state: entrance.parent_region.dungeon.boss.can_defeat(state))",
+  "rd3b7efdaa1": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd42687d3d7": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd48a623230": "set_rule(world.get_entrance('GT Hookshot South Entry to Ranged Crystal', player), lambda state: (state.can_use_bombs(player) and state.has('Zelda Delivered', player)) or state.has('Blue Boomerang', player) or state.has('Red Boomerang', player)) # or state.has('Cane of Somaria', player))",
+  "rd4918275e1": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd545cbf4ca": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd59db0c17f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd5f5da5615": "set_rule(world.get_entrance('GT Crystal Circles to Ranged Crystal', player), lambda state: state.can_hit_crystal_through_barrier(player) or state.has_blunt_weapon(player) or state.has('Cane of Byrna', player)) # or state.has_beam_sword(player)",
+  "rd68d6bd62e": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd6d70625e8": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd6d86be635": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rd71e22df1a": "set_rule(world.get_location('Sunken Treasure', player), lambda state: state.has('Open Floodgate', player))",
+  "rd8f19da0be": "set_rule(world.get_location('Missing Smith', player), lambda state: state.has('Get Frog', player))",
+  "rd99694826a": "set_rule(world.get_entrance('TR Crystaroller Bottom to Ranged Crystal', player), lambda state: state.can_shoot_arrows(player) or state.has('Fire Rod', player) or state.has('Ice Rod', player) or state.has('Cane of Somaria', player) or (state.has('Hookshot', player) and state.can_reach_orange(world.get_region('TR Crystaroller Bottom', player), player))) # or state.has_beam_sword(player)",
+  "rdbcb827291": "set_rule(world.get_entrance('TR Crystal Maze Interior to End Bypass', player), lambda state: state.can_use_bombs(player) or state.can_shoot_arrows(player) or state.has('Red Boomerang', player) or state.has('Blue Boomerang', player) or state.has('Fire Rod', player) or state.has('Ice Rod', player) or state.has('Cane of Somaria', player)) # Beam sword does NOT work",
+  "rdbe995da3e": "set_rule(world.get_entrance('TR Crystal Maze Interior to End Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('TR Crystal Maze Interior', player), player))",
+  "rdc6695bbe2": "set_rule(world.get_entrance('PoD Bow Statue Left to Right Bypass', player), lambda state: state.has('Cane of Somaria', player) or state.can_use_bombs(player) or state.can_shoot_arrows(player) or state.has('Red Boomerang', player) or state.has('Ice Rod', player) or state.has('Fire Rod', player)) # or state.has_beam_sword(player)",
+  "rdd2031fe3c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rde5b2c3c46": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rde8ea30588": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rdf5c713576": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rdfa32a1b4f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "re03e5e8288": "set_rule(world.get_location('Magic Bat', player), lambda state: state.has('Magic Powder', player))",
+  "re06c41557d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "re131d752c4": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "re19ce5c971": "set_rule(world.get_entrance('Bonk Rock Cave', player), lambda state: state.has_Boots(player))",
+  "re19ece1cbd": "set_rule(world.get_entrance('Mire Crystal Mid Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Mire Crystal Mid', player), player))",
+  "re1e3456bc2": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "re223f007c5": "set_rule(world.get_entrance('GT Hookshot Platform Barrier Bypass', player), lambda state: state.can_use_bombs(player) or state.has('Blue Boomerang', player) or state.has('Red Boomerang', player) or state.has('Cane of Somaria', player)) # or state.has_Boots(player) /// There is a super precise trick where you can throw a pot and climp into the blue barrier, then sprint out of them.",
+  "re3782c47c0": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "re4f75c93b6": "set_rule(world.get_entrance('Thieves Hellway Orange Barrier', player), lambda state: state.can_reach_orange(world.get_region('Thieves Hellway', player), player))",
+  "re6c28aa077": "set_rule(world.get_entrance('Skull 2 West Lobby Pits', player), lambda state: state.has_Boots(player) or hidden_pits_rule(state))",
+  "re86c6546de": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "re8ce38131b": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "re900b38485": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "re91746ed75": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rea701179e6": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rebd02bc030": "set_rule(world.get_entrance('Hera Front to Down Stairs Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('Hera Front', player), player))",
+  "red1498d23b": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ree41658e8f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "ref90521e9c": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rf075167d38": "set_rule(world.get_entrance('Thieves Attic Blue Barrier', player), lambda state: state.can_reach_blue(world.get_region('Thieves Attic', player), player))",
+  "rf16ac1df5a": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rf298638541": "set_rule(world.get_entrance('Swamp Trench 1 Approach Dry', player), lambda state: not state.has('Trench 1 Filled', player))",
+  "rf3340ac27a": "set_rule(world.get_entrance('Zora Approach Rocks (West)', player), lambda state: state.can_lift_heavy_rocks(player) or state.has_Boots(player))",
+  "rf3549332c0": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rf36fda34dd": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rf4c4f857db": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rf514e46d4c": "set_rule(world.get_location('Old Man', player), lambda state: state.has('Return Old Man', player))",
+  "rf5154c54ed": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rf54ec1324f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rf8800c516c": "set_rule(world.get_location('Kiki Assistance', player), lambda state: state.has('Pick Up Kiki', player)) # Can S&Q with chest",
+  "rf88dd16c2f": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rf9d568c89d": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rf9f6ce4dc6": "set_rule(world.get_entrance('GT Crystal Conveyor Corner to Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('GT Crystal Conveyor Corner', player), player))",
+  "rfa0de53b60": "set_rule(world.get_entrance('TR Crystaroller Chest to Middle Barrier - Blue', player), lambda state: state.can_reach_blue(world.get_region('TR Crystaroller Chest', player), player))",
+  "rfa2222de09": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rfa54b5c2ef": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rfd39eebc30": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rfdd0f5a50a": "set_rule(world.get_entrance('Blacksmith Ledge Peg (West)', player), lambda state: state.has('Hammer', player))",
+  "rff0b0b09cf": "spot.access_rule = lambda state: rule(state) and old_rule(state)",
+  "rffbd826864": "set_rule(world.get_entrance('Swamp Barrier - Orange', player), lambda state: state.can_reach_orange(world.get_region('Swamp Barrier', player), player))"
+ },
+ "stats": {
+  "rule_spots": 2585,
+  "trivial_always_true": 1518,
+  "nontrivial_rules": 1067,
+  "flattened": 1052,
+  "fallback_markers": 15,
+  "flatten_pct": 98.59,
+  "opaque_node_instances": 16,
+  "spots_with_typed_ir": 24
+ },
+ "untranslated": [
+  {
+   "spot": "entrance:Hyrule Castle Throne Room Tapestry",
+   "reason": "1 opaque node(s)",
+   "python": "lambda state: state.has('Zelda Herself', player) and check_rule_list(state, rule_list))"
+  },
+  {
+   "spot": "location:Hyrule Castle - Big Key Drop",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Hyrule Castle - Key Rat Key Drop",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Hyrule Castle - Map Chest",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Hyrule Castle - Map Guard Key Drop",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Hyrule Castle - Zelda's Chest",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Link's House",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Sanctuary",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Secret Passage",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Sewers - Dark Cross",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Sewers - Secret Room - Left",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Sewers - Secret Room - Middle",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Sewers - Secret Room - Right",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Zelda Drop Off",
+   "reason": "2 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  },
+  {
+   "spot": "location:Zelda Pickup",
+   "reason": "1 opaque node(s)",
+   "python": "spot.access_rule = lambda state: rule(state) and old_rule(state)"
+  }
+ ]
+}

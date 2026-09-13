@@ -1,0 +1,161 @@
+{
+ "dump_version": 1,
+ "shuffle": "none",
+ "seed": 1234,
+ "drops": [
+  {
+   "name": "Castle Tower - Circle of Pots Key Drop",
+   "room": 176,
+   "index": 10,
+   "slot": 10,
+   "kind": 67,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Agahnims Tower)",
+   "address": "0x9e688"
+  },
+  {
+   "name": "Castle Tower - Dark Archer Key Drop",
+   "room": 192,
+   "index": 3,
+   "slot": 3,
+   "kind": 70,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Agahnims Tower)",
+   "address": "0x9e7c9"
+  },
+  {
+   "name": "Eastern Palace - Dark Eyegore Key Drop",
+   "room": 153,
+   "index": 3,
+   "slot": 3,
+   "kind": 131,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Eastern Palace)",
+   "address": "0x9e4f8"
+  },
+  {
+   "name": "Ganons Tower - Mini Helmasaur Key Drop",
+   "room": 61,
+   "index": 2,
+   "slot": 2,
+   "kind": 19,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Ganons Tower)",
+   "address": "0x9ddc4"
+  },
+  {
+   "name": "Hyrule Castle - Big Key Drop",
+   "room": 128,
+   "index": 2,
+   "slot": 2,
+   "kind": 106,
+   "sub_type": 0,
+   "big": true,
+   "vanilla": "Big Key (Escape)",
+   "address": "0x9e327"
+  },
+  {
+   "name": "Hyrule Castle - Boomerang Guard Key Drop",
+   "room": 113,
+   "index": 1,
+   "slot": 1,
+   "kind": 65,
+   "sub_type": 21,
+   "big": false,
+   "vanilla": "Small Key (Escape)",
+   "address": "0x9e204"
+  },
+  {
+   "name": "Hyrule Castle - Key Rat Key Drop",
+   "room": 33,
+   "index": 0,
+   "slot": 0,
+   "kind": 109,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Escape)",
+   "address": "0x9db80"
+  },
+  {
+   "name": "Hyrule Castle - Map Guard Key Drop",
+   "room": 114,
+   "index": 0,
+   "slot": 0,
+   "kind": 65,
+   "sub_type": 5,
+   "big": false,
+   "vanilla": "Small Key (Escape)",
+   "address": "0x9e20c"
+  },
+  {
+   "name": "Ice Palace - Conveyor Key Drop",
+   "room": 62,
+   "index": 9,
+   "slot": 8,
+   "kind": 36,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Ice Palace)",
+   "address": "0x9de08"
+  },
+  {
+   "name": "Ice Palace - Jelly Key Drop",
+   "room": 14,
+   "index": 3,
+   "slot": 3,
+   "kind": 36,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Ice Palace)",
+   "address": "0x9da21"
+  },
+  {
+   "name": "Misery Mire - Conveyor Crystal Key Drop",
+   "room": 193,
+   "index": 10,
+   "slot": 9,
+   "kind": 36,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Misery Mire)",
+   "address": "0x9e7fb"
+  },
+  {
+   "name": "Skull Woods - Spike Corner Key Drop",
+   "room": 57,
+   "index": 2,
+   "slot": 1,
+   "kind": 139,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Skull Woods)",
+   "address": "0x9dd74"
+  },
+  {
+   "name": "Turtle Rock - Pokey 1 Key Drop",
+   "room": 182,
+   "index": 5,
+   "slot": 5,
+   "kind": 199,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Turtle Rock)",
+   "address": "0x9e70d"
+  },
+  {
+   "name": "Turtle Rock - Pokey 2 Key Drop",
+   "room": 19,
+   "index": 6,
+   "slot": 6,
+   "kind": 199,
+   "sub_type": 0,
+   "big": false,
+   "vanilla": "Small Key (Turtle Rock)",
+   "address": "0x9da5d"
+  }
+ ]
+}

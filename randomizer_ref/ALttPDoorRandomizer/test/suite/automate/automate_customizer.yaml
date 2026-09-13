@@ -1,0 +1,10 @@
+# Customizer wrapper for automated seed generation (TestSuiteAutomate).
+# Player 1 settings are rolled from the mystery weights file below.
+meta:
+  players: 1
+  # Explorer / DB segment for this weights profile (override with --suite)
+  suite: mystery
+  # seed is chosen by the harness / CLI --seed so each attempt is independent
+  # algorithm is rolled inside the mystery weights when present
+settings:
+  1: automate_mystery.yaml

@@ -1,0 +1,216 @@
+zelda3 Twitch chat commands
+===========================
+
+Chat syntax (IRC)      :  !verb [arg]
+Drop-folder syntax     :  verb|arg|who|dur     (dur in FRAMES; 0 = default)
+Manual dropper         :  tools\twitch_drop_cmd.bat <verb> [arg]
+
+Timed effects run for the configured effect_secs (default 5s) unless an
+explicit duration is given via the drop-folder's dur field.
+EXCEPTION: confuse is measured in SCREEN TRANSITIONS (see below).
+
+STATS (instant, self-clamping)
+  heal [n]        +n health (default: full). Health units: 8 per heart.
+  hurt [n]        -n health (default 16 = 2 hearts). NON-LETHAL: floors at
+                  1 (a sliver) and never sets 0 - the next real hit kills
+                  through the normal death sequence.
+  mp [n]          +n magic (default: full; 128 = full bar)
+  drain [n]       -n magic (default 32)
+  refill          full health + magic
+  rupees [n]      +n rupees (default 100, cap 9999)
+  tax [n]         -n rupees (default 100, floor 0)
+  bombs [n]       set bomb count (default 10, cap 30)
+  arrows [n]      set arrow count (default 30, cap 40)
+  givekey         one small key for the dungeon Link is in (outside: nothing)
+
+POINTS AND BETS (viewer points, not Twitch channel points)
+  Every chat message earns 1 point, every accepted command 2 more; a new
+  viewer starts with 100. The ledger is points.txt next to the game.
+  points          query only: your balance, shown on the feed
+  bet <n> win     during a CHAT BOSS fight: n points on chat beating the boss
+  bet <n> lose    ...on the boss surviving. Winners get 2x, losers lose n.
+  bet <n> good    on the NEXT dungeon chest Link opens holding a progression
+  bet <n> junk    item of this seed (randomizer on) / holding junk. Pays 2x.
+  One bet per viewer per kind of bet at a time; bets on a chest that the
+  randomizer did not fill are refunded.
+
+TIMED (reversible, re-applied every tick)
+  confuse [n]     swap left/right input for the next n SCREENS/ROOMS
+                  (default 2). Fire it during a boss fight and it lasts the
+                  whole fight - chat can't just wait it out.
+  flip            mirror the screen horizontally
+  party           confuse (2 screens) + flip together
+  freeze / stun   all on-screen enemies frozen (catches new spawns)
+  curse           -1 heart every 30 frames, never lethal; runs 4x default length
+  root            Link immobilized (timer refreshed each frame)
+  steal           chat takes one random inventory item for ~20s, then returns
+                  it (unless you re-obtained it meanwhile)
+  speed / fast    pegasus-tier movement speed (skip while dashing/swimming)
+  slow            exactly half movement speed
+  ice / icefloor  whole screen turns to ice physics - Link slides everywhere
+  deny            equipped Y-item can't be used (bottles + remapped buttons too)
+  denyboots       pegasus dash blocked (lifting/reading still work)
+
+TRANSFORMS / SPAWNS
+  arise / chicken / cucco
+                  Link IS the chicken: a cucco rides his position for the
+                  duration, items and dash blocked. When it ends the cucco
+                  wanders off - attack it at your own risk (avenger swarm).
+  illusion / bunny  poof Link into the Dark World bunny (engine's own cursed
+                    transform), timed, poofs back. Works even with the pearl.
+  fairy             spawn a healing fairy on-screen (full heal on touch)
+  smite             deal lethal damage to every on-screen enemy
+  spawn <who> [n]   spawn enemies near Link (cap 6):
+                    raven octorok keese zoro stalfos
+  swarm [n]         spawn n random enemies from that pool (default 3, cap 6)
+
+PERSISTENT MODES (chat-toggled difficulty modifiers)
+  Unlike timed effects these are MODE flags: they stay on until chat turns
+  them off. Modes bypass the gameplay gate - they can be armed at the title
+  screen or mid-cutscene. They are IN-SESSION ONLY: not persisted to
+  twitch_config.txt, so every restart boots with all modes OFF (the demo
+  build stays vanilla unless chat asks otherwise).
+
+  attrition [on|off]
+                  hard mode: every hit Link TAKES also destroys one heart
+                  CONTAINER (capacity -8, floored at 3 containers; current
+                  health clamps to the new max). Bare !attrition toggles;
+                  !hardmode is an alias. The loss is permanent for the
+                  session - turning it off only stops further loss, nothing
+                  is restored. Works on chat !hurt too. Caveats: pit falls
+                  (dungeon pits / overworld holes) deal their damage outside
+                  the sprite-damage choke point and do NOT cost a container;
+                  a killing blow skips the container loss (the game-over
+                  sequence takes over). Debug RESULT: verb=attrition cap=N->M.
+
+  The four modifiers below are COMPOSABLE enemy modes: independent flags on
+  the same damage choke point, stackable with each other and with attrition.
+  Each takes on|off; bare verb (or junk arg) toggles.
+
+  dmgup [on|off]  enemies deal DOUBLE damage. A hit doubled into lethality
+                  kills through the game's normal death sequence. Turning it
+                  off returns damage to vanilla instantly.
+  mpsteal [on|off]
+                  every hit taken also burns 16 magic (1/8 of the bar),
+                  floored at 0.
+  rupeesteal [on|off]
+                  every hit taken also costs 20 rupees, floored at 0. Chat's
+                  session theft total shows in the overlay/log feed and
+                  survives turning the mode off (attrition rule: off stops
+                  further loss, restores nothing). Debug RESULT per hit:
+                  verb=rupeesteal taken=N total=M.
+  hardmods [on|off]
+                  convenience GROUP switch over dmgup + mpsteal + rupeesteal
+                  (attrition stays separate - arm it with !attrition).
+                  on = all three on; off = all three off no matter what the
+                  individual flags say; bare !hardmods = collapse the group
+                  (none on -> all on, any on -> all off). Individual toggles
+                  still work inside an armed group: !hardmods on then
+                  !dmgup off leaves mpsteal + rupeesteal running.
+
+GATES
+  - global cooldown (cooldown= in twitch_config.txt, frames; drop-folder
+    commands bypass it for testing)
+  - vs_mode=1 blocks helpful verbs: heal mp refill rupees bombs arrows
+  - world verbs (smite/spawn/swarm/fairy) require actual gameplay; stat/flag
+    verbs can be forced at the title screen with test=1 (harness only)
+  - all effect application pauses during cutscenes/transitions (the same
+    engine lock the game itself uses for event sequences)
+  - unknown verbs are ignored and never consume the cooldown
+  - test scaffolds, test=1 only (unknown verbs in production): "setcap <n>"
+    seeds heart capacity (attrition harness), "modprobe <dmg>" pushes a
+    synthetic hit through the enemy-modifier fan-out and prints the modified
+    health/magic/rupee outputs (automated harness - no damage happens at the
+    title screen, so this is how doubling/drains are verified), plus the
+    CHAT BOSS controls "bossstart" / "bossset <hp|-window>" / "bossrate <n>"
+
+CHAT BOSS v1 (automatic main event)
+  A meta-virtual boss (HP lives in the twitch module, see section B of
+  tools/DESIGN_CHATBOSS_VOTING.md) that chat fights collectively: every
+  ACCEPTED command damages it for 15, it attacks back with existing timed
+  effects (source "THE BOSS" in the activity feed), and the window always
+  ends in VICTORY (refill + fairy + fanfare feed line) or DEFEAT (curse
+  30s + swarm 4 + deny 15s + the shame line). In-session only.
+
+  TRIGGER
+    - fully automatic: when accepted-command rate over the trailing 5 min
+      crosses boss_min_rate AND boss_every_min minutes have passed since
+      the last fight AND real gameplay is on screen. HP scales with that
+      rate (clamped 150-900), so quiet chats get cheap bosses.
+    - test=1 only: "bossstart" force-starts, "bossset <hp>" forces HP
+      (negative arg forces the window, e.g. bossset|-5 = defeat in ~5
+      frames), "bossrate <n>" fakes the trailing rate counter (harness).
+
+  CHAT VERB
+    bosshp           query only: prints the boss state to the feed and log
+                     (never damages, never consumes the scoreboard)
+
+  CRITS: each accepted command has base 1% crit chance, +0.5% per 10
+  commands that same viewer sent this session, capped 5%. A crit deals 50
+  and gets its own feed line ("CRIT! hits the boss for 50"). Loyalty is the
+  in-session command count; subscriber-badge weighting is the documented
+  v2 upgrade (needs IRC CAP REQ tags).
+
+  POLITENESS: the boss never re-arms an effect that is already active,
+  never fires outside real gameplay (those ticks are skipped), and never
+  fires hurt/attrition or anything lethal.
+
+  OVERLAY: boss_feed.txt (one line, e.g. "THE SWARMFATHER | HP: 450/600 |
+  phase: 2 | attackers: 7 | top: nick (135) | 64s | last: ice") feeds the
+  new Chat Boss box in tools/feed.html (HP bar, phase color, top attacker).
+  scoreboard.txt gained additive bosses_won=/losses= counters and the OBS
+  line shows "bosses: W-L".
+
+  CONFIG (twitch_config.txt, boot-only; these are the defaults)
+    boss_enabled=1   master kill switch - 0 disables everything (auto
+                     trigger, fights, test verbs); only !bosshp survives
+                     and answers OFF
+    boss_min_rate=6  auto-start threshold, accepted cmds/min (trailing 5m)
+    boss_every_min=25 minimum minutes between fights
+    boss_secs=120    fight window, seconds
+
+ROCKET LEAGUE (quick chat box, src/quickchat.c)
+  A four line Rocket League style quick chat box in the top-left of the
+  picture, at x=48 y=36 - tucked just under the status bar so it never sits
+  on the hearts, the magic meter or the item box. White 5x7 pixel text on a
+  dark plate, newest line at the bottom, each line fading out after ~4 s. It
+  fills itself from what happens in the game, and chat can push lines into
+  it. (Position: QC_BOX_X / QC_BOX_Y at the top of src/quickchat.c.)
+
+  qc <text>       your own line in the box: "yourname: text". Letters,
+                  digits, space and . , ! ? ' - : ( ) only, 36 characters
+                  max, links rejected. No cooldown - it never blocks or gets
+                  blocked by the real verbs.
+  whatasave       fires the "What a save!" burst (3-5 lines, random names)
+  gg              fires the gg / "One. More. Game." burst
+
+  IT ALSO FIRES ITSELF (each event at most once per 8 s, one line released
+  every 20 frames so it drips like real RL spam):
+    - survived on one heart or less  -> "What a save!" / "Nice block!"
+    - Link died                      -> "Noooo!" / "gg ez" / "Rematch!"
+    - a fairy revived Link           -> "Calculated." / "In position."
+    - a dungeon prize (pendant or crystal, i.e. the boss is dead)
+                                     -> "Nice shot!" / "Siiiick!" / "OMG!"
+    - a big item (sword, bow, hookshot, mirror, moon pearl, flippers)
+    - CHAT BOSS won                  -> "Great pass!" / "What a play!"
+    - CHAT BOSS lost                 -> "gg ez" / "Well played." / "Faking."
+    - idle: one meme every 2-3 minutes of play, from a 71 line table about
+      how washed this lobby is ("you will never be Grand Champ", "ball cam
+      off since 2016", "chat rotates like Link: badly")
+
+  Names come from whoever has actually been chatting; when nobody has, the
+  chatters.txt leaderboard supplies them, and "Chat" is the last resort.
+  The first line of every burst is also written to the OBS activity feed.
+
+  quickchat.txt (OPTIONAL, next to zelda3.exe): your own meme lines, one per
+  line, 36 characters max, '#' comments and blank lines ignored, up to 256.
+  They join the idle meme pool. Read at boot, so restart after editing.
+
+MUSIC (optional)
+  music.ini next to the game: point folder= at a folder of .wav files
+  (ogg/mp3 skipped in this build), enabled=1. Plays alongside game audio.
+
+STREAM OVERLAY
+  tracker.html - add as an OBS browser source; reads tracker_items.txt
+  written by the game (last 5 pickups, newest first). Pick anything up and
+  it appears for chat to see.

@@ -1,0 +1,1036 @@
+meta:
+  players: 1
+settings:
+  1:
+    keysanity: True
+advanced_placements:
+  1:
+    - item: Green Pendant
+      locations:
+        - Eastern Palace - Prize
+        - Desert Palace - Prize
+        - Tower of Hera Palace - Prize
+      type: NotLocationGroup
+    - item: Blue Pendant
+      locations:
+        - Eastern Palace - Prize
+        - Desert Palace - Prize
+        - Tower of Hera Palace - Prize
+      type: NotLocationGroup
+    - item: Red Pendant
+      locations:
+        - Eastern Palace - Prize
+        - Desert Palace - Prize
+        - Tower of Hera Palace - Prize
+      type: NotLocationGroup
+    - item: Crystal 5
+      locations:
+        - Ice Palace - Prize
+        - Misery Mire - Prize
+      type: NotLocationGroup
+    - item: Crystal 6
+      locations:
+        - Ice Palace - Prize
+        - Misery Mire - Prize
+      type: NotLocationGroup
+    - item: Progressive Bow
+      locations:
+        - Eastern Palace - Big Chest
+        - Eastern Palace - Boss
+        - Eastern Palace - Cannonball Chest
+        - Eastern Palace - Big Key Chest
+        - Eastern Palace - Compass Chest
+        - Eastern Palace - Map Chest
+        - Pyramid Fairy - Right
+        - Pyramid Fairy - Left
+      type: NotLocationGroup
+    - item: Book of Mudora
+      locations:
+        - Library
+      type: NotLocationGroup
+    - item: Hammer
+      locations:
+        - Palace of Darkness - Big Chest
+        - Palace of Darkness - Boss
+        - Palace of Darkness - Big Key Chest
+        - Palace of Darkness - Compass Chest
+        - Palace of Darkness - Map Chest
+        - Palace of Darkness - Stalfos Basement
+        - Palace of Darkness - Dark Basement - Right
+        - Palace of Darkness - Harmless Hellway
+        - Palace of Darkness - Shooter Room
+        - Palace of Darkness - The Arena - Bridge
+        - Palace of Darkness - The Arena - Ledge
+        - Palace of Darkness - Dark Basement - Left
+        - Palace of Darkness - Dark Maze - Bottom
+        - Palace of Darkness - Dark Maze - Top
+      type: NotLocationGroup
+    - item: Hookshot
+      locations:
+        - Swamp Palace - Big Chest
+        - Swamp Palace - Boss
+        - Swamp Palace - Big Key Chest
+        - Swamp Palace - Compass Chest
+        - Swamp Palace - Map Chest
+        - Swamp Palace - Entrance
+        - Swamp Palace - Flooded Room - Left
+        - Swamp Palace - Flooded Room - Right
+        - Swamp Palace - Waterfall Room
+        - Swamp Palace - West Chest
+      type: NotLocationGroup
+    - item: Magic Mirror
+      locations:
+        - Old Man
+      type: NotLocationGroup
+    - item: Ocarina
+      locations:
+        - Flute Spot
+      type: NotLocationGroup
+    - item: Pegasus Boots
+      locations:
+        - Sahasrahla
+      type: NotLocationGroup
+    - item: Cape
+      locations:
+        - King's Tomb
+      type: NotLocationGroup
+    - item: Mushroom
+      locations:
+        - Mushroom
+      type: NotLocationGroup
+    - item: Shovel
+      locations:
+        - Stumpy
+      type: NotLocationGroup
+    - item: Lamp
+      locations:
+        - Link's House
+        - Secret Passage
+        - Zelda's Chest
+      type: NotLocationGroup
+    - item: Magic Powder
+      locations:
+        - Potion Shop
+      type: NotLocationGroup
+    - item: Moon Pearl
+      locations:
+        - Tower of Hera - Big Chest
+        - Tower of Hera - Boss
+        - Tower of Hera - Big Key Chest
+        - Tower of Hera - Compass Chest
+        - Tower of Hera - Map Chest
+        - Tower of Hera - Basement Cage
+      type: NotLocationGroup
+    - item: Cane of Somaria
+      locations:
+        - Misery Mire - Big Chest
+        - Misery Mire - Boss
+        - Misery Mire - Big Key Chest
+        - Misery Mire - Compass Chest
+        - Misery Mire - Map Chest
+        - Misery Mire - Spike Chest
+        - Misery Mire - Main Lobby
+        - Misery Mire - Bridge Chest
+      type: NotLocationGroup
+    - item: Fire Rod
+      locations:
+        - Skull Woods - Big Chest
+        - Skull Woods - Boss
+        - Skull Woods - Big Key Chest
+        - Skull Woods - Compass Chest
+        - Skull Woods - Map Chest
+        - Skull Woods - Bridge Room
+        - Skull Woods - Pinball Room
+        - Skull Woods - Pot Prison
+      type: NotLocationGroup
+    - item: Flippers
+      locations:
+        - King Zora
+      type: NotLocationGroup
+    - item: Ice Rod
+      locations:
+        - Ice Rod Cave
+      type: NotLocationGroup
+    - item: Bombos
+      locations:
+        - Bombos Tablet
+      type: NotLocationGroup
+    - item: Ether
+      locations:
+        - Ether Tablet
+      type: NotLocationGroup
+    - item: Quake
+      locations:
+        - Catfish
+      type: NotLocationGroup
+    - item: Bottle
+      locations:
+        - Bottle Merchant
+        - Kakariko Tavern
+        - Purple Chest
+        - Hobo
+      type: NotLocationGroup
+    - item: Progressive Sword
+      locations:
+        - Link's Uncle
+        - Secret Passage
+        - Blacksmith
+        - Master Sword Pedestal
+        - Pyramid Fairy - Left
+        - Pyramid Fairy - Right
+      type: NotLocationGroup
+    - item: Progressive Glove
+      locations:
+        - Desert Palace - Big Chest
+        - Desert Palace - Boss
+        - Desert Palace - Big Key Chest
+        - Desert Palace - Compass Chest
+        - Desert Palace - Map Chest
+        - Desert Palace - Torch
+        - Thieves' Town - Big Chest
+        - Thieves' Town - Boss
+        - Thieves' Town - Big Key Chest
+        - Thieves' Town - Compass Chest
+        - Thieves' Town - Map Chest
+        - Thieves' Town - Blind's Cell
+        - Thieves' Town - Ambush Chest
+        - Thieves' Town - Attic
+      type: NotLocationGroup
+    - item: Silver Arrows
+      locations:
+        - Pyramid Fairy - Right
+        - Pyramid Fairy - Left
+      type: NotLocationGroup
+    - item: Single Arrow
+      locations:
+        - Palace of Darkness - Dark Basement - Left
+      type: NotLocationGroup
+    - item: Arrows (10)
+      locations:
+        - Chicken House
+        - Mini Moldorm Cave - Far Right
+        - Sewers - Secret Room - Right
+        - Paradox Cave Upper - Right
+        - Mire Shed - Right
+        - Ganons Tower - Hope Room - Left
+        - Ganons Tower - Compass Room - Bottom Right
+        - Ganons Tower - DMs Room - Top Right
+        - Ganons Tower - Randomizer Room - Top Left
+        - Ganons Tower - Randomizer Room - Top Right
+        - Ganons Tower - Bob's Chest
+        - Ganons Tower - Big Key Room - Left
+      type: NotLocationGroup
+    - item: Bombs (3)
+      locations:
+        - Floodgate Chest
+        - Sahasrahla's Hut - Middle
+        - Kakariko Well - Bottom
+        - Superbunny Cave - Top
+        - Mini Moldorm Cave - Far Left
+        - Sewers - Secret Room - Left
+        - Paradox Cave Upper - Left
+        - Thieves' Town - Attic
+        - Ice Palace - Freezor Chest
+        - Palace of Darkness - Dark Maze - Top
+        - Ganons Tower - Hope Room - Right
+        - Ganons Tower - DMs Room - Top Left
+        - Ganons Tower - Randomizer Room - Bottom Left
+        - Ganons Tower - Randomizer Room - Bottom Right
+        - Ganons Tower - Big Key Room - Right
+        - Ganons Tower - Mini Helmasaur Room - Left
+        - Ganons Tower - Mini Helmasaur Room - Right
+      type: NotLocationGroup
+    - item: Progressive Armor
+      locations:
+        - Ice Palace - Big Chest
+        - Ice Palace - Boss
+        - Ice Palace - Big Key Chest
+        - Ice Palace - Compass Chest
+        - Ice Palace - Map Chest
+        - Ice Palace - Spike Room
+        - Ice Palace - Iced T Room
+        - Ice Palace - Freezor Chest
+        - Ganons Tower - Big Chest
+        - Ganons Tower - Big Key Chest
+        - Ganons Tower - Compass Room - Top Left
+        - Ganons Tower - Map Chest
+        - Ganons Tower - Bob's Torch
+        - Ganons Tower - Tile Room
+        - Ganons Tower - Firesnake Room
+        - Ganons Tower - Pre-Moldorm Chest
+        - Ganons Tower - DMs Room - Top Right
+        - Ganons Tower - DMs Room - Top Left
+        - Ganons Tower - DMs Room - Bottom Left
+        - Ganons Tower - DMs Room - Bottom Right
+        - Ganons Tower - Compass Room - Top Right
+        - Ganons Tower - Compass Room - Bottom Right
+        - Ganons Tower - Compass Room - Bottom Left
+        - Ganons Tower - Hope Room - Left
+        - Ganons Tower - Hope Room - Right
+        - Ganons Tower - Randomizer Room - Top Left
+        - Ganons Tower - Randomizer Room - Top Right
+        - Ganons Tower - Randomizer Room - Bottom Right
+        - Ganons Tower - Randomizer Room - Bottom Left
+        - Ganons Tower - Bob's Chest
+        - Ganons Tower - Big Key Room - Left
+        - Ganons Tower - Big Key Room - Right
+        - Ganons Tower - Mini Helmasaur Room - Left
+        - Ganons Tower - Mini Helmasaur Room - Right
+        - Ganons Tower - Validation Chest
+      type: NotLocationGroup
+    - item: Blue Boomerang
+      locations:
+        - Hyrule Castle - Boomerang Chest
+      type: NotLocationGroup
+    - item: Red Boomerang
+      locations:
+        - Waterfall Fairy - Left
+        - Waterfall Fairy - Right
+      type: NotLocationGroup
+    - item: Progressive Shield
+      locations:
+        - Link's Uncle
+        - Secret Passage
+        - Waterfall Fairy - Right
+        - Waterfall Fairy - Left
+        - Turtle Rock - Big Chest
+        - Turtle Rock - Boss
+        - Turtle Rock - Big Key Chest
+        - Turtle Rock - Compass Chest
+        - Turtle Rock - Roller Room - Left
+        - Turtle Rock - Chain Chomps
+        - Turtle Rock - Crystaroller Room
+        - Turtle Rock - Roller Room - Right
+        - Turtle Rock - Eye Bridge - Bottom Left
+        - Turtle Rock - Eye Bridge - Bottom Right
+        - Turtle Rock - Eye Bridge - Top Left
+        - Turtle Rock - Eye Bridge - Top Right
+      type: NotLocationGroup
+    - item: Bug Catching Net
+      locations:
+        - Sick Kid
+      type: NotLocationGroup
+    - item: Cane of Byrna
+      locations:
+        - Spike Cave
+      type: NotLocationGroup
+    - item: Boss Heart Container
+      locations:
+        - Desert Palace - Boss
+        - Eastern Palace - Boss
+        - Tower of Hera - Boss
+        - Swamp Palace - Boss
+        - Thieves' Town - Boss
+        - Skull Woods - Boss
+        - Ice Palace - Boss
+        - Misery Mire - Boss
+        - Turtle Rock - Boss
+        - Palace of Darkness - Boss
+        - Sanctuary
+      type: NotLocationGroup
+    - item: Sanctuary Heart Container
+      locations:
+        - Desert Palace - Boss
+        - Eastern Palace - Boss
+        - Tower of Hera - Boss
+        - Swamp Palace - Boss
+        - Thieves' Town - Boss
+        - Skull Woods - Boss
+        - Ice Palace - Boss
+        - Misery Mire - Boss
+        - Turtle Rock - Boss
+        - Palace of Darkness - Boss
+        - Sanctuary
+      type: NotLocationGroup
+    - item: Piece of Heart
+      locations:
+        - Sunken Treasure
+        - Blind's Hideout - Top
+        - Zora's Ledge
+        - Aginah's Cave
+        - Maze Race
+        - Kakariko Well - Top
+        - Lost Woods Hideout
+        - Lumberjack Tree
+        - Cave 45
+        - Graveyard Cave
+        - Checkerboard Cave
+        - Bonk Rock Cave
+        - Lake Hylia Island
+        - Desert Ledge
+        - Spectacle Rock
+        - Spectacle Rock Cave
+        - Pyramid
+        - Digging Game
+        - Peg Cave
+        - Chest Game
+        - Bumper Cave Ledge
+        - Mire Shed - Left
+        - Floating Island
+        - Mimic Cave
+      type: NotLocationGroup
+    - item: Rupee (1)
+      locations:
+        - Turtle Rock - Eye Bridge - Top Right
+        - Ganons Tower - Compass Room - Top Right
+      type: NotLocationGroup
+    - item: Rupees (5)
+      locations:
+        - Hyrule Castle - Zelda's Chest
+        - Turtle Rock - Eye Bridge - Top Left
+        - Palace of Darkness - Dark Maze - Bottom
+        - Ganons Tower - Validation Chest
+      type: NotLocationGroup
+    - item: Rupees (20)
+      locations:
+        - Blind's Hideout - Left
+        - Blind's Hideout - Right
+        - Blind's Hideout - Far Left
+        - Blind's Hideout - Far Right
+        - Kakariko Well - Left
+        - Kakariko Well - Middle
+        - Kakariko Well - Right
+        - Mini Moldorm Cave - Left
+        - Mini Moldorm Cave - Right
+        - Paradox Cave Lower - Far Left
+        - Paradox Cave Lower - Left
+        - Paradox Cave Lower - Right
+        - Paradox Cave Lower - Far Right
+        - Paradox Cave Lower - Middle
+        - Hype Cave - Top
+        - Hype Cave - Middle Right
+        - Hype Cave - Middle Left
+        - Hype Cave - Bottom
+        - Swamp Palace - West Chest
+        - Swamp Palace - Flooded Room - Left
+        - Swamp Palace - Waterfall Room
+        - Swamp Palace - Flooded Room - Right
+        - Thieves' Town - Ambush Chest
+        - Turtle Rock - Eye Bridge - Bottom Right
+        - Ganons Tower - Compass Room - Bottom Left
+        - Swamp Palace - Flooded Room - Right
+        - Thieves' Town - Ambush Chest
+        - Ganons Tower - DMs Room - Bottom Left
+        - Ganons Tower - DMs Room - Bottom Right
+      type: NotLocationGroup
+    - item: Rupees (50)
+      locations:
+        - Sahasrahla's Hut - Left
+        - Sahasrahla's Hut - Right
+        - Spiral Cave
+        - Superbunny Cave - Bottom
+        - Hookshot Cave - Top Right
+        - Hookshot Cave - Top Left
+        - Hookshot Cave - Bottom Right
+        - Hookshot Cave - Bottom Left
+      type: NotLocationGroup
+    - item: Rupees (100)
+      locations:
+        - Eastern Palace - Cannonball Chest
+      type: NotLocationGroup
+    - item: Rupees (300)
+      locations:
+        - Mini Moldorm Cave - Generous Guy
+        - Sewers - Secret Room - Middle
+        - Hype Cave - Generous Guy
+        - Brewery
+        - C-Shaped House
+      type: NotLocationGroup
+    - item: Magic Upgrade (1/2)
+      locations:
+        - Magic Bat
+      type: NotLocationGroup
+    - item: Big Key (Eastern Palace)
+      locations:
+        - Eastern Palace - Big Chest
+        - Eastern Palace - Boss
+        - Eastern Palace - Cannonball Chest
+        - Eastern Palace - Big Key Chest
+        - Eastern Palace - Compass Chest
+        - Eastern Palace - Map Chest
+      type: NotLocationGroup
+    - item: Compass (Eastern Palace)
+      locations:
+        - Eastern Palace - Big Chest
+        - Eastern Palace - Boss
+        - Eastern Palace - Cannonball Chest
+        - Eastern Palace - Big Key Chest
+        - Eastern Palace - Compass Chest
+        - Eastern Palace - Map Chest
+      type: NotLocationGroup
+    - item: Map (Eastern Palace)
+      locations:
+        - Eastern Palace - Big Chest
+        - Eastern Palace - Boss
+        - Eastern Palace - Cannonball Chest
+        - Eastern Palace - Big Key Chest
+        - Eastern Palace - Compass Chest
+        - Eastern Palace - Map Chest
+      type: NotLocationGroup
+    - item: Small Key (Desert Palace)
+      locations:
+        - Desert Palace - Big Chest
+        - Desert Palace - Boss
+        - Desert Palace - Big Key Chest
+        - Desert Palace - Compass Chest
+        - Desert Palace - Map Chest
+        - Desert Palace - Torch
+      type: NotLocationGroup
+    - item: Big Key (Desert Palace)
+      locations:
+        - Desert Palace - Big Chest
+        - Desert Palace - Boss
+        - Desert Palace - Big Key Chest
+        - Desert Palace - Compass Chest
+        - Desert Palace - Map Chest
+        - Desert Palace - Torch
+      type: NotLocationGroup
+    - item: Compass (Desert Palace)
+      locations:
+        - Desert Palace - Big Chest
+        - Desert Palace - Boss
+        - Desert Palace - Big Key Chest
+        - Desert Palace - Compass Chest
+        - Desert Palace - Map Chest
+        - Desert Palace - Torch
+      type: NotLocationGroup
+    - item: Map (Desert Palace)
+      locations:
+        - Desert Palace - Big Chest
+        - Desert Palace - Boss
+        - Desert Palace - Big Key Chest
+        - Desert Palace - Compass Chest
+        - Desert Palace - Map Chest
+        - Desert Palace - Torch
+      type: NotLocationGroup
+    - item: Small Key (Tower of Hera)
+      locations:
+        - Tower of Hera - Big Chest
+        - Tower of Hera - Boss
+        - Tower of Hera - Big Key Chest
+        - Tower of Hera - Compass Chest
+        - Tower of Hera - Map Chest
+        - Tower of Hera - Basement Cage
+      type: NotLocationGroup
+    - item: Big Key (Tower of Hera)
+      locations:
+        - Tower of Hera - Big Chest
+        - Tower of Hera - Boss
+        - Tower of Hera - Big Key Chest
+        - Tower of Hera - Compass Chest
+        - Tower of Hera - Map Chest
+        - Tower of Hera - Basement Cage
+      type: NotLocationGroup
+    - item: Compass (Tower of Hera)
+      locations:
+        - Tower of Hera - Big Chest
+        - Tower of Hera - Boss
+        - Tower of Hera - Big Key Chest
+        - Tower of Hera - Compass Chest
+        - Tower of Hera - Map Chest
+        - Tower of Hera - Basement Cage
+      type: NotLocationGroup
+    - item: Map (Tower of Hera)
+      locations:
+        - Tower of Hera - Big Chest
+        - Tower of Hera - Boss
+        - Tower of Hera - Big Key Chest
+        - Tower of Hera - Compass Chest
+        - Tower of Hera - Map Chest
+        - Tower of Hera - Basement Cage
+      type: NotLocationGroup
+    - item: Small Key (Escape)
+      locations:
+        - Hyrule Castle - Map Chest
+        - Hyrule Castle - Boomerang Chest
+        - Hyrule Castle - Zelda's Chest
+        - Sewers - Dark Cross
+        - Sewers - Secret Room - Middle
+        - Sewers - Secret Room - Right
+        - Sewers - Secret Room - Left
+        - Sanctuary
+      type: NotLocationGroup
+    - item: Map (Escape)
+      locations:
+        - Hyrule Castle - Map Chest
+        - Hyrule Castle - Boomerang Chest
+        - Hyrule Castle - Zelda's Chest
+        - Sewers - Dark Cross
+        - Sewers - Secret Room - Middle
+        - Sewers - Secret Room - Right
+        - Sewers - Secret Room - Left
+        - Sanctuary
+      type: NotLocationGroup
+    - item: Small Key (Agahnims Tower)
+      locations:
+        - Castle Tower - Room 03
+        - Castle Tower - Dark Maze
+      type: NotLocationGroup
+    - item: Small Key (Palace of Darkness)
+      locations:
+        - Palace of Darkness - Big Chest
+        - Palace of Darkness - Boss
+        - Palace of Darkness - Big Key Chest
+        - Palace of Darkness - Compass Chest
+        - Palace of Darkness - Map Chest
+        - Palace of Darkness - Stalfos Basement
+        - Palace of Darkness - Dark Basement - Right
+        - Palace of Darkness - Harmless Hellway
+        - Palace of Darkness - Shooter Room
+        - Palace of Darkness - The Arena - Bridge
+        - Palace of Darkness - The Arena - Ledge
+        - Palace of Darkness - Dark Basement - Left
+        - Palace of Darkness - Dark Maze - Bottom
+        - Palace of Darkness - Dark Maze - Top
+      type: NotLocationGroup
+    - item: Big Key (Palace of Darkness)
+      locations:
+        - Palace of Darkness - Big Chest
+        - Palace of Darkness - Boss
+        - Palace of Darkness - Big Key Chest
+        - Palace of Darkness - Compass Chest
+        - Palace of Darkness - Map Chest
+        - Palace of Darkness - Stalfos Basement
+        - Palace of Darkness - Dark Basement - Right
+        - Palace of Darkness - Harmless Hellway
+        - Palace of Darkness - Shooter Room
+        - Palace of Darkness - The Arena - Bridge
+        - Palace of Darkness - The Arena - Ledge
+        - Palace of Darkness - Dark Basement - Left
+        - Palace of Darkness - Dark Maze - Bottom
+        - Palace of Darkness - Dark Maze - Top
+      type: NotLocationGroup
+    - item: Compass (Palace of Darkness)
+      locations:
+        - Palace of Darkness - Big Chest
+        - Palace of Darkness - Boss
+        - Palace of Darkness - Big Key Chest
+        - Palace of Darkness - Compass Chest
+        - Palace of Darkness - Map Chest
+        - Palace of Darkness - Stalfos Basement
+        - Palace of Darkness - Dark Basement - Right
+        - Palace of Darkness - Harmless Hellway
+        - Palace of Darkness - Shooter Room
+        - Palace of Darkness - The Arena - Bridge
+        - Palace of Darkness - The Arena - Ledge
+        - Palace of Darkness - Dark Basement - Left
+        - Palace of Darkness - Dark Maze - Bottom
+        - Palace of Darkness - Dark Maze - Top
+      type: NotLocationGroup
+    - item: Map (Palace of Darkness)
+      locations:
+        - Palace of Darkness - Big Chest
+        - Palace of Darkness - Boss
+        - Palace of Darkness - Big Key Chest
+        - Palace of Darkness - Compass Chest
+        - Palace of Darkness - Map Chest
+        - Palace of Darkness - Stalfos Basement
+        - Palace of Darkness - Dark Basement - Right
+        - Palace of Darkness - Harmless Hellway
+        - Palace of Darkness - Shooter Room
+        - Palace of Darkness - The Arena - Bridge
+        - Palace of Darkness - The Arena - Ledge
+        - Palace of Darkness - Dark Basement - Left
+        - Palace of Darkness - Dark Maze - Bottom
+        - Palace of Darkness - Dark Maze - Top
+      type: NotLocationGroup
+    - item: Small Key (Thieves Town)
+      locations:
+        - Thieves' Town - Big Chest
+        - Thieves' Town - Boss
+        - Thieves' Town - Big Key Chest
+        - Thieves' Town - Compass Chest
+        - Thieves' Town - Map Chest
+        - Thieves' Town - Blind's Cell
+        - Thieves' Town - Ambush Chest
+        - Thieves' Town - Attic
+      type: NotLocationGroup
+    - item: Big Key (Thieves Town)
+      locations:
+        - Thieves' Town - Big Chest
+        - Thieves' Town - Boss
+        - Thieves' Town - Big Key Chest
+        - Thieves' Town - Compass Chest
+        - Thieves' Town - Map Chest
+        - Thieves' Town - Blind's Cell
+        - Thieves' Town - Ambush Chest
+        - Thieves' Town - Attic
+      type: NotLocationGroup
+    - item: Compass (Thieves Town)
+      locations:
+        - Thieves' Town - Big Chest
+        - Thieves' Town - Boss
+        - Thieves' Town - Big Key Chest
+        - Thieves' Town - Compass Chest
+        - Thieves' Town - Map Chest
+        - Thieves' Town - Blind's Cell
+        - Thieves' Town - Ambush Chest
+        - Thieves' Town - Attic
+      type: NotLocationGroup
+    - item: Map (Thieves Town)
+      locations:
+        - Thieves' Town - Big Chest
+        - Thieves' Town - Boss
+        - Thieves' Town - Big Key Chest
+        - Thieves' Town - Compass Chest
+        - Thieves' Town - Map Chest
+        - Thieves' Town - Blind's Cell
+        - Thieves' Town - Ambush Chest
+        - Thieves' Town - Attic
+      type: NotLocationGroup
+    - item: Small Key (Skull Woods)
+      locations:
+        - Skull Woods - Big Chest
+        - Skull Woods - Boss
+        - Skull Woods - Big Key Chest
+        - Skull Woods - Compass Chest
+        - Skull Woods - Map Chest
+        - Skull Woods - Bridge Room
+        - Skull Woods - Pinball Room
+        - Skull Woods - Pot Prison
+      type: NotLocationGroup
+    - item: Big Key (Skull Woods)
+      locations:
+        - Skull Woods - Big Chest
+        - Skull Woods - Boss
+        - Skull Woods - Big Key Chest
+        - Skull Woods - Compass Chest
+        - Skull Woods - Map Chest
+        - Skull Woods - Bridge Room
+        - Skull Woods - Pinball Room
+        - Skull Woods - Pot Prison
+      type: NotLocationGroup
+    - item: Compass (Skull Woods)
+      locations:
+        - Skull Woods - Big Chest
+        - Skull Woods - Boss
+        - Skull Woods - Big Key Chest
+        - Skull Woods - Compass Chest
+        - Skull Woods - Map Chest
+        - Skull Woods - Bridge Room
+        - Skull Woods - Pinball Room
+        - Skull Woods - Pot Prison
+      type: NotLocationGroup
+    - item: Map (Skull Woods)
+      locations:
+        - Skull Woods - Big Chest
+        - Skull Woods - Boss
+        - Skull Woods - Big Key Chest
+        - Skull Woods - Compass Chest
+        - Skull Woods - Map Chest
+        - Skull Woods - Bridge Room
+        - Skull Woods - Pinball Room
+        - Skull Woods - Pot Prison
+      type: NotLocationGroup
+    - item: Small Key (Swamp Palace)
+      locations:
+        - Swamp Palace - Entrance
+      type: NotLocationGroup
+    - item: Big Key (Swamp Palace)
+      locations:
+        - Swamp Palace - Big Chest
+        - Swamp Palace - Boss
+        - Swamp Palace - Big Key Chest
+        - Swamp Palace - Compass Chest
+        - Swamp Palace - Map Chest
+        - Swamp Palace - Entrance
+        - Swamp Palace - Flooded Room - Left
+        - Swamp Palace - Flooded Room - Right
+        - Swamp Palace - Waterfall Room
+        - Swamp Palace - West Chest
+      type: NotLocationGroup
+    - item: Compass (Swamp Palace)
+      locations:
+        - Swamp Palace - Big Chest
+        - Swamp Palace - Boss
+        - Swamp Palace - Big Key Chest
+        - Swamp Palace - Compass Chest
+        - Swamp Palace - Map Chest
+        - Swamp Palace - Entrance
+        - Swamp Palace - Flooded Room - Left
+        - Swamp Palace - Flooded Room - Right
+        - Swamp Palace - Waterfall Room
+        - Swamp Palace - West Chest
+      type: NotLocationGroup
+    - item: Map (Swamp Palace)
+      locations:
+        - Swamp Palace - Big Chest
+        - Swamp Palace - Boss
+        - Swamp Palace - Big Key Chest
+        - Swamp Palace - Compass Chest
+        - Swamp Palace - Map Chest
+        - Swamp Palace - Entrance
+        - Swamp Palace - Flooded Room - Left
+        - Swamp Palace - Flooded Room - Right
+        - Swamp Palace - Waterfall Room
+        - Swamp Palace - West Chest
+      type: NotLocationGroup
+    - item: Small Key (Ice Palace)
+      locations:
+        - Ice Palace - Big Chest
+        - Ice Palace - Boss
+        - Ice Palace - Big Key Chest
+        - Ice Palace - Compass Chest
+        - Ice Palace - Map Chest
+        - Ice Palace - Spike Room
+        - Ice Palace - Iced T Room
+        - Ice Palace - Freezor Chest
+      type: NotLocationGroup
+    - item: Big Key (Ice Palace)
+      locations:
+        - Ice Palace - Big Chest
+        - Ice Palace - Boss
+        - Ice Palace - Big Key Chest
+        - Ice Palace - Compass Chest
+        - Ice Palace - Map Chest
+        - Ice Palace - Spike Room
+        - Ice Palace - Iced T Room
+        - Ice Palace - Freezor Chest
+      type: NotLocationGroup
+    - item: Compass (Ice Palace)
+      locations:
+        - Ice Palace - Big Chest
+        - Ice Palace - Boss
+        - Ice Palace - Big Key Chest
+        - Ice Palace - Compass Chest
+        - Ice Palace - Map Chest
+        - Ice Palace - Spike Room
+        - Ice Palace - Iced T Room
+        - Ice Palace - Freezor Chest
+      type: NotLocationGroup
+    - item: Map (Ice Palace)
+      locations:
+        - Ice Palace - Big Chest
+        - Ice Palace - Boss
+        - Ice Palace - Big Key Chest
+        - Ice Palace - Compass Chest
+        - Ice Palace - Map Chest
+        - Ice Palace - Spike Room
+        - Ice Palace - Iced T Room
+        - Ice Palace - Freezor Chest
+      type: NotLocationGroup
+    - item: Small Key (Misery Mire)
+      locations:
+        - Misery Mire - Big Chest
+        - Misery Mire - Boss
+        - Misery Mire - Big Key Chest
+        - Misery Mire - Compass Chest
+        - Misery Mire - Map Chest
+        - Misery Mire - Spike Chest
+        - Misery Mire - Main Lobby
+        - Misery Mire - Bridge Chest
+      type: NotLocationGroup
+    - item: Big Key (Misery Mire)
+      locations:
+        - Misery Mire - Big Chest
+        - Misery Mire - Boss
+        - Misery Mire - Big Key Chest
+        - Misery Mire - Compass Chest
+        - Misery Mire - Map Chest
+        - Misery Mire - Spike Chest
+        - Misery Mire - Main Lobby
+        - Misery Mire - Bridge Chest
+      type: NotLocationGroup
+    - item: Compass (Misery Mire)
+      locations:
+        - Misery Mire - Big Chest
+        - Misery Mire - Boss
+        - Misery Mire - Big Key Chest
+        - Misery Mire - Compass Chest
+        - Misery Mire - Map Chest
+        - Misery Mire - Spike Chest
+        - Misery Mire - Main Lobby
+        - Misery Mire - Bridge Chest
+      type: NotLocationGroup
+    - item: Map (Misery Mire)
+      locations:
+        - Misery Mire - Big Chest
+        - Misery Mire - Boss
+        - Misery Mire - Big Key Chest
+        - Misery Mire - Compass Chest
+        - Misery Mire - Map Chest
+        - Misery Mire - Spike Chest
+        - Misery Mire - Main Lobby
+        - Misery Mire - Bridge Chest
+      type: NotLocationGroup
+    - item: Small Key (Turtle Rock)
+      locations:
+        - Turtle Rock - Big Chest
+        - Turtle Rock - Boss
+        - Turtle Rock - Big Key Chest
+        - Turtle Rock - Compass Chest
+        - Turtle Rock - Roller Room - Left
+        - Turtle Rock - Chain Chomps
+        - Turtle Rock - Crystaroller Room
+        - Turtle Rock - Roller Room - Right
+        - Turtle Rock - Eye Bridge - Bottom Left
+        - Turtle Rock - Eye Bridge - Bottom Right
+        - Turtle Rock - Eye Bridge - Top Left
+        - Turtle Rock - Eye Bridge - Top Right
+      type: NotLocationGroup
+    - item: Big Key (Turtle Rock)
+      locations:
+        - Turtle Rock - Big Chest
+        - Turtle Rock - Boss
+        - Turtle Rock - Big Key Chest
+        - Turtle Rock - Compass Chest
+        - Turtle Rock - Roller Room - Left
+        - Turtle Rock - Chain Chomps
+        - Turtle Rock - Crystaroller Room
+        - Turtle Rock - Roller Room - Right
+        - Turtle Rock - Eye Bridge - Bottom Left
+        - Turtle Rock - Eye Bridge - Bottom Right
+        - Turtle Rock - Eye Bridge - Top Left
+        - Turtle Rock - Eye Bridge - Top Right
+      type: NotLocationGroup
+    - item: Compass (Turtle Rock)
+      locations:
+        - Turtle Rock - Big Chest
+        - Turtle Rock - Boss
+        - Turtle Rock - Big Key Chest
+        - Turtle Rock - Compass Chest
+        - Turtle Rock - Roller Room - Left
+        - Turtle Rock - Chain Chomps
+        - Turtle Rock - Crystaroller Room
+        - Turtle Rock - Roller Room - Right
+        - Turtle Rock - Eye Bridge - Bottom Left
+        - Turtle Rock - Eye Bridge - Bottom Right
+        - Turtle Rock - Eye Bridge - Top Left
+        - Turtle Rock - Eye Bridge - Top Right
+      type: NotLocationGroup
+    - item: Map (Turtle Rock)
+      locations:
+        - Turtle Rock - Big Chest
+        - Turtle Rock - Boss
+        - Turtle Rock - Big Key Chest
+        - Turtle Rock - Compass Chest
+        - Turtle Rock - Roller Room - Left
+        - Turtle Rock - Chain Chomps
+        - Turtle Rock - Crystaroller Room
+        - Turtle Rock - Roller Room - Right
+        - Turtle Rock - Eye Bridge - Bottom Left
+        - Turtle Rock - Eye Bridge - Bottom Right
+        - Turtle Rock - Eye Bridge - Top Left
+        - Turtle Rock - Eye Bridge - Top Right
+      type: NotLocationGroup
+    - item: Small Key (Ganons Tower)
+      locations:
+        - Ganons Tower - Big Chest
+        - Ganons Tower - Big Key Chest
+        - Ganons Tower - Compass Room - Top Left
+        - Ganons Tower - Map Chest
+        - Ganons Tower - Bob's Torch
+        - Ganons Tower - Tile Room
+        - Ganons Tower - Firesnake Room
+        - Ganons Tower - Pre-Moldorm Chest
+        - Ganons Tower - DMs Room - Top Right
+        - Ganons Tower - DMs Room - Top Left
+        - Ganons Tower - DMs Room - Bottom Left
+        - Ganons Tower - DMs Room - Bottom Right
+        - Ganons Tower - Compass Room - Top Right
+        - Ganons Tower - Compass Room - Bottom Right
+        - Ganons Tower - Compass Room - Bottom Left
+        - Ganons Tower - Hope Room - Left
+        - Ganons Tower - Hope Room - Right
+        - Ganons Tower - Randomizer Room - Top Left
+        - Ganons Tower - Randomizer Room - Top Right
+        - Ganons Tower - Randomizer Room - Bottom Right
+        - Ganons Tower - Randomizer Room - Bottom Left
+        - Ganons Tower - Bob's Chest
+        - Ganons Tower - Big Key Room - Left
+        - Ganons Tower - Big Key Room - Right
+        - Ganons Tower - Mini Helmasaur Room - Left
+        - Ganons Tower - Mini Helmasaur Room - Right
+        - Ganons Tower - Validation Chest
+      type: NotLocationGroup
+    - item: Big Key (Ganons Tower)
+      locations:
+        - Ganons Tower - Big Chest
+        - Ganons Tower - Big Key Chest
+        - Ganons Tower - Compass Room - Top Left
+        - Ganons Tower - Map Chest
+        - Ganons Tower - Bob's Torch
+        - Ganons Tower - Tile Room
+        - Ganons Tower - Firesnake Room
+        - Ganons Tower - Pre-Moldorm Chest
+        - Ganons Tower - DMs Room - Top Right
+        - Ganons Tower - DMs Room - Top Left
+        - Ganons Tower - DMs Room - Bottom Left
+        - Ganons Tower - DMs Room - Bottom Right
+        - Ganons Tower - Compass Room - Top Right
+        - Ganons Tower - Compass Room - Bottom Right
+        - Ganons Tower - Compass Room - Bottom Left
+        - Ganons Tower - Hope Room - Left
+        - Ganons Tower - Hope Room - Right
+        - Ganons Tower - Randomizer Room - Top Left
+        - Ganons Tower - Randomizer Room - Top Right
+        - Ganons Tower - Randomizer Room - Bottom Right
+        - Ganons Tower - Randomizer Room - Bottom Left
+        - Ganons Tower - Bob's Chest
+        - Ganons Tower - Big Key Room - Left
+        - Ganons Tower - Big Key Room - Right
+        - Ganons Tower - Mini Helmasaur Room - Left
+        - Ganons Tower - Mini Helmasaur Room - Right
+        - Ganons Tower - Validation Chest
+      type: NotLocationGroup
+    - item: Compass (Ganons Tower)
+      locations:
+        - Ganons Tower - Big Chest
+        - Ganons Tower - Big Key Chest
+        - Ganons Tower - Compass Room - Top Left
+        - Ganons Tower - Map Chest
+        - Ganons Tower - Bob's Torch
+        - Ganons Tower - Tile Room
+        - Ganons Tower - Firesnake Room
+        - Ganons Tower - Pre-Moldorm Chest
+        - Ganons Tower - DMs Room - Top Right
+        - Ganons Tower - DMs Room - Top Left
+        - Ganons Tower - DMs Room - Bottom Left
+        - Ganons Tower - DMs Room - Bottom Right
+        - Ganons Tower - Compass Room - Top Right
+        - Ganons Tower - Compass Room - Bottom Right
+        - Ganons Tower - Compass Room - Bottom Left
+        - Ganons Tower - Hope Room - Left
+        - Ganons Tower - Hope Room - Right
+        - Ganons Tower - Randomizer Room - Top Left
+        - Ganons Tower - Randomizer Room - Top Right
+        - Ganons Tower - Randomizer Room - Bottom Right
+        - Ganons Tower - Randomizer Room - Bottom Left
+        - Ganons Tower - Bob's Chest
+        - Ganons Tower - Big Key Room - Left
+        - Ganons Tower - Big Key Room - Right
+        - Ganons Tower - Mini Helmasaur Room - Left
+        - Ganons Tower - Mini Helmasaur Room - Right
+        - Ganons Tower - Validation Chest
+      type: NotLocationGroup
+    - item: Map (Ganons Tower)
+      locations:
+        - Ganons Tower - Big Chest
+        - Ganons Tower - Big Key Chest
+        - Ganons Tower - Compass Room - Top Left
+        - Ganons Tower - Map Chest
+        - Ganons Tower - Bob's Torch
+        - Ganons Tower - Tile Room
+        - Ganons Tower - Firesnake Room
+        - Ganons Tower - Pre-Moldorm Chest
+        - Ganons Tower - DMs Room - Top Right
+        - Ganons Tower - DMs Room - Top Left
+        - Ganons Tower - DMs Room - Bottom Left
+        - Ganons Tower - DMs Room - Bottom Right
+        - Ganons Tower - Compass Room - Top Right
+        - Ganons Tower - Compass Room - Bottom Right
+        - Ganons Tower - Compass Room - Bottom Left
+        - Ganons Tower - Hope Room - Left
+        - Ganons Tower - Hope Room - Right
+        - Ganons Tower - Randomizer Room - Top Left
+        - Ganons Tower - Randomizer Room - Top Right
+        - Ganons Tower - Randomizer Room - Bottom Right
+        - Ganons Tower - Randomizer Room - Bottom Left
+        - Ganons Tower - Bob's Chest
+        - Ganons Tower - Big Key Room - Left
+        - Ganons Tower - Big Key Room - Right
+        - Ganons Tower - Mini Helmasaur Room - Left
+        - Ganons Tower - Mini Helmasaur Room - Right
+        - Ganons Tower - Validation Chest
+      type: NotLocationGroup
+

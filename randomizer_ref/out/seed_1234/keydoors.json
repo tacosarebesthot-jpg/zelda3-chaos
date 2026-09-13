@@ -1,0 +1,1378 @@
+{
+ "version": 1,
+ "algorithm": "partial",
+ "keyshuffle": "none",
+ "partial_eval": "open iff ANY new_rules entry fires (eval_small_key_door_partial): worstcase n -> has_sm_key >= min(n, small_key_num); allow_small n -> small_location currently holds the dungeon small key AND has_sm_key >= n; lock:<BigKey> n -> some location in alternate_big_key_loc holds that big key AND has_sm_key >= min(n, alternate_small_key); crystal_alternative n -> has_sm_key >= n (blue-barrier doors)",
+ "dungeons": [
+  {
+   "dungeon": "Agahnims Tower",
+   "small_key_item": "Small Key (Agahnims Tower)",
+   "big_key_item": "Big Key (Agahnims Tower)",
+   "max_chests": 2
+  },
+  {
+   "dungeon": "Desert Palace",
+   "small_key_item": "Small Key (Desert Palace)",
+   "big_key_item": "Big Key (Desert Palace)",
+   "max_chests": 1
+  },
+  {
+   "dungeon": "Eastern Palace",
+   "small_key_item": "Small Key (Eastern Palace)",
+   "big_key_item": "Big Key (Eastern Palace)",
+   "max_chests": 0
+  },
+  {
+   "dungeon": "Ganons Tower",
+   "small_key_item": "Small Key (Ganons Tower)",
+   "big_key_item": "Big Key (Ganons Tower)",
+   "max_chests": 4
+  },
+  {
+   "dungeon": "Hyrule Castle",
+   "small_key_item": "Small Key (Escape)",
+   "big_key_item": "Big Key (Escape)",
+   "max_chests": 1
+  },
+  {
+   "dungeon": "Ice Palace",
+   "small_key_item": "Small Key (Ice Palace)",
+   "big_key_item": "Big Key (Ice Palace)",
+   "max_chests": 2
+  },
+  {
+   "dungeon": "Misery Mire",
+   "small_key_item": "Small Key (Misery Mire)",
+   "big_key_item": "Big Key (Misery Mire)",
+   "max_chests": 3
+  },
+  {
+   "dungeon": "Palace of Darkness",
+   "small_key_item": "Small Key (Palace of Darkness)",
+   "big_key_item": "Big Key (Palace of Darkness)",
+   "max_chests": 6
+  },
+  {
+   "dungeon": "Skull Woods",
+   "small_key_item": "Small Key (Skull Woods)",
+   "big_key_item": "Big Key (Skull Woods)",
+   "max_chests": 3
+  },
+  {
+   "dungeon": "Swamp Palace",
+   "small_key_item": "Small Key (Swamp Palace)",
+   "big_key_item": "Big Key (Swamp Palace)",
+   "max_chests": 1
+  },
+  {
+   "dungeon": "Thieves Town",
+   "small_key_item": "Small Key (Thieves Town)",
+   "big_key_item": "Big Key (Thieves Town)",
+   "max_chests": 1
+  },
+  {
+   "dungeon": "Tower of Hera",
+   "small_key_item": "Small Key (Tower of Hera)",
+   "big_key_item": "Big Key (Tower of Hera)",
+   "max_chests": 1
+  },
+  {
+   "dungeon": "Turtle Rock",
+   "small_key_item": "Small Key (Turtle Rock)",
+   "big_key_item": "Big Key (Turtle Rock)",
+   "max_chests": 4
+  }
+ ],
+ "doors": [
+  {
+   "door": "Tower Circle of Pots ES",
+   "dungeon": "Agahnims Tower",
+   "small_key_num": 4,
+   "worstcase": 4,
+   "partial_threshold": 4,
+   "new_rules": {
+    "worstcase": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Tower Dark Archers Up Stairs",
+   "dungeon": "Agahnims Tower",
+   "small_key_num": 3,
+   "worstcase": 3,
+   "partial_threshold": 3,
+   "new_rules": {
+    "worstcase": 3
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Tower Dark Maze ES",
+   "dungeon": "Agahnims Tower",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Tower Room 03 Up Stairs",
+   "dungeon": "Agahnims Tower",
+   "small_key_num": 1,
+   "worstcase": 1,
+   "partial_threshold": 1,
+   "new_rules": {
+    "worstcase": 1
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Desert Beamos Hall NE",
+   "dungeon": "Desert Palace",
+   "small_key_num": 3,
+   "worstcase": 3,
+   "partial_threshold": 3,
+   "new_rules": {
+    "worstcase": 3
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Desert East Wing Key Door EN",
+   "dungeon": "Desert Palace",
+   "small_key_num": 4,
+   "worstcase": 4,
+   "partial_threshold": 4,
+   "new_rules": {
+    "worstcase": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Desert Tiles 1 Up Stairs",
+   "dungeon": "Desert Palace",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Desert Tiles 2 NE",
+   "dungeon": "Desert Palace",
+   "small_key_num": 4,
+   "worstcase": 4,
+   "partial_threshold": 4,
+   "new_rules": {
+    "worstcase": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Eastern Dark Square Key Door WN",
+   "dungeon": "Eastern Palace",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2,
+    "allow_small": 1,
+    "lock:Big Key (Eastern Palace)": 1
+   },
+   "allow_small": true,
+   "small_location": "Eastern Palace - Big Key Chest",
+   "alternate_small_key": 1,
+   "alternate_big_key_loc": [
+    "Eastern Palace - Big Key Chest"
+   ],
+   "is_valid": true
+  },
+  {
+   "door": "Eastern Darkness Up Stairs",
+   "dungeon": "Eastern Palace",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "GT Conveyor Star Pits EN",
+   "dungeon": "Ganons Tower",
+   "small_key_num": 6,
+   "worstcase": 7,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 7,
+    "lock:Big Key (Ganons Tower)": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": 5,
+   "alternate_big_key_loc": [
+    "Ganons Tower - Big Chest",
+    "Ganons Tower - Big Key Chest",
+    "Ganons Tower - Big Key Room - Left",
+    "Ganons Tower - Big Key Room - Right",
+    "Ganons Tower - Bob's Chest"
+   ],
+   "is_valid": true
+  },
+  {
+   "door": "GT Crystal Circles SW",
+   "dungeon": "Ganons Tower",
+   "small_key_num": 8,
+   "worstcase": 8,
+   "partial_threshold": 8,
+   "new_rules": {
+    "worstcase": 8
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "GT Double Switch EN",
+   "dungeon": "Ganons Tower",
+   "small_key_num": 6,
+   "worstcase": 7,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 7,
+    "lock:Big Key (Ganons Tower)": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": 4,
+   "alternate_big_key_loc": [
+    "Ganons Tower - Firesnake Room",
+    "Ganons Tower - Randomizer Room - Bottom Left",
+    "Ganons Tower - Randomizer Room - Bottom Right",
+    "Ganons Tower - Randomizer Room - Top Left",
+    "Ganons Tower - Randomizer Room - Top Right"
+   ],
+   "is_valid": true
+  },
+  {
+   "door": "GT Firesnake Room SW",
+   "dungeon": "Ganons Tower",
+   "small_key_num": 8,
+   "worstcase": 8,
+   "partial_threshold": 8,
+   "new_rules": {
+    "worstcase": 8,
+    "lock:Big Key (Ganons Tower)": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": 5,
+   "alternate_big_key_loc": [
+    "Ganons Tower - Big Chest",
+    "Ganons Tower - Big Key Chest",
+    "Ganons Tower - Big Key Room - Left",
+    "Ganons Tower - Big Key Room - Right",
+    "Ganons Tower - Bob's Chest",
+    "Ganons Tower - Randomizer Room - Bottom Left",
+    "Ganons Tower - Randomizer Room - Bottom Right",
+    "Ganons Tower - Randomizer Room - Top Left",
+    "Ganons Tower - Randomizer Room - Top Right"
+   ],
+   "is_valid": true
+  },
+  {
+   "door": "GT Hookshot ES",
+   "dungeon": "Ganons Tower",
+   "small_key_num": 8,
+   "worstcase": 8,
+   "partial_threshold": 8,
+   "new_rules": {
+    "worstcase": 8,
+    "allow_small": 7,
+    "lock:Big Key (Ganons Tower)": 6
+   },
+   "allow_small": true,
+   "small_location": "Ganons Tower - Map Chest",
+   "alternate_small_key": 5,
+   "alternate_big_key_loc": [
+    "Ganons Tower - Map Chest"
+   ],
+   "is_valid": true
+  },
+  {
+   "door": "GT Hope Room WN",
+   "dungeon": "Ganons Tower",
+   "small_key_num": 8,
+   "worstcase": 8,
+   "partial_threshold": 8,
+   "new_rules": {
+    "worstcase": 8
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "GT Mini Helmasaur Room WN",
+   "dungeon": "Ganons Tower",
+   "small_key_num": 6,
+   "worstcase": 7,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 7
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "GT Tile Room EN",
+   "dungeon": "Ganons Tower",
+   "small_key_num": 7,
+   "worstcase": 7,
+   "partial_threshold": 7,
+   "new_rules": {
+    "worstcase": 7,
+    "lock:Big Key (Ganons Tower)": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": 5,
+   "alternate_big_key_loc": [
+    "Ganons Tower - Big Chest",
+    "Ganons Tower - Big Key Chest",
+    "Ganons Tower - Big Key Room - Left",
+    "Ganons Tower - Big Key Room - Right",
+    "Ganons Tower - Bob's Chest",
+    "Ganons Tower - Compass Room - Bottom Left",
+    "Ganons Tower - Compass Room - Bottom Right",
+    "Ganons Tower - Compass Room - Top Left",
+    "Ganons Tower - Compass Room - Top Right"
+   ],
+   "is_valid": true
+  },
+  {
+   "door": "GT Torch EN",
+   "dungeon": "Ganons Tower",
+   "small_key_num": 8,
+   "worstcase": 8,
+   "partial_threshold": 8,
+   "new_rules": {
+    "worstcase": 8
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Hyrule Dungeon Armory Interior Key Door N",
+   "dungeon": "Hyrule Castle",
+   "small_key_num": 4,
+   "worstcase": 4,
+   "partial_threshold": 4,
+   "new_rules": {
+    "worstcase": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Hyrule Dungeon Map Room Key Door S",
+   "dungeon": "Hyrule Castle",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Sewers Dark Cross Key Door N",
+   "dungeon": "Hyrule Castle",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Sewers Key Rat NE",
+   "dungeon": "Hyrule Castle",
+   "small_key_num": 4,
+   "worstcase": 4,
+   "partial_threshold": 4,
+   "new_rules": {
+    "worstcase": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Sewers Secret Room Key Door S",
+   "dungeon": "Hyrule Castle",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Sewers Water S",
+   "dungeon": "Hyrule Castle",
+   "small_key_num": 4,
+   "worstcase": 4,
+   "partial_threshold": 4,
+   "new_rules": {
+    "worstcase": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Ice Backwards Room Down Stairs",
+   "dungeon": "Ice Palace",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Ice Conveyor SW",
+   "dungeon": "Ice Palace",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Ice Jelly Key Down Stairs",
+   "dungeon": "Ice Palace",
+   "small_key_num": 1,
+   "worstcase": 1,
+   "partial_threshold": 1,
+   "new_rules": {
+    "worstcase": 1
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Ice Lonely Freezor NE",
+   "dungeon": "Ice Palace",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Ice Spike Cross ES",
+   "dungeon": "Ice Palace",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Ice Spike Room WS",
+   "dungeon": "Ice Palace",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Ice Switch Room ES",
+   "dungeon": "Ice Palace",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Ice Tall Hint SE",
+   "dungeon": "Ice Palace",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Conveyor Crystal WS",
+   "dungeon": "Misery Mire",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6,
+    "lock:Big Key (Misery Mire)": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": 4,
+   "alternate_big_key_loc": [
+    "Misery Mire - Big Key Chest",
+    "Misery Mire - Compass Chest"
+   ],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Crystal Dead End Left Barrier",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Crystal Dead End Right Barrier",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Dark Shooters SE",
+   "dungeon": "Misery Mire",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Fishbone SE",
+   "dungeon": "Misery Mire",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Hub Lower Blue Barrier",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Hub Right Blue Barrier",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Hub Right EN",
+   "dungeon": "Misery Mire",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Hub Switch Blue Barrier N",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Hub Switch Blue Barrier S",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Hub Top Blue Barrier",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Hub Upper Blue Barrier",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Hub WS",
+   "dungeon": "Misery Mire",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5,
+    "lock:Big Key (Misery Mire)": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": 3,
+   "alternate_big_key_loc": [
+    "Misery Mire - Big Key Chest",
+    "Misery Mire - Compass Chest"
+   ],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Ledgehop SW",
+   "dungeon": "Misery Mire",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Map Spike Side Blue Barrier",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Map Spot Blue Barrier",
+   "dungeon": "Misery Mire",
+   "small_key_num": 0,
+   "worstcase": null,
+   "partial_threshold": null,
+   "new_rules": {
+    "crystal_alternative": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Map Spot WN",
+   "dungeon": "Misery Mire",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Spike Barrier NE",
+   "dungeon": "Misery Mire",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Mire Spikes NW",
+   "dungeon": "Misery Mire",
+   "small_key_num": 3,
+   "worstcase": 4,
+   "partial_threshold": 3,
+   "new_rules": {
+    "worstcase": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "PoD Arena Main NW",
+   "dungeon": "Palace of Darkness",
+   "small_key_num": 4,
+   "worstcase": 4,
+   "partial_threshold": 4,
+   "new_rules": {
+    "worstcase": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "PoD Basement Ledge Up Stairs",
+   "dungeon": "Palace of Darkness",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6,
+    "allow_small": 5
+   },
+   "allow_small": true,
+   "small_location": "Palace of Darkness - Big Key Chest",
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "PoD Compass Room SE",
+   "dungeon": "Palace of Darkness",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6,
+    "allow_small": 5
+   },
+   "allow_small": true,
+   "small_location": "Palace of Darkness - Harmless Hellway",
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "PoD Dark Pegs WN",
+   "dungeon": "Palace of Darkness",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "PoD Falling Bridge WN",
+   "dungeon": "Palace of Darkness",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "PoD Middle Cage N",
+   "dungeon": "Palace of Darkness",
+   "small_key_num": 1,
+   "worstcase": 1,
+   "partial_threshold": 1,
+   "new_rules": {
+    "worstcase": 1
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "PoD Pit Room S",
+   "dungeon": "Palace of Darkness",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Skull 1 Lobby WS",
+   "dungeon": "Skull Woods",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Skull 2 West Lobby NW",
+   "dungeon": "Skull Woods",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Skull 3 Lobby NW",
+   "dungeon": "Skull Woods",
+   "small_key_num": 4,
+   "worstcase": 4,
+   "partial_threshold": 4,
+   "new_rules": {
+    "worstcase": 4
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Skull Map Room SE",
+   "dungeon": "Skull Woods",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Skull Pinball NE",
+   "dungeon": "Skull Woods",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Skull Pot Prison ES",
+   "dungeon": "Skull Woods",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Skull Spike Corner ES",
+   "dungeon": "Skull Woods",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Swamp Entrance Down Stairs",
+   "dungeon": "Swamp Palace",
+   "small_key_num": 1,
+   "worstcase": 1,
+   "partial_threshold": 1,
+   "new_rules": {
+    "worstcase": 1
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Swamp Hub North Ledge N",
+   "dungeon": "Swamp Palace",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Swamp Hub WN",
+   "dungeon": "Swamp Palace",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Swamp Pot Row WS",
+   "dungeon": "Swamp Palace",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Swamp Trench 1 Key Ledge NW",
+   "dungeon": "Swamp Palace",
+   "small_key_num": 3,
+   "worstcase": 3,
+   "partial_threshold": 3,
+   "new_rules": {
+    "worstcase": 3
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Swamp Waterway NW",
+   "dungeon": "Swamp Palace",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Thieves Conveyor Bridge WS",
+   "dungeon": "Thieves Town",
+   "small_key_num": 3,
+   "worstcase": 3,
+   "partial_threshold": 3,
+   "new_rules": {
+    "worstcase": 3,
+    "allow_small": 2
+   },
+   "allow_small": true,
+   "small_location": "Thieves' Town - Big Chest",
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Thieves Hallway WS",
+   "dungeon": "Thieves Town",
+   "small_key_num": 1,
+   "worstcase": 1,
+   "partial_threshold": 1,
+   "new_rules": {
+    "worstcase": 1
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Thieves Spike Switch Up Stairs",
+   "dungeon": "Thieves Town",
+   "small_key_num": 3,
+   "worstcase": 3,
+   "partial_threshold": 3,
+   "new_rules": {
+    "worstcase": 3
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "Hera Lobby Key Stairs",
+   "dungeon": "Tower of Hera",
+   "small_key_num": 1,
+   "worstcase": 1,
+   "partial_threshold": 1,
+   "new_rules": {
+    "worstcase": 1,
+    "allow_small": 0
+   },
+   "allow_small": true,
+   "small_location": "Tower of Hera - Big Key Chest",
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "TR Chain Chomps Down Stairs",
+   "dungeon": "Turtle Rock",
+   "small_key_num": 3,
+   "worstcase": 3,
+   "partial_threshold": 3,
+   "new_rules": {
+    "worstcase": 3
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "TR Crystaroller Down Stairs",
+   "dungeon": "Turtle Rock",
+   "small_key_num": 5,
+   "worstcase": 5,
+   "partial_threshold": 5,
+   "new_rules": {
+    "worstcase": 5
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "TR Dash Bridge WS",
+   "dungeon": "Turtle Rock",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "TR Hub NW",
+   "dungeon": "Turtle Rock",
+   "small_key_num": 1,
+   "worstcase": 1,
+   "partial_threshold": 1,
+   "new_rules": {
+    "worstcase": 1
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "TR Pokey 1 NW",
+   "dungeon": "Turtle Rock",
+   "small_key_num": 2,
+   "worstcase": 2,
+   "partial_threshold": 2,
+   "new_rules": {
+    "worstcase": 2
+   },
+   "allow_small": false,
+   "small_location": null,
+   "alternate_small_key": null,
+   "alternate_big_key_loc": [],
+   "is_valid": true
+  },
+  {
+   "door": "TR Pokey 2 ES",
+   "dungeon": "Turtle Rock",
+   "small_key_num": 6,
+   "worstcase": 6,
+   "partial_threshold": 6,
+   "new_rules": {
+    "worstcase": 6,
+    "allow_small": 5,
+    "lock:Big Key (Turtle Rock)": 4
+   },
+   "allow_small": true,
+   "small_location": "Turtle Rock - Big Key Chest",
+   "alternate_small_key": 4,
+   "alternate_big_key_loc": [
+    "Turtle Rock - Big Key Chest"
+   ],
+   "is_valid": true
+  }
+ ]
+}

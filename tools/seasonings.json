@@ -1,0 +1,67 @@
+{
+  "_comment": "DECORATIVE-ONLY text seasoning placements for zelda3. `msg` is the game message index (0-based, same numbers the engine uses; dialogue.txt line number is msg+1). `expected_original` is the exact current dialogue.txt line content (after 'N: ') — the tool refuses to apply if the live text drifted from this. `new_text` must be plain text (no [commands]) using only the US text alphabet. Every entry here was hand-classified as DECORATIVE (sign text or flavor NPC one-liner with zero hint/quest/load-bearing content). See TEXT_SEASONING.md.",
+  "placements": [
+    {
+      "msg": 59,
+      "where": "Kakariko NW overworld sign (area 0x18, same screen as the cucco pen; previously the WANTED poster sign)",
+      "why_decorative": "Overworld sign text via kOverworld_SignText / player.c:3796. Signs are flavor by definition; content is not referenced by any game logic.",
+      "expected_original": "  [LinkL][LinkR]  WANTED!  This is the[2]criminal who kidnapped Zelda.[3]Call a soldier if you see him!",
+      "new_text": "Arise Chicken!!"
+    },
+    {
+      "msg": 62,
+      "where": "Zora Falls Outskirts overworld sign (area 0x0F, previously 'DANGER! Beware of deep water and Zora!')",
+      "why_decorative": "Overworld sign text via kOverworld_SignText / player.c:3796. Pure flavor sign.",
+      "expected_original": "           DANGER![2]Beware of deep water and Zora!",
+      "new_text": "ya drunk yet snake?"
+    },
+    {
+      "msg": 21,
+      "where": "Tutorial soldier NPC one-liner (sprite_main.c Sprite_TutorialGuardOrBarrier cycle, msg 0x0F..0x15; previously 'Us soldiers have been around, kid...')",
+      "why_decorative": "Content-free filler one-liner; unlike its six siblings in the tutorial cycle (msgs 0x10..0x14, 0x0F) it contains no control hints or quest info. Those siblings are NOT touched.",
+      "expected_original": "Us soldiers have been around,[2]kid.  You can learn a lot from[3]us.  But you already know that!",
+      "new_text": "I'm doing my part"
+    },
+    {
+      "msg": 165,
+      "where": "Kakariko sweeping lady NPC (sprite_main.c Sprite_SweepingLady msg 0xA5; previously 'Oh, [Name]. The rumors say you kidnapped the Princess...')",
+      "why_decorative": "Pure flavor NPC one-liner; no item, no hint, no quest state. Sole reference: sprite_main.c:12723.",
+      "expected_original": "Oh, [Name].  The rumors say[2]you kidnapped the Princess,[3]but I still trust you.",
+      "new_text": "Commence the Jigglin'"
+    },
+    {
+      "msg": 263,
+      "where": "Locksmith NPC idle line (sprite_main.c Sprite_39_Locksmith case 0 'chilling', msg 0x107; previously just '[...] [...] [...]')",
+      "why_decorative": "The NPC's idle string is literally only dots. Chest-adjacent NPC. His quest lines (0x108-0x10C) are NOT touched.",
+      "expected_original": "[...]  [...]  [...]  [...]  [...]  [...][2][...]  [...]  [...]",
+      "new_text": "here comes that cup"
+    },
+    {
+      "msg": 304,
+      "where": "QuarrelBros older brother, door-open state (sprite_main.c Sprite_QuarrelBros msg 0x130)",
+      "why_decorative": "Flavor chatter between the two quarreling brothers; no item or flag depends on it.",
+      "expected_original": "So the doorway is open again[...][2]OK OK, maybe I should make up[3]with my brother[...]",
+      "new_text": "Look At Us"
+    },
+    {
+      "msg": 305,
+      "where": "QuarrelBros younger brother (sprite_main.c Sprite_QuarrelBros msg 0x131)",
+      "why_decorative": "Flavor chatter between the two quarreling brothers ('Look At Us' lands on the pair).",
+      "expected_original": "Hey [Name], did you come from[2]my older brother's room?  Is he[3]still angry?",
+      "new_text": "Look At Us"
+    },
+    {
+      "msg": 164,
+      "where": "Flute boy's father in Kakariko, AFTER the flute quest is fully done (sprite_main.c Sprite_FluteDad, msg 0xA4; previously 'Zzzzzzz... Snore')",
+      "why_decorative": "Post-quest snore line, only reachable when link_item_flute >= 2. His quest lines (0xA1-0xA3) are NOT touched.",
+      "expected_original": "Zzzzzzz  Zzzzzzzz[2][...]  [...]  [...][3]Snore  Zzzzzz  Zzzzzz",
+      "new_text": "damn you party liquor"
+    }
+  ],
+  "skipped": [
+    {
+      "line": "You Died",
+      "reason": "No decorative game-over slot exists: the game-over screen text is the save/quit choice menu (msgs 0-4), which is load-bearing UI. Skipped per guardrail."
+    }
+  ]
+}

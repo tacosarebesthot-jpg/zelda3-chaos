@@ -1,0 +1,2 @@
+# canonical Sanctuary chest interact point (dng-verified by pinroute)
+GOLD x=1232 y=600 facing=up tries=1 found=2026-09-10 19:40:06

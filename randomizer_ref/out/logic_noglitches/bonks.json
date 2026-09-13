@@ -1,0 +1,385 @@
+{
+ "dump_version": 1,
+ "shuffle": false,
+ "seed": 1234,
+ "bonks": [
+  {
+   "name": "Lost Woods Hideout Tree",
+   "record": 0,
+   "flag": 16,
+   "aga": false,
+   "region": "Lost Woods East Area",
+   "hint": "in a tree",
+   "address": "0x2abb03"
+  },
+  {
+   "name": "Death Mountain Bonk Rocks",
+   "record": 1,
+   "flag": 16,
+   "aga": false,
+   "region": "East Death Mountain (Top East)",
+   "hint": "encased in stone",
+   "address": "0x2abb09"
+  },
+  {
+   "name": "Mountain Pass Pull Tree",
+   "record": 2,
+   "flag": 16,
+   "aga": false,
+   "region": "Mountain Pass Area",
+   "hint": "in a tree",
+   "address": "0x2abb0f"
+  },
+  {
+   "name": "Mountain Pass Southeast Tree",
+   "record": 3,
+   "flag": 8,
+   "aga": false,
+   "region": "Mountain Pass Area",
+   "hint": "in a tree",
+   "address": "0x2abb15"
+  },
+  {
+   "name": "Lost Woods Pass West Tree",
+   "record": 4,
+   "flag": 16,
+   "aga": false,
+   "region": "Lost Woods Pass West Area",
+   "hint": "in a tree",
+   "address": "0x2abb1b"
+  },
+  {
+   "name": "Kakariko Portal Tree",
+   "record": 5,
+   "flag": 8,
+   "aga": false,
+   "region": "Lost Woods Pass East Top Area",
+   "hint": "in a tree",
+   "address": "0x2abb21"
+  },
+  {
+   "name": "Fortune Bonk Rocks",
+   "record": 6,
+   "flag": 16,
+   "aga": false,
+   "region": "Kakariko Fortune Area",
+   "hint": "encased in stone",
+   "address": "0x2abb27"
+  },
+  {
+   "name": "Kakariko Pond Tree",
+   "record": 7,
+   "flag": 16,
+   "aga": true,
+   "region": "Kakariko Pond Area",
+   "hint": "in a tree",
+   "address": "0x2abb2d"
+  },
+  {
+   "name": "Bonk Rocks Tree",
+   "record": 8,
+   "flag": 16,
+   "aga": true,
+   "region": "Bonk Rock Ledge",
+   "hint": "in a tree",
+   "address": "0x2abb33"
+  },
+  {
+   "name": "Sanctuary Tree",
+   "record": 9,
+   "flag": 8,
+   "aga": false,
+   "region": "Sanctuary Area",
+   "hint": "in a tree",
+   "address": "0x2abb39"
+  },
+  {
+   "name": "River Bend West Tree",
+   "record": 10,
+   "flag": 16,
+   "aga": true,
+   "region": "River Bend Area",
+   "hint": "in a tree",
+   "address": "0x2abb3f"
+  },
+  {
+   "name": "River Bend East Tree",
+   "record": 11,
+   "flag": 8,
+   "aga": false,
+   "region": "River Bend East Bank",
+   "hint": "in a tree",
+   "address": "0x2abb45"
+  },
+  {
+   "name": "Blinds Hideout Tree",
+   "record": 12,
+   "flag": 16,
+   "aga": false,
+   "region": "Kakariko Village",
+   "hint": "in a tree",
+   "address": "0x2abb4b"
+  },
+  {
+   "name": "Kakariko Welcome Tree",
+   "record": 13,
+   "flag": 8,
+   "aga": false,
+   "region": "Kakariko Village",
+   "hint": "in a tree",
+   "address": "0x2abb51"
+  },
+  {
+   "name": "Forgotten Forest Southwest Tree",
+   "record": 14,
+   "flag": 16,
+   "aga": false,
+   "region": "Forgotten Forest Area",
+   "hint": "in a tree",
+   "address": "0x2abb57"
+  },
+  {
+   "name": "Forgotten Forest Central Tree",
+   "record": 15,
+   "flag": 8,
+   "aga": false,
+   "region": "Forgotten Forest Area",
+   "hint": "in a tree",
+   "address": "0x2abb5d"
+  },
+  {
+   "name": "Hyrule Castle Tree",
+   "record": 16,
+   "flag": 16,
+   "aga": false,
+   "region": "Hyrule Castle Courtyard",
+   "hint": "in a tree",
+   "address": "0x2abb63"
+  },
+  {
+   "name": "Wooden Bridge Tree",
+   "record": 17,
+   "flag": 16,
+   "aga": false,
+   "region": "Wooden Bridge Area",
+   "hint": "in a tree",
+   "address": "0x2abb69"
+  },
+  {
+   "name": "Eastern Palace Tree",
+   "record": 18,
+   "flag": 16,
+   "aga": true,
+   "region": "Eastern Palace Area",
+   "hint": "in a tree",
+   "address": "0x2abb6f"
+  },
+  {
+   "name": "Flute Boy South Tree",
+   "record": 19,
+   "flag": 16,
+   "aga": true,
+   "region": "Flute Boy Area",
+   "hint": "in a tree",
+   "address": "0x2abb75"
+  },
+  {
+   "name": "Flute Boy East Tree",
+   "record": 20,
+   "flag": 8,
+   "aga": true,
+   "region": "Flute Boy Area",
+   "hint": "in a tree",
+   "address": "0x2abb7b"
+  },
+  {
+   "name": "Central Bonk Rocks Tree",
+   "record": 21,
+   "flag": 16,
+   "aga": false,
+   "region": "Central Bonk Rocks Area",
+   "hint": "in a tree",
+   "address": "0x2abb81"
+  },
+  {
+   "name": "Tree Line Tree 2",
+   "record": 22,
+   "flag": 16,
+   "aga": true,
+   "region": "Tree Line Area",
+   "hint": "in a tree",
+   "address": "0x2abb87"
+  },
+  {
+   "name": "Tree Line Tree 4",
+   "record": 23,
+   "flag": 8,
+   "aga": true,
+   "region": "Tree Line Area",
+   "hint": "in a tree",
+   "address": "0x2abb8d"
+  },
+  {
+   "name": "Flute Boy Approach South Tree",
+   "record": 24,
+   "flag": 16,
+   "aga": false,
+   "region": "Flute Boy Approach Area",
+   "hint": "in a tree",
+   "address": "0x2abb93"
+  },
+  {
+   "name": "Flute Boy Approach North Tree",
+   "record": 25,
+   "flag": 8,
+   "aga": false,
+   "region": "Flute Boy Approach Area",
+   "hint": "in a tree",
+   "address": "0x2abb99"
+  },
+  {
+   "name": "Dark Lumberjack Tree",
+   "record": 26,
+   "flag": 16,
+   "aga": false,
+   "region": "Dark Lumberjack Area",
+   "hint": "in a tree",
+   "address": "0x2abb9f"
+  },
+  {
+   "name": "Dark Fortune Bonk Rocks (Drop 1)",
+   "record": 27,
+   "flag": 16,
+   "aga": false,
+   "region": "Dark Fortune Area",
+   "hint": "encased in stone",
+   "address": "0x2abba5"
+  },
+  {
+   "name": "Dark Fortune Bonk Rocks (Drop 2)",
+   "record": 28,
+   "flag": 8,
+   "aga": false,
+   "region": "Dark Fortune Area",
+   "hint": "encased in stone",
+   "address": "0x2abbab"
+  },
+  {
+   "name": "Dark Graveyard West Bonk Rocks",
+   "record": 29,
+   "flag": 16,
+   "aga": false,
+   "region": "Dark Graveyard Area",
+   "hint": "encased in stone",
+   "address": "0x2abbb1"
+  },
+  {
+   "name": "Dark Graveyard North Bonk Rocks",
+   "record": 30,
+   "flag": 8,
+   "aga": false,
+   "region": "Dark Graveyard North",
+   "hint": "encased in stone",
+   "address": "0x2abbb7"
+  },
+  {
+   "name": "Dark Graveyard Tomb Bonk Rocks",
+   "record": 31,
+   "flag": 4,
+   "aga": false,
+   "region": "Dark Graveyard North",
+   "hint": "encased in stone",
+   "address": "0x2abbbd"
+  },
+  {
+   "name": "Qirn Jump West Tree",
+   "record": 32,
+   "flag": 16,
+   "aga": false,
+   "region": "Qirn Jump Area",
+   "hint": "in a tree",
+   "address": "0x2abbc3"
+  },
+  {
+   "name": "Qirn Jump East Tree",
+   "record": 33,
+   "flag": 8,
+   "aga": false,
+   "region": "Qirn Jump East Bank",
+   "hint": "in a tree",
+   "address": "0x2abbc9"
+  },
+  {
+   "name": "Dark Witch Tree",
+   "record": 34,
+   "flag": 16,
+   "aga": false,
+   "region": "Dark Witch Area",
+   "hint": "in a tree",
+   "address": "0x2abbcf"
+  },
+  {
+   "name": "Pyramid Tree",
+   "record": 35,
+   "flag": 16,
+   "aga": false,
+   "region": "Pyramid Area",
+   "hint": "in a tree",
+   "address": "0x2abbd5"
+  },
+  {
+   "name": "Palace of Darkness Tree",
+   "record": 36,
+   "flag": 16,
+   "aga": false,
+   "region": "Palace of Darkness Area",
+   "hint": "in a tree",
+   "address": "0x2abbdb"
+  },
+  {
+   "name": "Dark Tree Line Tree 2",
+   "record": 37,
+   "flag": 16,
+   "aga": false,
+   "region": "Dark Tree Line Area",
+   "hint": "in a tree",
+   "address": "0x2abbe1"
+  },
+  {
+   "name": "Dark Tree Line Tree 3",
+   "record": 38,
+   "flag": 8,
+   "aga": false,
+   "region": "Dark Tree Line Area",
+   "hint": "in a tree",
+   "address": "0x2abbe7"
+  },
+  {
+   "name": "Dark Tree Line Tree 4",
+   "record": 39,
+   "flag": 4,
+   "aga": false,
+   "region": "Dark Tree Line Area",
+   "hint": "in a tree",
+   "address": "0x2abbed"
+  },
+  {
+   "name": "Hype Cave Statue",
+   "record": 40,
+   "flag": 16,
+   "aga": false,
+   "region": "Hype Cave Area",
+   "hint": "encased in stone",
+   "address": "0x2abbf3"
+  },
+  {
+   "name": "Cold Fairy Statue",
+   "record": 41,
+   "flag": 2,
+   "aga": false,
+   "region": "Good Bee Cave (back)",
+   "hint": "encased in stone",
+   "address": "0x2abbf9"
+  }
+ ]
+}

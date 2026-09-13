@@ -1,0 +1,9332 @@
+[
+ {
+  "id": 0,
+  "name": "20 Rupee Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with some cash",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 1,
+  "name": "50 Rupee Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with some cash",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 2,
+  "name": "Agahnims Tower Portal",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 3,
+  "name": "Aginahs Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with a chest",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 4,
+  "name": "Archery Game",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a game of skill",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 5,
+  "name": "Archery Game Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 6,
+  "name": "Bat Cave (left)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 7,
+  "name": "Bat Cave (right)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 8,
+  "name": "Big Bomb Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the bomb shop",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 9,
+  "name": "Big Bomb Shop Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 10,
+  "name": "Blacksmith Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 11,
+  "name": "Blacksmith Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 12,
+  "name": "Blacksmiths Hut",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the smith",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 13,
+  "name": "Blinds Hideout",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a bounty of five items",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 14,
+  "name": "Blinds Hideout (Top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a bounty of five items",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 15,
+  "name": "Bomber Corner Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 16,
+  "name": "Bomber Corner Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 17,
+  "name": "Bomber Corner Water Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 18,
+  "name": "Bombos Tablet Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 19,
+  "name": "Bonk Fairy (Dark)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 20,
+  "name": "Bonk Fairy (Light)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 21,
+  "name": "Bonk Fairy Pool",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": true,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 22,
+  "name": "Bonk Rock Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with a chest",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 23,
+  "name": "Bonk Rock Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 24,
+  "name": "Bottom of Pyramid",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 25,
+  "name": "Brewery",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a house with a chest",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 26,
+  "name": "Broken Bridge Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 27,
+  "name": "Broken Bridge Northeast",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 28,
+  "name": "Broken Bridge Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 29,
+  "name": "Broken Bridge West",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 30,
+  "name": "Bumper Cave (bottom)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 31,
+  "name": "Bumper Cave (top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 32,
+  "name": "Bumper Cave Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 33,
+  "name": "Bumper Cave Entry",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 34,
+  "name": "Bumper Cave Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "a ledge with an item",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 35,
+  "name": "Bush Covered House",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the grass man",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 36,
+  "name": "C Whirlpool Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 37,
+  "name": "C Whirlpool Outer Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 38,
+  "name": "C Whirlpool Portal Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 39,
+  "name": "C Whirlpool Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 40,
+  "name": "C-Shaped House",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a house with a chest",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 41,
+  "name": "Capacity Fairy Pool",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "near the queen of fairies",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 42,
+  "name": "Capacity Upgrade",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the queen of fairies",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 43,
+  "name": "Catfish Approach Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 44,
+  "name": "Catfish Approach Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 45,
+  "name": "Catfish Approach Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 46,
+  "name": "Catfish Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 47,
+  "name": "Cave 45",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with an item",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 48,
+  "name": "Cave 45 Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 49,
+  "name": "Central Bonk Rocks Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 50,
+  "name": "Central Cliffs",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 51,
+  "name": "Checkerboard Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with an item",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 52,
+  "name": "Chest Game",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a game of 16 chests",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 53,
+  "name": "Chicken House",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a house with a chest",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 54,
+  "name": "Chris Houlihan Room",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "I AM ERROR",
+  "light_world": false,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 55,
+  "name": "Dam",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the dam",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 56,
+  "name": "Dam Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 57,
+  "name": "Dark Bonk Rocks Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 58,
+  "name": "Dark C Whirlpool Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 59,
+  "name": "Dark C Whirlpool Outer Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 60,
+  "name": "Dark C Whirlpool Portal Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 61,
+  "name": "Dark C Whirlpool Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 62,
+  "name": "Dark Central Cliffs",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 63,
+  "name": "Dark Chapel Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 64,
+  "name": "Dark Death Mountain Floating Island",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "a dark floating island",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 65,
+  "name": "Dark Death Mountain Healer Fairy",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 66,
+  "name": "Dark Death Mountain Isolated Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "a dark vista",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 67,
+  "name": "Dark Death Mountain Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "a dark ledge",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 68,
+  "name": "Dark Death Mountain Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a common shop",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 69,
+  "name": "Dark Dunes Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 70,
+  "name": "Dark Fortune Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 71,
+  "name": "Dark Graveyard Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 72,
+  "name": "Dark Graveyard North",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 73,
+  "name": "Dark Lake Hylia Healer Fairy",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 74,
+  "name": "Dark Lake Hylia Ledge Healer Fairy",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 75,
+  "name": "Dark Lake Hylia Ledge Hint",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a storyteller",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 76,
+  "name": "Dark Lake Hylia Ledge Spike Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a spiky hint",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 77,
+  "name": "Dark Lake Hylia Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a common shop",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 78,
+  "name": "Dark Lumberjack Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 79,
+  "name": "Dark Lumberjack Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a common shop",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 80,
+  "name": "Dark Palace Button",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 81,
+  "name": "Dark Potion Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a common shop",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 82,
+  "name": "Dark Sanctuary Hint",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a storyteller",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 83,
+  "name": "Dark South Pass Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 84,
+  "name": "Dark Tree Line Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 85,
+  "name": "Dark Tree Line Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 86,
+  "name": "Dark Witch Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 87,
+  "name": "Dark Witch Northeast",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 88,
+  "name": "Dark Witch Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 89,
+  "name": "Darkness Cliff",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 90,
+  "name": "Darkness Nook Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 91,
+  "name": "Death Mountain Floating Island",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 92,
+  "name": "Death Mountain Return Cave (left)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 93,
+  "name": "Death Mountain Return Cave (right)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 94,
+  "name": "Death Mountain TR Pegs Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 95,
+  "name": "Death Mountain TR Pegs Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 96,
+  "name": "Desert Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 97,
+  "name": "Desert Arrow Pot Corner",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 98,
+  "name": "Desert Back Lobby",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 99,
+  "name": "Desert Back Portal",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 100,
+  "name": "Desert Beamos Hall",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 101,
+  "name": "Desert Big Chest Room",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 102,
+  "name": "Desert Bonk Torch",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 103,
+  "name": "Desert Boss",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 104,
+  "name": "Desert Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 105,
+  "name": "Desert Bridge",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 106,
+  "name": "Desert Cannonball",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 107,
+  "name": "Desert Checkerboard Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 108,
+  "name": "Desert Circle of Pots",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 109,
+  "name": "Desert Compass Room",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 110,
+  "name": "Desert Dead End",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 111,
+  "name": "Desert East Lobby",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 112,
+  "name": "Desert East Portal",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 113,
+  "name": "Desert East Wing",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 114,
+  "name": "Desert Fairy Fountain",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 115,
+  "name": "Desert Four Statues",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 116,
+  "name": "Desert Healer Fairy",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 117,
+  "name": "Desert Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "the desert ledge",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 118,
+  "name": "Desert Ledge Keep",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "the desert ledge",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 119,
+  "name": "Desert Left Alcove",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 120,
+  "name": "Desert Main Lobby",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 121,
+  "name": "Desert Map Room",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 122,
+  "name": "Desert Mouth",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "a sandy vista",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 123,
+  "name": "Desert North Hall",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 124,
+  "name": "Desert Northern Cliffs",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 125,
+  "name": "Desert Pass Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 126,
+  "name": "Desert Pass Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 127,
+  "name": "Desert Pass Southeast",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 128,
+  "name": "Desert Right Alcove",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 129,
+  "name": "Desert Sandworm Corner",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 130,
+  "name": "Desert South Portal",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 131,
+  "name": "Desert Stairs",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 132,
+  "name": "Desert Teleporter Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 133,
+  "name": "Desert Tiles 1",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 134,
+  "name": "Desert Tiles 2",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 135,
+  "name": "Desert Trap Room",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 136,
+  "name": "Desert Wall Slide",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 137,
+  "name": "Desert West Lobby",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 138,
+  "name": "Desert West Portal",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 139,
+  "name": "Desert West Wing",
+  "type": "Dungeon",
+  "dungeon": "Desert Palace",
+  "hint": "Desert Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 140,
+  "name": "Dig Game Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 141,
+  "name": "Dig Game Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 142,
+  "name": "East Dark Death Mountain (Bottom Left)",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 143,
+  "name": "East Dark Death Mountain (Bottom)",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 144,
+  "name": "East Dark Death Mountain (Bushes)",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 145,
+  "name": "East Dark Death Mountain (Top)",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 146,
+  "name": "East Dark World Hint",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a storyteller",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 147,
+  "name": "East Death Mountain (Bottom Left)",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 148,
+  "name": "East Death Mountain (Bottom)",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 149,
+  "name": "East Death Mountain (Top East)",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 150,
+  "name": "East Death Mountain (Top West)",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 151,
+  "name": "Eastern Attic Start",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 152,
+  "name": "Eastern Big Key",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 153,
+  "name": "Eastern Boss",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 154,
+  "name": "Eastern Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 155,
+  "name": "Eastern Cannonball",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 156,
+  "name": "Eastern Cannonball Hell",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 157,
+  "name": "Eastern Cannonball Ledge",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 158,
+  "name": "Eastern Cliff",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 159,
+  "name": "Eastern Compass Room",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 160,
+  "name": "Eastern Courtyard",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 161,
+  "name": "Eastern Courtyard Ledge",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 162,
+  "name": "Eastern Dark Pots",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 163,
+  "name": "Eastern Dark Square",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 164,
+  "name": "Eastern Darkness",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 165,
+  "name": "Eastern Duo Eyegores",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 166,
+  "name": "Eastern East Wing",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 167,
+  "name": "Eastern Fairies",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 168,
+  "name": "Eastern False Switches",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 169,
+  "name": "Eastern Hint Tile",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 170,
+  "name": "Eastern Hint Tile Blocked Path",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 171,
+  "name": "Eastern Lobby",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 172,
+  "name": "Eastern Lobby Bridge",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 173,
+  "name": "Eastern Lobby Left Ledge",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 174,
+  "name": "Eastern Lobby Right Ledge",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 175,
+  "name": "Eastern Map Balcony",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 176,
+  "name": "Eastern Map Room",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 177,
+  "name": "Eastern Map Valley",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 178,
+  "name": "Eastern Nook Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 179,
+  "name": "Eastern Palace Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 180,
+  "name": "Eastern Portal",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 181,
+  "name": "Eastern Pot Switch",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 182,
+  "name": "Eastern Rupees",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 183,
+  "name": "Eastern Single Eyegore",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 184,
+  "name": "Eastern Stalfos Spawn",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 185,
+  "name": "Eastern West Wing",
+  "type": "Dungeon",
+  "dungeon": "Eastern Palace",
+  "hint": "Eastern Palace",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 186,
+  "name": "Elder House",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 187,
+  "name": "Fairy Ascension Cave (Bottom)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 188,
+  "name": "Fairy Ascension Cave (Drop)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 189,
+  "name": "Fairy Ascension Cave (Top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 190,
+  "name": "Fairy Ascension Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 191,
+  "name": "Fairy Ascension Plateau",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 192,
+  "name": "Flute Boy Approach Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 193,
+  "name": "Flute Boy Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 194,
+  "name": "Flute Boy Bush Entry",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 195,
+  "name": "Flute Boy Pass",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 196,
+  "name": "Flute Sky",
+  "type": "Menu",
+  "dungeon": null,
+  "hint": "Menu",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 197,
+  "name": "Forgotten Forest Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 198,
+  "name": "Fortune Teller (Dark)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fortune teller",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 199,
+  "name": "Fortune Teller (Light)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fortune teller",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 200,
+  "name": "Frog Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 201,
+  "name": "Frog Prison",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 202,
+  "name": "GT Agahnim 2",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 203,
+  "name": "GT Beam Dash",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 204,
+  "name": "GT Big Chest",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 205,
+  "name": "GT Big Key Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 206,
+  "name": "GT Blocked Stairs",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 207,
+  "name": "GT Bob's Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 208,
+  "name": "GT Bob's Torch",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 209,
+  "name": "GT Bomb Conveyor",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 210,
+  "name": "GT Brightly Lit Hall",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 211,
+  "name": "GT Cannonball Bridge",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 212,
+  "name": "GT Compass Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 213,
+  "name": "GT Conveyor Bridge",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 214,
+  "name": "GT Conveyor Cross",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 215,
+  "name": "GT Conveyor Cross Across Pits",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 216,
+  "name": "GT Conveyor Star Pits",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 217,
+  "name": "GT Crystal Circles",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 218,
+  "name": "GT Crystal Circles - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 219,
+  "name": "GT Crystal Conveyor",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 220,
+  "name": "GT Crystal Conveyor - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 221,
+  "name": "GT Crystal Conveyor Corner",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 222,
+  "name": "GT Crystal Conveyor Corner - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 223,
+  "name": "GT Crystal Conveyor Left",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 224,
+  "name": "GT Crystal Inner Circle",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 225,
+  "name": "GT Crystal Paths",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 226,
+  "name": "GT DMs Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 227,
+  "name": "GT Dash Hall",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 228,
+  "name": "GT Dashing Bridge",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 229,
+  "name": "GT Double Switch Entry",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 230,
+  "name": "GT Double Switch Entry - Ranged Switches",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 231,
+  "name": "GT Double Switch Exit",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 232,
+  "name": "GT Double Switch Left",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 233,
+  "name": "GT Double Switch Left - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 234,
+  "name": "GT Double Switch Pot Corners",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 235,
+  "name": "GT Double Switch Pot Corners - Ranged Switches",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 236,
+  "name": "GT Fairy Abyss",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 237,
+  "name": "GT Falling Bridge",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 238,
+  "name": "GT Falling Torches",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 239,
+  "name": "GT Firesnake Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 240,
+  "name": "GT Firesnake Room Ledge",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 241,
+  "name": "GT Four Torches",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 242,
+  "name": "GT Frozen Over",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 243,
+  "name": "GT Gauntlet 1",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 244,
+  "name": "GT Gauntlet 2",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 245,
+  "name": "GT Gauntlet 3",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 246,
+  "name": "GT Gauntlet 4",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 247,
+  "name": "GT Gauntlet 5",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 248,
+  "name": "GT Hidden Spikes",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 249,
+  "name": "GT Hidden Star",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 250,
+  "name": "GT Hookshot East Platform",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 251,
+  "name": "GT Hookshot Mid Platform",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 252,
+  "name": "GT Hookshot North Platform",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 253,
+  "name": "GT Hookshot South Entry",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 254,
+  "name": "GT Hookshot South Entry - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 255,
+  "name": "GT Hookshot South Platform",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 256,
+  "name": "GT Hope Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 257,
+  "name": "GT Ice Armos",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 258,
+  "name": "GT Invisible Bridges",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 259,
+  "name": "GT Invisible Catwalk",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 260,
+  "name": "GT Lanmolas 2",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 261,
+  "name": "GT Left Moldorm Ledge",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 262,
+  "name": "GT Lobby",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 263,
+  "name": "GT Map Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 264,
+  "name": "GT Mimics 1",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 265,
+  "name": "GT Mimics 2",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 266,
+  "name": "GT Mini Helmasaur Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 267,
+  "name": "GT Moldorm",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 268,
+  "name": "GT Moldorm Pit",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 269,
+  "name": "GT Petting Zoo",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 270,
+  "name": "GT Pots n Blocks",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 271,
+  "name": "GT Quad Pot",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 272,
+  "name": "GT Randomizer Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 273,
+  "name": "GT Refill",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 274,
+  "name": "GT Right Moldorm Ledge",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 275,
+  "name": "GT Speed Torch",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 276,
+  "name": "GT Speed Torch Upper",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 277,
+  "name": "GT Spike Crystal Left",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 278,
+  "name": "GT Spike Crystal Right",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 279,
+  "name": "GT Stairs",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 280,
+  "name": "GT Staredown",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 281,
+  "name": "GT Tile Room",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 282,
+  "name": "GT Torch Cross",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 283,
+  "name": "GT Validation",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 284,
+  "name": "GT Validation Door",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 285,
+  "name": "GT Warp Maze - Left Section",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 286,
+  "name": "GT Warp Maze - Main Rails",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 287,
+  "name": "GT Warp Maze - Mid Section",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 288,
+  "name": "GT Warp Maze - Pit Exit Warp Spot",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 289,
+  "name": "GT Warp Maze - Pit Section",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 290,
+  "name": "GT Warp Maze - Pot Rail",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 291,
+  "name": "GT Warp Maze - Rail Choice",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 292,
+  "name": "GT Warp Maze - Rando Rail",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 293,
+  "name": "GT Warp Maze - Right Section",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 294,
+  "name": "GT Warp Maze Exit Section",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 295,
+  "name": "GT Wizzrobes 1",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 296,
+  "name": "GT Wizzrobes 2",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 297,
+  "name": "Ganons Tower Portal",
+  "type": "Dungeon",
+  "dungeon": "Ganons Tower",
+  "hint": "Ganon's Tower",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 298,
+  "name": "Good Bee Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cold bee",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 299,
+  "name": "Good Bee Cave (back)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cold bee",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 300,
+  "name": "Graveyard Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 301,
+  "name": "Graveyard Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with an item",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 302,
+  "name": "Graveyard Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 303,
+  "name": "Hammer Bridge North Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 304,
+  "name": "Hammer Bridge South Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 305,
+  "name": "Hammer Bridge Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 306,
+  "name": "Hammer Peg Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with an item",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 307,
+  "name": "Hammer Pegs Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 308,
+  "name": "Hammer Pegs Entry",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 309,
+  "name": "Hera 4F",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 310,
+  "name": "Hera 5F",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 311,
+  "name": "Hera 5F Pot Block",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 312,
+  "name": "Hera Back",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 313,
+  "name": "Hera Back - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 314,
+  "name": "Hera Basement Cage",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 315,
+  "name": "Hera Basement Cage - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 316,
+  "name": "Hera Beetles",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 317,
+  "name": "Hera Big Chest Landing",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 318,
+  "name": "Hera Boss",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 319,
+  "name": "Hera Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 320,
+  "name": "Hera Down Stairs Landing",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 321,
+  "name": "Hera Down Stairs Landing - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 322,
+  "name": "Hera Fairies",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 323,
+  "name": "Hera Front",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 324,
+  "name": "Hera Front - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 325,
+  "name": "Hera Lobby",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 326,
+  "name": "Hera Lobby - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 327,
+  "name": "Hera Portal",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 328,
+  "name": "Hera Startile Corner",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 329,
+  "name": "Hera Startile Wide",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 330,
+  "name": "Hera Startile Wide - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 331,
+  "name": "Hera Tile Room",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 332,
+  "name": "Hera Torches",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 333,
+  "name": "Hera Tridorm",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 334,
+  "name": "Hera Tridorm - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 335,
+  "name": "Hera Up Stairs Landing",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 336,
+  "name": "Hera Up Stairs Landing - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Tower of Hera",
+  "hint": "Tower of Hera",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 337,
+  "name": "Hobo Bridge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 338,
+  "name": "Hookshot Cave (Back)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 339,
+  "name": "Hookshot Cave (Bonk Islands)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 340,
+  "name": "Hookshot Cave (Fairy Pool)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 341,
+  "name": "Hookshot Cave (Front)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 342,
+  "name": "Hookshot Cave (Hook Islands)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 343,
+  "name": "Hookshot Cave (Middle)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 344,
+  "name": "Hookshot Fairy",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "fairies deep in a cave",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 345,
+  "name": "Hype Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a bounty of five items",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 346,
+  "name": "Hype Cave Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 347,
+  "name": "Hype Cave Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 348,
+  "name": "Hyrule Castle Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 349,
+  "name": "Hyrule Castle Back Hall",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 350,
+  "name": "Hyrule Castle Behind Tapestry",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 351,
+  "name": "Hyrule Castle Courtyard",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 352,
+  "name": "Hyrule Castle Courtyard Northeast",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 353,
+  "name": "Hyrule Castle East Entry",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 354,
+  "name": "Hyrule Castle East Hall",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 355,
+  "name": "Hyrule Castle East Lobby",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 356,
+  "name": "Hyrule Castle East Portal",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 357,
+  "name": "Hyrule Castle Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "the castle rampart",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 358,
+  "name": "Hyrule Castle Lobby",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 359,
+  "name": "Hyrule Castle Secret Entrance",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 360,
+  "name": "Hyrule Castle South Portal",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 361,
+  "name": "Hyrule Castle Southwest",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 362,
+  "name": "Hyrule Castle Throne Room",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 363,
+  "name": "Hyrule Castle Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 364,
+  "name": "Hyrule Castle West Hall",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 365,
+  "name": "Hyrule Castle West Lobby",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 366,
+  "name": "Hyrule Castle West Portal",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 367,
+  "name": "Hyrule Dungeon Armory Boomerang",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 368,
+  "name": "Hyrule Dungeon Armory Main",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 369,
+  "name": "Hyrule Dungeon Armory North Branch",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 370,
+  "name": "Hyrule Dungeon Cell",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 371,
+  "name": "Hyrule Dungeon Cellblock",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 372,
+  "name": "Hyrule Dungeon Guardroom",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 373,
+  "name": "Hyrule Dungeon Map Room",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 374,
+  "name": "Hyrule Dungeon North Abyss",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 375,
+  "name": "Hyrule Dungeon North Abyss Catwalk",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 376,
+  "name": "Hyrule Dungeon South Abyss",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 377,
+  "name": "Hyrule Dungeon South Abyss Catwalk",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 378,
+  "name": "Hyrule Dungeon Staircase",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 379,
+  "name": "Ice Antechamber",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 380,
+  "name": "Ice Anti-Fairy",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 381,
+  "name": "Ice Backwards Room",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 382,
+  "name": "Ice Big Chest Landing",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 383,
+  "name": "Ice Big Chest View",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 384,
+  "name": "Ice Big Key",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 385,
+  "name": "Ice Bomb Drop",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 386,
+  "name": "Ice Bomb Drop - Top",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 387,
+  "name": "Ice Bomb Jump Catwalk",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 388,
+  "name": "Ice Bomb Jump Ledge",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 389,
+  "name": "Ice Boss",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 390,
+  "name": "Ice Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 391,
+  "name": "Ice Catwalk",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 392,
+  "name": "Ice Cave Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 393,
+  "name": "Ice Cave Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 394,
+  "name": "Ice Compass Room",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 395,
+  "name": "Ice Conveyor",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 396,
+  "name": "Ice Conveyor - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 397,
+  "name": "Ice Cross Bottom",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 398,
+  "name": "Ice Cross Left",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 399,
+  "name": "Ice Cross Right",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 400,
+  "name": "Ice Cross Top",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 401,
+  "name": "Ice Crystal Block",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 402,
+  "name": "Ice Crystal Left",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 403,
+  "name": "Ice Crystal Right",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 404,
+  "name": "Ice Dead End",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 405,
+  "name": "Ice Fairy",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 406,
+  "name": "Ice Falling Square",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 407,
+  "name": "Ice Firebar",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 408,
+  "name": "Ice Floor Switch",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 409,
+  "name": "Ice Freezors",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 410,
+  "name": "Ice Freezors Ledge",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 411,
+  "name": "Ice Hammer Block",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 412,
+  "name": "Ice Hookshot Balcony",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 413,
+  "name": "Ice Hookshot Ledge",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 414,
+  "name": "Ice Jelly Key",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 415,
+  "name": "Ice Lake Iceberg",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 416,
+  "name": "Ice Lake Northeast Bank",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 417,
+  "name": "Ice Lake Northwest Bank",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 418,
+  "name": "Ice Lake Southeast Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 419,
+  "name": "Ice Lake Southwest Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 420,
+  "name": "Ice Lake Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 421,
+  "name": "Ice Lobby",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 422,
+  "name": "Ice Lonely Freezor",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 423,
+  "name": "Ice Many Pots",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 424,
+  "name": "Ice Narrow Corridor",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 425,
+  "name": "Ice Palace Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 426,
+  "name": "Ice Pengator Switch",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 427,
+  "name": "Ice Pengator Trap",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 428,
+  "name": "Ice Portal",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 429,
+  "name": "Ice Refill",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 430,
+  "name": "Ice Refill - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 431,
+  "name": "Ice Right H",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 432,
+  "name": "Ice Rod Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with a chest",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 433,
+  "name": "Ice Spike Cross",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 434,
+  "name": "Ice Spike Room",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 435,
+  "name": "Ice Spikeball",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 436,
+  "name": "Ice Stalfos Hint",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 437,
+  "name": "Ice Switch Room",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 438,
+  "name": "Ice Tall Hint",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 439,
+  "name": "Ice Tongue Pull",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 440,
+  "name": "Iced T",
+  "type": "Dungeon",
+  "dungeon": "Ice Palace",
+  "hint": "Ice Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 441,
+  "name": "Kakariko Bush Yard",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 442,
+  "name": "Kakariko Fortune Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 443,
+  "name": "Kakariko Gamble Game",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a game of chance",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 444,
+  "name": "Kakariko Pond Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 445,
+  "name": "Kakariko Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a common shop",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 446,
+  "name": "Kakariko Southwest",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 447,
+  "name": "Kakariko Suburb Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 448,
+  "name": "Kakariko Village",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 449,
+  "name": "Kakariko Well (back)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 450,
+  "name": "Kakariko Well (bottom)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 451,
+  "name": "Kakariko Well (top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 452,
+  "name": "Kings Grave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with a chest",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 453,
+  "name": "Kings Grave Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 454,
+  "name": "Lake Hylia Central Island",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 455,
+  "name": "Lake Hylia Fortune Teller",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fortune teller",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 456,
+  "name": "Lake Hylia Healer Fairy",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 457,
+  "name": "Lake Hylia Island",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 458,
+  "name": "Lake Hylia Northeast Bank",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 459,
+  "name": "Lake Hylia Northwest Bank",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 460,
+  "name": "Lake Hylia Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a common shop",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 461,
+  "name": "Lake Hylia South Shore",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 462,
+  "name": "Lake Hylia Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 463,
+  "name": "Lake Hylia Water D",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 464,
+  "name": "Library",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the library",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 465,
+  "name": "Light Hype Fairy",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 466,
+  "name": "Light World Bomb Hut",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a restock room",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 467,
+  "name": "Links House",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "your house",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 468,
+  "name": "Links House Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 469,
+  "name": "Long Fairy Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 470,
+  "name": "Lost Woods East Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 471,
+  "name": "Lost Woods Gamble",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a game of chance",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 472,
+  "name": "Lost Woods Hideout (bottom)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 473,
+  "name": "Lost Woods Hideout (top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 474,
+  "name": "Lost Woods Pass East Bottom Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 475,
+  "name": "Lost Woods Pass East Top Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 476,
+  "name": "Lost Woods Pass Portal Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 477,
+  "name": "Lost Woods Pass West Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 478,
+  "name": "Lost Woods West Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 479,
+  "name": "Lumberjack Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 480,
+  "name": "Lumberjack House",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a boring house",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 481,
+  "name": "Lumberjack Tree (bottom)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 482,
+  "name": "Lumberjack Tree (top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 483,
+  "name": "Master Sword Meadow",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 484,
+  "name": "Maze Race Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 485,
+  "name": "Maze Race Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "a race against time",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 486,
+  "name": "Maze Race Prize",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 487,
+  "name": "Menu",
+  "type": "Menu",
+  "dungeon": null,
+  "hint": "Menu",
+  "light_world": false,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 488,
+  "name": "Middle Aged Man",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 489,
+  "name": "Mimic Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "Mimic Cave",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 490,
+  "name": "Mimic Cave Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 491,
+  "name": "Mini Moldorm Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a bounty of five items",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 492,
+  "name": "Mire 2",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 493,
+  "name": "Mire Antechamber",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 494,
+  "name": "Mire Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 495,
+  "name": "Mire Attic Hint",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 496,
+  "name": "Mire BK Chest Ledge",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 497,
+  "name": "Mire BK Door Room",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 498,
+  "name": "Mire Bent Bridge",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 499,
+  "name": "Mire Block X",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 500,
+  "name": "Mire Boss",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 501,
+  "name": "Mire Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 502,
+  "name": "Mire Chest View",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 503,
+  "name": "Mire Compass Chest",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 504,
+  "name": "Mire Compass Room",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 505,
+  "name": "Mire Conveyor - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 506,
+  "name": "Mire Conveyor Barrier",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 507,
+  "name": "Mire Conveyor Crystal",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 508,
+  "name": "Mire Cross",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 509,
+  "name": "Mire Crystal Dead End",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 510,
+  "name": "Mire Crystal Left",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 511,
+  "name": "Mire Crystal Mid",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 512,
+  "name": "Mire Crystal Right",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 513,
+  "name": "Mire Crystal Top",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 514,
+  "name": "Mire Dark Shooters",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 515,
+  "name": "Mire Failure Bridge",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 516,
+  "name": "Mire Falling Bridge - Chest",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 517,
+  "name": "Mire Falling Bridge - Failure",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 518,
+  "name": "Mire Falling Bridge - Primary",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 519,
+  "name": "Mire Falling Foes",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 520,
+  "name": "Mire Firesnake Skip",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 521,
+  "name": "Mire Fishbone",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 522,
+  "name": "Mire Healer Fairy",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a fairy fountain",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 523,
+  "name": "Mire Hidden Shooters",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 524,
+  "name": "Mire Hidden Shooters Blocked",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 525,
+  "name": "Mire Hint",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a storyteller",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 526,
+  "name": "Mire Hub",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 527,
+  "name": "Mire Hub Right",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 528,
+  "name": "Mire Hub Switch",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 529,
+  "name": "Mire Hub Top",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 530,
+  "name": "Mire Key Rupees",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 531,
+  "name": "Mire Ledgehop",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 532,
+  "name": "Mire Left Bridge",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 533,
+  "name": "Mire Lobby",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 534,
+  "name": "Mire Lone Shooter",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 535,
+  "name": "Mire Lone Warp",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 536,
+  "name": "Mire Map Spike Side",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 537,
+  "name": "Mire Map Spot",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 538,
+  "name": "Mire Minibridge",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 539,
+  "name": "Mire Neglected Room",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 540,
+  "name": "Mire Northern Cliffs",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 541,
+  "name": "Mire Over Bridge",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 542,
+  "name": "Mire Portal",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 543,
+  "name": "Mire Post-Gap",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 544,
+  "name": "Mire Right Bridge",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 545,
+  "name": "Mire Shed",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with two chests",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 546,
+  "name": "Mire Shooter Rupees",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 547,
+  "name": "Mire South Fish",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 548,
+  "name": "Mire Spike Barrier",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 549,
+  "name": "Mire Spikes",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 550,
+  "name": "Mire Square Rail",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 551,
+  "name": "Mire Tall Dark and Roomy",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 552,
+  "name": "Mire Tall Dark and Roomy - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 553,
+  "name": "Mire Teleporter Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 554,
+  "name": "Mire Tile Room",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 555,
+  "name": "Mire Torches Bottom",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 556,
+  "name": "Mire Torches Top",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 557,
+  "name": "Mire Warping Pool",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 558,
+  "name": "Mire Wizzrobe Bypass",
+  "type": "Dungeon",
+  "dungeon": "Misery Mire",
+  "hint": "Misery Mire",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 559,
+  "name": "Missing Smith",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": null,
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 560,
+  "name": "Mountain Pass Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 561,
+  "name": "Mountain Pass Entry",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 562,
+  "name": "Mountain Pass Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "a ledge in the foothills",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 563,
+  "name": "North Fairy Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 564,
+  "name": "Octoballoon Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 565,
+  "name": "Octoballoon Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 566,
+  "name": "Octoballoon Water Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 567,
+  "name": "Old Man Cave (East)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 568,
+  "name": "Old Man Cave (West)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 569,
+  "name": "Old Man Cave Ledge",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 570,
+  "name": "Old Man Drop Off",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 571,
+  "name": "Old Man House",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 572,
+  "name": "Old Man House Back",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 573,
+  "name": "Outcast Pond Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 574,
+  "name": "Palace of Darkness Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 575,
+  "name": "Palace of Darkness Hint",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a storyteller",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 576,
+  "name": "Palace of Darkness Portal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 577,
+  "name": "Paradox Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 578,
+  "name": "Paradox Cave (Top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 579,
+  "name": "Paradox Cave Bomb Area",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 580,
+  "name": "Paradox Cave Chest Area",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 581,
+  "name": "Paradox Cave Front",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 582,
+  "name": "Paradox Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a common shop",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 583,
+  "name": "PoD Arena Bridge",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 584,
+  "name": "PoD Arena Bridge - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 585,
+  "name": "PoD Arena Landing",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 586,
+  "name": "PoD Arena Ledge",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 587,
+  "name": "PoD Arena Ledge - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 588,
+  "name": "PoD Arena Main",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 589,
+  "name": "PoD Arena Main - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 590,
+  "name": "PoD Arena North",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 591,
+  "name": "PoD Arena Right",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 592,
+  "name": "PoD Arena Right - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 593,
+  "name": "PoD Basement Ledge",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 594,
+  "name": "PoD Big Chest Balcony",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 595,
+  "name": "PoD Big Key Landing",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 596,
+  "name": "PoD Boss",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 597,
+  "name": "PoD Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 598,
+  "name": "PoD Bow Statue Left",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 599,
+  "name": "PoD Bow Statue Left - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 600,
+  "name": "PoD Bow Statue Right",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 601,
+  "name": "PoD Bow Statue Right - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 602,
+  "name": "PoD Callback",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 603,
+  "name": "PoD Compass Room",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 604,
+  "name": "PoD Conveyor",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 605,
+  "name": "PoD Dark Alley",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 606,
+  "name": "PoD Dark Basement",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 607,
+  "name": "PoD Dark Maze",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 608,
+  "name": "PoD Dark Pegs Landing",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 609,
+  "name": "PoD Dark Pegs Landing - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 610,
+  "name": "PoD Dark Pegs Left",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 611,
+  "name": "PoD Dark Pegs Left - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 612,
+  "name": "PoD Dark Pegs Middle",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 613,
+  "name": "PoD Dark Pegs Middle - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 614,
+  "name": "PoD Dark Pegs Right",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 615,
+  "name": "PoD Fairy Pool",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 616,
+  "name": "PoD Falling Bridge",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 617,
+  "name": "PoD Falling Bridge Ledge",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 618,
+  "name": "PoD Falling Bridge Mid",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 619,
+  "name": "PoD Harmless Hellway",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 620,
+  "name": "PoD Jelly Hall",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 621,
+  "name": "PoD Left Cage",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 622,
+  "name": "PoD Lobby",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 623,
+  "name": "PoD Lonely Turtle",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 624,
+  "name": "PoD Map Balcony",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 625,
+  "name": "PoD Map Balcony - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 626,
+  "name": "PoD Middle Cage",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 627,
+  "name": "PoD Mimics 1",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 628,
+  "name": "PoD Mimics 2",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 629,
+  "name": "PoD Pit Room",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 630,
+  "name": "PoD Pit Room Blocked",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 631,
+  "name": "PoD Sexy Statue",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 632,
+  "name": "PoD Shooter Room",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 633,
+  "name": "PoD Stalfos Basement",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 634,
+  "name": "PoD Turtle Party",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 635,
+  "name": "PoD Warp Hint",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 636,
+  "name": "PoD Warp Room",
+  "type": "Dungeon",
+  "dungeon": "Palace of Darkness",
+  "hint": "Palace of Darkness",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 637,
+  "name": "Potion Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the potion shop",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 638,
+  "name": "Potion Shop Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 639,
+  "name": "Potion Shop Northeast",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 640,
+  "name": "Potion Shop Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 641,
+  "name": "Pyramid",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 642,
+  "name": "Pyramid Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 643,
+  "name": "Pyramid Crack",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 644,
+  "name": "Pyramid Exit Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 645,
+  "name": "Pyramid Fairy",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with two chests",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 646,
+  "name": "Pyramid Pass",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 647,
+  "name": "Pyramid Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 648,
+  "name": "Qirn Jump Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 649,
+  "name": "Qirn Jump East Bank",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 650,
+  "name": "Qirn Jump Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 651,
+  "name": "Red Shield Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the rare shop",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 652,
+  "name": "Revealing Light",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 653,
+  "name": "River Bend Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 654,
+  "name": "River Bend East Bank",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 655,
+  "name": "River Bend Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 656,
+  "name": "Sahasrahlas Hut",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "Sahasrahla",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 657,
+  "name": "Sanctuary",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 658,
+  "name": "Sanctuary Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 659,
+  "name": "Sanctuary Portal",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 660,
+  "name": "Sand Dunes Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 661,
+  "name": "Sewer Drop",
+  "type": "Dungeon",
+  "dungeon": null,
+  "hint": "a drop's exit",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 662,
+  "name": "Sewers Behind Tapestry",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 663,
+  "name": "Sewers Dark Aquabats",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 664,
+  "name": "Sewers Dark Cross",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 665,
+  "name": "Sewers Key Rat",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 666,
+  "name": "Sewers Pull Switch",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 667,
+  "name": "Sewers Rat Path",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 668,
+  "name": "Sewers Rope Room",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 669,
+  "name": "Sewers Secret Room",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 670,
+  "name": "Sewers Secret Room Blocked Path",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 671,
+  "name": "Sewers Water",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 672,
+  "name": "Sewers Yet More Rats",
+  "type": "Dungeon",
+  "dungeon": "Hyrule Castle",
+  "hint": "Hyrule Castle",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 673,
+  "name": "Shield Shop Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 674,
+  "name": "Shield Shop Fence",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 675,
+  "name": "Shopping Mall Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 676,
+  "name": "Shopping Mall Water",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 677,
+  "name": "Sick Kids House",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the sick kid",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 678,
+  "name": "Skull 1 Lobby",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 679,
+  "name": "Skull 1 Portal",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 680,
+  "name": "Skull 2 East Lobby",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 681,
+  "name": "Skull 2 East Portal",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 682,
+  "name": "Skull 2 West Lobby",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 683,
+  "name": "Skull 2 West Lobby Ledge",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 684,
+  "name": "Skull 2 West Portal",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 685,
+  "name": "Skull 3 Lobby",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 686,
+  "name": "Skull 3 Portal",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 687,
+  "name": "Skull Back Drop",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 688,
+  "name": "Skull Big Chest",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 689,
+  "name": "Skull Big Key",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 690,
+  "name": "Skull Boss",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 691,
+  "name": "Skull Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 692,
+  "name": "Skull Compass Room",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 693,
+  "name": "Skull East Bridge",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 694,
+  "name": "Skull Final Drop",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 695,
+  "name": "Skull Left Drop",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 696,
+  "name": "Skull Lone Pot",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 697,
+  "name": "Skull Map Room",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 698,
+  "name": "Skull Pinball",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 699,
+  "name": "Skull Pot Circle",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 700,
+  "name": "Skull Pot Prison",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 701,
+  "name": "Skull Pull Switch",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 702,
+  "name": "Skull Small Hall",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 703,
+  "name": "Skull Spike Corner",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 704,
+  "name": "Skull Star Pits",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 705,
+  "name": "Skull Torch Room",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 706,
+  "name": "Skull Vines",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 707,
+  "name": "Skull West Bridge Nook",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 708,
+  "name": "Skull Woods Forest",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 709,
+  "name": "Skull Woods Forest (West)",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "a deep, dark forest",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 710,
+  "name": "Skull Woods Forgotten Path (Northeast)",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 711,
+  "name": "Skull Woods Forgotten Path (Southwest)",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 712,
+  "name": "Skull Woods Pass East Bottom Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 713,
+  "name": "Skull Woods Pass East Top Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 714,
+  "name": "Skull Woods Pass Portal Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 715,
+  "name": "Skull Woods Pass West Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 716,
+  "name": "Skull Woods Portal Entry",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 717,
+  "name": "Skull X Room",
+  "type": "Dungeon",
+  "dungeon": "Skull Woods",
+  "hint": "Skull Woods",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 718,
+  "name": "Snitch Lady (East)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a boring house",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 719,
+  "name": "Snitch Lady (West)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a boring house",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 720,
+  "name": "South Pass Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 721,
+  "name": "Spectacle Rock Cave (Bottom)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 722,
+  "name": "Spectacle Rock Cave (Peak)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 723,
+  "name": "Spectacle Rock Cave (Top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 724,
+  "name": "Spectacle Rock Cave Pool",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 725,
+  "name": "Spectacle Rock Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 726,
+  "name": "Spike Cave",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "Spike Cave",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 727,
+  "name": "Spiral Cave (Bottom)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 728,
+  "name": "Spiral Cave (Top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 729,
+  "name": "Spiral Cave Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 730,
+  "name": "Spiral Mimic Ledge Extend",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 731,
+  "name": "Statues Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 732,
+  "name": "Statues Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 733,
+  "name": "Stone Bridge North Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 734,
+  "name": "Stone Bridge South Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 735,
+  "name": "Stone Bridge Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 736,
+  "name": "Stumpy Approach Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 737,
+  "name": "Stumpy Approach Bush Entry",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 738,
+  "name": "Stumpy Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 739,
+  "name": "Stumpy Pass",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 740,
+  "name": "Superbunny Cave (Bottom)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 741,
+  "name": "Superbunny Cave (Top)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 742,
+  "name": "Swamp Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 743,
+  "name": "Swamp Attic",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 744,
+  "name": "Swamp Barrier",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 745,
+  "name": "Swamp Barrier Ledge",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 746,
+  "name": "Swamp Basement Shallows",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 747,
+  "name": "Swamp Behind Waterfall",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 748,
+  "name": "Swamp Big Key Ledge",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 749,
+  "name": "Swamp Boss",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 750,
+  "name": "Swamp Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 751,
+  "name": "Swamp C",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 752,
+  "name": "Swamp Compass Donut",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 753,
+  "name": "Swamp Crystal Switch Inner",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 754,
+  "name": "Swamp Crystal Switch Inner - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 755,
+  "name": "Swamp Crystal Switch Outer",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 756,
+  "name": "Swamp Crystal Switch Outer - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 757,
+  "name": "Swamp Donut Bottom",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 758,
+  "name": "Swamp Donut Top",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 759,
+  "name": "Swamp Drain Left",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 760,
+  "name": "Swamp Drain Right",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 761,
+  "name": "Swamp Entrance",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 762,
+  "name": "Swamp Flooded Room",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 763,
+  "name": "Swamp Flooded Spot",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 764,
+  "name": "Swamp Hammer Switch",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 765,
+  "name": "Swamp Hub",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 766,
+  "name": "Swamp Hub Dead Ledge",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 767,
+  "name": "Swamp Hub North Ledge",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 768,
+  "name": "Swamp Hub Side Ledges",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 769,
+  "name": "Swamp I",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 770,
+  "name": "Swamp Left Elbow",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 771,
+  "name": "Swamp Lobby",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 772,
+  "name": "Swamp Map Ledge",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 773,
+  "name": "Swamp Nook Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 774,
+  "name": "Swamp Portal",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 775,
+  "name": "Swamp Pot Row",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 776,
+  "name": "Swamp Push Statue",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 777,
+  "name": "Swamp Refill",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 778,
+  "name": "Swamp Right Elbow",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 779,
+  "name": "Swamp Shooters",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 780,
+  "name": "Swamp Shortcut",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 781,
+  "name": "Swamp T",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 782,
+  "name": "Swamp Trench 1 Alcove",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 783,
+  "name": "Swamp Trench 1 Approach",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 784,
+  "name": "Swamp Trench 1 Departure",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 785,
+  "name": "Swamp Trench 1 Key Ledge",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 786,
+  "name": "Swamp Trench 1 Nexus",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 787,
+  "name": "Swamp Trench 2 Alcove",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 788,
+  "name": "Swamp Trench 2 Blocks",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 789,
+  "name": "Swamp Trench 2 Departure",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 790,
+  "name": "Swamp Trench 2 Pots",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 791,
+  "name": "Swamp Waterfall Room",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 792,
+  "name": "Swamp Waterway",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 793,
+  "name": "Swamp West Block Path",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 794,
+  "name": "Swamp West Ledge",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 795,
+  "name": "Swamp West Shallows",
+  "type": "Dungeon",
+  "dungeon": "Swamp Palace",
+  "hint": "Swamp Palace",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 796,
+  "name": "TR Big Chest",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 797,
+  "name": "TR Big Chest Entrance",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 798,
+  "name": "TR Big View",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 799,
+  "name": "TR Boss",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 800,
+  "name": "TR Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 801,
+  "name": "TR Chain Chomps Bottom",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 802,
+  "name": "TR Chain Chomps Bottom - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 803,
+  "name": "TR Chain Chomps Top",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 804,
+  "name": "TR Chain Chomps Top - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 805,
+  "name": "TR Compass Room",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 806,
+  "name": "TR Crystal Maze End",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 807,
+  "name": "TR Crystal Maze End - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 808,
+  "name": "TR Crystal Maze Interior",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 809,
+  "name": "TR Crystal Maze Start",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 810,
+  "name": "TR Crystal Maze Start - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 811,
+  "name": "TR Crystaroller Bottom",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 812,
+  "name": "TR Crystaroller Bottom - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 813,
+  "name": "TR Crystaroller Chest",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 814,
+  "name": "TR Crystaroller Middle",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 815,
+  "name": "TR Crystaroller Middle - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 816,
+  "name": "TR Crystaroller Top",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 817,
+  "name": "TR Crystaroller Top - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 818,
+  "name": "TR Dark Ride Ledges",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 819,
+  "name": "TR Dark Ride North Platform",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 820,
+  "name": "TR Dark Ride South Platform",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 821,
+  "name": "TR Dash Bridge",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 822,
+  "name": "TR Dash Room",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 823,
+  "name": "TR Dodgers",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 824,
+  "name": "TR Eye Bridge",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 825,
+  "name": "TR Final Abyss Balcony",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 826,
+  "name": "TR Final Abyss Ledge",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 827,
+  "name": "TR Hallway",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 828,
+  "name": "TR Hub",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 829,
+  "name": "TR Hub Ledges",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 830,
+  "name": "TR Lava Dual Pipes",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 831,
+  "name": "TR Lava Escape",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 832,
+  "name": "TR Lava Island",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 833,
+  "name": "TR Lazy Eyes",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 834,
+  "name": "TR Lobby Ledge",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 835,
+  "name": "TR Main Lobby",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 836,
+  "name": "TR Pipe Ledge",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 837,
+  "name": "TR Pipe Pit",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 838,
+  "name": "TR Pokey 1",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 839,
+  "name": "TR Pokey 2 Bottom",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 840,
+  "name": "TR Pokey 2 Bottom - Ranged Crystal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 841,
+  "name": "TR Pokey 2 Top",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 842,
+  "name": "TR Pokey 2 Top - Crystal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 843,
+  "name": "TR Refill",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 844,
+  "name": "TR Roller Room",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 845,
+  "name": "TR Rupees",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 846,
+  "name": "TR Tile Room",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 847,
+  "name": "TR Tongue Pull",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 848,
+  "name": "TR Torches",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 849,
+  "name": "TR Torches Ledge",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 850,
+  "name": "TR Twin Pokeys",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 851,
+  "name": "Tavern",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the tavern",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 852,
+  "name": "Tavern (Front)",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "the tavern",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 853,
+  "name": "Thieves Ambush",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 854,
+  "name": "Thieves Attic",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 855,
+  "name": "Thieves Attic Hint",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 856,
+  "name": "Thieves Attic Switch",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 857,
+  "name": "Thieves Attic Window",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 858,
+  "name": "Thieves BK Corner",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 859,
+  "name": "Thieves Basement Block",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 860,
+  "name": "Thieves Big Chest Nook",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 861,
+  "name": "Thieves Big Chest Room",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 862,
+  "name": "Thieves Blind's Cell",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 863,
+  "name": "Thieves Blind's Cell Interior",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 864,
+  "name": "Thieves Blocked Entry",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 865,
+  "name": "Thieves Boss",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 866,
+  "name": "Thieves Boss Spoils",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 867,
+  "name": "Thieves Compass Room",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 868,
+  "name": "Thieves Conveyor Block",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 869,
+  "name": "Thieves Conveyor Bridge",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 870,
+  "name": "Thieves Conveyor Maze",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 871,
+  "name": "Thieves Cricket Hall Left",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 872,
+  "name": "Thieves Cricket Hall Right",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 873,
+  "name": "Thieves Hallway",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 874,
+  "name": "Thieves Hellway",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 875,
+  "name": "Thieves Hellway N Crystal",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 876,
+  "name": "Thieves Hellway S Crystal",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 877,
+  "name": "Thieves Lobby",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 878,
+  "name": "Thieves Lonely Zazak",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 879,
+  "name": "Thieves Pot Alcove Bottom",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 880,
+  "name": "Thieves Pot Alcove Mid",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 881,
+  "name": "Thieves Pot Alcove Top",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 882,
+  "name": "Thieves Rail Ledge",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 883,
+  "name": "Thieves Spike Switch",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 884,
+  "name": "Thieves Spike Track",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 885,
+  "name": "Thieves Town Portal",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 886,
+  "name": "Thieves Trap",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 887,
+  "name": "Thieves Triple Bypass",
+  "type": "Dungeon",
+  "dungeon": "Thieves Town",
+  "hint": "Thieves' Town",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 888,
+  "name": "Tower Agahnim 1",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 889,
+  "name": "Tower Altar",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 890,
+  "name": "Tower Antechamber",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 891,
+  "name": "Tower Catwalk",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 892,
+  "name": "Tower Circle of Pots",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 893,
+  "name": "Tower Dark Archers",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 894,
+  "name": "Tower Dark Chargers",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 895,
+  "name": "Tower Dark Maze",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 896,
+  "name": "Tower Dark Pits",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 897,
+  "name": "Tower Dual Statues",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 898,
+  "name": "Tower Gold Knights",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 899,
+  "name": "Tower Lobby",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 900,
+  "name": "Tower Lone Statue",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 901,
+  "name": "Tower Pacifist Run",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 902,
+  "name": "Tower Push Statue",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 903,
+  "name": "Tower Red Guards",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 904,
+  "name": "Tower Red Spears",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 905,
+  "name": "Tower Room 03",
+  "type": "Dungeon",
+  "dungeon": "Agahnims Tower",
+  "hint": "Castle Tower",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 906,
+  "name": "Tree Line Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 907,
+  "name": "Tree Line Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 908,
+  "name": "Turtle Rock Area",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 909,
+  "name": "Turtle Rock Chest Portal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 910,
+  "name": "Turtle Rock Eye Bridge Portal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 911,
+  "name": "Turtle Rock Lazy Eyes Portal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 912,
+  "name": "Turtle Rock Ledge",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 913,
+  "name": "Turtle Rock Main Portal",
+  "type": "Dungeon",
+  "dungeon": "Turtle Rock",
+  "hint": "Turtle Rock",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 914,
+  "name": "Two Brothers House",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a connector",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 915,
+  "name": "Village of Outcasts",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 916,
+  "name": "Village of Outcasts Bush Yard",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 917,
+  "name": "Village of Outcasts Shop",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a common shop",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": true
+ },
+ {
+  "id": 918,
+  "name": "Waterfall of Wishing",
+  "type": "Cave",
+  "dungeon": null,
+  "hint": "a cave with two chests",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": true
+ },
+ {
+  "id": 919,
+  "name": "West Dark Death Mountain (Bottom)",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 920,
+  "name": "West Dark Death Mountain (Top)",
+  "type": "DarkWorld",
+  "dungeon": null,
+  "hint": "Dark World",
+  "light_world": false,
+  "dark_world": true,
+  "indoors": false
+ },
+ {
+  "id": 921,
+  "name": "West Death Mountain (Bottom)",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 922,
+  "name": "West Death Mountain (Top)",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 923,
+  "name": "Wooden Bridge Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 924,
+  "name": "Wooden Bridge Northeast",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 925,
+  "name": "Wooden Bridge Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 926,
+  "name": "Zora Approach Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 927,
+  "name": "Zora Approach Ledge",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 928,
+  "name": "Zora Approach Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 929,
+  "name": "Zora Waterfall Area",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 930,
+  "name": "Zora Waterfall Entryway",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 931,
+  "name": "Zora Waterfall Water",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ },
+ {
+  "id": 932,
+  "name": "Zoras Domain",
+  "type": "LightWorld",
+  "dungeon": null,
+  "hint": "Light World",
+  "light_world": true,
+  "dark_world": false,
+  "indoors": false
+ }
+]

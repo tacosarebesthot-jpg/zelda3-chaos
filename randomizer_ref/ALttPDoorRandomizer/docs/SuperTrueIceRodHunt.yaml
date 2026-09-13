@@ -1,0 +1,125 @@
+meta:
+    algorithm: balanced
+    players: 1
+settings:
+    1:
+        door_shuffle: vanilla
+        dropshuffle: keys
+        experimental: true
+        goal: ganon
+        hints: false
+        intensity: 1
+        pseudoboots: false
+        pottery: lottery
+        shopsanity: false
+        shuffle: vanilla
+        shufflelinks: false
+        shufflebosses: false
+item_pool:
+    1:
+        Ice Rod: 1
+        Progressive Sword: 1        
+placements:
+      1:
+        Turtle Rock - Boss: Triforce
+start_inventory:
+    1:
+      - Progressive Bow
+      - Progressive Bow
+      - Blue Boomerang
+      - Red Boomerang
+      - Hookshot
+      - Mushroom
+      - Magic Powder
+      - Fire Rod
+      - Bombos
+      - Ether
+      - Quake
+      - Lamp
+      - Hammer
+      - Ocarina
+      - Bug Catching Net
+      - Book of Mudora
+      - Shovel
+      - Cane of Somaria
+      - Cane of Byrna
+      - Cape
+      - Magic Mirror
+      - Moon Pearl
+      - Titans Mitts
+      - Tempered Sword
+      - Pegasus Boots
+      - Flippers
+      - Red Mail
+      - Progressive Shield
+      - Progressive Shield
+      - Bottle (Red Potion)
+      - Bottle (Green Potion)
+      - Bottle (Blue Potion)
+      - Bottle (Fairy)
+      - Magic Upgrade (1/2)
+      - Magic Upgrade (1/2)
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Boss Heart Container
+      - Arrows (10)
+      - Arrows (10)
+      - Arrows (10)
+      - Bombs (10)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (300)
+      - Rupees (50)
+      - Rupees (20)
+      - Rupees (20)
+      - Rupees (5)
+      - Rupee (1)
+      - Rupee (1)
+      - Rupee (1)
+      - Rupee (1)
+      
+      

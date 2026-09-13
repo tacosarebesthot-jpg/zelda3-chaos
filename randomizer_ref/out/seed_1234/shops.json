@@ -1,0 +1,665 @@
+{
+ "version": 1,
+ "shopsanity": false,
+ "note": "shop region = a Region (type Cave) whose name is the shop name; it contains the listed locations. With shopsanity off each location's forced_item is the slot stock. unlimited = items sold by >=1 shop, as tested by can_buy_unlimited(item): region reachable AND shop has the item as a slot item or as the after-limit replacement.",
+ "shops": [
+  {
+   "region": "Capacity Upgrade",
+   "region_type": "Cave",
+   "shop_type": "UpgradeShop",
+   "room_id": 277,
+   "locked": true,
+   "custom": true,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Bomb Upgrade (+5)",
+     "price": 100,
+     "max": 7,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": false
+    },
+    {
+     "slot": 1,
+     "item": "Arrow Upgrade (+5)",
+     "price": 100,
+     "max": 7,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": false
+    }
+   ],
+   "locations": [
+    "Capacity Upgrade - Left",
+    "Capacity Upgrade - Right"
+   ],
+   "stock": [
+    {
+     "location": "Capacity Upgrade - Left",
+     "forced_item": "Bomb Upgrade (+5)"
+    },
+    {
+     "location": "Capacity Upgrade - Right",
+     "forced_item": "Arrow Upgrade (+5)"
+    }
+   ]
+  },
+  {
+   "region": "Dark Death Mountain Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 274,
+   "locked": false,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Potion",
+     "price": 150,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Small Heart",
+     "price": 10,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Bombs (10)",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Dark Death Mountain Shop - Left",
+    "Dark Death Mountain Shop - Middle",
+    "Dark Death Mountain Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Dark Death Mountain Shop - Left",
+     "forced_item": "Red Potion"
+    },
+    {
+     "location": "Dark Death Mountain Shop - Middle",
+     "forced_item": "Small Heart"
+    },
+    {
+     "location": "Dark Death Mountain Shop - Right",
+     "forced_item": "Bombs (10)"
+    }
+   ]
+  },
+  {
+   "region": "Dark Lake Hylia Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 271,
+   "locked": false,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Potion",
+     "price": 150,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Blue Shield",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Bombs (10)",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Dark Lake Hylia Shop - Left",
+    "Dark Lake Hylia Shop - Middle",
+    "Dark Lake Hylia Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Dark Lake Hylia Shop - Left",
+     "forced_item": "Red Potion"
+    },
+    {
+     "location": "Dark Lake Hylia Shop - Middle",
+     "forced_item": "Blue Shield"
+    },
+    {
+     "location": "Dark Lake Hylia Shop - Right",
+     "forced_item": "Bombs (10)"
+    }
+   ]
+  },
+  {
+   "region": "Dark Lumberjack Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 271,
+   "locked": false,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Potion",
+     "price": 150,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Blue Shield",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Bombs (10)",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Dark Lumberjack Shop - Left",
+    "Dark Lumberjack Shop - Middle",
+    "Dark Lumberjack Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Dark Lumberjack Shop - Left",
+     "forced_item": "Red Potion"
+    },
+    {
+     "location": "Dark Lumberjack Shop - Middle",
+     "forced_item": "Blue Shield"
+    },
+    {
+     "location": "Dark Lumberjack Shop - Right",
+     "forced_item": "Bombs (10)"
+    }
+   ]
+  },
+  {
+   "region": "Dark Potion Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 271,
+   "locked": false,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Potion",
+     "price": 150,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Blue Shield",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Bombs (10)",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Dark Potion Shop - Left",
+    "Dark Potion Shop - Middle",
+    "Dark Potion Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Dark Potion Shop - Left",
+     "forced_item": "Red Potion"
+    },
+    {
+     "location": "Dark Potion Shop - Middle",
+     "forced_item": "Blue Shield"
+    },
+    {
+     "location": "Dark Potion Shop - Right",
+     "forced_item": "Bombs (10)"
+    }
+   ]
+  },
+  {
+   "region": "Kakariko Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 287,
+   "locked": false,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Potion",
+     "price": 150,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Small Heart",
+     "price": 10,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Bombs (10)",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Kakariko Shop - Left",
+    "Kakariko Shop - Middle",
+    "Kakariko Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Kakariko Shop - Left",
+     "forced_item": "Red Potion"
+    },
+    {
+     "location": "Kakariko Shop - Middle",
+     "forced_item": "Small Heart"
+    },
+    {
+     "location": "Kakariko Shop - Right",
+     "forced_item": "Bombs (10)"
+    }
+   ]
+  },
+  {
+   "region": "Lake Hylia Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 274,
+   "locked": false,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Potion",
+     "price": 150,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Small Heart",
+     "price": 10,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Bombs (10)",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Lake Hylia Shop - Left",
+    "Lake Hylia Shop - Middle",
+    "Lake Hylia Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Lake Hylia Shop - Left",
+     "forced_item": "Red Potion"
+    },
+    {
+     "location": "Lake Hylia Shop - Middle",
+     "forced_item": "Small Heart"
+    },
+    {
+     "location": "Lake Hylia Shop - Right",
+     "forced_item": "Bombs (10)"
+    }
+   ]
+  },
+  {
+   "region": "Paradox Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 255,
+   "locked": false,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Potion",
+     "price": 150,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Small Heart",
+     "price": 10,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Bombs (10)",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Paradox Shop - Left",
+    "Paradox Shop - Middle",
+    "Paradox Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Paradox Shop - Left",
+     "forced_item": "Red Potion"
+    },
+    {
+     "location": "Paradox Shop - Middle",
+     "forced_item": "Small Heart"
+    },
+    {
+     "location": "Paradox Shop - Right",
+     "forced_item": "Bombs (10)"
+    }
+   ]
+  },
+  {
+   "region": "Potion Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 265,
+   "locked": true,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Potion",
+     "price": 120,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Green Potion",
+     "price": 60,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Blue Potion",
+     "price": 160,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Potion Shop - Left",
+    "Potion Shop - Middle",
+    "Potion Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Potion Shop - Left",
+     "forced_item": "Red Potion"
+    },
+    {
+     "location": "Potion Shop - Middle",
+     "forced_item": "Green Potion"
+    },
+    {
+     "location": "Potion Shop - Right",
+     "forced_item": "Blue Potion"
+    }
+   ]
+  },
+  {
+   "region": "Red Shield Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 272,
+   "locked": false,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Shield",
+     "price": 500,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Bee",
+     "price": 10,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Arrows (10)",
+     "price": 30,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Red Shield Shop - Left",
+    "Red Shield Shop - Middle",
+    "Red Shield Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Red Shield Shop - Left",
+     "forced_item": "Red Shield"
+    },
+    {
+     "location": "Red Shield Shop - Middle",
+     "forced_item": "Bee"
+    },
+    {
+     "location": "Red Shield Shop - Right",
+     "forced_item": "Arrows (10)"
+    }
+   ]
+  },
+  {
+   "region": "Village of Outcasts Shop",
+   "region_type": "Cave",
+   "shop_type": "Shop",
+   "room_id": 271,
+   "locked": false,
+   "custom": false,
+   "inventory": [
+    {
+     "slot": 0,
+     "item": "Red Potion",
+     "price": 150,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 1,
+     "item": "Blue Shield",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    },
+    {
+     "slot": 2,
+     "item": "Bombs (10)",
+     "price": 50,
+     "max": 0,
+     "replacement": null,
+     "replacement_price": 0,
+     "unlimited": true
+    }
+   ],
+   "locations": [
+    "Village of Outcasts Shop - Left",
+    "Village of Outcasts Shop - Middle",
+    "Village of Outcasts Shop - Right"
+   ],
+   "stock": [
+    {
+     "location": "Village of Outcasts Shop - Left",
+     "forced_item": "Red Potion"
+    },
+    {
+     "location": "Village of Outcasts Shop - Middle",
+     "forced_item": "Blue Shield"
+    },
+    {
+     "location": "Village of Outcasts Shop - Right",
+     "forced_item": "Bombs (10)"
+    }
+   ]
+  }
+ ],
+ "unlimited": {
+  "Arrow Upgrade (+5)": [
+   "Capacity Upgrade"
+  ],
+  "Arrows (10)": [
+   "Red Shield Shop"
+  ],
+  "Bee": [
+   "Red Shield Shop"
+  ],
+  "Blue Potion": [
+   "Potion Shop"
+  ],
+  "Blue Shield": [
+   "Dark Lake Hylia Shop",
+   "Dark Lumberjack Shop",
+   "Dark Potion Shop",
+   "Village of Outcasts Shop"
+  ],
+  "Bomb Upgrade (+5)": [
+   "Capacity Upgrade"
+  ],
+  "Bombs (10)": [
+   "Dark Death Mountain Shop",
+   "Dark Lake Hylia Shop",
+   "Dark Lumberjack Shop",
+   "Dark Potion Shop",
+   "Kakariko Shop",
+   "Lake Hylia Shop",
+   "Paradox Shop",
+   "Village of Outcasts Shop"
+  ],
+  "Green Potion": [
+   "Potion Shop"
+  ],
+  "Red Potion": [
+   "Dark Death Mountain Shop",
+   "Dark Lake Hylia Shop",
+   "Dark Lumberjack Shop",
+   "Dark Potion Shop",
+   "Kakariko Shop",
+   "Lake Hylia Shop",
+   "Paradox Shop",
+   "Potion Shop",
+   "Village of Outcasts Shop"
+  ],
+  "Red Shield": [
+   "Red Shield Shop"
+  ],
+  "Small Heart": [
+   "Dark Death Mountain Shop",
+   "Kakariko Shop",
+   "Lake Hylia Shop",
+   "Paradox Shop"
+  ]
+ }
+}

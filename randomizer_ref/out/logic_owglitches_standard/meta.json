@@ -1,0 +1,48 @@
+{
+ "dump_version": 1,
+ "tool": "dump_logic.py",
+ "seed": 1234,
+ "generator_version": "1.5.6-u",
+ "overworld_randomizer_version": "0.7.1.5",
+ "repo": {
+  "path": "<ALttPDoorRandomizer>",
+  "git_hash": "unknown"
+ },
+ "settings": {
+  "players": 1,
+  "logic": "owglitches",
+  "mode": "standard",
+  "goal": "ganon",
+  "weapons": "random",
+  "door_shuffle": "vanilla",
+  "shuffle": "vanilla",
+  "keyshuffle": "none",
+  "mapshuffle": "none",
+  "compassshuffle": "none",
+  "bigkeyshuffle": "none",
+  "pottery": "none",
+  "prizeshuffle": "none",
+  "shopsanity": false,
+  "crystals_ganon": 7,
+  "crystals_gt": 7
+ },
+ "counts": {
+  "regions": 933,
+  "edges": 2364,
+  "locations": 367,
+  "items_in_pool": 152,
+  "item_names": 42,
+  "placed_non_event": 146,
+  "event_locations": 221
+ },
+ "rules": {
+  "rule_spots": 2731,
+  "trivial_always_true": 1516,
+  "nontrivial_rules": 1215,
+  "flattened": 1200,
+  "fallback_markers": 15,
+  "flatten_pct": 98.77,
+  "opaque_node_instances": 16,
+  "spots_with_typed_ir": 24
+ }
+}

@@ -1,0 +1,4 @@
+# chatters seen in your streams: name and message count. The game counts every live chat
+# message and rewrites this file, highest first. Names on the staff line are counted but
+# never take a top spot (put the streamer and the mods here).
+staff: yourstreamer

@@ -1,0 +1,260 @@
+[
+ {
+  "item": "Arrows (10)",
+  "count": 12,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Blue Boomerang",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Bombos",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Bombs (10)",
+  "count": 1,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Bombs (3)",
+  "count": 16,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Book of Mudora",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Boss Heart Container",
+  "count": 10,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Bottle",
+  "count": 3,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Bottle (Good Bee)",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Bug Catching Net",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Cane of Byrna",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Cane of Somaria",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Cape",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Ether",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Fire Rod",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Flippers",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Hookshot",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Ice Rod",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Lamp",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Magic Mirror",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Magic Powder",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Magic Upgrade (1/2)",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Moon Pearl",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Mushroom",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Ocarina",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Pegasus Boots",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Piece of Heart",
+  "count": 24,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Progressive Armor",
+  "count": 2,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Progressive Bow",
+  "count": 2,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Progressive Glove",
+  "count": 2,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Progressive Shield",
+  "count": 3,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Progressive Sword",
+  "count": 4,
+  "progression": true,
+  "type": "Sword"
+ },
+ {
+  "item": "Quake",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Red Boomerang",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Rupee (1)",
+  "count": 2,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Rupees (100)",
+  "count": 1,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Rupees (20)",
+  "count": 28,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Rupees (300)",
+  "count": 5,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Rupees (5)",
+  "count": 4,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Rupees (50)",
+  "count": 7,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Sanctuary Heart Container",
+  "count": 1,
+  "progression": false,
+  "type": null
+ },
+ {
+  "item": "Shovel",
+  "count": 1,
+  "progression": true,
+  "type": null
+ },
+ {
+  "item": "Single Arrow",
+  "count": 1,
+  "progression": false,
+  "type": null
+ }
+]

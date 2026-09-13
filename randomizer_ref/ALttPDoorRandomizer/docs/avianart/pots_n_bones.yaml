@@ -1,0 +1,24 @@
+meta:
+  bps: on
+  user_notes: An attempt to replicate the Avianart Pots and Bones settings
+settings:
+  1:
+    goal: triforcehunt
+    mode: standard
+    swords: assured
+    hints: on
+    shuffle: crossed
+    keysanity: on
+
+    pottery: lottery
+    dropshuffle: underworld
+
+    triforce_goal: 216
+    triforce_pool: 469
+
+    beemizer: 0
+start_inventory:
+  1:
+    - Pegasus Boots
+    - Lamp
+    - Red Boomerang

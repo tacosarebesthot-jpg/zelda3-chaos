@@ -1,0 +1,41 @@
+meta:
+  algorithm: balanced
+  players: 1
+settings:
+  1:
+    mode: inverted
+    mapshuffle: True
+    keyshuffle: wild
+placements:
+  1:
+    Link's Uncle: Progressive Sword
+    Blacksmith: Progressive Sword
+    Master Sword Pedestal: Progressive Sword
+    Pyramid Fairy - Left: Progressive Sword
+    Desert Palace - Boss: Compass (Desert Palace)
+    Eastern Palace - Boss: Compass (Eastern Palace)
+    Tower of Hera - Boss: Compass (Tower of Hera)
+    Swamp Palace - Boss: Compass (Swamp Palace)
+    Thieves' Town - Boss: Compass (Thieves Town)
+    Skull Woods - Boss: Compass (Skull Woods)
+    Ice Palace - Boss: Compass (Ice Palace)
+    Misery Mire - Boss: Compass (Misery Mire)
+    Turtle Rock - Boss: Compass (Turtle Rock)
+    Palace of Darkness - Boss: Compass (Palace of Darkness)
+    Eastern Palace - Big Key Chest: Big Key (Eastern Palace)
+    Desert Palace - Big Key Chest: Big Key (Desert Palace)
+    Tower of Hera - Big Key Chest: Big Key (Tower of Hera)
+    Palace of Darkness - Big Key Chest: Big Key (Palace of Darkness)
+    Thieves' Town - Big Key Chest: Big Key (Thieves Town)
+    Skull Woods - Big Key Chest: Big Key (Skull Woods)
+    Swamp Palace - Big Key Chest: Big Key (Swamp Palace)
+    Ice Palace - Big Key Chest: Big Key (Ice Palace)
+    Misery Mire - Big Key Chest: Big Key (Misery Mire)
+    Turtle Rock - Big Key Chest: Big Key (Turtle Rock)
+    Ganons Tower - Big Key Chest: Big Key (Ganons Tower)
+start_inventory:
+  1:
+    - Ocarina (Activated)
+
+
+

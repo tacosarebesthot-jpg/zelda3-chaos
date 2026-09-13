@@ -1,0 +1,639 @@
+# zelda3 stream build - in-game text overrides (MODS page > TEXT row turns this on/off)
+#
+# Format: "<line number>: text", same numbering as assets/dialogue.txt.
+# Lines not listed here keep the original game text.  Hint lines (telepathic
+# tiles, fortune teller, signs, item tutorials) are left alone on purpose.
+# {chatter} = a random recent chatter, or a name from the pool below.
+# {boss} = the CHAT BOSS chat is fighting right now (or fought last); a
+# chatter name before the first boss.  The wizard is whoever chat is fighting.
+# A number ending in x (e.g. 6x:) is a DIRTY line: cursing. The MODS page TEXT
+# row picks NORMAL / CLEAN / DIRTY; CLEAN never shows x lines (a line with a
+# curse word is treated as dirty even without the tag).
+# The same number may appear several times: one of its lines is picked at
+# random every time the message shows (up to 8 per number).
+# Codes: [Name] player name, [2] [3] next line, [Scroll] scroll up one line,
+# [Waitkey] wait for a button, [Choose] menu.  Lines without [2]/[3]/[Scroll]
+# wrap automatically, so most jokes are just typed as one sentence.
+chatters: Dave, Carl, Meatwad, Frylock, Shake, Bubbles, Ricky, Julian, Lahey, Rick, Morty, Kurt Angle, Snake, Madden
+
+6: You can't enter with something following you. Ditch the monkey. Or the chat.
+14: [Name], I'm going out for a while. Chat says it's a boss with a two hour timer. I'll be back by morning. Don't leave the house. Don't touch my stuff. Don't read Discord.
+15: Unnh[...] [Name], I told you not to leave the house[...] Chat told you to leave, didn't they. Take my sword and shield and listen. You can focus power in the blade (hold the [B] Button). Then release it and pray. [Name], you can do it! Save Princess Dave. Dave is your[...] your[...] so disappointing[...]
+16: What are you doing up this late, kid? Bedtime was two hours ago. Two hours later[...] still here. Now go home!
+23: Meet the elder of the village and get the Master Sword. Or don't. Chat will send you somewhere else anyway.
+24: Princess Dave, you are safe! Is this your doing, [Name]? Or did chat carry again?
+25: I sense that a mighty evil[2]force guides the wizard's[3]actions.  It is called chat.[Waitkey][Scroll]The only weapon strong enough[Scroll]to beat him is the legendary[Scroll]Master Sword, or 500 channel[Waitkey][Scroll]points, whichever comes first.[Scroll]The village elder Sahasrahla[Scroll]knows more.  I will mark his[Waitkey][Scroll]house on your map.  But watch[Scroll]your every move!  The castle[Scroll]soldiers are looking for you[Waitkey][Scroll]and so is half of chat.[Sound 45][Scroll]I will hide Princess Dave here.[Scroll]Do not worry!  Seek the elder![Waitkey][Scroll][...]    [...]    [...][Scroll]Do you understand?[Scroll]    > Yes[Scroll]       Not at all[Choose]
+26: If you defeat {boss}, the soldiers may regain their sanity. Chat will not. Go, seek the Pendants!
+28: [Name]! You are a second too late. I have failed[...] Dave[...] The soldiers have abducted her. They have taken her to the castle. That'll happen. You must find her before the wizard works his magic. Please[...] You are our only hope[...] which is so disappointing.
+29: Thank you, [Name]. I had a feeling you were getting close. Chat was betting against you.
+30x: Yes, it was [Name] who helped me escape from the dungeon! When I was captive {boss} said, "Once I have finished with you, the final one, the seal of the wise men will open." Then he said "nowyafuckedup" and laughed for an hour. [Name], you must not let the land of Hyrule fall into the wizard's clutches. Before it's too late[...] destroy the wizard before he destroys all of Hyrule! You can do it! Probably. Chat says 40 percent.
+31: [Name], be careful out there! I know you can save Hyrule! I will help and hinder. You will never know which.
+32: [Window 02][Speed 03]Help me[...] Please help me[...] I am a prisoner in the dungeon of the castle. My name is Dave. Yes, Dave. The wizard, {boss}, has done something to the other missing girls. Now only I remain[...] and my phone is at 3 percent. I am in the dungeon of the castle. Please help me[...]
+35: That ornamental shelf should open. Do you have a light? It's pitch dark inside and you can't see without one. If you're ready, let's go! Help me push it from the left! No, YOUR left.
+37: All right, let's get out of here before the wizard notices. I know a secret path, but first we have to go to the first floor. Let's go! And stop dashing into walls, chat is counting.
+38: [Name], listen carefully.  The[2]wizard is magically controlling[3]all the soldiers in the castle.[Waitkey][Scroll]I fear the worst for my[Scroll]father[...]  He was on a[Scroll]two hour boss timer.[Waitkey][Scroll]The wizard is an inhuman fiend[Scroll]with strong magical powers[Scroll]and a Discord mod badge.[Waitkey][Scroll]Do you understand?[Scroll]    > Yes[Scroll]       Not at all[Choose]
+40: [Name], you are wonderful! As I thought, you have the power of the Hero inside you! And a lot of party liquor. Now, you should get the Master Sword. I am confident that you can defeat {boss}! Chat is less confident.
+41: [Window 02][Speed 03][Name]! Help! The soldiers are coming to Sanctuary! AIEEEEEEE! [...] [...] [...] So close.
+42: After passing through these sewers, we will be very close to Sanctuary! Let's be careful! Hold it in.
+44: Who? Oh, it's you, [Name]! What can I do for you, young man? The elder? Oh, no one has seen him since the wizard began collecting victims[...] Or since {chatter} started spamming. What? Master Sword? Well, I don't remember the details exactly, but[...]
+45: Long ago, a prosperous people[2]known as the Hylia lived here.[3]They had no chat.  Imagine.[Waitkey][Scroll]Legends tell of many treasures[Scroll]the Hylia hid all over the[Scroll]land, because randomizer.[Waitkey][Scroll]The Master Sword, a mighty[Scroll]blade forged against those[Scroll]with evil hearts, is one of[Waitkey][Scroll]them.  People say that now it[Scroll]is sleeping deep in the forest[Scroll]like a streamer at 4am.[Waitkey][Scroll]Do you understand the legend?[Scroll]    > Yes[Scroll]       Not at all[Choose]
+46: Anyway, look for the elder. Someone in the village must know where he is. Probably the kid. It's always the kid. You take care now, [Name][...]
+47: Ohhh, [Name]. You've changed! You look marvelous[...] Is that a new sprite? Please save us from {boss} the wizard!
+48: Hey! Here is [Name], the wanted man! Soldiers! Mods! Anyone! Come quickly! WHERE YOU AT DOG?
+49: Incredible! At last you have the three Pendants[...] Now, you should go to the Lost Woods. If you are the true Hero, the sword itself will select you. If not, that'll happen.
+50: I am too old to fight. I can only rely on you. And on {chatter}. Mostly on {chatter}.
+51: I am, indeed, Sahasrahla, the[2]village elder and a descendant[3]of the seven wise men.[Waitkey][Scroll][...]   [...]     Oh really?[Scroll][Name], I am surprised a young[Scroll]man like you is searching for[Waitkey][Scroll]the sword of evil's bane.[Scroll]Not just anyone can use that[Scroll]weapon.  Legends say only the[Waitkey][Scroll]Hero who has won the three[Scroll]Pendants can wield the sword.[Scroll]Or someone with a save state.[Waitkey][Scroll]Do you really want to find it?[Scroll]    > Yeah![Scroll]       Of Course![Choose]
+52: Good. As a test, can you retrieve the Pendant Of Courage from the East Palace? If you bring it here, I will tell you more of the legend and give you a magical artifact. No, not a scooby snack. Now, go forward to the palace.
+53: Other relatives of the wise men are hiding from the evil wizard's followers. You should find them. They owe me money. 65 money chains.
+54: [Window 02][Speed 03][Name], it is I, Sahasrahla. I am communicating to you across the void through telepathy[...] and a very bad Discord call. The place where you now stand was the Golden Land, but evil power turned it into the Dark World. Basically chat got mod. The wizard has broken the wise men's seal and opened a gate to link the worlds at Hyrule Castle. To save the Light World, you must win back the Golden Power and rescue the seven maidens {boss} sent to the Dark World. The Palace of Darkness should be your first goal in this world! [Name], I can rely on only you. Please make this old man's wishes come true. I beg you! Also please stop dashing into the walls.
+57: Oh!? You got the Pendant Of Courage! Now I will tell you more of the legend[...] Three or four generations ago, an order of knights protected the royalty of the Hylia. These Knights Of Hyrule were also guardians of the Pendant Of Courage. Most of them were destroyed in the great war against evil, or moved to Canada. Among their descendants a hero must appear. [...]I see. [Name], I believe you. Chat does not, but I do. You should get the remaining Pendants. And carry this with you. This is a treasure passed down by the families of the wise men. I want you to have it. Do not sell it for rupees.
+58: You are correct, young man! I am Sahasrahla, the village elder and a descendant of the seven wise men. [...] What? [Name], I'm surprised a young man like you is looking for the sword of evil's bane. Only the Hero who has destroyed three great evils and won the three Pendants can wield it[...] I see you have the Pendant of Courage already. Speedrunner. Three or four generations ago, an order of knights protected the royalty of the Hylia and guarded that Pendant. Most of them were destroyed in the great war against evil, or moved to Canada. Among their descendants a hero must appear. [...]I see. [Name], I believe you. Chat does not, but I do. Get the remaining Pendants. And carry this with you. This is a treasure passed down by the families of the wise men. I want you to have it. Do not sell it for rupees.
+59: I will give 100 Rupees to the man who finds the descendants of the wise men. Payment in exposure. THE KING
+61:      DANGER![2]Do not enter Death Mountain[3]without the King's permission![Waitkey][Scroll]Or a lamp.  Mostly a lamp.
+72: Pay no attention to the average middle-aged man standing by this sign. He is testing the limits of the box the box the box. Leave him alone!
+73: [2]The House Of Lumberjacks[3]Ricky and Julian.  Worst case Ontario.
+75: Double, double toil and trouble, fire burn and cauldron bubble[...] Making mushroom brew, I am[...] ya drunk yet snake?
+76: Heh heh[...] Thank you, young man[...] Come back to the shop later for something good[...] Heh heh[...] Commence the jigglin'.
+77: Mmmmm[...] The smell of rotten fruit[...] or is that {chatter}? If you give me that Mushroom, I can finish my brew. Heh heh[...]
+78: If you want to buy the potion, you should bring a bottle to put it in[...] What did you think, I'd pour it in your hands? He he he!
+81: No, no, no[...] I can't put anything into a full bottle. Hold it in. He he he!
+104: Oh! Here is the Flute! Its music surely has some mysterious power! Phil Collins wrote it.
+106: BOING! This is the Hook Shot! It extends and contracts and[...] BOING! It can grapple many things! Not chat's attention span, though.
+112: This is it! The Master Sword![2][...]  [...]  [...][3]No, this can't be it[...] So disappointing.
+126: Wow! I haven't seen a normal person in a few hundred years! Still haven't. Let me talk to you for a while.
+128: Surprisingly, the Triforce created this world to fulfill Ganon's wish. What is Ganon's wish, you ask? It is to rule the entire cosmos! Don't you think it might be possible with the power of the Triforce behind you? Or at least hit the sub goal?
+129: I once lived in the Lost Woods, until the day I wandered into a magic transporter[...] The power of the Dark World quickly turned me into this tree shape[...] Could be worse. {chatter} got turned into a mod.
+131: Quit bothering me! And watch where you're going when you dash around! Yes, chat is watching too.
+134: Well howdy, Light Worlder![2]You look like a straight[3]shooter[...]  Want to try your[Waitkey][Scroll]skill in my shooting gallery?[Scroll]I'll give you five shots for 20[Scroll]Rupees.  If you're as sharp[Waitkey][Scroll]as I think you are, you stand[Scroll]to rake in the Rupees.[Scroll]John Madden approved.[Waitkey][Scroll]How about it, stranger?[Scroll]    > Play[Scroll]       No way[Choose]
+135: All right! Aim carefully! No aim assist in here. Ready? GO!
+136: Well little partner, you can turn yourself right around and leave the same way you came in. Look at us. Look at us. See you later! Have a nice day!
+138: --POND OF HAPPINESS--[2]Throw some Rupees in and your[3]wishes will surely come true.[Waitkey][Scroll]Terms and conditions apply.[Scroll]Do you want to throw Rupees?[Scroll]    > Throw a few[Scroll]       Don't feel like it[Choose]
+140: WHERE YOU AT DOG?  Drop this?[2]    > Yes[3]       No, I didn't[Choose]
+141: I like an honest person. Rare in chat. I will give you something better in return.
+142: Sure this isn't yours, dog?[2]    > Really, it isn't[3]       To tell the truth, it is[Choose]
+143: Now, now, don't tell me a lie. I have seen the VOD. Please take it back.
+154: Uhhh[...] Watch your step. There are holes in the ground. Could you turn right here? Young man, are you also going to the mountain to look for the Golden Power? Just ahead is a mountain full of monsters. Many people have vanished on this mountain while looking for the Golden Power. Duck vanishes. Everything vanishes. I don't want to steer you wrong, so please don't get too involved in such a mad quest.
+156: Uhh[...] Turn right here[...] You know, I have a granddaughter who is your age[...] The King took her to the castle and she never returned. Kidnapping those maidens must be part of the wizard's plot! Either that or she found a better stream.
+157: I don't know who you are, but if you are going to go up the mountain, will you take me with you? I lost my lamp, so[...] Yes, I am the escort quest. Sorry.
+158: The missing maidens are still alive somewhere. I believe that a Hero will rescue them[...] I wait for that day[...] Uhh[...] These are dangerous times[...] I talked too much. Two hours later[...] Anyway, thank you for your kindness to an old man like me. Uhh[...] I wanted to give you this. If you wander into a magical transporter, gaze into this mirror. Do not use it for selfies.
+161: [Name], I think the wizard connected the two worlds somewhere around the castle. All I can do for you now is to comfort your weariness[...] Come back here any time. I heal you up so you can go die again.
+162: [...]mumble mumble[...] My son really liked to play the flute, but he went to look for the Golden Power and has not returned[...] I wonder where he is and what he is doing now?[...] Probably streaming. [...] Zzzzzz Zzzzzz
+163: [...]mumble mumble[...] Oh? This is my son's flute[...]! Did you meet my son? Where is he? Is he all right? [...] [...] Oh, I see[...] Well, I can tell what you want to say by the look in your eyes[...] That'll happen.
+164: Would you keep the flute? And will you play its sweet melody for the bird in the village square? I beg of you, please! My son would probably want it this way[...] But still, I wish I could see him once more[...] and tell him to get off Discord.
+167: I can't believe you caught me! With your speed it must have been easy to kidnap Dave[...] You don't look like such a bad guy, though[...] Anyway, because you have such quick feet, it might be a good idea to run and bash into many things[...] For example, the trees in this village have many useful things hanging in their branches[...] Well, just try it, OK?! Chat has been telling you this for an hour.
+168: If you have enough time to read this sign, you are losing. Go to the goal immediately! GO GO GO!
+176: This is the Village Of Outcasts. People without Rupees are not welcome here. People without subs are tolerated.
+179: After {boss} took over, everyone began to act strangely. Like a Discord server at 3am. I suppose it's only a matter of time before I'm affected, too. plek kek ek ket.
+180: Hey hey! You're not allowed in the castle, son! Go home and get some sleep! Hydrate. Chat says hydrate.
+200: My name is {chatter}. This is my top secret room. Quick! Write down all his secret Desktop info! Keep it between us, OK?
+205: If you can reach the goal within 15 seconds, we will give you something good. No, not a sub. Ready, Set[...] [...] GO!
+206: You qualified! FLAWLESS VICTORY! I present you with a piece of Heart!
+207: You're not qualified. So close. Why don't you try again? Chat believes in you. Some of chat.
+210: You, sir!  Have you been going[2]through life without one of my[3]hold-anything bottles?[Waitkey][Scroll]Well step right up and make[Scroll]your life complete!  I've got[Scroll]one on sale now for the low,[Waitkey][Scroll]low price of 100 Rupees![Scroll]Cheaper than a TTS redeem.[Waitkey][Scroll]What do you say?  Interested?[Scroll]    > I'll take one[Scroll]       Don't need it[Choose]
+211: Good buy! Thanks a lot! Now, hold it above your head for the whole stream to see, OK? It's good for business!
+212: So you're broke, eh? Too bad[...] Come back after you earn more Rupees. Or ask chat for a tax. It might still be here.
+213: I'm all sold out of bottles. Come back later, OK? Supply and command.
+214: Wow! I've never seen such a rare bug! Not even in this build! I'll buy it for 100 Rupees, OK? Done!
+215: Hey! They say eating fish makes you smart. Chat should try it. You have to give me this fish for this stuff, OK? Done!
+216: Yo! [Name]! You seem to be in a heap of trouble, but this is all I can give you. Let me pack you a lil scooby snack.
+221: Drop by again anytime you want to. Hi ho! Hi ho! We're off to work! Unlike chat.
+222: All right, no problem. We'll have to keep your sword for a while. Two hours later[...]
+223: Your sword is tempered-up! Now hold it! Hold it in!
+225: Oh! Happy days are here again! You found my partner! LETS GOOOOOO! Drop by here again! At that time, we will temper your sword perfectly!
+226: Ribbit ribbit[...] Your body did not change! You are not just an ordinary guy, are you? I used to live in Kakariko Town. I wonder what my partner is doing there without me[...] Probably watching the stream. Ribbit! I have a request of you. Please take me to my partner! Please! Ribbit! Please!
+227: I'm sorry, we're not done yet. Come back after a while. Blame the mods.
+228: Thank you! Thank you! Look at us!
+229: Hey hey, amateurs shouldn't try to do this. You're just getting in the way! This is a forge, not a randomizer.
+230: After wandering into this world[2]I turned into this shape.[3][...]  [...]  [...][Waitkey][Scroll]I enjoyed playing the flute in[Scroll]the original world[...][Scroll]Nobody ever clipped it.[Waitkey][Scroll]There was a small grove where[Scroll]many animals gathered.  I want[Scroll]to see that place again[...][Waitkey][Scroll]I buried my flute there with[Scroll]some flower seeds.[Scroll][Waitkey][Scroll]Will you try to find it for me?[Scroll]    > Yes[Scroll]       No way[Choose]
+231: Then I will lend you my shovel. Good luck! Dig responsibly.
+232: [...] [...] [...] I see. I won't ask you again[...] Good bye. So disappointing.
+234: Thank you, [Name]. But it looks like I can't play my flute any more. Please take it. If by chance you go to the village I lived in, please give it to a tired old man you will find there. [...] [...] Well, my mind is getting hazy[...] Please let me hear the sound of the flute one last time[...] Not Phil Collins. The flute.
+243x: [Position 01]Well, I have to say my condition isn't very good today. Damn you party liquor. But I want you to come back again[...]
+246: [Position 01]It is indeed a poor man who is not interested in his future[...] Or a streamer with a timer. I'll be waiting for your return.
+257: Heh heh. I see. I'm not interested in talking to people who don't have Rupees[...] or subs.
+261: Sniffle[...] Hey brother [Name]! Do you have a bottle to keep a bug in? [...] I see. You don't have one[...] Cough cough[...] That was not a fart. Cough.
+262: I can't go out 'cause I'm sick[...] Cough cough[...] People say I caught this cold from the evil air that is coming down off the mountain[...] or from {chatter}. Sniff sniff[...] This is my bug-catching net. I'll use it when I'm better, but for now, I'll lend it to you.
+265: Why did you take my sign? It says plain as day to just leave me alone! Sheeesh! Flashbang the stream.
+266: I heard that you know I used to[2]be a thief, right?[3][Waitkey][Scroll]Well, I'll open a chest for you.[Scroll]Will you keep it secret from[Scroll]everyone else?  Chat included.[Waitkey][Scroll]Would you please promise ?[Scroll]    > Promise not to tell[Scroll]       Tell it to everyone[Choose]
+267x: OK, if that's the way you want it, I hope you drag that chest around forever! Nowyafuckedup.
+268: Remember, you promised[...] Don't tell anyone. Not even Discord.
+269: All right, bring that chest over here[...] Seriously, keep this a secret from everyone. Wait, is this live? Oh no.
+273: Hey! Blast you for waking me from my deep, dark sleep! [...]I mean, thanks a lot, sir! But now I will get my revenge on you. I will help and hinder. You will never know which. [...]Err, is that OK with you, sir?
+274: Heh heh heh! I laugh at your misfortune! Now your magic power will drop by one half! Congratulations! Now, do your best, even though I'm sure it won't be enough! You Died. Have a nice day! See you!
+275: [Color 07][Speed 03][Window 02][NextPic]Long ago, in the beautiful[2]kingdom of Hyrule, before[3]Twitch chat existed[...][Wait 09][Scroll]legends told of an omnipotent[Scroll]and omniscient Golden Power[Scroll]that could grant any wish.[Wait 09][NextPic][NextPic][Scroll]Many people aggressively[Scroll]sought the hidden Golden Land[Scroll]for the loot[...][Wait 07][Scroll]But no one ever returned.[Scroll]One day evil power began to[Scroll]flow from the Golden Land[...][Wait 07][Scroll]So the King commanded seven[Scroll]wise men to seal the gate.[Scroll]It was a group project.[Wait 09][NextPic][NextPic][Scroll]That seal should have remained[Scroll]for all time[...][Scroll][Wait 09][NextPic][NextPic][Scroll][...]  [...]But, when these events[Scroll]were obscured by the mists of[Scroll]time and became a randomizer[...]
+276: [Window 02][Color 07][Speed 03][1]A mysterious wizard known as[2]Agahnim came to Hyrule to[3]release the seal.  He banned[Wait 05][Scroll]the good King of Hyrule[...][Wait 05]
+277: [Window 02][Color 07][Speed 03][1]Through evil magic, he began[2]to make descendants of the[3]seven wise men vanish, one[Wait 05][Scroll]after another.  Duck vanishes.[Wait 05]
+278: [Window 02][Color 07][Speed 03][1]And the time of destiny for[2]Princess Dave is drawing[3]near.  Yes, Dave.[Wait 05]
+279: Because the key is locked inside this chest, you can never open it. Just take it with you. Classic randomizer.
+280: 100 Rupees for 30 Bombs! 30 Bombs for just 100 Rupees! Please buy 'em, mister! Chat will make you use them anyway!
+284: Ki ki ki!  If you give me 100[2]Rupees,  I will open the[3]entrance for you.  Ki ki ki![Waitkey][Scroll]I take Rupees, not bits.[Scroll]  What will you do?[Scroll]    > Ask him to open it[Scroll]       Try to open it yourself[Choose]
+285x: Ki ki ki! Hmph! Do it yourself, then! Kik ki ki! Nowyafuckedup!
+286: Ki ki! Good choice! Then I get 100 of your Rupees. That's 65 money chains. Kik ki ki!
+287: I'm Kiki the monkey ki ki![2]I love Rupees more than[3]anything.  Can you spare me[Waitkey][Scroll]10 Rupees?  I have a family.[Scroll]They are also monkeys.[Waitkey][Scroll] What will you do?[Scroll]    > Give him 10 Rupees[Scroll]       Never give him anything[Choose]
+288: Ki ki ki ki! Good choice! I will accompany you for a while. Like a mod, but useful. Kik kiki!
+289: Ki ki! Harumph! I have no reason to talk to you, then. Bye bye! Unsubbed. Kik ki ki!
+290: Ki ki? What are you doing? I don't want to go there! Chat said left!
+291: Ohh, thank you very much! You saved my life. Please take me outside. I have been in here for two hours. Two hours later[...]
+292: Gyaaah! Too bright! Flashbang the stream!
+293: Err[...] Wait a minute[...] Please don't go this way. Chat is trying to get you killed.
+296: Aha! It is the Book Of Mudora. With it, you can read the language of the Hylia people. Still can't read chat, though.
+297: You are the true Hero[...] I believe that you will return peace to this land again. What a time to be alive.
+298: Your trial in the desert has made you stronger. The blood of the Hero must be in your veins[...] and a lot of energy drink.
+299: Was it you who disturbed my peaceful nap? I will give this to you if you go away! Kurt Angle stare.
+300: I don't have any more good presents for you. Take this instead, pest! So disappointing.
+301: Yo [Name]! A mysterious fog has recently fallen over the forest. We have to be careful! Worst case Ontario.
+303: Yo! The fog in the forest is clearing. Thank you! We can go there again! Hey brother! Look at us!
+304: Yeah [Name], now I'm quarreling with my younger brother. I sealed the door to his room. He kept saying plek kek ek ket.
+307: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]This world used to be the Golden Land where the Triforce was hidden. But because Ganon, the boss of chat, wished it, the world was transformed[...] He is trying to open a larger gate between worlds near the castle using our powers. But the gate is not open completely yet[...] If we seven maidens come together, we can break the barrier around Ganon's hiding place. I will tell you where the other girls are held. I believe you will destroy Ganon. Chat has started a poll.
+308: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]The Triforce will grant the wishes of whoever touches it, as long as that person lives[...] That is why it was hidden in the Golden Land. The person who rediscovered it was Ganondorf the evil thief. Luckily, he couldn't figure out how to return to the Light World. Skill issue. [...]Remember that you have magical powers, which only The Hero can make the most of! There are other magical warping points like the one you saw on Death Mountain. By using them you can go between the two worlds and find the evils hidden in the Dark World. You are the only one who can destroy Ganondorf, the thief. No, Ganon, the evil King Of Darkness! He rebranded.
+309: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]Do you know the prophecy of the Great Cataclysm? This is the way I heard it[...] If a person who has an evil heart gets the Triforce, a Hero is destined to appear[...] and he alone must face the person who began the Great Cataclysm. If the evil one destroys the Hero, nothing can save the world. No respawns. Only a person of the Knights Of Hyrule, who protected the royalty of Hylia, can become the Hero[...] You are of their blood-line, aren't you? Then you must rescue Dave without fail.
+310: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]As the wise men sealed the way to the Dark World, the Knights Of Hyrule defended them from the attacks of evil monsters. I heard that the Knights Of Hyrule were nearly wiped out in that battle[...] You are perhaps the last one to carry on the blood-line of the Knights[...] It is ironic that the last one in the line has the potential to become the Hero of legend. And to die to a keese. Surely you can destroy Ganon!
+311: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]They say the Hylia people controlled mysterious powers, as did the seven wise men. But the blood of the Hylia has become thin over time. We who carry the blood of the seven wise men do not possess strong power any more, either. A slow on a slow on a slow, forever slowed. Our powers will increase if we mix the courage of the Knights with the wisdom of the wise men. Only a short time remains until the gate at the castle linking the worlds opens completely. If you defeat Ganon, this world will vanish and the Triforce will wait for a new holder. I believe in you[...] Good luck!
+312: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]Ganon captured us because he couldn't break the seal of the wise men with his power alone. And then, using the wizard {boss} as his pawn, he drew us to the Dark World. After cracking the seal with our powers, he sealed us inside of these crystals. He then gave us to his loyal monsters. But Ganon didn't plan on your getting this far. Neither did chat. Now, Princess Dave is waiting for you inside of Turtle Rock. Please hurry!
+313: [Speed 02][Position 01][Window 02]I appreciate your coming so far to rescue me. As I thought, you are the legendary Hero. I have felt this from the first time we met. [...] [...] [...] Ganon is waiting inside of his tower to pass through the gate linking the two worlds. Once Ganon enters the Light World, it is unlikely that anyone can stop him. But if he stays in the closed space of this world, you can find him wherever he runs. Now, go to the Tower Of Ganon! We will use our combined powers to break the barrier. Let's return peace to the country without fail[...] You did all this to kiss a princess named Dave.
+314: [Speed 02][Position 01][Window 02]May the way of the Hero lead to the Triforce. And may chat stay quiet for once.
+316: [Name], we are going to break the barrier of Ganon's Tower with our power. LETS GOOOOOO!
+317: [Speed 02][Position 01][Window 02]I appreciate your coming so far to rescue me. As I thought, you are the legendary Hero. I have felt this from the first time we met. [...] [...] [...] Ganon is waiting inside of his tower to pass through the gate linking the two worlds. Once Ganon enters the Light World, it is unlikely that anyone can stop him. But if he stays in the closed space of this world, you can find him wherever he runs. Some maidens still need your help, though. Once you rescue them all, go to Ganon's Tower. We who are of the blood-line of the wise men will then use our power to break Ganon's barrier! [Name][...] You must return peace to this country[...] You are doing all this to kiss a princess named Dave.
+318: Ahah[...] [Name]! It is I, {boss}! I have been waiting for you! Heh heh heh[...] I was hoping I could make Dave vanish in front of your eyes. Duck vanishes. Dave vanishes. Behold! The last moment of Princess Dave!
+319: Ho ho ho[...] With this, the seal of the seven wise men is at last broken. It is now only a matter of time before evil power covers this land[...] After all, the legendary Hero cannot defeat us, the tribe of evil, when we are armed with the Power of Gold. And mod powers. Ho ho ho[...] Now, I must go! I have a stream to raid.
+320: Oh, so?[...] You mean to say you would like to be totally destroyed? Well, I can make your wish come true! FINISH HIM!
+321: Grrrrugh! Well met! Like the true Hero that you are[...] But I am not ready to admit defeat yet. I will draw you into the Dark World! Rematch. Best of three.
+322: Ho ho ho! It's great that you could come all the way here, [Name]. {boss} never forgets. I'm very happy to see you again, but you'd better believe that we will not have a third meeting! Prepare to meet your doom! You Died. Probably.
+324: Wah ha ha!  But I don't just[2]give flippers away for free.[3]I sell them for 500 Rupees a[Waitkey][Scroll]pair.  No refunds.  No subs.[Waitkey][Scroll]What do you do?[Scroll]    >  Pay 500 Rupees[Scroll]        Quit after all[Choose]
+325: Wah ha ha! One pair of flippers coming up. I will give you a free bonus with your purchase. I will let you use the magic water ways of the sea folk which link lakes and rivers. When you see a whirlpool, dive into it. You never know where you'll surface! Wah ha ha! Ya drunk yet snake?
+326: Wade back this way when you have more Rupees[...] or 500 channel points. Wah ha ha! I'll see you again!
+327: Great! Whenever you want to see my fishy face, you are welcome here. Chat says I look like Carl. Wah ha ha! Good bye[...]!
+328: Hi [Name]! Elder? Are you talking about the grandpa? OK, but don't tell any of the bad people about this. Or Discord. He's hiding in the palace past the castle. I will mark the spot on your map. Here you are[...][Sound 45]
+329: Did you meet the grandpa? If all the bad people go away, he can come back to the village. Chat counts as bad people.
+330: You're new here, aren't you? Did you come here looking for the Power Of Gold? Well, you're too late. It will obey only the first person who touches it. The man who last claimed the Power Of Gold wished for this world. It reflects his heart. Yes, I came here because of greed for the Golden Power, and look what happened to me[...] I look like Meatwad. To restore the Golden Land, a person worthy of the Golden Power must defeat the man who created this place[...] Until that time, I am stuck in this bizarre shape. But what a mischievous thing to leave lying around[...] The Power Of Gold[...] Triforce[...] Quad Laser[...]
+331:      -Mysterious Pond-[2]Throw something in?  Not a[3]bomb.  Please.  Not a bomb.[Waitkey][Scroll]What will you do?[Scroll]    > Throw an item[Scroll]       Don't try it[Choose]
+332: Don't do it! Chat, stop!
+333: Don't do it! Chat, stop!
+334: I will give this back to you then. Don't drop it again. Butterfingers.
+337: [2]   Great Luck.  Sub goal met.
+340: [2]   Big Trouble.  Chat is here.
+347: I will soothe your wounds and comfort your weariness[...] Close your eyes and relax[...] I heal you up so I can kill you again.
+348: Oh? Who are you, Mr. Bunny? This world is like the real world, but evil has twisted it. The Golden Power is what changed your shape to reflect what is in your heart and mind. I am always changing my mind, so I turned into a ball[...] But if you have a ball called the Moon Pearl, you can keep your original shape here. Chat turned into a swarm of keese. Figures.
+349: You didn't change your shape? You aren't just a normal guy, are you? Or did somebody just redeem something?
+350: What do you want?! Do you have something to say to me, silly rabbit?! I came here to get the Power Of Gold but now I'm a freak and I can't go back to the real world! If I only had the Moon Pearl from the Tower Of Hera, I could go back to my original shape! I've got good reason to be stressed out! So back off! Shoo shoo! Cat slap!
+351: WOW! Your shape didn't change! You got the Moon Pearl, huh? Or somebody redeemed the illusion. Nobody knows anymore.
+352: In such a dangerous world you may need many things. Select something that you like[...] Prices went up. Blame chat.
+353: Hi, may I help you?  You can[2]open two chests for 30 Rupees.[3]Why don't you play?[Waitkey][Scroll]It is definitely not rigged.[Scroll]What will you do?[Scroll]    > Play here[Scroll]       Maybe next time[Choose]
+354: Well, come back and play some time. I'll be waiting for you. I'm always here. It's kind of sad. Until then, good bye!
+355: Hey kid! You can open a chest after paying Rupees! This isn't a free chest game!
+356: You can't open any more chests. The game is over. You Died. Financially.
+357: All right, kid. Choose well! Good luck! Chat says the left one. Chat is wrong.
+359: You don't need that item[...] Why not select something else? Impulse buys are for chat.
+360: Thank you very much. Whenever you lose your shield to a Like Like, and you will, come back here again.
+364: Thank you very much. That is a Bee. Don't ask me what it is used for. Chat doesn't know either.
+366: No no no[...] I can't sell the merchandise because you don't have an empty bottle. Hold it in.
+368: I never imagined a boy like you could give me so much trouble. It's unbelievable that you defeated my alter ego, {boss} the Dark Wizard, twice! Twice! With chat trying to kill you the whole time! But I will never give you the Triforce. I will destroy you and make my wish to conquer both Light and Dark Worlds come true without delay. Then I'm doing a subathon.
+369: You are doing well, lad. But can you break through this secret technique of Darkness? It's the double. En Garde!
+371: Yo [Name]! This house used to be a hideout for a gang of thieves. What was their leader's name[...] Oh yeah, his name was Blind and he hated bright light a lot. Flashbang the stream.
+372: [Speed 02][Position 00][Window 02]Welcome, [Name][...][2]I   am   the   Essence   Of   The[3]Triforce.[Waitkey][Scroll][...]   [...]   [...][Speed 01][Waitkey][1]                                          [2]                                          [3]                                          [Speed 02][1]The Triforce will grant the[2]wishes in the heart and mind of[3]the person who touches it.[Speed 01][Waitkey][1]                                          [2]                                          [3]                                          [Speed 02][1]Ganon wished to conquer the[2]world.  Chat wished for keese.[3]Both got what they wanted.[Speed 01][Waitkey][1]                                          [2]                                          [3]                                          [Speed 02][1]But now, you have totally[2]destroyed Ganon.  His Dark[3]World will vanish.[Speed 01][Waitkey][1]                                          [2]                                          [3]                                          [Speed 02][1]You did all this to kiss a[2]princess named Dave.[3]What a time to be alive.[Speed 01][Waitkey][1]                                          [2]                                          [3]                                          [Speed 02][1]The Triforce is waiting for a[2]new owner.  Its Golden Power is[3]in your hands[...][Speed 01][Waitkey][1]                                          [2]                                          [3]                                          [Speed 02][1]Now, touch it with a wish in[2]your heart.[3][...]  [...]  [...]  [...]
+373: All right! Take it, thief! Steal redeem accepted.
+374: Whoa[...] I saw her. A very nice young lady at the Waterfall Of Wishing in the hills where the river begins[...] [Name], you should meet her at least once. Chat already made it weird.
+375: Take some Rupees, but don't tell anyone I gave them to you. Keep it between us, OK? Not even the VOD.
+377: You can earn a lot of Rupees by defeating enemies. It's the secret of my success[...] That and 65 money chains.
+380: Oh yah, you found Sahasrahla! [...] [...] [...] Good job la la! Look at us la la!
+381: I'm sorry, but you don't seem to have enough Rupees[...] Try a tax redeem. Or don't.
+382: Cluck cluck[...] What?! You turned me into a human. I can even speak! Aha, it must be you who is always teasing my friends. The Weathercock is always watching you harass them. Well, this human shape is uncomfortable for me. Ahhh, I want to be a chicken again! Arise Chicken! Cluck cluck[...]
+383: Pay me 20 Rupees and I'll let[2]you open one chest.  You can[3]keep what is inside.[Waitkey][Scroll]Loot box.  Legal here.[Scroll]What will you do?[Scroll]    >  Open A Chest[Scroll]        Escape[Choose]
+384: All right! Open the chest you like! Not that one. Kidding. Maybe.
+385: Oh, I see[...] Too bad. So close. Drop by again after collecting Rupees.
+386: For 100 Rupees, I'll let you[2]open one chest and keep the[3]treasure that is inside.[Waitkey][Scroll]Premium loot box.[Scroll]What will you do?[Scroll]    >  Open A Chest[Scroll]        Escape[Choose]
+387: Hi, [Name]. Sorry about my yard. It's a little over grown. Thanks for visiting. I'm glad to have company to talk to. I will tell you an interesting story. There is a lake swimming with Zoras at the source of the river, but it is hard to find. The treasure of Zora can turn people into fish. Heh heh heh. I'd love to see that. Chat would clip it.
+388: I haven't had a chance to trim my hedges recently. Thanks for visiting anyway[...] A while ago, there was a boy in this village who could talk to animals with his Flute. He had a pet bird that flew with him everywhere, but he went to the mountain and never returned. Two hours later[...] still gone.
+392: Welcome to the treasure field.[2]The object is to dig as many[3]holes as you can in 30 seconds.[Waitkey][Scroll]Any treasures you dig up will[Scroll]be yours to keep.[Scroll]It's only 80 Rupees to play.[Waitkey][Scroll]Chat will scream the whole time.[Scroll]What do you say?[Scroll]    > I want to dig[Scroll]       I don't want to dig[Choose]
+394: I see. Then I give up. So disappointing. Save some Rupees and come back.
+395: OK! Time's up, game over. Come back again. Good bye[...] Time flies when chat is screaming.
+396: Come back again! I will be waiting for you. Forever. In this field.
+397: I can't tell you details, but it's not a convenient time for me now. Come back here again. Sorry. Quantum entanglement.
+
+# ---- alternates (picked at random per showing) ----
+6: You can't enter with something following you. That includes {chatter}.
+6: You can't enter with something following you. Leave it outside like a normal person.
+14: [Name], I'm going out for a while. I'll be back by morning. Don't leave the house. Don't open Discord. Don't let {chatter} in.
+14: [Name], I'm going out for a while. Two hours later[...] I'll be back by morning. Don't leave the house.
+15: Unnh[...] [Name], I told you not to leave the house[...] Take my sword and shield and listen. You can focus power in the blade (hold the [B] Button). Then release it and pray. [Name], you can do it! Save Princess Dave[...] Dave is your[...] [...] [...] you died, it's so disappointing[...]
+15: Unnh[...] [Name], I didn't want you involved in this[...] {chatter} said you'd be fine. Take my sword and shield. You can focus power in the blade (hold the [B] Button). Then release it using the secret technique of our people[...] a big swing. Save Princess Dave. Dave is your[...] [...] [...]
+16: What are you doing up this late, kid? {chatter} is up too, and look how that turned out. Now go home!
+16: What are you doing up this late, kid? You can stay up when you're grown up! Or when you're a mod. Now go home!
+23: Meet the elder of the village and get the Master Sword. That's the plan. Chat has a different plan.
+24: Princess Dave, you are safe! Is this your doing, [Name]? Chat is claiming credit already.
+26: If you defeat the wizard, the soldiers may regain their sanity. Go, seek the Pendants! And hydrate.
+29: Thank you, [Name]. I had a feeling you were getting close. {chatter} said you were lost.
+31: [Name], be careful out there! I know you can save Hyrule! I heal you up so I can kill you again.
+31: [Name], be careful out there! Chat is not on your side. Well, some of chat.
+32: [Window 02][Speed 03]Help me[...] Please help me[...] I am a prisoner in the dungeon of the castle. My name is Dave. Don't laugh. The wizard, {boss}, has done something to the other missing girls. Now only I remain[...] and {chatter} keeps redeeming things. I am in the dungeon of the castle. Please help me[...]
+32: [Window 02][Speed 03]Help me[...] Please help me[...] I am a prisoner in the dungeon of the castle. My name is Dave. Yes, Dave. The wizard, {boss}, has done something to the other missing girls. Now only I remain[...] and the wifi down here is terrible. I am in the dungeon of the castle. Please help me[...]
+42: After passing through these sewers, we will be very close to Sanctuary! Let's be careful! It smells like {chatter} down here.
+47: Ohhh, [Name]. You've changed! You look marvelous[...] Did somebody redeem a sprite? Please save us from {boss} the wizard!
+48: Hey! Here is [Name], the wanted man! Soldiers! Anyone! Come quickly! Kurt Angle stare.
+50: I am too old to fight. I can only rely on you. Chat says it's the other way around.
+131: Quit bothering me! And watch where you're going when you dash around! {chatter} is clipping it.
+168: If you have enough time to read this sign, you should go to the goal immediately! {chatter} already finished.
+176: This is the Village Of Outcasts. People without Rupees are not welcome here. That means you, {chatter}.
+180: Hey hey! You're not allowed in the castle, son! Go home and get some sleep! WHERE YOU AT DOG?
+200: My name is {chatter}. This is my top secret room. Nobody clipped it. Keep it between us, OK?
+200: My name is {chatter}. This is my top secret room. Look at us. Look at us. Keep it between us, OK?
+206: You qualified! Congratulations! I present you with a piece of Heart! LETS GOOOOOO!
+207: You're not qualified. Too bad! That'll happen. Why don't you try again?
+207: You're not qualified. So disappointing. {chatter} did it first try. Why don't you try again?
+211: Good buy! Thanks a lot! Now, hold it above your head for the whole world to see, OK? It's good for business! Here comes that cup!
+216: Yo! [Name]! You seem to be in a heap of trouble, but this is all I can give you. {chatter} took the rest.
+221: Drop by again anytime you want to. Hi ho! Hi ho! We're off to work! Supply and command!
+223: Your sword is tempered-up! Now hold it! Commence the jigglin'!
+227: I'm sorry, we're not done yet. Come back after a while. Two hours later[...]
+228: Thank you! Thank you! What a time to be alive!
+232: [...] [...] [...] I see. I won't ask you again[...] Good bye. I will help and hinder. You will never know which.
+265x: Why did you take my sign? It says plain as day to just leave me alone! Sheeesh! Nowyafuckedup.
+285: Ki ki ki! Hmph! Do it yourself, then! Kik ki ki! So disappointing!
+290: Ki ki? What are you doing? I don't want to go there! {chatter} said the other way!
+292: Gyaaah! Too bright! Duck vanishes!
+296: Aha! It is the Book Of Mudora. With it, you can read the language of the Hylia people. Rick Sanchez wrote it, drunk.
+297: You are the true Hero[...] I believe that you will return peace to this land again. Or {chatter} will, whoever gets there first.
+300: I don't have any more good presents for you. Take this instead, pest! Let me pack you a lil scooby snack.
+316: [Name], we are going to break the barrier of Ganon's Tower with our power. Hold it in.
+320: Oh, so?[...] You mean to say you would like to be totally destroyed? Well, I can make your wish come true! FLAWLESS VICTORY, mine.
+332: Don't do it! {chatter}, stop!
+333: Don't do it! Not that. Not again.
+349: You didn't change your shape? You aren't just a normal guy, are you? {chatter} turned into a keese.
+355: Hey kid! You can open a chest after paying Rupees! No, bits don't count!
+357: All right, kid. Choose well! Good luck! {chatter} says the right one. {chatter} is always wrong.
+359: You don't need that item[...] Why not select something else? That'll happen.
+373: All right! Take it, thief! Ya drunk yet snake?
+381: I'm sorry, but you don't seem to have enough Rupees[...] Ask {chatter}, they're loaded.
+385: Oh, I see[...] Too bad. That'll happen. Drop by again after collecting Rupees.
+394: I see. Then I give up. Save some Rupees and come back. Two hours later[...]
+395: OK! Time's up, game over. Come back again. Good bye[...] So close.
+396: Come back again! I will be waiting for you. {chatter} never came back.
+
+# ---- alternates, pass 2 (VOD chat quotes, cursing allowed per the owner) ----
+6x: You can't enter with something following you. Ditch the fucking monkey.
+14x: [Name], I'm going out for a while. Don't leave the house. Don't touch my shit. Don't let {chatter} talk you into anything.
+15x: Unnh[...] [Name], I told you not to leave the house[...] Take my sword and shield and listen. You can focus power in the blade (hold the [B] Button). Then release it and fuck something up. Save Princess Dave[...] Dave is your[...] [...] [...]
+16x: What are you doing up this late, kid? Go the fuck to bed! Or stream. Whatever. Now go home!
+23: Meet the elder of the village and get the Master Sword. F it, we're doing it live!
+24: Princess Dave, you are safe! Is this your doing, [Name]? BIG MONEY NO WHAMMIES!
+26x: If you defeat {boss}, the soldiers may regain their sanity. Chat is a lost fucking cause. Go, seek the Pendants!
+28: [Name]! You are a second too late. I have failed[...] Dave[...] The soldiers have abducted her. Jail. Straight to jail. You must find her before the wizard works his magic. Please[...] You are our only hope[...] God help us.
+29: Thank you, [Name]. I had a feeling you were getting close. Or going backwards. HE'S GOING BACKWARDS.
+31x: [Name], be careful out there! Don't fucking die to a keese again.
+44: Who? Oh, it's you, [Name]! What can I do for you, young man? The elder? Did they take his stapler? What? Master Sword? Well, I don't remember the details exactly, but[...]
+46x: Anyway, look for the elder. Ask the kid. It's always the fucking kid. You take care now, [Name][...]
+48: Hey! Here is [Name], the wanted man! Soldiers! Anyone! Come quickly! This is embarrassing!
+50x: I am too old to fight. I can only rely on you. And this shit I grew. It's fire.
+72: Pay no attention to the average middle-aged man standing by this sign. He went pee pee. He's back now. Leave him alone!
+75x: Double, double toil and trouble, fire burn and cauldron bubble[...] Why is it SOOO fucking high pitched?
+77: Mmmmm[...] The smell of rotten fruit[...] If you give me that Mushroom, I can finish my brew. No, I will not tell you what's in it. Heh heh[...]
+126: Wow! I haven't seen a normal person in a few hundred years! You don't count. Let me talk to you for a while.
+129: I once lived in the Lost Woods, until the day I wandered into a magic transporter[...] The power of the Dark World quickly turned me into this tree shape[...] Chicken blocked it. Chicken blocked everything.
+131: Quit bothering me! And watch where you're going when you dash around! You still don't have a lantern?
+168: If you have enough time to read this sign, you should go to the goal immediately! Jail. Straight to jail.
+176x: This is the Village Of Outcasts. People without Rupees are not welcome here. Want all your shit back? Lol.
+179: After {boss} took over, everyone began to act strangely. Maybe YOU'RE the bad Link. Ever think of that?
+180x: Hey hey! You're not allowed in the castle, son! Go home! Don't forget the level one key in the well. Wait, wrong fucking game.
+200: My name is {chatter}. This is my top secret room. Nobody clipped it. Nobody will. Keep it between us, OK?
+206x: You qualified! Congratulations! LETS FUCKING GOOOO! I present you with a piece of Heart!
+207: You're not qualified. Too bad! This is embarrassing. Why don't you try again?
+211: Good buy! Thanks a lot! Now hold it above your head so chat can scream about it. It's good for business!
+214: Wow! I've never seen such a rare bug! Omg I better not crash it. I'll buy it for 100 Rupees, OK? Done!
+216: Yo! [Name]! You seem to be in a heap of trouble, but this is all I can give you. Maybe swarm will spawn a fire guy.
+221: Drop by again anytime you want to. Hi ho! Hi ho! We're off to work! Unlike {chatter}.
+226: Ribbit ribbit[...] Your body did not change! You are not just an ordinary guy, are you? I used to live in Kakariko Town. Ribbit! I have a request of you. Please take me to my partner! Please! Ribbit! I forgot there was a second one of us.
+229: Hey hey, amateurs shouldn't try to do this. You're just getting in the way! Ducking auto correct.
+265x: Why did you take my sign? It says plain as day to just leave me alone! Sheeesh! What a shit day.
+273: Hey! Blast you for waking me from my deep, dark sleep! [...]I mean, thanks a lot, sir! Happy Friday, friend. But now I will get my revenge on you. Get ready for it! [...]Err, is that OK with you, sir?
+280: 100 Rupees for 30 Bombs! 30 Bombs for just 100 Rupees! Please buy 'em, mister! How do you not kill a blue slime in one hit anyway?
+285: Ki ki ki! Hmph! Do it yourself, then! Kik ki ki! Where my horses at?
+290x: Ki ki? What are you doing? I don't want to go there! {chatter} said left! Never fucking listen to {chatter}!
+292x: Gyaaah! Too bright! Turn that shit off!
+299x: Was it you who disturbed my peaceful nap? Fuck off. I will give this to you if you go away!
+300x: I don't have any more good presents for you. Take this instead, pest! Now get the fuck out.
+319: Ho ho ho[...] With this, the seal of the seven wise men is at last broken. F it, we're doing it live! Ho ho ho[...] Now, I must go!
+320: Oh, so?[...] You mean to say you would like to be totally destroyed? Well, I can make your wish come true! Jail. Straight to jail.
+322x: Ho ho ho! It's great that you could come all the way here, [Name]. I'm very happy to see you again, but you'd better believe that we will not have a third meeting! Prepare to meet your doom! This is going to be so fucking embarrassing for you.
+327: Great! Whenever you want to see my fishy face, you are welcome here. Wah ha ha! Ya drunk yet, snake?
+349: You didn't change your shape? You aren't just a normal guy, are you? Or is {chatter} the bad Link?
+355x: Hey kid! You can open a chest after paying Rupees! No money, no fucking chest!
+357: All right, kid. Choose well! Good luck! Big money! No whammies!
+368x: I never imagined a boy like you could give me so much trouble. It's unbelievable that you defeated my alter ego, {boss} the Dark Wizard, twice! Twice! Fuck. But I will never give you the Triforce. I will destroy you and make my wish to conquer both Light and Dark Worlds come true without delay.
+373x: All right! Take it, thief! Want all your shit back? Lol.
+381x: I'm sorry, but you don't seem to have enough Rupees[...] Broke ass.
+384: All right! Open the chest you like! Big money! No whammies!
+395: OK! Time's up, game over. Come back again. Good bye[...] He's going backwards. HE'S GOING BACKWARDS.
+396: Come back again! I will be waiting for you. Sup chat.
+
+# ---- alternates, pass 3 (x = dirty) ----
+30: Yes, it was [Name] who helped me escape from the dungeon! When I was captive {boss} said "Once I have finished with you, the final one, the seal of the wise men will open." Then he did the Kurt Angle stare for a full minute. [Name], you must not let Hyrule fall into his clutches. Destroy him before he destroys all of Hyrule! You can do it! What a time to be alive.
+30x: Yes, it was [Name] who helped me escape from the dungeon! When I was captive {boss} said "Once I have finished with you, the final one, the seal of the wise men will open." I said "nowyafuckedup" and he did not get it. [Name], destroy the wizard before he destroys all of Hyrule! You can do it! Probably. {chatter} says no.
+35: That ornamental shelf should open. Do you have a light? It's pitch dark inside and you can't see without one. If you're ready, let's go! Help me push it from the left! Chat, do not say "the double" again.
+37: All right, let's get out of here before the wizard notices. I know a secret path, but first we have to go to the first floor. Let's go! Hold it in, we don't stop for bathroom breaks.
+40: [Name], you are wonderful! As I thought, you have the power of the Hero inside you! Now go get the Master Sword. I am confident you can defeat {boss}! {chatter} has money on the wizard.
+40x: [Name], you are wonderful! You have the power of the Hero inside you! And no fucking lantern. Go get the Master Sword. I am confident you can defeat {boss}!
+41: [Window 02][Speed 03][Name]! Help! The soldiers are coming to Sanctuary! AIEEEEEEE! [...] [...] Sorry. Duck vanishes. Where was I. AIEEEEEEE!
+49: Incredible! At last you have the three Pendants[...] Now, you should go to the Lost Woods. If you are the true Hero, the sword itself will select you. If not, the sword picks {chatter}. Nobody wants that.
+52: Good. As a test, can you retrieve the Pendant Of Courage from the East Palace? Bring it here and I will tell you more of the legend and give you a magical artifact. Two hours later[...] you are still reading this. Go forward to the palace.
+53: Other relatives of the wise men are hiding from the evil wizard's followers. You should find them. Quick! Write down all their secret desktop info!
+54: [Window 02][Speed 03][Name], it is I, Sahasrahla. I am communicating to you across the void through telepathy[...] Can you hear me now? Good. The place where you now stand was the Golden Land, but evil power turned it into the Dark World. The wizard broke the wise men's seal and opened a gate to link the worlds at Hyrule Castle. Win back the Golden Power and rescue the seven maidens {boss} sent to the Dark World. The Palace of Darkness should be your first goal in this world! [Name], I can rely on only you. Not chat. Never chat. I beg you!
+57: Oh!? You got the Pendant Of Courage! Now I will tell you more of the legend[...] Three or four generations ago, an order of knights protected the royalty of the Hylia. These Knights Of Hyrule guarded the Pendant Of Courage. Most of them were destroyed in the great war against evil. Big money, no whammies, they said. Among their descendants a hero must appear. [...]I see. [Name], I believe you. You should get the remaining Pendants. And carry this with you. It is a treasure passed down by the families of the wise men. I want you to have it. Look at us. Look at us.
+59: I will give 100 Rupees to the man who finds the descendants of the wise men. Or 65 money chains. THE KING
+59x: I will give 100 Rupees to the man who finds the descendants of the wise men. No refunds, no bullshit. THE KING
+76: Heh heh[...] Thank you, young man[...] Come back to the shop later for something good[...] Heh heh[...] Let me pack you a lil scooby snack.
+78: If you want to buy the potion, bring a bottle to put it in[...] He he he! Or hold it in your hands and run. That'll happen.
+81: No, no, no[...] I can't put anything into a full bottle. Drink it first. Ya drunk yet, snake? He he he!
+104: Oh! Here is the Flute! Its music surely has some mysterious power! Wait, is that Phil Collins? Against all odds?
+106: BOING! This is the Hook Shot! It extends and contracts and[...] BOING! It can grapple many things! It cannot grapple {chatter} out of chat. We tried.
+128: Surprisingly, the Triforce created this world to fulfill Ganon's wish. What is Ganon's wish, you ask? It is to rule the entire cosmos! And to hit the sub goal. Don't you think it might be possible with the Triforce behind you?
+135: All right! Aim carefully! Ready? GO! Chat says a little to the left. Chat is wrong.
+136: Well little partner, you can turn yourself right around and leave the same way you came in. Ducks running in, ducks running out. See you later!
+141: I like an honest person. I will give you something better in return. Not a scooby snack. Something better.
+143: Now, now, don't tell me a lie. Please take it back. I'm doing my part, you do yours.
+154: Uhhh[...] Watch your step. There are holes in the ground. Could you turn right here? Young man, are you also going to the mountain to look for the Golden Power? Many people vanished up there. Duck vanishes. Old man vanishes. Please don't get too involved in such a mad quest.
+156: Uhh[...] Turn right here[...] You know, I have a granddaughter who is your age[...] The King took her to the castle and she never returned. Kidnapping those maidens must be part of the wizard's plot! Or she's just busy. Kids these days.
+157: I don't know who you are, but if you are going up the mountain, will you take me with you? I lost my lamp, so[...] I will help and hinder. You will never know which.
+158: The missing maidens are still alive somewhere. I believe that a Hero will rescue them[...] I wait for that day[...] Uhh[...] These are dangerous times[...] I talked too much. Anyway, thank you for your kindness to an old man like me. I wanted to give you this. If you wander into a magical transporter, gaze into this mirror. If you see {chatter} in it, run.
+161: [Name], I think the wizard connected the two worlds somewhere around the castle. All I can do for you now is comfort your weariness[...] Come back here any time. I'll keep you alive just to kill you.
+162: [...]mumble mumble[...] My son really liked to play the flute, but he went to look for the Golden Power and has not returned[...] I wonder where he is and what he is doing now?[...] Probably in {chatter}'s chat. [...] Zzzzzz Zzzzzz
+163: [...]mumble mumble[...] Oh? This is my son's flute[...]! Did you meet my son? Where is he? Is he all right? [...] [...] Oh, I see[...] Well, I can tell what you want to say by the look in your eyes[...] So close.
+164: Would you keep the flute? And will you play its sweet melody for the bird in the village square? I beg of you, please! My son would probably want it this way[...] He would also want you to hydrate.
+167: I can't believe you caught me! With your speed it must have been easy to kidnap Dave[...] You don't look like such a bad guy, though[...] Because you have such quick feet, run and bash into many things[...] The trees in this village have useful things hanging in their branches[...] Well, just try it, OK?! He's going backwards. HE'S GOING BACKWARDS.
+205: If you can reach the goal within 15 seconds, we will give you something good. Not a sub. Not a scooby snack. Ready, Set[...] [...] GO!
+212: So you're broke, eh? Too bad[...] Come back after you earn more Rupees. Or after {chatter} sends you some. It might still be here.
+213: I'm all sold out of bottles. Come back later, OK? [...] [...] Two hours later. Still sold out.
+215: Hey! They say eating fish makes you smart. You have to give me this fish for this stuff, OK? Done! Don't tell {chatter}, they'd want one.
+222: All right, no problem. We'll have to keep your sword for a while. Hi ho. Hi ho. It's off to work we go.
+222x: All right, no problem. We'll have to keep your sword for a while. Don't do anything stupid without it. Who am I kidding.
+225: Oh! Happy days are here again! You found my partner! Drop by here again! At that time, we will temper your sword perfectly! FLAWLESS VICTORY!
+231: Then I will lend you my shovel. Good luck! Don't dig up {chatter}'s stapler.
+234: Thank you, [Name]. But it looks like I can't play my flute any more. Please take it. If by chance you go to the village I lived in, please give it to a tired old man you will find there. [...] Well, my mind is getting hazy[...] Please let me hear the sound of the flute one last time[...] Play it slow. A slow on a slow on a slow.
+243: [Position 01]Well, I have to say my condition isn't very good today. Here comes that cup. But I want you to come back again[...]
+246: [Position 01]It is indeed a poor man who is not interested in his future[...] I'll be waiting for your return. So disappointing.
+257: Heh heh. I see. I'm not interested in talking to people who don't have Rupees[...] Come back with money, dog. WHERE YOU AT DOG?
+261: Sniffle[...] Hey brother [Name]! Do you have a bottle to keep a bug in? [...] I see. You don't have one[...] Cough cough[...] Did they take your stapler too?
+262: I can't go out 'cause I'm sick[...] Cough cough[...] People say I caught this cold from the evil air coming down off the mountain[...] Sniff sniff[...] This is my bug-catching net. I'll use it when I'm better, but for now, I'll lend it to you. Catch {chatter} with it.
+267: OK, if that's the way you want it, I hope you drag that chest around forever! Jail. Straight to jail.
+268: Remember, you promised[...] Don't tell anyone. Not chat. Chat can't keep a secret.
+269: All right, bring that chest over here[...] Seriously, keep this a secret from everyone. Nobody clipped this, right? Right?
+274: Heh heh heh! I laugh at your misfortune! Now your magic power will drop by one half! Congratulations! Do your best, even though I'm sure it won't be enough! I heal you up so I can kill you again. Have a nice day!
+279: Because the key is locked inside this chest, you can never open it. Just take it with you. Your hit box was trapped in the past due to quantum entanglement.
+286: Ki ki! Good choice! Then I get 100 of your Rupees. Kik ki ki! Best deal in the Dark World. Only deal in the Dark World.
+288: Ki ki ki ki! Good choice! I will accompany you for a while. Kik kiki! I will help and hinder. You will never know which.
+289: Ki ki! Harumph! I have no reason to talk to you, then. Bye bye! Kik ki ki! Broke people. So disappointing.
+291: Ohh, thank you very much! You saved my life. Please take me outside. Meet the captain and get sexy. I mean. Take me outside.
+293: Err[...] Wait a minute[...] Please don't go this way. {chatter} said this way. Never listen to {chatter}.
+298: Your trial in the desert has made you stronger. The blood of the Hero must be in your veins[...] And whatever {chatter} put in the cup. Here comes that cup.
+301: Yo [Name]! A mysterious fog has recently fallen over the forest. We have to be careful! Testing the limits of the fog. The fog the fog the fog.
+303: Yo! The fog in the forest is clearing. Thank you! We can go there again! Hey brother! Hey! Brother!
+304: Yeah [Name], now I'm quarreling with my younger brother. I sealed the door to his room. He kept saying "the double". What does that even mean.
+314: [Speed 02][Position 01][Window 02]May the way of the Hero lead to the Triforce. Two hours later, hopefully.
+318: Ahah[...] [Name]! It is I, {boss}! I have been waiting for you! Heh heh heh[...] I was hoping I could make Dave vanish in front of your eyes. Behold! The last moment of Princess Dave! Commence the jigglin'!
+321: Grrrrugh! Well met! Like the true Hero that you are[...] But I am not ready to admit defeat yet. I will draw you into the Dark World! Flashbang the stream!
+325: Wah ha ha! One pair of flippers coming up. I will give you a free bonus with your purchase. The magic water ways of the sea folk link lakes and rivers. When you see a whirlpool, dive into it. You never know where you'll surface! Wah ha ha! R2-D2 rolls through.
+326: Wade back this way when you have more Rupees[...] Wah ha ha! I'll see you again! Or not. That'll happen.
+328: Hi [Name]! Elder? Are you talking about the grandpa? OK, but don't tell any of the bad people about this. He's hiding in the palace past the castle. I will mark the spot on your map. Here you are[...] Chicken blocked it. Sorry. Here you are[...][Sound 45]
+329: Did you meet the grandpa? If all the bad people go away, he can come back to the village. He said Jeff rocks. I don't know who Jeff is.
+330: You're new here, aren't you? Did you come here looking for the Power Of Gold? Well, you're too late. It obeys only the first person who touches it. The man who last claimed it wished for this world. It reflects his heart. I came here out of greed for the Golden Power, and look what happened to me[...] So disappointing. To restore the Golden Land, a person worthy of it must defeat the man who created this place[...] Until then, I am stuck in this bizarre shape. What a mischievous thing to leave lying around[...] The Power Of Gold[...] Triforce[...] Hold it in[...]
+334: I will give this back to you then. Don't drop it again. Ya drunk yet, snake?
+347: I will soothe your wounds and comfort your weariness[...] Close your eyes and relax[...] Ill keep you alive just to kill you.
+348: Oh? Who are you, Mr. Bunny? This world is like the real world, but evil has twisted it. The Golden Power changed your shape to reflect what is in your heart and mind. I am always changing my mind, so I turned into a ball[...] But if you have a ball called the Moon Pearl, you can keep your original shape here. {chatter} turned into a keese. Makes sense.
+350: What do you want?! Do you have something to say to me, silly rabbit?! I came here to get the Power Of Gold but now I'm a freak and I can't go back to the real world! If I only had the Moon Pearl from the Tower Of Hera, I could go back to my original shape! I've got good reason to be stressed out! So back off! Shoo shoo! Plek kek ek ket!
+351: WOW! Your shape didn't change! You got the Moon Pearl, huh? Or you're just built different.
+352: In such a dangerous world you may need many things. Select something that you like[...] The scooby snacks are not for sale.
+354: Well, come back and play some time. I'll be waiting for you. Until then, good bye! Hold it in.
+356: You can't open any more chests. The game is over. So close.
+360: Thank you very much. Whenever you lose your shield, come back here again. You will. Everyone does.
+364: Thank you very much. That is a Bee. Don't ask me what it is used for, either. Ask {chatter}, they bought three.
+366: No no no[...] I can't sell the merchandise because you don't have an empty bottle. Drink something. Ya drunk yet, snake?
+369: You are doing well, lad. But can you break through this secret technique of Darkness? En Garde! TOASTY!
+369x: You are doing well, lad. But can you break through this secret technique of Darkness? En Garde! Fuck it, we're doing it live!
+371: Yo [Name]! This house used to be a hideout for a gang of thieves. What was their leader's name[...] Oh yeah, his name was Blind and he hated bright light a lot. Cat slap if you flashbang him.
+374: Whoa[...] I saw her. A very nice young lady at the Waterfall Of Wishing in the hills where the river begins[...] [Name], you should meet her at least once. I'm sure you will like her. {chatter} already tried. Denied.
+375: Take some Rupees, but don't tell anyone I gave them to you. Keep it between us, OK? Quick! Write down all my secret desktop info!
+377: You can earn a lot of Rupees by defeating enemies. It's the secret of my success[...] That and John Madden.
+380: Oh yah, you found Sahasrahla! [...] [...] [...] Good job la la! What a time to be alive la la!
+382: Cluck cluck[...] What?! You turned me into a human. I can even speak! Aha, it must be you who is always teasing my friends. The Weathercock is always watching you harass them. Well, this human shape is uncomfortable for me. Ahhh, I want to be a chicken again! Where is the chicken wing when you need it. Cluck cluck[...]
+387: Hi, [Name]. Sorry about my yard. It's a little overgrown. Thanks for visiting. I'm glad to have company to talk to. I will tell you an interesting story. There is a lake swimming with Zoras at the source of the river, but it is hard to find. The treasure of Zora can turn people into fish. Heh heh heh. Ya drunk yet, snake?
+388: I haven't had a chance to trim my hedges recently. Thanks for visiting anyway[...] A while ago, there was a boy in this village who could talk to animals with his Flute. He had a pet bird that flew with him everywhere, but he went to the mountain and never returned. R2-D2 rolled through once. Nothing since.
+397: I can't tell you details, but it's not a convenient time for me now. Come back here again. Sorry. I went pee pee. Back now. Still not convenient.
+397x: I can't tell you details, but it's not a convenient time for me now. Come back here again. Sorry. Shit hawks, {chatter}. Shit hawks everywhere.
+
+# ---- pass 4 (2026-09-12): alternates for the messages that still had one line ----
+25: I sense that a mighty evil[2]force guides the wizard's[3]actions.  It has a Discord.[Waitkey][Scroll]The only weapon strong enough[Scroll]to beat him is the legendary[Scroll]Master Sword.  Or {chatter}[Waitkey][Scroll]with a bad idea.[Scroll]The village elder Sahasrahla[Scroll]knows more.  I will mark his[Waitkey][Scroll]house on your map.  But watch[Scroll]your every move!  The castle[Scroll]soldiers are looking for you[Waitkey][Scroll]and the duck vanishes.[Sound 45][Scroll]I will hide Princess Dave here.[Scroll]Do not worry!  Seek the elder![Waitkey][Scroll][...]    [...]    [...][Scroll]Do you understand?[Scroll]    > Yes[Scroll]       Not at all[Choose]
+25x: I sense that a mighty evil[2]force guides the wizard's[3]actions.  His name is {boss}.[Waitkey][Scroll]The only weapon strong enough[Scroll]to beat him is the legendary[Scroll]Master Sword, and it is[Waitkey][Scroll]probably in a fucking chicken.[Scroll]The village elder Sahasrahla[Scroll]knows more.  I will mark his[Waitkey][Scroll]house on your map.  But watch[Scroll]your every move!  The castle[Scroll]soldiers are looking for you[Waitkey][Scroll]and they have a two hour timer.[Sound 45][Scroll]I will hide Princess Dave here.[Scroll]Do not worry!  Seek the elder![Waitkey][Scroll][...]    [...]    [...][Scroll]Do you understand?[Scroll]    > Yes[Scroll]       Not at all[Choose]
+38: [Name], listen carefully.  The[2]wizard is magically controlling[3]all the soldiers in the castle.[Waitkey][Scroll]I fear the worst for my[Scroll]father[...]  He read chat.[Scroll]Nobody comes back from that.[Waitkey][Scroll]The wizard is an inhuman fiend[Scroll]with strong magical powers[Scroll]and channel points to burn.[Waitkey][Scroll]Do you understand?[Scroll]    > Yes[Scroll]       Not at all[Choose]
+38: [Name], listen carefully.  The[2]wizard {boss} is controlling[3]all the soldiers in the castle.[Waitkey][Scroll]I fear the worst for my[Scroll]father[...]  His phone was[Scroll]at 3 percent.[Waitkey][Scroll]The wizard is an inhuman fiend[Scroll]with strong magical powers.[Scroll]{chatter} typed the spell.[Waitkey][Scroll]Do you understand?[Scroll]    > Yes[Scroll]       Not at all[Choose]
+45: Long ago, a prosperous people[2]known as the Hylia lived here.[3]No mods.  No cooldowns.[Waitkey][Scroll]Legends tell of many treasures[Scroll]the Hylia hid all over the[Scroll]land and forgot where.[Waitkey][Scroll]The Master Sword, a mighty[Scroll]blade forged against those[Scroll]with evil hearts, is one of[Waitkey][Scroll]them.  People say that now it[Scroll]is sleeping deep in the forest[Scroll]and {chatter} moved it again.[Waitkey][Scroll]Do you understand the legend?[Scroll]    > Yes[Scroll]       Not at all[Choose]
+45: Long ago, a prosperous people[2]known as the Hylia lived here.[3]Then they got a Twitch link.[Waitkey][Scroll]Legends tell of many treasures[Scroll]the Hylia hid all over the[Scroll]land.  Mostly in chickens.[Waitkey][Scroll]The Master Sword, a mighty[Scroll]blade forged against those[Scroll]with evil hearts, is one of[Waitkey][Scroll]them.  People say that now it[Scroll]is sleeping deep in the forest.[Scroll]So disappointing.[Waitkey][Scroll]Do you understand the legend?[Scroll]    > Yes[Scroll]       Not at all[Choose]
+51: I am, indeed, Sahasrahla, the[2]village elder and a descendant[3]of the seven wise men.[Waitkey][Scroll][...]   [...]     Six now.[Scroll][Name], I am surprised a young[Scroll]man like you is searching for[Waitkey][Scroll]the sword of evil's bane.[Scroll]Not just anyone can use that[Scroll]weapon.  Legends say only the[Waitkey][Scroll]Hero who has won the three[Scroll]Pendants can wield the sword.[Scroll]{chatter} tried.  Did not go well.[Waitkey][Scroll]Do you really want to find it?[Scroll]    > Yeah![Scroll]       Of Course![Choose]
+51: I am, indeed, Sahasrahla, the[2]village elder and a descendant[3]of the seven wise men.[Waitkey][Scroll][...]   [...]     Yes, all seven.[Scroll][Name], I am surprised a young[Scroll]man like you is searching for[Waitkey][Scroll]the sword of evil's bane.[Scroll]Not just anyone can use that[Scroll]weapon.  Legends say only the[Waitkey][Scroll]Hero who has won the three[Scroll]Pendants can wield the sword.[Scroll]Chat says the boots are in a rock.[Waitkey][Scroll]Do you really want to find it?[Scroll]    > Yeah![Scroll]       Of Course![Choose]
+58: You are correct, young man! I am Sahasrahla, the village elder and a descendant of the seven wise men. [...] Hello? [Name], I'm surprised a young man like you is looking for the sword of evil's bane. Only the Hero who has destroyed three great evils and won the three Pendants can wield it[...] I see you have the Pendant of Courage already. Did {chatter} give it to you? Three or four generations ago, an order of knights protected the royalty of the Hylia and guarded that Pendant. Most of them were destroyed in the great war against evil. The rest went to Sunnyvale. Among their descendants a hero must appear. [...]I see. [Name], I believe you. The poll is at 60 percent. Get the remaining Pendants. And carry this with you. This is a treasure passed down by the families of the wise men. I want you to have it. It is not a rupee.
+58x: You are correct, young man! I am Sahasrahla, the village elder and a descendant of the seven wise men. [...] What? [Name], I'm surprised a young man like you is looking for the sword of evil's bane. Only the Hero who has destroyed three great evils and won the three Pendants can wield it[...] I see you have the Pendant of Courage already. Nowyafuckedup. Three or four generations ago, an order of knights protected the royalty of the Hylia and guarded that Pendant. Most of them were destroyed in the great war against evil, or by chat. Among their descendants a hero must appear. [...]I see. [Name], I believe you. Get the remaining Pendants. And carry this with you. This is a treasure passed down by the families of the wise men. Do not lose it in a fucking pond.
+61:      DANGER![2]Do not enter Death Mountain[3]without the King's permission![Waitkey][Scroll]The King is on a boss timer.
+61:      DANGER![2]Do not enter Death Mountain[3]without the King's permission![Waitkey][Scroll]{chatter} went anyway.
+61x:      DANGER![2]Do not enter Death Mountain[3]without the King's permission![Waitkey][Scroll]Chat: fuck the King.
+73: [2]The House Of Lumberjacks[3]Bubbles and Julian.  Ricky is out.
+73: [2]The House Of Lumberjacks[3]{chatter} and {chatter}.  Somehow.
+73: [2]The House Of Lumberjacks[3]Carl and Meatwad.  Do not knock.
+112: This is it! The Master Sword![2][...]  [...]  [...][3]No, this can't be it[...] Chat moved it.
+112: This is it! The Master Sword![2][...]  [...]  [...][3]No, this can't be it[...] Duck vanishes.
+112x: This is it! The Master Sword![2][...]  [...]  [...][3]No, this can't be it[...] Fuck. Ah well.
+134: Well howdy, Light Worlder![2]You look like a straight[3]shooter[...]  Want to try your[Waitkey][Scroll]skill in my shooting gallery?[Scroll]I'll give you five shots for 20[Scroll]Rupees.  If you're as sharp[Waitkey][Scroll]as I think you are, you stand[Scroll]to rake in the Rupees.[Scroll]{chatter} lost the house here.[Waitkey][Scroll]How about it, stranger?[Scroll]    > Play[Scroll]       No way[Choose]
+134: Well howdy, Light Worlder![2]You look like a straight[3]shooter[...]  Want to try your[Waitkey][Scroll]skill in my shooting gallery?[Scroll]I'll give you five shots for 20[Scroll]Rupees.  If you're as sharp[Waitkey][Scroll]as I think you are, you stand[Scroll]to rake in the Rupees.[Scroll]Chat will call every shot.[Waitkey][Scroll]How about it, stranger?[Scroll]    > Play[Scroll]       No way[Choose]
+138: --POND OF HAPPINESS--[2]Throw some Rupees in and your[3]wishes will surely come true.[Waitkey][Scroll]Not that wish.  The other one.[Scroll]Do you want to throw Rupees[Scroll]in?[Scroll]    > Yes[Scroll]       No[Choose]
+138: --POND OF HAPPINESS--[2]Throw some Rupees in and your[3]wishes will surely come true.[Waitkey][Scroll]{chatter} wished for keese.[Scroll]Do you want to throw Rupees[Scroll]in?[Scroll]    > Yes[Scroll]       No[Choose]
+140: Hello there.  Drop this?[2]    > Yes[3]       No, I didn't[Choose]
+140: {chatter} says you dropped this.[2]    > Yes[3]       No, I didn't[Choose]
+140: Hey.  Hey.  Did you drop this?[2]    > Yes[3]       No, I didn't[Choose]
+142: You sure?  Chat says it's yours.[2]    > Really, it isn't[3]       To tell the truth, it is[Choose]
+142: Are you sure this is not yours?[2]    > Really, it isn't[3]       To tell the truth, it is[Choose]
+142: Dog.  Look me in the eye.[2]    > Really, it isn't[3]       To tell the truth, it is[Choose]
+210: You, sir!  Have you been going[2]through life without one of my[3]hold-anything bottles?[Waitkey][Scroll]Well step right up and make[Scroll]your life complete!  I've got[Scroll]one on sale now for the low,[Waitkey][Scroll]low price of 100 Rupees![Scroll]{chatter} bought four.[Waitkey][Scroll]What do you say?  Interested?[Scroll]    > I'll take one[Scroll]       Don't need it[Choose]
+210: You, sir!  Have you been going[2]through life without one of my[3]hold-anything bottles?[Waitkey][Scroll]Well step right up and make[Scroll]your life complete!  I've got[Scroll]one on sale now for the low,[Waitkey][Scroll]low price of 100 Rupees![Scroll]It holds anything.  Even chat.[Waitkey][Scroll]What do you say?  Interested?[Scroll]    > I'll take one[Scroll]       Don't need it[Choose]
+230: After wandering into this world[2]I turned into this shape.[3][...]  [...]  [...][Waitkey][Scroll]I enjoyed playing the flute in[Scroll]the original world[...][Scroll]Chat muted me.[Waitkey][Scroll]There was a small grove where[Scroll]many animals gathered.  I want[Scroll]to see that place again[...][Waitkey][Scroll]I buried my flute there with[Scroll]some flower seeds.[Scroll]{chatter} knows the spot.[Waitkey][Scroll]Will you try to find it for me?[Scroll]    > Yes[Scroll]       No way[Choose]
+230: After wandering into this world[2]I turned into this shape.[3]Arise, chicken.  Arise.[Waitkey][Scroll]I enjoyed playing the flute in[Scroll]the original world[...][Scroll]Nobody subbed.[Waitkey][Scroll]There was a small grove where[Scroll]many animals gathered.  I want[Scroll]to see that place again[...][Waitkey][Scroll]I buried my flute there with[Scroll]some flower seeds.[Scroll][Waitkey][Scroll]Will you try to find it for me?[Scroll]    > Yes[Scroll]       No way[Choose]
+266: I heard that you know I used to[2]be a thief, right?[3][Waitkey][Scroll]Well, I'll open a chest for you.[Scroll]Will you keep it secret from[Scroll]everyone else?  It's on stream.[Waitkey][Scroll]Would you please promise ?[Scroll]    > Promise not to tell[Scroll]       Tell it to everyone[Choose]
+266: I heard that you know I used to[2]be a thief, right?[3]{chatter} told you.  Typical.[Waitkey][Scroll]Well, I'll open a chest for you.[Scroll]Will you keep it secret from[Scroll]everyone else?[Waitkey][Scroll]Would you please promise ?[Scroll]    > Promise not to tell[Scroll]       Tell it to everyone[Choose]
+276: [Window 02][Color 07][Speed 03][1]A mysterious wizard known as[2]{boss} came to Hyrule to[3]release the seal.  He timed[Wait 05][Scroll]out the good King of Hyrule[...][Wait 05]
+276: [Window 02][Color 07][Speed 03][1]A mysterious wizard known as[2]Agahnim came to Hyrule to[3]release the seal.  He muted[Wait 05][Scroll]the good King of Hyrule[...][Wait 05]
+277: [Window 02][Color 07][Speed 03][1]Through evil magic, he began[2]to make descendants of the[3]seven wise men vanish, one[Wait 05][Scroll]after another.  Like subs.[Wait 05]
+277: [Window 02][Color 07][Speed 03][1]Through evil magic, he began[2]to make descendants of the[3]seven wise men vanish, one[Wait 05][Scroll]after another.  Chat cheered.[Wait 05]
+278: [Window 02][Color 07][Speed 03][1]And the time of destiny for[2]Princess Dave is drawing[3]near.  Phone at 3 percent.[Wait 05]
+278: [Window 02][Color 07][Speed 03][1]And the time of destiny for[2]Princess Dave is drawing[3]near.  So disappointing.[Wait 05]
+284: Ki ki ki!  If you give me 100[2]Rupees,  I will open the[3]entrance for you.  Ki ki ki![Waitkey][Scroll]{chatter} paid double.[Scroll]  What will you do?[Scroll]    > Pay[Scroll]       Don't pay[Choose]
+284: Ki ki ki!  If you give me 100[2]Rupees,  I will open the[3]entrance for you.  Ki ki ki![Waitkey][Scroll]No refunds.  Ki ki.[Scroll]  What will you do?[Scroll]    > Pay[Scroll]       Don't pay[Choose]
+287: I'm Kiki the monkey ki ki![2]I love Rupees more than[3]anything.  Can you spare me[Waitkey][Scroll]10 Rupees?  Chat won't.[Scroll]  What will you do?[Scroll]    > Give[Scroll]       Don't give[Choose]
+287: I'm Kiki the monkey ki ki![2]I love Rupees more than[3]anything.  Can you spare me[Waitkey][Scroll]10 Rupees?  I'm {chatter}'s monkey.[Scroll]  What will you do?[Scroll]    > Give[Scroll]       Don't give[Choose]
+307: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]This world used to be the Golden Land where the Triforce was hidden. But because Ganon wished it, the world was transformed[...] Chat wished for it too. He is trying to open a larger gate between worlds near the castle using our powers. But the gate is not open completely yet[...] If we seven maidens come together, we can break the barrier around Ganon's hiding place. I will tell you where the other girls are held. I believe you will destroy Ganon. {chatter} believes in the monkey.
+307: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! Took a while. [...]This world used to be the Golden Land where the Triforce was hidden. But because Ganon wished it, the world was transformed[...] He is trying to open a larger gate between worlds near the castle using our powers. But the gate is not open completely yet[...] If we seven maidens come together, we can break the barrier around Ganon's hiding place. I will tell you where the other girls are held. It's in the Discord. I believe you will destroy Ganon.
+308: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]The Triforce will grant the wishes of whoever touches it. Ganon wished for power. {chatter} wished for keese. Only the Hero can stop him. I will tell you where the other girls are held. Believe in yourself. Chat does not, but I do.
+308: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]Did you come here from the Discord? Never mind. The Triforce will grant the wishes of whoever touches it, and Ganon wants it badly. I will tell you where the other girls are held. Do not read chat on the way.
+309: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]Do you know the prophecy? A Hero will come, and chat will make it very hard for him. That is the whole prophecy. I will tell you where the other girls are held. Go.
+309: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]Do you know the prophecy? {chatter} wrote it in chat once. It was mostly emotes. I will tell you where the other girls are held. Believe in the Hero. Not in the emotes.
+310: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]As the wise men sealed the way to the Golden Land, they said it would open again when a great evil appeared. It appeared. It has a Twitch account. I will tell you where the other girls are held. Be careful of {boss}.
+310: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]As the wise men sealed the way to the Golden Land, the King said the seal would last forever. It lasted about a stream and a half. I will tell you where the other girls are held. No, I do not know where the boots are.
+311: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]They say the Hylia people could hear the voice of the gods. We can hear chat. It is not the same. I will tell you where the other girls are held. Please hurry. {chatter} is counting.
+311: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]They say the Hylia people could hear the voice of the gods. Now everyone hears {chatter} instead. I will tell you where the other girls are held. The last one has a phone at 3 percent.
+312: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]Ganon captured us because we carry the blood of the wise men. Also because chat dared him. Our power will break his barrier once we are all free. I will tell you where the other girls are held. Do not let {boss} see you.
+312: [Speed 02][Position 01][Window 02][Name], because of you, I can escape from the clutches of the evil monsters. Thank you! [...]Ganon captured us because we carry the blood of the wise men. Seven of us. One boss timer each. Our power will break his barrier once we are all free. I will tell you where the other girls are held. So disappointing that it came to this.
+313: [Speed 02][Position 01][Window 02]I appreciate your coming so far to rescue me. As I thought, you are the legendary Hero. I have felt this from the first time we met. [...] [...] [...] Ganon is waiting inside of his tower to pass through the gate linking the two worlds. Once Ganon enters the Light World, it is unlikely that anyone can stop him. Chat will try. Chat will fail. But if he stays in the closed space of this world, you can find him wherever he runs. Now, go to the Tower Of Ganon! We will use our combined powers to break the barrier. {chatter} has a poll running on whether you make it.
+313: [Speed 02][Position 01][Window 02]I appreciate your coming so far to rescue me. As I thought, you are the legendary Hero. I have felt this from the first time we met. [...] [...] [...] Ganon is waiting inside of his tower to pass through the gate linking the two worlds. Once Ganon enters the Light World, he will find Twitch, and nothing can stop him then. But if he stays in the closed space of this world, you can find him wherever he runs. Now, go to the Tower Of Ganon! We will use our combined powers to break the barrier. Bring a lamp this time.
+317: [Speed 02][Position 01][Window 02]I appreciate your coming so far to rescue me. As I thought, you are the legendary Hero. I have felt this from the first time we met. [...] [...] [...] Ganon is waiting inside of his tower. Chat is waiting outside of it. Now, go to the Tower Of Ganon! We will use our combined powers to break the barrier. Let's return peace to the country without fail[...] and then Dave. Dave is waiting.
+317: [Speed 02][Position 01][Window 02]I appreciate your coming so far to rescue me. As I thought, you are the legendary Hero. I have felt this from the first time we met. [...] [...] [...] {chatter} felt it too, apparently. Ganon is waiting inside of his tower. Now, go to the Tower Of Ganon! We will use our combined powers to break the barrier. Let's return peace to the country without fail[...] So disappointing that it took this long.
+324: Wah ha ha!  But I don't just[2]give flippers away for free.[3]I sell them for 500 Rupees a[Waitkey][Scroll]pair.  {chatter} paid more.[Waitkey][Scroll]So, will you buy some?[Scroll]    > Buy[Scroll]       Don't buy[Choose]
+324: Wah ha ha!  But I don't just[2]give flippers away for free.[3]I sell them for 500 Rupees a[Waitkey][Scroll]pair.  Bits not accepted.[Waitkey][Scroll]So, will you buy some?[Scroll]    > Buy[Scroll]       Don't buy[Choose]
+331:      -Mysterious Pond-[2]Won't you throw something in?[3]{chatter} threw a cucco.[Waitkey][Scroll]What will you do?[Scroll]    > Throw an item[Scroll]       Don't throw[Choose]
+331:      -Mysterious Pond-[2]Won't you throw something in?[3]Chat says throw the phone.[Waitkey][Scroll]What will you do?[Scroll]    > Throw an item[Scroll]       Don't throw[Choose]
+337: [2]   Great Luck.  Chat is asleep.
+337: [2]   Great Luck.  {chatter} approves.
+337: [2]   Great Luck.  Suspicious.
+340: [2]   Big Trouble.  Read chat.
+340: [2]   Big Trouble.  {boss} is awake.
+340x: [2]   Big Trouble.  Nowyafuckedup.
+353: Hi, may I help you?  You can[2]open two chests for 30 Rupees.[3]Why don't you play?[Waitkey][Scroll]{chatter} won a rupee here.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+353: Hi, may I help you?  You can[2]open two chests for 30 Rupees.[3]Why don't you play?[Waitkey][Scroll]Chat picks the chests.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+383: Pay me 20 Rupees and I'll let[2]you open one chest.  You can[3]keep what is inside.[Waitkey][Scroll]Gacha.  Hyrule edition.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+383: Pay me 20 Rupees and I'll let[2]you open one chest.  You can[3]keep what is inside.[Waitkey][Scroll]{chatter} got a rupee.  One.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+386: For 100 Rupees, I'll let you[2]open one chest and keep the[3]treasure that is inside.[Waitkey][Scroll]Whale tier loot box.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+386: For 100 Rupees, I'll let you[2]open one chest and keep the[3]treasure that is inside.[Waitkey][Scroll]{chatter} says it's the left one.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+392: Welcome to the treasure field.[2]The object is to dig as many[3]holes as you can in 30 seconds.[Waitkey][Scroll]Any treasures you dig up will[Scroll]be yours to keep.[Scroll]It's only 80 Rupees to play.[Waitkey][Scroll]{chatter} dug one hole.  Once.[Scroll]What do you say?[Scroll]    > I want to dig[Scroll]       I don't want to dig[Choose]
+392: Welcome to the treasure field.[2]The object is to dig as many[3]holes as you can in 30 seconds.[Waitkey][Scroll]Any treasures you dig up will[Scroll]be yours to keep.[Scroll]It's only 80 Rupees to play.[Waitkey][Scroll]The shovel is not a weapon.[Scroll]What do you say?[Scroll]    > I want to dig[Scroll]       I don't want to dig[Choose]
+
+# ---- HINTS = JOKES (OPTIONS > GAME FEATURES > HINTS): h lines. Telepathic tiles
+# (181-199) and the fortune teller (235-242, 247-254). No real information, ever.
+181h: [Window 02][Name], it is I, Sahasrahla. I can talk to you through these tiles. Chat can too. Sorry.
+181h: [Window 02][Name], it is I, Sahasrahla. Here is a hint. The treasure is in a chest. Somewhere. You are welcome.
+181hx: [Window 02][Name], it is I, Sahasrahla. Here is a hint. Fuck if I know. Try the big one.
+182h: [Window 02][Name], it is I, Sahasrahla the elder. Something important is in this tower. Or it was. {chatter} moved it.
+182h: [Window 02][Name], it is I, Sahasrahla. The orb you seek is exactly where the randomizer put it. Helpful, I know.
+185h: [Window 02][Name], it is I, Sahasrahla. Climb the big rock. Look at the pretty view. Then come back down and do the actual dungeon.
+185h: [Window 02][Name], it is I, Sahasrahla. My hint got lost in the mail. Ask {chatter}.
+186h: [Window 02][Name], it is I, Sahasrahla. Objects exist in both worlds. So does chat. Only one of them is useful.
+186h: [Window 02][Name], it is I, Sahasrahla. Have you tried the mirror. Not that mirror. The other one.
+187h: [Window 02][Name], it's me, Dave. Don't be deceived by Blind. Or by anyone in chat with a link.
+187h: [Window 02][Name], it's me, Dave. Yes, Dave. Blind is a liar. So is the fortune teller. So is {chatter}.
+188h: [Window 02][Name], it is I, Sahasrahla. Light four torches. Lamp helps. Chat suggests bombs. Chat is wrong.
+188h: [Window 02][Name], it is I, Sahasrahla. Torches. Four of them. I believe in you. Chat has a poll going.
+191h: [Window 02]When Ganon is stunned, hit him with a Silver Arrow. If you have one. If not, this is awkward.
+191h: [Window 02]When Ganon is stunned, the silver arrow does the job. {chatter} says use the shovel. Do not use the shovel.
+192h: [Window 02][Name], can you hear me? It's Dave. I am locked in Turtle Rock. Phone at 3 percent. Hurry.
+192h: [Window 02][Name], it's Dave. Turtle Rock. Top of the mountain. Bring snacks, this takes a while.
+193h: [Window 02][Name], it is I, Sahasrahla. Open every chest. Every one. Even the ones with a rupee. Especially those.
+193h: [Window 02][Name], it is I, Sahasrahla. Never fail to find every treasure. Chat will remind you if you miss one. Loudly.
+194h: [Window 02]Listen well, [Name]. Even the Master Sword cannot hurt the wizard. Bounce his stuff back. Like a Discord argument.
+194h: [Window 02]Listen well, [Name]. You cannot hurt the wizard with the sword. Reflect his magic. {chatter} could not.
+195h: [Window 02][Name], watch your magic. If you run dry with no potion, chat will not help you. Chat never helps.
+195h: [Window 02][Name], magic runs out. So does patience. Bring a potion for one of those.
+196h: [Window 02][Name], do you have the Medicine of Magic? No? Then this is a bad time to be brave.
+196h: [Window 02][Name], if you have no magic potion, turn around. {chatter} did not turn around. We miss {chatter}.
+197h: [Window 02][Name], the magic flames will protect you in this icy dungeon. Probably. Ice is slippery. Chat is slipperier.
+197h: [Window 02][Name], fire good, ice bad. That is the hint. That is the whole hint.
+198h: [Window 02]The Skeleton Knight will not die to the sword alone. When he falls, hit him with something else. Not the shovel.
+198h: [Window 02]Sword alone does not finish the Skeleton Knight. Bombs do. Chat says arrows. Chat is guessing.
+199h: [Window 02][Name], it is I, Sahasrahla the elder. Advice: read the map. Nobody reads the map. Read the map.
+199h: [Window 02][Name], it is I, Sahasrahla. In the dungeons, the map shows where the chests are. In chat, nothing shows anything.
+235h: [Position 01]Hocus pocus! You will find an old man who talks too much. It is me. It is always me.
+236h: [Position 01]Abracadabra alakazam! You will open a lock with a book. Or a bomb. Bombs open a lot of things.
+237h: [Position 01]Hocus pocus! You will find someone from the wise men's line. They will also give you a hint. It will not help.
+238h: [Position 01]Abracadabra alakazam! You will meet a mushroom lover. Do not ask questions.
+239h: [Position 01]Hocus pocus! You will meet a fish person who charges too much. Like a subscription.
+240h: [Position 01]Abracadabra alakazam! The true Hero will find the Moon Pearl. The false Hero will find a rupee. Guess which one you are.
+241h: [Position 01]Hocus pocus! The Master Sword cannot hurt the wizard. Neither can chat, and chat has tried.
+242h: [Position 01]Abracadabra alakazam! The true Hero will jump into a well. {chatter} did. Nobody has heard from {chatter} since.
+247h: [Position 01]Hocus pocus! You will meet a strange man in the desert. He is also lost. Everybody is lost.
+248h: [Position 01]Abracadabra alakazam! The gossip shop has treasure for the asking. The asking costs rupees. Everything does.
+249h: [Position 01]Hocus pocus! You will find the smith's partner. He will fix nothing. Like a mod.
+250h: [Position 01]Abracadabra alakazam! You will find a treasure in the graveyard. Bring a shovel or a friend with one.
+251h: [Position 01]Hocus pocus! You will buy a new kind of bomb. It is a bigger bomb. That is the whole idea.
+252h: [Position 01]Abracadabra alakazam! You will find something inside the pyramid. It might be a rupee. I said might.
+253h: [Position 01]Hocus pocus! You will hit a barrier at Ganon's tower. Chat will tell you to walk through it. Do not walk through it.
+254h: [Position 01]Abracadabra alakazam! You will need Silver Arrows for Ganon. {chatter} says the boomerang works. It does not.
+
+# ---- Rocket League lines (owner 09-12: "we all play and watch it, joke about how bad and washed we are") ----
+6r: You can't enter with something following you. It's your rank. It follows you everywhere.
+6r: You can't enter with something following you. Rotate. Rotate! Nobody rotates.
+14r: [Name], I'm going out for a while. Ranked reset tonight. Do not touch my controller. Do not read chat. Do not queue 2s without me.
+15r: Unnh[...] [Name], I told you not to leave the house[...] Take my sword and shield. Hold the [B] Button to charge it. Like a boost pad. You never learned to use those either. Save Princess Dave. What a save. Ha. So disappointing[...]
+16r: What are you doing up this late, kid? One more game? It's never one more game. Go home!
+23r: Meet the elder of the village and get the Master Sword. Or whiff it. You whiff everything else.
+24r: Princess Dave, you are safe! Was that a save, [Name]? What a save! What a save! Wow!
+26r: If you defeat {boss}, the soldiers may regain their sanity. Chat will still be Bronze. Go, seek the Pendants!
+29r: Thank you, [Name]. I had a feeling you were getting close. Chat had you at 0 - 2 and forfeiting.
+31r: [Name], be careful out there! I know you can save Hyrule! You will never hit Grand Champ, but Hyrule, sure.
+32r: [Window 02][Speed 03]Help me[...] Please help me[...] I am a prisoner in the dungeon of the castle. My name is Dave. The wizard {boss} took my boost. All of it. Please help me[...]
+35r: That ornamental shelf should open. Push it from the left. No, YOUR left. Ball cam off does this to a person.
+40r: [Name], you are wonderful! You have the power of the Hero inside you! And the mechanics of a Plat 2. Go get the Master Sword. I am confident you can defeat {boss}!
+41r: [Window 02][Speed 03][Name]! Help! The soldiers are coming to Sanctuary! AIEEEEEEE! [...] [...] Nobody's in position. Classic.
+61r:      DANGER![2]Do not enter Death Mountain[3]without the King's permission![Waitkey][Scroll]Or without boost.
+61r:      DANGER![2]Do not enter Death Mountain[3]without the King's permission![Waitkey][Scroll]Great clear!  Said nobody.
+73r: [2]The House Of Lumberjacks[3]Washed and Washeder.  Diamond peak.
+112r: This is it! The Master Sword![2][...]  [...]  [...][3]No, this can't be it[...] Whiffed. Open net.
+112r: This is it! The Master Sword![2][...]  [...]  [...][3]No, this can't be it[...] Nice shot! Nice shot! Okay.
+134r: Well howdy, Light Worlder![2]You look like a straight[3]shooter[...]  Want to try your[Waitkey][Scroll]skill in my shooting gallery?[Scroll]I'll give you five shots for 20[Scroll]Rupees.  If you're as sharp[Waitkey][Scroll]as I think you are, you stand[Scroll]to rake in the Rupees.[Scroll]Take the shot!  Take it!  Okay.[Waitkey][Scroll]How about it, stranger?[Scroll]    > Play[Scroll]       No way[Choose]
+138r: --POND OF HAPPINESS--[2]Throw some Rupees in and your[3]wishes will surely come true.[Waitkey][Scroll]Not that one.  Grand Champ is[Scroll]not on the list.[Scroll]Do you want to throw Rupees[Scroll]in?[Scroll]    > Yes[Scroll]       No[Choose]
+140r: What a save!  Did you drop this?[2]    > Yes[3]       No, I didn't[Choose]
+142r: Great pass!  Sure it isn't yours?[2]    > Really, it isn't[3]       To tell the truth, it is[Choose]
+210r: You, sir!  Have you been going[2]through life without one of my[3]hold-anything bottles?[Waitkey][Scroll]Well step right up and make[Scroll]your life complete!  I've got[Scroll]one on sale now for the low,[Waitkey][Scroll]low price of 100 Rupees![Scroll]It holds boost.  Finally.[Waitkey][Scroll]What do you say?  Interested?[Scroll]    > I'll take one[Scroll]       Don't need it[Choose]
+284r: Ki ki ki!  If you give me 100[2]Rupees,  I will open the[3]entrance for you.  Ki ki ki![Waitkey][Scroll]That's a wavedash into a wall.[Scroll]  What will you do?[Scroll]    > Pay[Scroll]       Don't pay[Choose]
+324r: Wah ha ha!  But I don't just[2]give flippers away for free.[3]I sell them for 500 Rupees a[Waitkey][Scroll]pair.  Flip resets not included.[Waitkey][Scroll]So, will you buy some?[Scroll]    > Buy[Scroll]       Don't buy[Choose]
+331r:      -Mysterious Pond-[2]Won't you throw something in?[3]Your rank, maybe.  Nobody wants it.[Waitkey][Scroll]What will you do?[Scroll]    > Throw an item[Scroll]       Don't throw[Choose]
+337r: [2]   Great Luck.  Calculated.
+337r: [2]   Great Luck.  What a save!
+340r: [2]   Big Trouble.  Demo incoming.
+340r: [2]   Big Trouble.  No boost.  No brain.
+340xr: [2]   Big Trouble.  Kickoff.  Oh shit.
+353r: Hi, may I help you?  You can[2]open two chests for 30 Rupees.[3]Why don't you play?[Waitkey][Scroll]Fifty fifty.  You lose every one.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+383r: Pay me 20 Rupees and I'll let[2]you open one chest.  You can[3]keep what is inside.[Waitkey][Scroll]Better odds than your ranked games.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+392r: Welcome to the treasure field.[2]The object is to dig as many[3]holes as you can in 30 seconds.[Waitkey][Scroll]Any treasures you dig up will[Scroll]be yours to keep.[Scroll]It's only 80 Rupees to play.[Waitkey][Scroll]Thirty seconds.  Like your 2s games.[Scroll]What do you say?[Scroll]    > I want to dig[Scroll]       I don't want to dig[Choose]
+181hr: [Window 02][Name], it is I, Sahasrahla. I can talk to you through these tiles. Here is a hint: you will never be SSL. Neither will chat. Take what you like from this palace.
+185hr: [Window 02][Name], it is I, Sahasrahla. Climb the big rock. It is the closest you will get to Champ.
+193hr: [Window 02][Name], it is I, Sahasrahla. Open every chest. Whiff none. That is the whole game and you still manage.
+199hr: [Window 02][Name], it is I, Sahasrahla the elder. Advice: rotate. You do not. Read the map. You do not. So disappointing.
+247hr: [Position 01]Hocus pocus! You will meet a strange man in the desert. He is Grand Champ. He is not from here.
+250hr: [Position 01]Abracadabra alakazam! You will find a treasure in the graveyard. It is your MMR.
+253hr: [Position 01]Hocus pocus! You will hit a barrier at Ganon's tower. Like Diamond 3. You have hit that barrier before.
+254hr: [Position 01]Abracadabra alakazam! You will need Silver Arrows for Ganon. Silver. Your rank. What are the odds.
+
+# ---- EverQuest and Ultima Online lines (owner 09-12: Lane plays both). Tagged r = game jokes switch ----
+6r: You can't enter with something following you. Train to zone! Train to zone!
+6r: You can't enter with something following you. It's your corpse. Go get it.
+14r: [Name], I'm going out for a while. Camping the spawn. Could be six hours. Don't leave the house. Don't sell my stuff in the EC tunnel.
+16r: What are you doing up this late, kid? You've been LFG for four hours. Nobody's coming. Go home!
+23r: Meet the elder of the village and get the Master Sword. Ding! Gratz. Now do it again for the next twenty levels.
+24r: Princess Dave, you are safe! Res please. Oh. You're fine. Never mind.
+26r: If you defeat {boss}, the soldiers may regain their sanity. He KS'd every mob in this zone. Go, seek the Pendants!
+29r: Thank you, [Name]. I had a feeling you were getting close. SoW would have been faster.
+31r: [Name], be careful out there! Recall out if it goes bad. Oh right, no runes. Good luck.
+32r: [Window 02][Speed 03]Help me[...] Please help me[...] I am a prisoner in the dungeon of the castle. My name is Dave. PKs took everything at the moongate. Please help me[...]
+35r: That ornamental shelf should open. Push it from the left. It's not a house sign, you can't just say I ban thee.
+40r: [Name], you are wonderful! You have the power of the Hero inside you! Buff me before you go. Levitate too. Just in case.
+41r: [Window 02][Speed 03][Name]! Help! The soldiers are coming to Sanctuary! GUARDS! GUARDS! Oh. Wrong game. AIEEEEEEE!
+61r:      DANGER![2]Do not enter Death Mountain[3]without the King's permission![Waitkey][Scroll]Grey names past this point.
+61r:      DANGER![2]Do not enter Death Mountain[3]without the King's permission![Waitkey][Scroll]Trammel ends here.
+73r: [2]The House Of Lumberjacks[3]Macroing since UO.  Fully vested.
+112r: This is it! The Master Sword![2][...]  [...]  [...][3]No, this can't be it[...] Camped by a level 60 anyway.
+138r: --POND OF HAPPINESS--[2]Throw some Rupees in and your[3]wishes will surely come true.[Waitkey][Scroll]Your house decayed while you[Scroll]were reading this.[Scroll]Do you want to throw Rupees[Scroll]in?[Scroll]    > Yes[Scroll]       No[Choose]
+140r: Vendor buy the bank.  Drop this?[2]    > Yes[3]       No, I didn't[Choose]
+142r: Lord British says it's yours.[2]    > Really, it isn't[3]       To tell the truth, it is[Choose]
+210r: You, sir!  Have you been going[2]through life without one of my[3]hold-anything bottles?[Waitkey][Scroll]Well step right up and make[Scroll]your life complete!  I've got[Scroll]one on sale now for the low,[Waitkey][Scroll]low price of 100 Rupees![Scroll]Cheaper than a bank sitter.[Waitkey][Scroll]What do you say?  Interested?[Scroll]    > I'll take one[Scroll]       Don't need it[Choose]
+284r: Ki ki ki!  If you give me 100[2]Rupees,  I will open the[3]entrance for you.  Ki ki ki![Waitkey][Scroll]Fippy Darkpaw charges less.[Scroll]  What will you do?[Scroll]    > Pay[Scroll]       Don't pay[Choose]
+324r: Wah ha ha!  But I don't just[2]give flippers away for free.[3]I sell them for 500 Rupees a[Waitkey][Scroll]pair.  Or one Sleeper key.[Waitkey][Scroll]So, will you buy some?[Scroll]    > Buy[Scroll]       Don't buy[Choose]
+331r:      -Mysterious Pond-[2]Won't you throw something in?[3]Not the corpse.  Loot it first.[Waitkey][Scroll]What will you do?[Scroll]    > Throw an item[Scroll]       Don't throw[Choose]
+337r: [2]   Great Luck.  Ding!  Gratz.
+337r: [2]   Great Luck.  SoW landed.
+340r: [2]   Big Trouble.  Train to zone.
+340r: [2]   Big Trouble.  Red names.  Recall.
+340r: [2]   Big Trouble.  Corpse run.
+353r: Hi, may I help you?  You can[2]open two chests for 30 Rupees.[3]Why don't you play?[Waitkey][Scroll]No GM will refund this.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+383r: Pay me 20 Rupees and I'll let[2]you open one chest.  You can[3]keep what is inside.[Waitkey][Scroll]Med to full first.[Scroll]What will you do?[Scroll]    > Play[Scroll]       Don't play[Choose]
+392r: Welcome to the treasure field.[2]The object is to dig as many[3]holes as you can in 30 seconds.[Waitkey][Scroll]Any treasures you dig up will[Scroll]be yours to keep.[Scroll]It's only 80 Rupees to play.[Waitkey][Scroll]Lumberjack macro not allowed.[Scroll]What do you say?[Scroll]    > I want to dig[Scroll]       I don't want to dig[Choose]
+181hr: [Window 02][Name], it is I, Sahasrahla. I can talk to you through these tiles. Like a GM. Except I answer. Take what you like from this palace.
+188hr: [Window 02][Name], it is I, Sahasrahla. Light four torches. Kelethin has lifts. This place has torches. Deal with it.
+195hr: [Window 02][Name], watch your magic. Med to full before the boss. You never med to full.
+198hr: [Window 02]The Skeleton Knight will not die to the sword alone. Hit him when he's down. Like a corpse camper.
+235hr: [Position 01]Hocus pocus! You will find an old man who talks too much. He is selling in the EC tunnel. He always is.
+239hr: [Position 01]Hocus pocus! You will meet a fish person. He charges like a Brit bank vendor.
+242hr: [Position 01]Abracadabra alakazam! The true Hero will jump into a well. Kithicor at night is worse. Trust me.
+249hr: [Position 01]Hocus pocus! You will find the smith's partner. He has been LFG since 1999.
+252hr: [Position 01]Abracadabra alakazam! You will find something inside the pyramid. A grey-named PK, probably.

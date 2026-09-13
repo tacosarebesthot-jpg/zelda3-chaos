@@ -1,0 +1,73 @@
+meta:
+  algorithm: balanced
+  players: 1
+settings:
+  1:
+    mode: inverted
+    goal: dungeons
+    shuffleenemies: shuffled
+    shufflebosses: full
+item_pool:
+  1:
+    Progressive Bow: 8
+    Blue Boomerang: 4
+    Red Boomerang: 4
+    Hookshot: 4
+    Magic Powder: 4
+    Mushroom: 4
+    Ice Rod: 4
+    Fire Rod: 4
+    Bombos: 4
+    Ether: 4
+    Quake: 4
+    Lamp: 4
+    Hammer: 4
+    Ocarina: 4
+    Shovel: 4
+    Bug Catching Net: 4
+    Book of Mudora: 4
+    Bottle (Random): 16
+    Cane of Byrna: 4
+    Cane of Somaria: 4
+    Cape: 4
+    Magic Mirror: 4
+    Flippers: 4
+    Moon Pearl: 4
+    Pegasus Boots: 4
+    Progressive Glove: 8
+    Progressive Armor: 8
+    Progressive Shield: 12
+    Progressive Sword: 16
+    Magic Upgrade (1/2): 4
+start_inventory:
+  1:
+    - Boss Heart Container
+    - Boss Heart Container
+    - Boss Heart Container
+    - Pegasus Boots
+    - Rupees (5)
+    - Rupees (5)
+    - Rupees (5)
+    - Rupee (1)
+    - Rupee (1)
+    - Rupee (1)
+    - Rupee (1)
+    - Compass (Desert Palace)
+    - Compass (Eastern Palace)
+    - Compass (Tower of Hera)
+    - Compass (Swamp Palace)
+    - Compass (Thieves Town)
+    - Compass (Skull Woods)
+    - Compass (Ice Palace)
+    - Compass (Misery Mire)
+    - Compass (Turtle Rock)
+    - Compass (Palace of Darkness)
+    - Compass (Ganons Tower)
+drops:
+  1:
+    Tree Pull Tier 1: Single Bomb
+    Tree Pull Tier 2: Bombs (4)
+    Tree Pull Tier 3: Bombs (8)
+    Crab Normal: Rupees (20)
+    Crab Special: Big Magic
+    Stun Prize: Rupees (20)

@@ -1,0 +1,6042 @@
+[
+ {
+  "id": 0,
+  "name": "20 Rupee Cave Pot Drop",
+  "region": 0,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 1,
+  "name": "50 Rupee Cave Pot Drop",
+  "region": 1,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 2,
+  "name": "Agahnim 1",
+  "region": 888,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "ra5febbc515",
+  "placed_item": {
+   "name": "Beat Agahnim 1",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 3,
+  "name": "Agahnim 2",
+  "region": 202,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r7fdbd86ef1",
+  "placed_item": {
+   "name": "Beat Agahnim 2",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 4,
+  "name": "Aginah's Cave",
+  "region": 3,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9f2",
+  "rule": "ref8c2f17e1",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 5,
+  "name": "Archery Game Prize",
+  "region": 4,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 6,
+  "name": "Attic Cracked Floor",
+  "region": 857,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r04e4e98423",
+  "placed_item": {
+   "name": "Shining Light",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 7,
+  "name": "Big Bomb",
+  "region": 8,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r5c80c18a95",
+  "placed_item": {
+   "name": "Pick Up Big Bomb",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 8,
+  "name": "Blacksmith",
+  "region": 12,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x18002a",
+  "rule": "r5dc42e27d2",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 9,
+  "name": "Blacksmith Ledge Bush Drop",
+  "region": 11,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 10,
+  "name": "Blind's Hideout - Far Left",
+  "region": 13,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb18",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 11,
+  "name": "Blind's Hideout - Far Right",
+  "region": 13,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb1b",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (50)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 12,
+  "name": "Blind's Hideout - Left",
+  "region": 13,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb12",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (300)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 13,
+  "name": "Blind's Hideout - Right",
+  "region": 13,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeb15",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Lamp",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 14,
+  "name": "Blind's Hideout - Top",
+  "region": 14,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeb0f",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Progressive Bow",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 15,
+  "name": "Bombos Tablet",
+  "region": 18,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180017",
+  "rule": "r9861fb8630",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 16,
+  "name": "Bonk Rock Cave",
+  "region": 22,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeb3f",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Magic Mirror",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 17,
+  "name": "Bottle Merchant",
+  "region": 448,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x2eb18",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 18,
+  "name": "Brewery",
+  "region": 25,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9ec",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Cane of Somaria",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 19,
+  "name": "Bumper Cave Area Tree Pull",
+  "region": 32,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r2f624834d9",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 20,
+  "name": "Bumper Cave Ledge",
+  "region": 34,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180146",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (300)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 21,
+  "name": "C-Shaped House",
+  "region": 40,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9ef",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Bug Catching Net",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 22,
+  "name": "Capacity Upgrade - Left",
+  "region": 42,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bomb Upgrade (+5)",
+  "placed_item": {
+   "name": "Bomb Upgrade (+5)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 23,
+  "name": "Capacity Upgrade - Right",
+  "region": 42,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Arrow Upgrade (+5)",
+  "placed_item": {
+   "name": "Arrow Upgrade (+5)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 24,
+  "name": "Castle Tower - Circle of Pots Key Drop",
+  "region": 892,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9e688",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Agahnims Tower)",
+  "placed_item": {
+   "name": "Small Key (Agahnims Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 25,
+  "name": "Castle Tower - Dark Archer Key Drop",
+  "region": 893,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9e7c9",
+  "rule": "r1716a23740",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Agahnims Tower)",
+  "placed_item": {
+   "name": "Small Key (Agahnims Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 26,
+  "name": "Castle Tower - Dark Maze",
+  "region": 895,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeab2",
+  "rule": "r1716a23740",
+  "placed_item": {
+   "name": "Small Key (Agahnims Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 27,
+  "name": "Castle Tower - Room 03",
+  "region": 905,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeab5",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "placed_item": {
+   "name": "Small Key (Agahnims Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 28,
+  "name": "Catfish",
+  "region": 46,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xee185",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 29,
+  "name": "Catfish Area Rock Drop",
+  "region": 46,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r8b521c2492",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 30,
+  "name": "Cave 45",
+  "region": 47,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180003",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Quake",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 31,
+  "name": "Checkerboard Cave",
+  "region": 51,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180005",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 32,
+  "name": "Chest Game",
+  "region": 52,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeda8",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Progressive Glove",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 33,
+  "name": "Chicken House",
+  "region": 53,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9e9",
+  "rule": "ref8c2f17e1",
+  "placed_item": {
+   "name": "Rupees (50)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 34,
+  "name": "Dark Blacksmith Ruins",
+  "region": 307,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r5dc42e27d2",
+  "placed_item": {
+   "name": "Pick Up Purple Chest",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 35,
+  "name": "Dark Chapel Area Rock Drop",
+  "region": 63,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r8b521c2492",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 36,
+  "name": "Dark Death Mountain Shop - Left",
+  "region": 68,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Potion",
+  "placed_item": {
+   "name": "Red Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 37,
+  "name": "Dark Death Mountain Shop - Middle",
+  "region": 68,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Small Heart",
+  "placed_item": {
+   "name": "Small Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 38,
+  "name": "Dark Death Mountain Shop - Right",
+  "region": 68,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bombs (10)",
+  "placed_item": {
+   "name": "Bombs (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 39,
+  "name": "Dark Fortune Area Rock Drop",
+  "region": 70,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r8b521c2492",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 40,
+  "name": "Dark Graveyard Area Bonk Drop",
+  "region": 71,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r916a220c18",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 41,
+  "name": "Dark Lake Hylia Shop - Left",
+  "region": 77,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Potion",
+  "placed_item": {
+   "name": "Red Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 42,
+  "name": "Dark Lake Hylia Shop - Middle",
+  "region": 77,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Blue Shield",
+  "placed_item": {
+   "name": "Blue Shield",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 43,
+  "name": "Dark Lake Hylia Shop - Right",
+  "region": 77,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bombs (10)",
+  "placed_item": {
+   "name": "Bombs (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 44,
+  "name": "Dark Lumberjack Shop - Left",
+  "region": 79,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Potion",
+  "placed_item": {
+   "name": "Red Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 45,
+  "name": "Dark Lumberjack Shop - Middle",
+  "region": 79,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Blue Shield",
+  "placed_item": {
+   "name": "Blue Shield",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 46,
+  "name": "Dark Lumberjack Shop - Right",
+  "region": 79,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bombs (10)",
+  "placed_item": {
+   "name": "Bombs (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 47,
+  "name": "Dark Potion Shop - Left",
+  "region": 81,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Potion",
+  "placed_item": {
+   "name": "Red Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 48,
+  "name": "Dark Potion Shop - Middle",
+  "region": 81,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Blue Shield",
+  "placed_item": {
+   "name": "Blue Shield",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 49,
+  "name": "Dark Potion Shop - Right",
+  "region": 81,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bombs (10)",
+  "placed_item": {
+   "name": "Bombs (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 50,
+  "name": "Dark South Pass Area Rock Drop",
+  "region": 83,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r8b521c2492",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 51,
+  "name": "Dark South Pass Area Tree Pull",
+  "region": 83,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r2f624834d9",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 52,
+  "name": "Darkness Nook Area Rock Drop",
+  "region": 90,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r8b521c2492",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 53,
+  "name": "Desert Ledge",
+  "region": 117,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180143",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Hookshot",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 54,
+  "name": "Desert Palace - Beamos Hall Pot Key",
+  "region": 100,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x27f60be",
+  "rule": "rb59b2228ee",
+  "forced_item": "Small Key (Desert Palace)",
+  "placed_item": {
+   "name": "Small Key (Desert Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 55,
+  "name": "Desert Palace - Big Chest",
+  "region": 101,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe98f",
+  "rule": "r24914e302d",
+  "placed_item": {
+   "name": "Compass (Desert Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 56,
+  "name": "Desert Palace - Big Key Chest",
+  "region": 106,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9c2",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 57,
+  "name": "Desert Palace - Boss",
+  "region": 104,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180151",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Map (Desert Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 58,
+  "name": "Desert Palace - Boss Kill",
+  "region": 104,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 59,
+  "name": "Desert Palace - Compass Chest",
+  "region": 109,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9cb",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Big Key (Desert Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 60,
+  "name": "Desert Palace - Desert Tiles 1 Pot Key",
+  "region": 133,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x57f60de",
+  "rule": "rb59b2228ee",
+  "forced_item": "Small Key (Desert Palace)",
+  "placed_item": {
+   "name": "Small Key (Desert Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 61,
+  "name": "Desert Palace - Desert Tiles 2 Pot Key",
+  "region": 134,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x77f609e",
+  "rule": "rb59b2228ee",
+  "forced_item": "Small Key (Desert Palace)",
+  "placed_item": {
+   "name": "Small Key (Desert Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 62,
+  "name": "Desert Palace - Map Chest",
+  "region": 121,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9b6",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Small Key (Desert Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 63,
+  "name": "Desert Palace - Prize",
+  "region": 104,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc6ff",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Crystal 3",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 64,
+  "name": "Desert Palace - Torch",
+  "region": 102,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180160",
+  "rule": "re19ce5c971",
+  "placed_item": {
+   "name": "Shovel",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 65,
+  "name": "Digging Game",
+  "region": 140,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180148",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 66,
+  "name": "East Dark Death Mountain (Bottom) Bush Drop",
+  "region": 143,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 67,
+  "name": "Eastern Nook Area Rock Drop",
+  "region": 178,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb5019dd3d8",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 68,
+  "name": "Eastern Palace - Big Chest",
+  "region": 160,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe97d",
+  "rule": "rc7fe34a624",
+  "placed_item": {
+   "name": "Progressive Armor",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 69,
+  "name": "Eastern Palace - Big Key Chest",
+  "region": 152,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9b9",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (50)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 70,
+  "name": "Eastern Palace - Boss",
+  "region": 154,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180150",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Map (Eastern Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 71,
+  "name": "Eastern Palace - Boss Kill",
+  "region": 154,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 72,
+  "name": "Eastern Palace - Cannonball Chest",
+  "region": 155,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9b3",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Compass (Eastern Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 73,
+  "name": "Eastern Palace - Compass Chest",
+  "region": 159,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe977",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Big Key (Eastern Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 74,
+  "name": "Eastern Palace - Dark Eyegore Key Drop",
+  "region": 164,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9e4f8",
+  "rule": "r1716a23740",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Eastern Palace)",
+  "placed_item": {
+   "name": "Small Key (Eastern Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 75,
+  "name": "Eastern Palace - Dark Square Pot Key",
+  "region": 162,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x47f618c",
+  "rule": "r1716a23740",
+  "forced_item": "Small Key (Eastern Palace)",
+  "placed_item": {
+   "name": "Small Key (Eastern Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 76,
+  "name": "Eastern Palace - Map Chest",
+  "region": 176,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9f5",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 77,
+  "name": "Eastern Palace - Prize",
+  "region": 154,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc6fe",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Crystal 4",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 78,
+  "name": "Eastern Palace Area Tree Pull",
+  "region": 179,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rd441b65991",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 79,
+  "name": "Ether Tablet",
+  "region": 922,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180016",
+  "rule": "r9861fb8630",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 80,
+  "name": "Floating Island",
+  "region": 91,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180141",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 81,
+  "name": "Floodgate",
+  "region": 55,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Open Floodgate",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 82,
+  "name": "Floodgate Chest",
+  "region": 55,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe98c",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 83,
+  "name": "Flute Activation",
+  "region": 448,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rf54ec1324f",
+  "forced_item": "Ocarina (Activated)",
+  "placed_item": {
+   "name": "Ocarina (Activated)",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 84,
+  "name": "Flute Boy Approach Area Bush Drop",
+  "region": 192,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 85,
+  "name": "Flute Spot",
+  "region": 193,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x18014a",
+  "rule": "rbba4102902",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 86,
+  "name": "Forgotten Forest Area Bush Drop",
+  "region": 197,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 87,
+  "name": "Frog",
+  "region": 201,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Get Frog",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 88,
+  "name": "Ganon",
+  "region": 641,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r9444a61828",
+  "placed_item": {
+   "name": "Triforce",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 89,
+  "name": "Ganons Tower - Big Chest",
+  "region": 204,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xead6",
+  "rule": "ree41658e8f",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 90,
+  "name": "Ganons Tower - Big Key Chest",
+  "region": 205,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeaf1",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 91,
+  "name": "Ganons Tower - Big Key Room - Left",
+  "region": 205,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeaf4",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 92,
+  "name": "Ganons Tower - Big Key Room - Right",
+  "region": 205,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeaf7",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 93,
+  "name": "Ganons Tower - Bob's Chest",
+  "region": 207,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeadf",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 94,
+  "name": "Ganons Tower - Bob's Torch",
+  "region": 208,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180161",
+  "rule": "r21d1093891",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 95,
+  "name": "Ganons Tower - Compass Room - Bottom Left",
+  "region": 212,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeaeb",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 96,
+  "name": "Ganons Tower - Compass Room - Bottom Right",
+  "region": 212,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeaee",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 97,
+  "name": "Ganons Tower - Compass Room - Top Left",
+  "region": 212,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeae5",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 98,
+  "name": "Ganons Tower - Compass Room - Top Right",
+  "region": 212,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeae8",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Progressive Sword",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 99,
+  "name": "Ganons Tower - Conveyor Cross Pot Key",
+  "region": 214,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x17f612e",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Ganons Tower)",
+  "placed_item": {
+   "name": "Small Key (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 100,
+  "name": "Ganons Tower - Conveyor Star Pits Pot Key",
+  "region": 216,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x47f610e",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Ganons Tower)",
+  "placed_item": {
+   "name": "Small Key (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 101,
+  "name": "Ganons Tower - DMs Room - Bottom Left",
+  "region": 226,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeabe",
+  "rule": "r368d008233",
+  "placed_item": {
+   "name": "Small Key (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 102,
+  "name": "Ganons Tower - DMs Room - Bottom Right",
+  "region": 226,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeac1",
+  "rule": "r368d008233",
+  "placed_item": {
+   "name": "Map (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 103,
+  "name": "Ganons Tower - DMs Room - Top Left",
+  "region": 226,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeab8",
+  "rule": "r368d008233",
+  "placed_item": {
+   "name": "Small Key (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 104,
+  "name": "Ganons Tower - DMs Room - Top Right",
+  "region": 226,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeabb",
+  "rule": "r368d008233",
+  "placed_item": {
+   "name": "Small Key (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 105,
+  "name": "Ganons Tower - Double Switch Pot Key",
+  "region": 234,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x17f614e",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Ganons Tower)",
+  "placed_item": {
+   "name": "Small Key (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 106,
+  "name": "Ganons Tower - Firesnake Room",
+  "region": 240,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xead0",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 107,
+  "name": "Ganons Tower - Hope Room - Left",
+  "region": 256,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xead9",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 108,
+  "name": "Ganons Tower - Hope Room - Right",
+  "region": 256,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeadc",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Big Key (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 109,
+  "name": "Ganons Tower - Map Chest",
+  "region": 263,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xead3",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 110,
+  "name": "Ganons Tower - Mini Helmasaur Key Drop",
+  "region": 266,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9ddc4",
+  "rule": "r16f16c6272",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Ganons Tower)",
+  "placed_item": {
+   "name": "Small Key (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 111,
+  "name": "Ganons Tower - Mini Helmasaur Room - Left",
+  "region": 266,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeafd",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 112,
+  "name": "Ganons Tower - Mini Helmasaur Room - Right",
+  "region": 266,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb00",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 113,
+  "name": "Ganons Tower - Pre-Moldorm Chest",
+  "region": 224,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb03",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 114,
+  "name": "Ganons Tower - Randomizer Room - Bottom Left",
+  "region": 272,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeaca",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Cane of Byrna",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 115,
+  "name": "Ganons Tower - Randomizer Room - Bottom Right",
+  "region": 272,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeacd",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 116,
+  "name": "Ganons Tower - Randomizer Room - Top Left",
+  "region": 272,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeac4",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Compass (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 117,
+  "name": "Ganons Tower - Randomizer Room - Top Right",
+  "region": 272,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeac7",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 118,
+  "name": "Ganons Tower - Tile Room",
+  "region": 281,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeae2",
+  "rule": "r1b799b26b4",
+  "typed_ir": "re03e5e8288",
+  "dnf": [
+   [
+    {
+     "req": "Item",
+     "item": "Magic Powder",
+     "amount": 1,
+     "player": 1,
+     "crystal": "Null",
+     "locations": []
+    }
+   ]
+  ],
+  "placed_item": {
+   "name": "Small Key (Ganons Tower)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 119,
+  "name": "Ganons Tower - Validation Chest",
+  "region": 283,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb06",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Single Arrow",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 120,
+  "name": "Graveyard Cave",
+  "region": 301,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180004",
+  "rule": "ref8c2f17e1",
+  "placed_item": {
+   "name": "Rupees (5)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 121,
+  "name": "Graveyard Cave Pot Drop",
+  "region": 301,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 122,
+  "name": "Hobo",
+  "region": 337,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x33e7d",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (5)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 123,
+  "name": "Hookshot Cave - Bottom Left",
+  "region": 342,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb57",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 124,
+  "name": "Hookshot Cave - Bottom Right",
+  "region": 339,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb5a",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 125,
+  "name": "Hookshot Cave - Top Left",
+  "region": 342,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb54",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 126,
+  "name": "Hookshot Cave - Top Right",
+  "region": 342,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb51",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 127,
+  "name": "Hype Cave - Bottom",
+  "region": 345,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb27",
+  "rule": "r04e4e98423",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 128,
+  "name": "Hype Cave - Generous Guy",
+  "region": 345,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180011",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Progressive Shield",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 129,
+  "name": "Hype Cave - Middle Left",
+  "region": 345,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb24",
+  "rule": "r04e4e98423",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 130,
+  "name": "Hype Cave - Middle Right",
+  "region": 345,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb21",
+  "rule": "r04e4e98423",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 131,
+  "name": "Hype Cave - Top",
+  "region": 345,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb1e",
+  "rule": "r04e4e98423",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 132,
+  "name": "Hype Cave Area Tree Pull",
+  "region": 346,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r2f624834d9",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 133,
+  "name": "Hyrule Castle - Big Key Drop",
+  "region": 371,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9e327",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Big Key (Escape)",
+  "placed_item": {
+   "name": "Big Key (Escape)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 134,
+  "name": "Hyrule Castle - Boomerang Chest",
+  "region": 367,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe974",
+  "rule": "r58f296d6b6",
+  "placed_item": {
+   "name": "Rupee (1)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 135,
+  "name": "Hyrule Castle - Boomerang Guard Key Drop",
+  "region": 367,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9e204",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Escape)",
+  "placed_item": {
+   "name": "Small Key (Escape)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 136,
+  "name": "Hyrule Castle - Key Rat Key Drop",
+  "region": 665,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9db80",
+  "rule": "r1716a23740",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Escape)",
+  "placed_item": {
+   "name": "Small Key (Escape)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 137,
+  "name": "Hyrule Castle - Map Chest",
+  "region": 373,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb0c",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 138,
+  "name": "Hyrule Castle - Map Guard Key Drop",
+  "region": 373,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9e20c",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Escape)",
+  "placed_item": {
+   "name": "Small Key (Escape)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 139,
+  "name": "Hyrule Castle - Zelda's Chest",
+  "region": 370,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeb09",
+  "rule": "r58f296d6b6",
+  "placed_item": {
+   "name": "Progressive Shield",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 140,
+  "name": "Hyrule Castle Courtyard Tree Pull",
+  "region": 351,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r864c1b9808",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 141,
+  "name": "Ice Block Drop",
+  "region": 401,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Convenient Block",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 142,
+  "name": "Ice Cave Area Rock Drop",
+  "region": 392,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb5019dd3d8",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 143,
+  "name": "Ice Palace - Big Chest",
+  "region": 382,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9aa",
+  "rule": "rd28eca12cf",
+  "placed_item": {
+   "name": "Compass (Ice Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 144,
+  "name": "Ice Palace - Big Key Chest",
+  "region": 384,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9a4",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Fire Rod",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 145,
+  "name": "Ice Palace - Boss",
+  "region": 390,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180157",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 146,
+  "name": "Ice Palace - Boss Kill",
+  "region": 390,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 147,
+  "name": "Ice Palace - Compass Chest",
+  "region": 394,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9d4",
+  "rule": "r16f16c6272",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "placed_item": {
+   "name": "Big Key (Ice Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 148,
+  "name": "Ice Palace - Conveyor Key Drop",
+  "region": 395,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9de08",
+  "rule": "r16f16c6272",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Ice Palace)",
+  "placed_item": {
+   "name": "Small Key (Ice Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 149,
+  "name": "Ice Palace - Freezor Chest",
+  "region": 409,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe995",
+  "rule": "rabf995ef66",
+  "placed_item": {
+   "name": "Rupees (5)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 150,
+  "name": "Ice Palace - Hammer Block Key Drop",
+  "region": 411,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x67f6096",
+  "rule": "re3782c47c0",
+  "forced_item": "Small Key (Ice Palace)",
+  "placed_item": {
+   "name": "Small Key (Ice Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 151,
+  "name": "Ice Palace - Iced T Room",
+  "region": 440,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9e3",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Ice Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 152,
+  "name": "Ice Palace - Jelly Key Drop",
+  "region": 414,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9da21",
+  "rule": "r16f16c6272",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Ice Palace)",
+  "placed_item": {
+   "name": "Small Key (Ice Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 153,
+  "name": "Ice Palace - Many Pots Pot Key",
+  "region": 423,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x47f6156",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Ice Palace)",
+  "placed_item": {
+   "name": "Small Key (Ice Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 154,
+  "name": "Ice Palace - Map Chest",
+  "region": 411,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9dd",
+  "rule": "re3782c47c0",
+  "placed_item": {
+   "name": "Small Key (Ice Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 155,
+  "name": "Ice Palace - Prize",
+  "region": 390,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc705",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Crystal 2",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 156,
+  "name": "Ice Palace - Spike Room",
+  "region": 434,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9e0",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Map (Ice Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 157,
+  "name": "Ice Rod Cave",
+  "region": 432,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb4e",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 158,
+  "name": "Kakariko Fortune Area Bonk Drop",
+  "region": 442,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb682dcf856",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 159,
+  "name": "Kakariko Fortune Area Rock Drop",
+  "region": 442,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb5019dd3d8",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 160,
+  "name": "Kakariko Shop - Left",
+  "region": 445,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Potion",
+  "placed_item": {
+   "name": "Red Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 161,
+  "name": "Kakariko Shop - Middle",
+  "region": 445,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Small Heart",
+  "placed_item": {
+   "name": "Small Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 162,
+  "name": "Kakariko Shop - Right",
+  "region": 445,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bombs (10)",
+  "placed_item": {
+   "name": "Bombs (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 163,
+  "name": "Kakariko Tavern",
+  "region": 851,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9ce",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 164,
+  "name": "Kakariko Village Bush Drop",
+  "region": 448,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 165,
+  "name": "Kakariko Well - Bottom",
+  "region": 451,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea9a",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Progressive Sword",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 166,
+  "name": "Kakariko Well - Left",
+  "region": 451,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea91",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Bottle",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 167,
+  "name": "Kakariko Well - Middle",
+  "region": 451,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea94",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 168,
+  "name": "Kakariko Well - Right",
+  "region": 451,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea97",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 169,
+  "name": "Kakariko Well - Top",
+  "region": 449,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea8e",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (100)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 170,
+  "name": "Kiki",
+  "region": 574,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Pick Up Kiki",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 171,
+  "name": "Kiki Assistance",
+  "region": 80,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "rf8800c516c",
+  "placed_item": {
+   "name": "Dark Palace Opened",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 172,
+  "name": "King Zora",
+  "region": 932,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xee1c3",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 173,
+  "name": "King's Tomb",
+  "region": 452,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe97a",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 174,
+  "name": "Lake Hylia Island",
+  "region": 457,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180144",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Ice Rod",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 175,
+  "name": "Lake Hylia Shop - Left",
+  "region": 460,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Potion",
+  "placed_item": {
+   "name": "Red Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 176,
+  "name": "Lake Hylia Shop - Middle",
+  "region": 460,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Small Heart",
+  "placed_item": {
+   "name": "Small Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 177,
+  "name": "Lake Hylia Shop - Right",
+  "region": 460,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bombs (10)",
+  "placed_item": {
+   "name": "Bombs (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 178,
+  "name": "Library",
+  "region": 464,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180012",
+  "rule": "re19ce5c971",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 179,
+  "name": "Light World Bomb Hut Pot Drop",
+  "region": 466,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 180,
+  "name": "Link's House",
+  "region": 467,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9bc",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Progressive Armor",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 181,
+  "name": "Link's Uncle",
+  "region": 359,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x2df45",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 182,
+  "name": "Links House Area Rock Drop",
+  "region": 468,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb5019dd3d8",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 183,
+  "name": "Locksmith",
+  "region": 488,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Sign Vandalized",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 184,
+  "name": "Lost Old Man",
+  "region": 568,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r1716a23740",
+  "placed_item": {
+   "name": "Escort Old Man",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 185,
+  "name": "Lost Woods East Area Tree Pull",
+  "region": 470,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r3ef498bec3",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 186,
+  "name": "Lost Woods Hideout",
+  "region": 473,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180000",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (300)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 187,
+  "name": "Lumberjack Tree",
+  "region": 482,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180001",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 188,
+  "name": "Magic Bat",
+  "region": 7,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180015",
+  "rule": "re03e5e8288",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 189,
+  "name": "Master Sword Pedestal",
+  "region": 483,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x289b0",
+  "rule": "rb11766ab01",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 190,
+  "name": "Maze Race",
+  "region": 486,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180142",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 191,
+  "name": "Middle Aged Man",
+  "region": 125,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "ra798bd7cde",
+  "placed_item": {
+   "name": "Deliver Purple Chest",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 192,
+  "name": "Mimic Cave",
+  "region": 489,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9c5",
+  "rule": "rd4918275e1",
+  "typed_ir": "rf8aba500b7",
+  "placed_item": {
+   "name": "Rupee (1)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 193,
+  "name": "Mini Moldorm Cave - Far Left",
+  "region": 491,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb42",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "placed_item": {
+   "name": "Rupees (300)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 194,
+  "name": "Mini Moldorm Cave - Far Right",
+  "region": 491,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb4b",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 195,
+  "name": "Mini Moldorm Cave - Generous Guy",
+  "region": 491,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180010",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "placed_item": {
+   "name": "Progressive Glove",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 196,
+  "name": "Mini Moldorm Cave - Left",
+  "region": 491,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb45",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 197,
+  "name": "Mini Moldorm Cave - Right",
+  "region": 491,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb48",
+  "rule": "rb59b2228ee",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 198,
+  "name": "Mire Shed - Left",
+  "region": 545,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea73",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Flippers",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 199,
+  "name": "Mire Shed - Right",
+  "region": 545,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea76",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Pegasus Boots",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 200,
+  "name": "Misery Mire - Big Chest",
+  "region": 516,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea67",
+  "rule": "re1e3456bc2",
+  "placed_item": {
+   "name": "Small Key (Misery Mire)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 201,
+  "name": "Misery Mire - Big Key Chest",
+  "region": 496,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea6d",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Map (Misery Mire)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 202,
+  "name": "Misery Mire - Boss",
+  "region": 501,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180158",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Misery Mire)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 203,
+  "name": "Misery Mire - Boss Kill",
+  "region": 501,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 204,
+  "name": "Misery Mire - Bridge Chest",
+  "region": 544,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea61",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Big Key (Misery Mire)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 205,
+  "name": "Misery Mire - Compass Chest",
+  "region": 503,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea64",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Compass (Misery Mire)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 206,
+  "name": "Misery Mire - Conveyor Crystal Key Drop",
+  "region": 507,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9e7fb",
+  "rule": "r16f16c6272",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Misery Mire)",
+  "placed_item": {
+   "name": "Small Key (Misery Mire)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 207,
+  "name": "Misery Mire - Fishbone Pot Key",
+  "region": 521,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x7f615a",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Misery Mire)",
+  "placed_item": {
+   "name": "Small Key (Misery Mire)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 208,
+  "name": "Misery Mire - Main Lobby",
+  "region": 528,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea5e",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 209,
+  "name": "Misery Mire - Map Chest",
+  "region": 537,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea6a",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Misery Mire)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 210,
+  "name": "Misery Mire - Prize",
+  "region": 501,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc703",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Crystal 1",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 211,
+  "name": "Misery Mire - Spike Chest",
+  "region": 549,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9da",
+  "rule": "r02479a265c",
+  "placed_item": {
+   "name": "Blue Boomerang",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 212,
+  "name": "Misery Mire - Spikes Pot Key",
+  "region": 549,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x7f617e",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Misery Mire)",
+  "placed_item": {
+   "name": "Small Key (Misery Mire)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 213,
+  "name": "Missing Smith",
+  "region": 559,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "rd8f19da0be",
+  "placed_item": {
+   "name": "Return Smith",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 214,
+  "name": "Mountain Pass Area Tree Pull",
+  "region": 560,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r864c1b9808",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 215,
+  "name": "Mushroom",
+  "region": 470,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180013",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 216,
+  "name": "Old Man",
+  "region": 570,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xf69fa",
+  "rule": "rf514e46d4c",
+  "placed_item": {
+   "name": "Cape",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 217,
+  "name": "Old Man Drop Off",
+  "region": 921,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r89d55bb668",
+  "placed_item": {
+   "name": "Return Old Man",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 218,
+  "name": "Palace of Darkness - Big Chest",
+  "region": 594,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea40",
+  "rule": "r51ed05ce6b",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 219,
+  "name": "Palace of Darkness - Big Key Chest",
+  "region": 595,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea37",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Palace of Darkness)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 220,
+  "name": "Palace of Darkness - Boss",
+  "region": 597,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180153",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 221,
+  "name": "Palace of Darkness - Boss Kill",
+  "region": 597,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 222,
+  "name": "Palace of Darkness - Compass Chest",
+  "region": 603,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea43",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Magic Powder",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 223,
+  "name": "Palace of Darkness - Dark Basement - Left",
+  "region": 606,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea4c",
+  "rule": "r8efe57ea23",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 224,
+  "name": "Palace of Darkness - Dark Basement - Right",
+  "region": 606,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea4f",
+  "rule": "r8efe57ea23",
+  "placed_item": {
+   "name": "Small Key (Palace of Darkness)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 225,
+  "name": "Palace of Darkness - Dark Maze - Bottom",
+  "region": 607,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea58",
+  "rule": "r8efe57ea23",
+  "placed_item": {
+   "name": "Red Boomerang",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 226,
+  "name": "Palace of Darkness - Dark Maze - Top",
+  "region": 607,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea55",
+  "rule": "r8efe57ea23",
+  "placed_item": {
+   "name": "Map (Palace of Darkness)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 227,
+  "name": "Palace of Darkness - Harmless Hellway",
+  "region": 619,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea46",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Big Key (Palace of Darkness)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 228,
+  "name": "Palace of Darkness - Map Chest",
+  "region": 624,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea52",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Palace of Darkness)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 229,
+  "name": "Palace of Darkness - Prize",
+  "region": 597,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc702",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Red Pendant",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 230,
+  "name": "Palace of Darkness - Shooter Room",
+  "region": 632,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea5b",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Palace of Darkness)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 231,
+  "name": "Palace of Darkness - Stalfos Basement",
+  "region": 633,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea49",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Compass (Palace of Darkness)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 232,
+  "name": "Palace of Darkness - The Arena - Bridge",
+  "region": 583,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea3d",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Palace of Darkness)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 233,
+  "name": "Palace of Darkness - The Arena - Ledge",
+  "region": 586,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea3a",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Palace of Darkness)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 234,
+  "name": "Paradox Cave Lower - Far Left",
+  "region": 580,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb2a",
+  "rule": "rbc931b28eb",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 235,
+  "name": "Paradox Cave Lower - Far Right",
+  "region": 580,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb33",
+  "rule": "rbc931b28eb",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 236,
+  "name": "Paradox Cave Lower - Left",
+  "region": 580,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb2d",
+  "rule": "rbc931b28eb",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 237,
+  "name": "Paradox Cave Lower - Middle",
+  "region": 580,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb36",
+  "rule": "rbc931b28eb",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 238,
+  "name": "Paradox Cave Lower - Right",
+  "region": 580,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb30",
+  "rule": "rbc931b28eb",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 239,
+  "name": "Paradox Cave Upper - Left",
+  "region": 579,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeb39",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Progressive Shield",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 240,
+  "name": "Paradox Cave Upper - Right",
+  "region": 579,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb3c",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 241,
+  "name": "Paradox Shop - Left",
+  "region": 582,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Potion",
+  "placed_item": {
+   "name": "Red Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 242,
+  "name": "Paradox Shop - Middle",
+  "region": 582,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Small Heart",
+  "placed_item": {
+   "name": "Small Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 243,
+  "name": "Paradox Shop - Right",
+  "region": 582,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bombs (10)",
+  "placed_item": {
+   "name": "Bombs (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 244,
+  "name": "Peg Cave",
+  "region": 306,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180006",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Ether",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 245,
+  "name": "Potion Shop",
+  "region": 637,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180014",
+  "rule": "r59003b45ac",
+  "placed_item": {
+   "name": "Magic Upgrade (1/2)",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 246,
+  "name": "Potion Shop - Left",
+  "region": 637,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Potion",
+  "placed_item": {
+   "name": "Red Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 247,
+  "name": "Potion Shop - Middle",
+  "region": 637,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Green Potion",
+  "placed_item": {
+   "name": "Green Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 248,
+  "name": "Potion Shop - Right",
+  "region": 637,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Blue Potion",
+  "placed_item": {
+   "name": "Blue Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 249,
+  "name": "Purple Chest",
+  "region": 488,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x33d68",
+  "rule": "r0f04419b56",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 250,
+  "name": "Pyramid",
+  "region": 642,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180147",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Moon Pearl",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 251,
+  "name": "Pyramid Area Tree Pull",
+  "region": 642,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r2f624834d9",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 252,
+  "name": "Pyramid Crack",
+  "region": 642,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r8c3b818ea5",
+  "placed_item": {
+   "name": "Detonate Big Bomb",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 253,
+  "name": "Pyramid Fairy - Left",
+  "region": 645,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe980",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 254,
+  "name": "Pyramid Fairy - Right",
+  "region": 645,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe983",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 255,
+  "name": "Qirn Jump Area Rock Drop",
+  "region": 648,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r8b521c2492",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 256,
+  "name": "Red Shield Shop - Left",
+  "region": 651,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Shield",
+  "placed_item": {
+   "name": "Red Shield",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 257,
+  "name": "Red Shield Shop - Middle",
+  "region": 651,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bee",
+  "placed_item": {
+   "name": "Bee",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 258,
+  "name": "Red Shield Shop - Right",
+  "region": 651,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Arrows (10)",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 259,
+  "name": "Revealing Light",
+  "region": 652,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r4b201d6686",
+  "placed_item": {
+   "name": "Maiden Unmasked",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 260,
+  "name": "Sahasrahla",
+  "region": 656,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x2f1fc",
+  "rule": "r221318f859",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 261,
+  "name": "Sahasrahla's Hut - Left",
+  "region": 656,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea82",
+  "rule": "rad5417f760",
+  "placed_item": {
+   "name": "Rupees (50)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 262,
+  "name": "Sahasrahla's Hut - Middle",
+  "region": 656,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea85",
+  "rule": "rad5417f760",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 263,
+  "name": "Sahasrahla's Hut - Right",
+  "region": 656,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea88",
+  "rule": "rad5417f760",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 264,
+  "name": "Sanctuary",
+  "region": 657,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea79",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Hammer",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 265,
+  "name": "Secret Passage",
+  "region": 359,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe971",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (300)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 266,
+  "name": "Sewers - Dark Cross",
+  "region": 664,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe96e",
+  "rule": "r1716a23740",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 267,
+  "name": "Sewers - Secret Room - Left",
+  "region": 669,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeb5d",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Small Key (Escape)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 268,
+  "name": "Sewers - Secret Room - Middle",
+  "region": 669,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeb60",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Map (Escape)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 269,
+  "name": "Sewers - Secret Room - Right",
+  "region": 669,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeb63",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 270,
+  "name": "Shield Shop Area Rock Drop",
+  "region": 673,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r8b521c2492",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 271,
+  "name": "Sick Kid",
+  "region": 677,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x339cf",
+  "rule": "radceb6a089",
+  "placed_item": {
+   "name": "Rupees (50)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 272,
+  "name": "Skull Star Tile",
+  "region": 687,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Hidden Pits",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 273,
+  "name": "Skull Woods - Big Chest",
+  "region": 688,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe998",
+  "rule": "r1d0bd89bba",
+  "placed_item": {
+   "name": "Map (Skull Woods)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 274,
+  "name": "Skull Woods - Big Key Chest",
+  "region": 689,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe99e",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Ocarina",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 275,
+  "name": "Skull Woods - Boss",
+  "region": 691,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180155",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Compass (Skull Woods)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 276,
+  "name": "Skull Woods - Boss Kill",
+  "region": 691,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 277,
+  "name": "Skull Woods - Bridge Room",
+  "region": 707,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9fe",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Big Key (Skull Woods)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 278,
+  "name": "Skull Woods - Compass Chest",
+  "region": 692,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe992",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Skull Woods)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 279,
+  "name": "Skull Woods - Map Chest",
+  "region": 697,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe99b",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Skull Woods)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 280,
+  "name": "Skull Woods - Pinball Room",
+  "region": 698,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9c8",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Skull Woods)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 281,
+  "name": "Skull Woods - Pot Prison",
+  "region": 700,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9a1",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 282,
+  "name": "Skull Woods - Prize",
+  "region": 691,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc704",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Crystal 5",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 283,
+  "name": "Skull Woods - Spike Corner Key Drop",
+  "region": 703,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9dd74",
+  "rule": "r16f16c6272",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Skull Woods)",
+  "placed_item": {
+   "name": "Small Key (Skull Woods)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 284,
+  "name": "Skull Woods - West Lobby Pot Key",
+  "region": 682,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xd7f60c4",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Skull Woods)",
+  "placed_item": {
+   "name": "Small Key (Skull Woods)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 285,
+  "name": "Skull Woods Forest Rock Drop",
+  "region": 708,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r8b521c2492",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 286,
+  "name": "Snitch Lady (East) Tree Pull",
+  "region": 718,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r3ef498bec3",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 287,
+  "name": "Spectacle Rock",
+  "region": 725,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180140",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Bottle",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 288,
+  "name": "Spectacle Rock Cave",
+  "region": 723,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180002",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Rupees (50)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 289,
+  "name": "Spike Cave",
+  "region": 726,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea8b",
+  "rule": "r0ffec7e2fd",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 290,
+  "name": "Spiral Cave",
+  "region": 728,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9bf",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 291,
+  "name": "Statues Area Tree Pull",
+  "region": 731,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rd441b65991",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 292,
+  "name": "Stumpy",
+  "region": 738,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x330c7",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 293,
+  "name": "Sunken Treasure",
+  "region": 56,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180145",
+  "rule": "rd71e22df1a",
+  "placed_item": {
+   "name": "Rupees (50)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 294,
+  "name": "Superbunny Cave - Bottom",
+  "region": 741,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea7f",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 295,
+  "name": "Superbunny Cave - Top",
+  "region": 741,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea7c",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 296,
+  "name": "Suspicious Maiden",
+  "region": 863,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Maiden Rescued",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 297,
+  "name": "Swamp Drain",
+  "region": 760,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Drained Swamp",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 298,
+  "name": "Swamp Nook Area Rock Drop",
+  "region": 773,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r8b521c2492",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 299,
+  "name": "Swamp Palace - Big Chest",
+  "region": 765,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe989",
+  "rule": "ra3443bc0b8",
+  "placed_item": {
+   "name": "Map (Swamp Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 300,
+  "name": "Swamp Palace - Big Key Chest",
+  "region": 748,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeaa6",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Mushroom",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 301,
+  "name": "Swamp Palace - Boss",
+  "region": 750,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180154",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Bombs (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 302,
+  "name": "Swamp Palace - Boss Kill",
+  "region": 750,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 303,
+  "name": "Swamp Palace - Compass Chest",
+  "region": 752,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xeaa0",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (5)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 304,
+  "name": "Swamp Palace - Entrance",
+  "region": 761,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea9d",
+  "rule": "r16f16c6272",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "placed_item": {
+   "name": "Small Key (Swamp Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 305,
+  "name": "Swamp Palace - Flooded Room - Left",
+  "region": 763,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeaa9",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Compass (Swamp Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 306,
+  "name": "Swamp Palace - Flooded Room - Right",
+  "region": 763,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeaac",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Bombos",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 307,
+  "name": "Swamp Palace - Hookshot Pot Key",
+  "region": 768,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x47f6084",
+  "rule": "r368d008233",
+  "forced_item": "Small Key (Swamp Palace)",
+  "placed_item": {
+   "name": "Small Key (Swamp Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 308,
+  "name": "Swamp Palace - Map Chest",
+  "region": 772,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe986",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Bottle (Good Bee)",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 309,
+  "name": "Swamp Palace - Pot Row Pot Key",
+  "region": 775,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x37f6088",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Swamp Palace)",
+  "placed_item": {
+   "name": "Small Key (Swamp Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 310,
+  "name": "Swamp Palace - Prize",
+  "region": 750,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc701",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Crystal 7",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 311,
+  "name": "Swamp Palace - Trench 1 Pot Key",
+  "region": 782,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x7f6086",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Swamp Palace)",
+  "placed_item": {
+   "name": "Small Key (Swamp Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 312,
+  "name": "Swamp Palace - Trench 2 Pot Key",
+  "region": 787,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x7f6082",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Swamp Palace)",
+  "placed_item": {
+   "name": "Small Key (Swamp Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 313,
+  "name": "Swamp Palace - Waterfall Room",
+  "region": 791,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeaaf",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Book of Mudora",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 314,
+  "name": "Swamp Palace - Waterway Pot Key",
+  "region": 792,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x87f6044",
+  "rule": "r7a9a534692",
+  "forced_item": "Small Key (Swamp Palace)",
+  "placed_item": {
+   "name": "Small Key (Swamp Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 315,
+  "name": "Swamp Palace - West Chest",
+  "region": 794,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xeaa3",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Big Key (Swamp Palace)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 316,
+  "name": "Thieves' Town - Ambush Chest",
+  "region": 853,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea0a",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Progressive Sword",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 317,
+  "name": "Thieves' Town - Attic",
+  "region": 857,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea0d",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Progressive Bow",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 318,
+  "name": "Thieves' Town - Big Chest",
+  "region": 861,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea10",
+  "rule": "r6a59462dbd",
+  "placed_item": {
+   "name": "Compass (Thieves Town)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 319,
+  "name": "Thieves' Town - Big Key Chest",
+  "region": 860,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea04",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Big Key (Thieves Town)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 320,
+  "name": "Thieves' Town - Blind's Cell",
+  "region": 863,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea13",
+  "rule": "r122355785f",
+  "placed_item": {
+   "name": "Small Key (Thieves Town)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 321,
+  "name": "Thieves' Town - Boss",
+  "region": 866,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180156",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 322,
+  "name": "Thieves' Town - Boss Kill",
+  "region": 866,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 323,
+  "name": "Thieves' Town - Compass Chest",
+  "region": 867,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea07",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 324,
+  "name": "Thieves' Town - Hallway Pot Key",
+  "region": 873,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x17f6190",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Thieves Town)",
+  "placed_item": {
+   "name": "Small Key (Thieves Town)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 325,
+  "name": "Thieves' Town - Map Chest",
+  "region": 877,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea01",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Map (Thieves Town)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 326,
+  "name": "Thieves' Town - Prize",
+  "region": 866,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc707",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Crystal 6",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 327,
+  "name": "Thieves' Town - Spike Switch Pot Key",
+  "region": 883,
+  "type": "Pot",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x7f616e",
+  "rule": "r16f16c6272",
+  "forced_item": "Small Key (Thieves Town)",
+  "placed_item": {
+   "name": "Small Key (Thieves Town)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 328,
+  "name": "Tower of Hera - Basement Cage",
+  "region": 314,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180162",
+  "rule": "r24d650fee2",
+  "placed_item": {
+   "name": "Bombs (3)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 329,
+  "name": "Tower of Hera - Big Chest",
+  "region": 317,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9f8",
+  "rule": "raddcfedd20",
+  "placed_item": {
+   "name": "Compass (Tower of Hera)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 330,
+  "name": "Tower of Hera - Big Key Chest",
+  "region": 332,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9e6",
+  "rule": "r8d2fcaf73b",
+  "placed_item": {
+   "name": "Big Key (Tower of Hera)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 331,
+  "name": "Tower of Hera - Boss",
+  "region": 319,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180152",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Bottle",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 332,
+  "name": "Tower of Hera - Boss Kill",
+  "region": 319,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 333,
+  "name": "Tower of Hera - Compass Chest",
+  "region": 309,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9fb",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Map (Tower of Hera)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 334,
+  "name": "Tower of Hera - Map Chest",
+  "region": 312,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xe9ad",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Small Key (Tower of Hera)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 335,
+  "name": "Tower of Hera - Prize",
+  "region": 319,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc706",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Green Pendant",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 336,
+  "name": "Trench 1 Switch",
+  "region": 764,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r434c216e5b",
+  "placed_item": {
+   "name": "Trench 1 Filled",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 337,
+  "name": "Trench 2 Switch",
+  "region": 753,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Trench 2 Filled",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 338,
+  "name": "Turtle Medallion Pad",
+  "region": 912,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r945cbb5e92",
+  "placed_item": {
+   "name": "Turtle Opened",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 339,
+  "name": "Turtle Rock - Big Chest",
+  "region": 796,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea19",
+  "rule": "re91746ed75",
+  "placed_item": {
+   "name": "Rupees (20)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 340,
+  "name": "Turtle Rock - Big Key Chest",
+  "region": 832,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea25",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Compass (Turtle Rock)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 341,
+  "name": "Turtle Rock - Boss",
+  "region": 800,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x180159",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Progressive Sword",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 342,
+  "name": "Turtle Rock - Boss Kill",
+  "region": 800,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Beat Boss",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 343,
+  "name": "Turtle Rock - Chain Chomps",
+  "region": 803,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea16",
+  "rule": "r4a9ab38b5f",
+  "placed_item": {
+   "name": "Big Key (Turtle Rock)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 344,
+  "name": "Turtle Rock - Compass Chest",
+  "region": 805,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea22",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 345,
+  "name": "Turtle Rock - Crystaroller Room",
+  "region": 813,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea34",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Turtle Rock)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 346,
+  "name": "Turtle Rock - Eye Bridge - Bottom Left",
+  "region": 824,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea31",
+  "rule": "ra1c9416ca0",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 347,
+  "name": "Turtle Rock - Eye Bridge - Bottom Right",
+  "region": 824,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xea2e",
+  "rule": "ra1c9416ca0",
+  "placed_item": {
+   "name": "Sanctuary Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 348,
+  "name": "Turtle Rock - Eye Bridge - Top Left",
+  "region": 824,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea2b",
+  "rule": "ra1c9416ca0",
+  "placed_item": {
+   "name": "Map (Turtle Rock)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 349,
+  "name": "Turtle Rock - Eye Bridge - Top Right",
+  "region": 824,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea28",
+  "rule": "ra1c9416ca0",
+  "placed_item": {
+   "name": "Small Key (Turtle Rock)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 350,
+  "name": "Turtle Rock - Pokey 1 Key Drop",
+  "region": 838,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9e70d",
+  "rule": "r16f16c6272",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Turtle Rock)",
+  "placed_item": {
+   "name": "Small Key (Turtle Rock)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 351,
+  "name": "Turtle Rock - Pokey 2 Key Drop",
+  "region": 839,
+  "type": "Drop",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0x9da5d",
+  "rule": "r16f16c6272",
+  "typed_ir": "rb59b2228ee",
+  "dnf": [
+   []
+  ],
+  "forced_item": "Small Key (Turtle Rock)",
+  "placed_item": {
+   "name": "Small Key (Turtle Rock)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 352,
+  "name": "Turtle Rock - Prize",
+  "region": 800,
+  "type": "Prize",
+  "event": true,
+  "real": false,
+  "locked": false,
+  "address": "0xc708",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Blue Pendant",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 353,
+  "name": "Turtle Rock - Roller Room - Left",
+  "region": 844,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea1c",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Turtle Rock)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 354,
+  "name": "Turtle Rock - Roller Room - Right",
+  "region": 844,
+  "type": "Normal",
+  "event": true,
+  "real": true,
+  "locked": false,
+  "address": "0xea1f",
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Small Key (Turtle Rock)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 355,
+  "name": "Turtle Rock Area Tree Pull",
+  "region": 908,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r2f624834d9",
+  "placed_item": {
+   "name": "Farmable Rupees",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 356,
+  "name": "Village of Outcasts Bush Drop",
+  "region": 915,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "r16f16c6272",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 357,
+  "name": "Village of Outcasts Shop - Left",
+  "region": 917,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Red Potion",
+  "placed_item": {
+   "name": "Red Potion",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 358,
+  "name": "Village of Outcasts Shop - Middle",
+  "region": 917,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Blue Shield",
+  "placed_item": {
+   "name": "Blue Shield",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 359,
+  "name": "Village of Outcasts Shop - Right",
+  "region": 917,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "forced_item": "Bombs (10)",
+  "placed_item": {
+   "name": "Bombs (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 360,
+  "name": "Waterfall Fairy - Left",
+  "region": 918,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9b0",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Arrows (10)",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 361,
+  "name": "Waterfall Fairy - Right",
+  "region": 918,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0xe9d1",
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Boss Heart Container",
+   "player": 1,
+   "progression": false
+  }
+ },
+ {
+  "id": 362,
+  "name": "West Death Mountain (Bottom) Rock Drop",
+  "region": 921,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb5019dd3d8",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 363,
+  "name": "Wooden Bridge Area Rock Drop",
+  "region": 923,
+  "type": "Logical",
+  "event": true,
+  "real": true,
+  "locked": true,
+  "address": null,
+  "rule": "rb5019dd3d8",
+  "placed_item": {
+   "name": "Farmable Bombs",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 364,
+  "name": "Zelda Drop Off",
+  "region": 657,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Zelda Delivered",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 365,
+  "name": "Zelda Pickup",
+  "region": 370,
+  "type": "Logical",
+  "event": true,
+  "real": false,
+  "locked": true,
+  "address": null,
+  "rule": "rb59b2228ee",
+  "placed_item": {
+   "name": "Zelda Herself",
+   "player": 1,
+   "progression": true
+  }
+ },
+ {
+  "id": 366,
+  "name": "Zora's Ledge",
+  "region": 932,
+  "type": "Normal",
+  "event": false,
+  "real": true,
+  "locked": false,
+  "address": "0x180149",
+  "rule": "r7402e19206",
+  "placed_item": {
+   "name": "Piece of Heart",
+   "player": 1,
+   "progression": false
+  }
+ }
+]

@@ -1,0 +1,2306 @@
+{
+ "version": 1,
+ "method": "inverted from the fork's own static tables in source/item/FillUtil.py: vanilla_mapping (+ keydrop/potkey/shop/retro variants when the profile activates them). No generation involved; seed-independent. `vanilla` lists every fork-table candidate; `picked` is the single profile-resolved item (basic vs progressive variants resolved via world.progressive, Ocarina via flute mode) or null when the fork itself leaves the slot ambiguous (pendant/crystal prize sets, progressive=random, or inactive variant tables). Prize locations are ambiguous by design: prizeshuffle=none still shuffles prize items in this fork. With dropshuffle=none the key-drop locations' vanilla item is their forced_item in locations.json; with shopsanity off the shop slots' vanilla item is the shop stock (see shops.json).",
+ "profile": {
+  "progressive": "on",
+  "dropshuffle": "none",
+  "pottery": "none",
+  "shopsanity": false,
+  "take_any": "none",
+  "bow_mode": "progressive",
+  "swords": "random"
+ },
+ "counts": {
+  "locations": 226,
+  "picked": 217,
+  "ambiguous": 9,
+  "not_in_this_world": 0
+ },
+ "locations_not_in_dump": [],
+ "locations": [
+  {
+   "location": "Aginah's Cave",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Blacksmith",
+   "picked": "Progressive Sword",
+   "vanilla": [
+    "Progressive Sword"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Blind's Hideout - Far Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Blind's Hideout - Far Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Blind's Hideout - Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Blind's Hideout - Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Blind's Hideout - Top",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Bombos Tablet",
+   "picked": "Bombos",
+   "vanilla": [
+    "Bombos"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Bonk Rock Cave",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Bottle Merchant",
+   "picked": "Bottle",
+   "vanilla": [
+    "Bottle"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Brewery",
+   "picked": "Rupees (300)",
+   "vanilla": [
+    "Rupees (300)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Bumper Cave Ledge",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "C-Shaped House",
+   "picked": "Rupees (300)",
+   "vanilla": [
+    "Rupees (300)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Castle Tower - Dark Maze",
+   "picked": "Small Key (Agahnims Tower)",
+   "vanilla": [
+    "Small Key (Agahnims Tower)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Castle Tower - Room 03",
+   "picked": "Small Key (Agahnims Tower)",
+   "vanilla": [
+    "Small Key (Agahnims Tower)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Catfish",
+   "picked": "Quake",
+   "vanilla": [
+    "Quake"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Cave 45",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Checkerboard Cave",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Chest Game",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Chicken House",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Desert Ledge",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Desert Palace - Big Chest",
+   "picked": "Progressive Glove",
+   "vanilla": [
+    "Progressive Glove"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Desert Palace - Big Key Chest",
+   "picked": "Big Key (Desert Palace)",
+   "vanilla": [
+    "Big Key (Desert Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Desert Palace - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Desert Palace - Compass Chest",
+   "picked": "Compass (Desert Palace)",
+   "vanilla": [
+    "Compass (Desert Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Desert Palace - Map Chest",
+   "picked": "Map (Desert Palace)",
+   "vanilla": [
+    "Map (Desert Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Desert Palace - Prize",
+   "picked": null,
+   "vanilla": [
+    "Red Pendant",
+    "Blue Pendant"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Desert Palace - Torch",
+   "picked": "Small Key (Desert Palace)",
+   "vanilla": [
+    "Small Key (Desert Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Digging Game",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Eastern Palace - Big Chest",
+   "picked": "Progressive Bow",
+   "vanilla": [
+    "Progressive Bow"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Eastern Palace - Big Key Chest",
+   "picked": "Big Key (Eastern Palace)",
+   "vanilla": [
+    "Big Key (Eastern Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Eastern Palace - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Eastern Palace - Cannonball Chest",
+   "picked": "Rupees (100)",
+   "vanilla": [
+    "Rupees (100)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Eastern Palace - Compass Chest",
+   "picked": "Compass (Eastern Palace)",
+   "vanilla": [
+    "Compass (Eastern Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Eastern Palace - Map Chest",
+   "picked": "Map (Eastern Palace)",
+   "vanilla": [
+    "Map (Eastern Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Eastern Palace - Prize",
+   "picked": "Green Pendant",
+   "vanilla": [
+    "Green Pendant"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ether Tablet",
+   "picked": "Ether",
+   "vanilla": [
+    "Ether"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Floating Island",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Floodgate Chest",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Flute Spot",
+   "picked": "Ocarina",
+   "vanilla": [
+    "Ocarina"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Big Chest",
+   "picked": "Progressive Armor",
+   "vanilla": [
+    "Progressive Armor"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Big Key Chest",
+   "picked": "Big Key (Ganons Tower)",
+   "vanilla": [
+    "Big Key (Ganons Tower)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Big Key Room - Left",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Big Key Room - Right",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Bob's Chest",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Bob's Torch",
+   "picked": "Small Key (Ganons Tower)",
+   "vanilla": [
+    "Small Key (Ganons Tower)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Compass Room - Bottom Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Compass Room - Bottom Right",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Compass Room - Top Left",
+   "picked": "Compass (Ganons Tower)",
+   "vanilla": [
+    "Compass (Ganons Tower)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Compass Room - Top Right",
+   "picked": "Rupee (1)",
+   "vanilla": [
+    "Rupee (1)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - DMs Room - Bottom Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - DMs Room - Bottom Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - DMs Room - Top Left",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - DMs Room - Top Right",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Firesnake Room",
+   "picked": "Small Key (Ganons Tower)",
+   "vanilla": [
+    "Small Key (Ganons Tower)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Hope Room - Left",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Hope Room - Right",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Map Chest",
+   "picked": "Map (Ganons Tower)",
+   "vanilla": [
+    "Map (Ganons Tower)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Mini Helmasaur Room - Left",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Mini Helmasaur Room - Right",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Pre-Moldorm Chest",
+   "picked": "Small Key (Ganons Tower)",
+   "vanilla": [
+    "Small Key (Ganons Tower)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Randomizer Room - Bottom Left",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Randomizer Room - Bottom Right",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Randomizer Room - Top Left",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Randomizer Room - Top Right",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Tile Room",
+   "picked": "Small Key (Ganons Tower)",
+   "vanilla": [
+    "Small Key (Ganons Tower)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ganons Tower - Validation Chest",
+   "picked": "Rupees (5)",
+   "vanilla": [
+    "Rupees (5)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Graveyard Cave",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hobo",
+   "picked": "Bottle",
+   "vanilla": [
+    "Bottle"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hookshot Cave - Bottom Left",
+   "picked": "Rupees (50)",
+   "vanilla": [
+    "Rupees (50)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hookshot Cave - Bottom Right",
+   "picked": "Rupees (50)",
+   "vanilla": [
+    "Rupees (50)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hookshot Cave - Top Left",
+   "picked": "Rupees (50)",
+   "vanilla": [
+    "Rupees (50)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hookshot Cave - Top Right",
+   "picked": "Rupees (50)",
+   "vanilla": [
+    "Rupees (50)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hype Cave - Bottom",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hype Cave - Generous Guy",
+   "picked": "Rupees (300)",
+   "vanilla": [
+    "Rupees (300)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hype Cave - Middle Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hype Cave - Middle Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hype Cave - Top",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hyrule Castle - Boomerang Chest",
+   "picked": "Blue Boomerang",
+   "vanilla": [
+    "Blue Boomerang"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hyrule Castle - Map Chest",
+   "picked": "Map (Escape)",
+   "vanilla": [
+    "Map (Escape)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Hyrule Castle - Zelda's Chest",
+   "picked": "Rupees (5)",
+   "vanilla": [
+    "Rupees (5)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Palace - Big Chest",
+   "picked": "Progressive Armor",
+   "vanilla": [
+    "Progressive Armor"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Palace - Big Key Chest",
+   "picked": "Big Key (Ice Palace)",
+   "vanilla": [
+    "Big Key (Ice Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Palace - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Palace - Compass Chest",
+   "picked": "Compass (Ice Palace)",
+   "vanilla": [
+    "Compass (Ice Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Palace - Freezor Chest",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Palace - Iced T Room",
+   "picked": "Small Key (Ice Palace)",
+   "vanilla": [
+    "Small Key (Ice Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Palace - Map Chest",
+   "picked": "Map (Ice Palace)",
+   "vanilla": [
+    "Map (Ice Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Palace - Prize",
+   "picked": null,
+   "vanilla": [
+    "Crystal 5",
+    "Crystal 6"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Palace - Spike Room",
+   "picked": "Small Key (Ice Palace)",
+   "vanilla": [
+    "Small Key (Ice Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Ice Rod Cave",
+   "picked": "Ice Rod",
+   "vanilla": [
+    "Ice Rod"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Kakariko Tavern",
+   "picked": "Bottle",
+   "vanilla": [
+    "Bottle"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Kakariko Well - Bottom",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Kakariko Well - Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Kakariko Well - Middle",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Kakariko Well - Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Kakariko Well - Top",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "King Zora",
+   "picked": "Flippers",
+   "vanilla": [
+    "Flippers"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "King's Tomb",
+   "picked": "Cape",
+   "vanilla": [
+    "Cape"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Lake Hylia Island",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Library",
+   "picked": "Book of Mudora",
+   "vanilla": [
+    "Book of Mudora"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Link's House",
+   "picked": "Lamp",
+   "vanilla": [
+    "Lamp"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Link's Uncle",
+   "picked": "Progressive Sword",
+   "vanilla": [
+    "Progressive Sword"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Lost Woods Hideout",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Lumberjack Tree",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Magic Bat",
+   "picked": "Magic Upgrade (1/2)",
+   "vanilla": [
+    "Magic Upgrade (1/2)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Master Sword Pedestal",
+   "picked": "Progressive Sword",
+   "vanilla": [
+    "Progressive Sword"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Maze Race",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Mimic Cave",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Mini Moldorm Cave - Far Left",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Mini Moldorm Cave - Far Right",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Mini Moldorm Cave - Generous Guy",
+   "picked": "Rupees (300)",
+   "vanilla": [
+    "Rupees (300)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Mini Moldorm Cave - Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Mini Moldorm Cave - Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Mire Shed - Left",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Mire Shed - Right",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Misery Mire - Big Chest",
+   "picked": "Cane of Somaria",
+   "vanilla": [
+    "Cane of Somaria"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Misery Mire - Big Key Chest",
+   "picked": "Big Key (Misery Mire)",
+   "vanilla": [
+    "Big Key (Misery Mire)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Misery Mire - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Misery Mire - Bridge Chest",
+   "picked": "Small Key (Misery Mire)",
+   "vanilla": [
+    "Small Key (Misery Mire)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Misery Mire - Compass Chest",
+   "picked": "Compass (Misery Mire)",
+   "vanilla": [
+    "Compass (Misery Mire)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Misery Mire - Main Lobby",
+   "picked": "Small Key (Misery Mire)",
+   "vanilla": [
+    "Small Key (Misery Mire)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Misery Mire - Map Chest",
+   "picked": "Map (Misery Mire)",
+   "vanilla": [
+    "Map (Misery Mire)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Misery Mire - Prize",
+   "picked": null,
+   "vanilla": [
+    "Crystal 5",
+    "Crystal 6"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Misery Mire - Spike Chest",
+   "picked": "Small Key (Misery Mire)",
+   "vanilla": [
+    "Small Key (Misery Mire)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Mushroom",
+   "picked": "Mushroom",
+   "vanilla": [
+    "Mushroom"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Old Man",
+   "picked": "Magic Mirror",
+   "vanilla": [
+    "Magic Mirror"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Big Chest",
+   "picked": "Hammer",
+   "vanilla": [
+    "Hammer"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Big Key Chest",
+   "picked": "Big Key (Palace of Darkness)",
+   "vanilla": [
+    "Big Key (Palace of Darkness)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Compass Chest",
+   "picked": "Compass (Palace of Darkness)",
+   "vanilla": [
+    "Compass (Palace of Darkness)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Dark Basement - Left",
+   "picked": "Single Arrow",
+   "vanilla": [
+    "Single Arrow"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Dark Basement - Right",
+   "picked": "Small Key (Palace of Darkness)",
+   "vanilla": [
+    "Small Key (Palace of Darkness)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Dark Maze - Bottom",
+   "picked": "Rupees (5)",
+   "vanilla": [
+    "Rupees (5)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Dark Maze - Top",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Harmless Hellway",
+   "picked": "Small Key (Palace of Darkness)",
+   "vanilla": [
+    "Small Key (Palace of Darkness)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Map Chest",
+   "picked": "Map (Palace of Darkness)",
+   "vanilla": [
+    "Map (Palace of Darkness)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Prize",
+   "picked": null,
+   "vanilla": [
+    "Crystal 1",
+    "Crystal 2",
+    "Crystal 3",
+    "Crystal 4",
+    "Crystal 7"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Shooter Room",
+   "picked": "Small Key (Palace of Darkness)",
+   "vanilla": [
+    "Small Key (Palace of Darkness)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - Stalfos Basement",
+   "picked": "Small Key (Palace of Darkness)",
+   "vanilla": [
+    "Small Key (Palace of Darkness)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - The Arena - Bridge",
+   "picked": "Small Key (Palace of Darkness)",
+   "vanilla": [
+    "Small Key (Palace of Darkness)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Palace of Darkness - The Arena - Ledge",
+   "picked": "Small Key (Palace of Darkness)",
+   "vanilla": [
+    "Small Key (Palace of Darkness)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Paradox Cave Lower - Far Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Paradox Cave Lower - Far Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Paradox Cave Lower - Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Paradox Cave Lower - Middle",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Paradox Cave Lower - Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Paradox Cave Upper - Left",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Paradox Cave Upper - Right",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Peg Cave",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Potion Shop",
+   "picked": "Magic Powder",
+   "vanilla": [
+    "Magic Powder"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Purple Chest",
+   "picked": "Bottle",
+   "vanilla": [
+    "Bottle"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Pyramid",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Pyramid Fairy - Left",
+   "picked": "Progressive Sword",
+   "vanilla": [
+    "Progressive Sword"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Pyramid Fairy - Right",
+   "picked": "Progressive Bow",
+   "vanilla": [
+    "Progressive Bow"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sahasrahla",
+   "picked": "Pegasus Boots",
+   "vanilla": [
+    "Pegasus Boots"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sahasrahla's Hut - Left",
+   "picked": "Rupees (50)",
+   "vanilla": [
+    "Rupees (50)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sahasrahla's Hut - Middle",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sahasrahla's Hut - Right",
+   "picked": "Rupees (50)",
+   "vanilla": [
+    "Rupees (50)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sanctuary",
+   "picked": "Sanctuary Heart Container",
+   "vanilla": [
+    "Sanctuary Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Secret Passage",
+   "picked": "Progressive Shield",
+   "vanilla": [
+    "Progressive Shield"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sewers - Dark Cross",
+   "picked": "Small Key (Escape)",
+   "vanilla": [
+    "Small Key (Escape)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sewers - Secret Room - Left",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sewers - Secret Room - Middle",
+   "picked": "Rupees (300)",
+   "vanilla": [
+    "Rupees (300)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sewers - Secret Room - Right",
+   "picked": "Arrows (10)",
+   "vanilla": [
+    "Arrows (10)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sick Kid",
+   "picked": "Bug Catching Net",
+   "vanilla": [
+    "Bug Catching Net"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Skull Woods - Big Chest",
+   "picked": "Fire Rod",
+   "vanilla": [
+    "Fire Rod"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Skull Woods - Big Key Chest",
+   "picked": "Big Key (Skull Woods)",
+   "vanilla": [
+    "Big Key (Skull Woods)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Skull Woods - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Skull Woods - Bridge Room",
+   "picked": "Small Key (Skull Woods)",
+   "vanilla": [
+    "Small Key (Skull Woods)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Skull Woods - Compass Chest",
+   "picked": "Compass (Skull Woods)",
+   "vanilla": [
+    "Compass (Skull Woods)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Skull Woods - Map Chest",
+   "picked": "Map (Skull Woods)",
+   "vanilla": [
+    "Map (Skull Woods)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Skull Woods - Pinball Room",
+   "picked": "Small Key (Skull Woods)",
+   "vanilla": [
+    "Small Key (Skull Woods)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Skull Woods - Pot Prison",
+   "picked": "Small Key (Skull Woods)",
+   "vanilla": [
+    "Small Key (Skull Woods)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Skull Woods - Prize",
+   "picked": null,
+   "vanilla": [
+    "Crystal 1",
+    "Crystal 2",
+    "Crystal 3",
+    "Crystal 4",
+    "Crystal 7"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Spectacle Rock",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Spectacle Rock Cave",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Spike Cave",
+   "picked": "Cane of Byrna",
+   "vanilla": [
+    "Cane of Byrna"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Spiral Cave",
+   "picked": "Rupees (50)",
+   "vanilla": [
+    "Rupees (50)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Stumpy",
+   "picked": "Shovel",
+   "vanilla": [
+    "Shovel"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Sunken Treasure",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Superbunny Cave - Bottom",
+   "picked": "Rupees (50)",
+   "vanilla": [
+    "Rupees (50)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Superbunny Cave - Top",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Big Chest",
+   "picked": "Hookshot",
+   "vanilla": [
+    "Hookshot"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Big Key Chest",
+   "picked": "Big Key (Swamp Palace)",
+   "vanilla": [
+    "Big Key (Swamp Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Compass Chest",
+   "picked": "Compass (Swamp Palace)",
+   "vanilla": [
+    "Compass (Swamp Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Entrance",
+   "picked": "Small Key (Swamp Palace)",
+   "vanilla": [
+    "Small Key (Swamp Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Flooded Room - Left",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Flooded Room - Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Map Chest",
+   "picked": "Map (Swamp Palace)",
+   "vanilla": [
+    "Map (Swamp Palace)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Prize",
+   "picked": null,
+   "vanilla": [
+    "Crystal 1",
+    "Crystal 2",
+    "Crystal 3",
+    "Crystal 4",
+    "Crystal 7"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - Waterfall Room",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Swamp Palace - West Chest",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Thieves' Town - Ambush Chest",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Thieves' Town - Attic",
+   "picked": "Bombs (3)",
+   "vanilla": [
+    "Bombs (3)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Thieves' Town - Big Chest",
+   "picked": "Progressive Glove",
+   "vanilla": [
+    "Progressive Glove"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Thieves' Town - Big Key Chest",
+   "picked": "Big Key (Thieves Town)",
+   "vanilla": [
+    "Big Key (Thieves Town)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Thieves' Town - Blind's Cell",
+   "picked": "Small Key (Thieves Town)",
+   "vanilla": [
+    "Small Key (Thieves Town)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Thieves' Town - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Thieves' Town - Compass Chest",
+   "picked": "Compass (Thieves Town)",
+   "vanilla": [
+    "Compass (Thieves Town)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Thieves' Town - Map Chest",
+   "picked": "Map (Thieves Town)",
+   "vanilla": [
+    "Map (Thieves Town)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Thieves' Town - Prize",
+   "picked": null,
+   "vanilla": [
+    "Crystal 1",
+    "Crystal 2",
+    "Crystal 3",
+    "Crystal 4",
+    "Crystal 7"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Tower of Hera - Basement Cage",
+   "picked": "Small Key (Tower of Hera)",
+   "vanilla": [
+    "Small Key (Tower of Hera)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Tower of Hera - Big Chest",
+   "picked": "Moon Pearl",
+   "vanilla": [
+    "Moon Pearl"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Tower of Hera - Big Key Chest",
+   "picked": "Big Key (Tower of Hera)",
+   "vanilla": [
+    "Big Key (Tower of Hera)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Tower of Hera - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Tower of Hera - Compass Chest",
+   "picked": "Compass (Tower of Hera)",
+   "vanilla": [
+    "Compass (Tower of Hera)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Tower of Hera - Map Chest",
+   "picked": "Map (Tower of Hera)",
+   "vanilla": [
+    "Map (Tower of Hera)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Tower of Hera - Prize",
+   "picked": null,
+   "vanilla": [
+    "Red Pendant",
+    "Blue Pendant"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Big Chest",
+   "picked": "Progressive Shield",
+   "vanilla": [
+    "Progressive Shield"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Big Key Chest",
+   "picked": "Big Key (Turtle Rock)",
+   "vanilla": [
+    "Big Key (Turtle Rock)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Boss",
+   "picked": "Boss Heart Container",
+   "vanilla": [
+    "Boss Heart Container"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Chain Chomps",
+   "picked": "Small Key (Turtle Rock)",
+   "vanilla": [
+    "Small Key (Turtle Rock)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Compass Chest",
+   "picked": "Compass (Turtle Rock)",
+   "vanilla": [
+    "Compass (Turtle Rock)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Crystaroller Room",
+   "picked": "Small Key (Turtle Rock)",
+   "vanilla": [
+    "Small Key (Turtle Rock)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Eye Bridge - Bottom Left",
+   "picked": "Small Key (Turtle Rock)",
+   "vanilla": [
+    "Small Key (Turtle Rock)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Eye Bridge - Bottom Right",
+   "picked": "Rupees (20)",
+   "vanilla": [
+    "Rupees (20)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Eye Bridge - Top Left",
+   "picked": "Rupees (5)",
+   "vanilla": [
+    "Rupees (5)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Eye Bridge - Top Right",
+   "picked": "Rupee (1)",
+   "vanilla": [
+    "Rupee (1)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Prize",
+   "picked": null,
+   "vanilla": [
+    "Crystal 1",
+    "Crystal 2",
+    "Crystal 3",
+    "Crystal 4",
+    "Crystal 7"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Roller Room - Left",
+   "picked": "Map (Turtle Rock)",
+   "vanilla": [
+    "Map (Turtle Rock)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Turtle Rock - Roller Room - Right",
+   "picked": "Small Key (Turtle Rock)",
+   "vanilla": [
+    "Small Key (Turtle Rock)"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Waterfall Fairy - Left",
+   "picked": "Red Boomerang",
+   "vanilla": [
+    "Red Boomerang"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Waterfall Fairy - Right",
+   "picked": "Progressive Shield",
+   "vanilla": [
+    "Progressive Shield"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  },
+  {
+   "location": "Zora's Ledge",
+   "picked": "Piece of Heart",
+   "vanilla": [
+    "Piece of Heart"
+   ],
+   "sources": [
+    "vanilla_mapping"
+   ]
+  }
+ ]
+}

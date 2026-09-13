@@ -1,0 +1,2 @@
+# Patreon supporters, shown first in the ending credits (CREDITS = CHAT). One per line;
+# "name aka alias" shows the part before aka. Letters only reach the screen.

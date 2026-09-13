@@ -1,0 +1,197 @@
+{
+ "dump_version": 1,
+ "shuffle": "none",
+ "seed": 1234,
+ "pots": [
+  {
+   "name": "Desert Palace - Beamos Hall Pot Key",
+   "room": 83,
+   "x": 100,
+   "y": 11,
+   "item": 8,
+   "pos": 2916,
+   "candidates": 1,
+   "vanilla": "Small Key (Desert Palace)"
+  },
+  {
+   "name": "Desert Palace - Desert Tiles 1 Pot Key",
+   "room": 99,
+   "x": 12,
+   "y": 12,
+   "item": 8,
+   "pos": 3084,
+   "candidates": 1,
+   "vanilla": "Small Key (Desert Palace)"
+  },
+  {
+   "name": "Desert Palace - Desert Tiles 2 Pot Key",
+   "room": 67,
+   "x": 112,
+   "y": 20,
+   "item": 8,
+   "pos": 5232,
+   "candidates": 1,
+   "vanilla": "Small Key (Desert Palace)"
+  },
+  {
+   "name": "Eastern Palace - Dark Square Pot Key",
+   "room": 186,
+   "x": 112,
+   "y": 6,
+   "item": 8,
+   "pos": 1648,
+   "candidates": 1,
+   "vanilla": "Small Key (Eastern Palace)"
+  },
+  {
+   "name": "Ganons Tower - Conveyor Cross Pot Key",
+   "room": 139,
+   "x": 112,
+   "y": 12,
+   "item": 8,
+   "pos": 3184,
+   "candidates": 1,
+   "vanilla": "Small Key (Ganons Tower)"
+  },
+  {
+   "name": "Ganons Tower - Conveyor Star Pits Pot Key",
+   "room": 123,
+   "x": 64,
+   "y": 4,
+   "item": 8,
+   "pos": 1088,
+   "candidates": 1,
+   "vanilla": "Small Key (Ganons Tower)"
+  },
+  {
+   "name": "Ganons Tower - Double Switch Pot Key",
+   "room": 155,
+   "x": 48,
+   "y": 12,
+   "item": 8,
+   "pos": 3120,
+   "candidates": 1,
+   "vanilla": "Small Key (Ganons Tower)"
+  },
+  {
+   "name": "Ice Palace - Hammer Block Key Drop",
+   "room": 63,
+   "x": 28,
+   "y": 23,
+   "item": 8,
+   "pos": 5916,
+   "candidates": 1,
+   "vanilla": "Small Key (Ice Palace)"
+  },
+  {
+   "name": "Ice Palace - Many Pots Pot Key",
+   "room": 159,
+   "x": 138,
+   "y": 21,
+   "item": 8,
+   "pos": 5514,
+   "candidates": 1,
+   "vanilla": "Small Key (Ice Palace)"
+  },
+  {
+   "name": "Misery Mire - Fishbone Pot Key",
+   "room": 161,
+   "x": 150,
+   "y": 6,
+   "item": 8,
+   "pos": 1686,
+   "candidates": 1,
+   "vanilla": "Small Key (Misery Mire)"
+  },
+  {
+   "name": "Misery Mire - Spikes Pot Key",
+   "room": 179,
+   "x": 12,
+   "y": 20,
+   "item": 8,
+   "pos": 5132,
+   "candidates": 1,
+   "vanilla": "Small Key (Misery Mire)"
+  },
+  {
+   "name": "Skull Woods - West Lobby Pot Key",
+   "room": 86,
+   "x": 12,
+   "y": 20,
+   "item": 8,
+   "pos": 5132,
+   "candidates": 1,
+   "vanilla": "Small Key (Skull Woods)"
+  },
+  {
+   "name": "Swamp Palace - Hookshot Pot Key",
+   "room": 54,
+   "x": 114,
+   "y": 16,
+   "item": 8,
+   "pos": 4210,
+   "candidates": 1,
+   "vanilla": "Small Key (Swamp Palace)"
+  },
+  {
+   "name": "Swamp Palace - Pot Row Pot Key",
+   "room": 56,
+   "x": 164,
+   "y": 19,
+   "item": 8,
+   "pos": 5028,
+   "candidates": 1,
+   "vanilla": "Small Key (Swamp Palace)"
+  },
+  {
+   "name": "Swamp Palace - Trench 1 Pot Key",
+   "room": 55,
+   "x": 60,
+   "y": 6,
+   "item": 8,
+   "pos": 1596,
+   "candidates": 1,
+   "vanilla": "Small Key (Swamp Palace)"
+  },
+  {
+   "name": "Swamp Palace - Trench 2 Pot Key",
+   "room": 53,
+   "x": 60,
+   "y": 6,
+   "item": 8,
+   "pos": 1596,
+   "candidates": 1,
+   "vanilla": "Small Key (Swamp Palace)"
+  },
+  {
+   "name": "Swamp Palace - Waterway Pot Key",
+   "room": 22,
+   "x": 240,
+   "y": 19,
+   "item": 8,
+   "pos": 5104,
+   "candidates": 1,
+   "vanilla": "Small Key (Swamp Palace)"
+  },
+  {
+   "name": "Thieves' Town - Hallway Pot Key",
+   "room": 188,
+   "x": 102,
+   "y": 4,
+   "item": 8,
+   "pos": 1126,
+   "candidates": 1,
+   "vanilla": "Small Key (Thieves Town)"
+  },
+  {
+   "name": "Thieves' Town - Spike Switch Pot Key",
+   "room": 171,
+   "x": 20,
+   "y": 24,
+   "item": 8,
+   "pos": 6164,
+   "candidates": 1,
+   "vanilla": "Small Key (Thieves Town)"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+meta:
+  players: 1
+settings:
+  1:
+    mode: standard
+    ow_mixed: true
+entrances:
+  1:
+    entrances:
+      Sanctuary Grave: Sewer Drop
+    two-way:
+      Sanctuary: Sanctuary Exit
+ow-tileflips:
+  1:
+    force_no_flip:
+      - 0x13
+    undefined_chance: 100
+
